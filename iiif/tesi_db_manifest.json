@@ -1,25 +1,25 @@
 {
 	"@context": "http://iiif.io/api/presentation/3/context.json",
-	"id": ,
+	"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json",
 	"type": "Manifest",
 	"label": { "it": [ "WIP - Diario di Pasquale Riccioni - WIP" ] },
 	"items": [
 	    {
-			"id": "/canv/1r",
+			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/1r",
 			"type": "Canvas",
 			"label": { "none": [ "1r" ] },
 			"height": 2055,
 			"width": 1528,
 			"items": [
 			    {
-					"id": "/annpg/1r",
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/1r",
 					"type": "AnnotationPage",
 					"items": [
 					    {
-							"id": "/ann/1r",
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/1r",
 							"type": "Annotation",
 							"motivation": "painting",
-							"target": "",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/1r",
                             "body": {
 								"id": "https://iiif.archivelab.org/iiif/tesi_db_1r/full/full/0/default.jpg",
 								"type": "Image",
@@ -40,21 +40,21 @@
 			]
 		},
 		{
-			"id": "/canv/1v",
+			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/1v",
 			"type": "Canvas",
 			"label": { "none": [ "1v" ] },
 			"height": 1967,
 			"width": 1474,
 			"items": [
 			    {
-					"id": "/annpg/1v",
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/1v",
 					"type": "AnnotationPage",
 					"items": [
 					    {
-							"id": "/ann/1v",
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/1v",
 							"type": "Annotation",
 							"motivation": "painting",
-							"target": "",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/1v",
                             "body": {
 								"id": "https://iiif.archivelab.org/iiif/tesi_db_1v/full/full/0/default.jpg",
 								"type": "Image",
@@ -75,21 +75,21 @@
 			]
 		},
 		{
-			"id": "/canv/2r",
+			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/2r",
 			"type": "Canvas",
 			"label": { "none": [ "2r" ] },
 			"height": 2039,
 			"width": 1536,
 			"items": [
 			    {
-					"id": "/annpg/2r",
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/2r",
 					"type": "AnnotationPage",
 					"items": [
 					    {
-							"id": "/ann/2r",
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/2r",
 							"type": "Annotation",
 							"motivation": "painting",
-							"target": "",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/2r",
                             "body": {
 								"id": "https://iiif.archivelab.org/iiif/tesi_db_2r/full/full/0/default.jpg",
 								"type": "Image",
@@ -110,21 +110,21 @@
 			]
 		},
 		{
-			"id": "/canv/2v",
+			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/2v",
 			"type": "Canvas",
 			"label": { "none": [ "2v" ] },
 			"height": 1994,
 			"width": 1459,
 			"items": [
 			    {
-					"id": "/annpg/2v",
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/2v",
 					"type": "AnnotationPage",
 					"items": [
 					    {
-							"id": "/ann/2v",
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/2v",
 							"type": "Annotation",
 							"motivation": "painting",
-							"target": "",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/2v",
                             "body": {
 								"id": "https://iiif.archivelab.org/iiif/tesi_db_2v/full/full/0/default.jpg",
 								"type": "Image",
