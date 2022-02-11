@@ -1,0 +1,149 @@
+{
+	"@context": "http://iiif.io/api/presentation/3/context.json",
+	"id": ,
+	"type": "Manifest",
+	"label": { "it": [ "WIP - Diario di Pasquale Riccioni - WIP" ] },
+	"items": [
+	    {
+			"id": "/canv/1r",
+			"type": "Canvas",
+			"label": { "none": [ "1r" ] },
+			"height": 2055,
+			"width": 1528,
+			"items": [
+			    {
+					"id": "/annpg/1r",
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "/ann/1r",
+							"type": "Annotation",
+							"motivation": "painting",
+							"target": "",
+                            "body": {
+								"id": "https://iiif.archivelab.org/iiif/tesi_db_1r/full/full/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"height" : 2055,
+								"width" : 1528,
+								"service": [
+								    {
+										"@id": "https://iiif.archivelab.org/iiif/tesi_db_1r",
+										"@type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "/canv/1v",
+			"type": "Canvas",
+			"label": { "none": [ "1v" ] },
+			"height": 1967,
+			"width": 1474,
+			"items": [
+			    {
+					"id": "/annpg/1v",
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "/ann/1v",
+							"type": "Annotation",
+							"motivation": "painting",
+							"target": "",
+                            "body": {
+								"id": "https://iiif.archivelab.org/iiif/tesi_db_1v/full/full/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"height" : 1967,
+								"width" : 1474,
+								"service": [
+								    {
+										"@id": "https://iiif.archivelab.org/iiif/tesi_db_1v",
+										"@type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "/canv/2r",
+			"type": "Canvas",
+			"label": { "none": [ "2r" ] },
+			"height": 2039,
+			"width": 1536,
+			"items": [
+			    {
+					"id": "/annpg/2r",
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "/ann/2r",
+							"type": "Annotation",
+							"motivation": "painting",
+							"target": "",
+                            "body": {
+								"id": "https://iiif.archivelab.org/iiif/tesi_db_2r/full/full/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"height" : 2039,
+								"width" : 1536,
+								"service": [
+								    {
+										"@id": "https://iiif.archivelab.org/iiif/tesi_db_2r",	
+										"@type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "/canv/2v",
+			"type": "Canvas",
+			"label": { "none": [ "2v" ] },
+			"height": 1994,
+			"width": 1459,
+			"items": [
+			    {
+					"id": "/annpg/2v",
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "/ann/2v",
+							"type": "Annotation",
+							"motivation": "painting",
+							"target": "",
+                            "body": {
+								"id": "https://iiif.archivelab.org/iiif/tesi_db_2v/full/full/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"height" : 1994,
+								"width" : 1459,
+								"service": [
+								    {
+										"@id": "https://iiif.archivelab.org/iiif/tesi_db_2v",
+										"@type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+		
+	]
+}
