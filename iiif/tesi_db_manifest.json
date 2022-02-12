@@ -20,7 +20,7 @@
 							"type": "Annotation",
 							"motivation": "painting",
 							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/1r",
-                            "body": {
+                                                        "body": {
 								"id": "https://iiif.archivelab.org/iiif/tesi_db_1r/full/full/0/default.jpg",
 								"type": "Image",
 								"format": "image/jpeg",
@@ -55,7 +55,7 @@
 							"type": "Annotation",
 							"motivation": "painting",
 							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/1v",
-                            "body": {
+                                                        "body": {
 								"id": "https://iiif.archivelab.org/iiif/tesi_db_1v/full/full/0/default.jpg",
 								"type": "Image",
 								"format": "image/jpeg",
@@ -90,7 +90,7 @@
 							"type": "Annotation",
 							"motivation": "painting",
 							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/2r",
-                            "body": {
+                                                        "body": {
 								"id": "https://iiif.archivelab.org/iiif/tesi_db_2r/full/full/0/default.jpg",
 								"type": "Image",
 								"format": "image/jpeg",
@@ -125,7 +125,7 @@
 							"type": "Annotation",
 							"motivation": "painting",
 							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/2v",
-                            "body": {
+                                                        "body": {
 								"id": "https://iiif.archivelab.org/iiif/tesi_db_2v/full/full/0/default.jpg",
 								"type": "Image",
 								"format": "image/jpeg",
@@ -134,6 +134,146 @@
 								"service": [
 								    {
 										"@id": "https://iiif.archivelab.org/iiif/tesi_db_2v",
+										"@type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+	        {
+			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/3r",
+			"type": "Canvas",
+			"label": { "none": [ "3r" ] },
+			"height": 2029,
+			"width": 1520,
+			"items": [
+			    {
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/3r",
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/3r",
+							"type": "Annotation",
+							"motivation": "painting",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/3r",
+                                                        "body": {
+								"id": "https://iiif.archivelab.org/iiif/tesi_db_3r/full/full/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"height" : 2029,
+								"width" : 1520,
+								"service": [
+								    {
+										"@id": "https://iiif.archivelab.org/iiif/tesi_db_3r",
+										"@type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+	        {
+			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/3v",
+			"type": "Canvas",
+			"label": { "none": [ "3v" ] },
+			"height": 1986,
+			"width": 1459,
+			"items": [
+			    {
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/3v",
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/3v",
+							"type": "Annotation",
+							"motivation": "painting",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/3v",
+                                                        "body": {
+								"id": "https://iiif.archivelab.org/iiif/tesi_db_3v/full/full/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"height" : 1986,
+								"width" : 1459,
+								"service": [
+								    {
+										"@id": "https://iiif.archivelab.org/iiif/tesi_db_3v",
+										"@type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+	        {
+			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/4r",
+			"type": "Canvas",
+			"label": { "none": [ "4r" ] },
+			"height": 2040,
+			"width": 1533,
+			"items": [
+			    {
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/4r",
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/4r",
+							"type": "Annotation",
+							"motivation": "painting",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/4r",
+                                                        "body": {
+								"id": "https://iiif.archivelab.org/iiif/tesi_db_4r/full/full/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"height" : 2040,
+								"width" : 1533,
+								"service": [
+								    {
+										"@id": "https://iiif.archivelab.org/iiif/tesi_db_4r",
+										"@type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+	        {
+			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/4v",
+			"type": "Canvas",
+			"label": { "none": [ "4v" ] },
+			"height": 1974,
+			"width": 1459,
+			"items": [
+			    {
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/4v",
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/4v",
+							"type": "Annotation",
+							"motivation": "painting",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/4v",
+                                                        "body": {
+								"id": "https://iiif.archivelab.org/iiif/tesi_db_4v/full/full/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"height" : 1974,
+								"width" : 1459,
+								"service": [
+								    {
+										"@id": "https://iiif.archivelab.org/iiif/tesi_db_4v",
 										"@type": "ImageService2",
 										"profile": "http://iiif.io/api/image/2/level2.json"
 									}
