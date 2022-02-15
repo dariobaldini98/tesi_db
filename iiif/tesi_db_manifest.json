@@ -794,7 +794,7 @@
 								"id": "https://iiif.archivelab.org/iiif/tesi_db_12r/full/full/0/default.jpg",
 								"type": "Image",
 								"format": "image/jpeg",
-								"height" : 2036
+								"height" : 2036,
 								"width" : 1528,
 								"service": [
 								    {
