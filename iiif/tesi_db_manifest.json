@@ -843,6 +843,76 @@
 					]
 				}
 			]
+		},
+	        {
+			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/13r",
+			"type": "Canvas",
+			"label": { "none": [ "13r" ] },
+			"height": 2036,
+			"width": 1529,
+			"items": [
+			    {
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/13r",
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/13r",
+							"type": "Annotation",
+							"motivation": "painting",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/13r",
+                                                        "body": {
+								"id": "https://iiif.archivelab.org/iiif/tesi_db_13r/full/full/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"height" : 2036,
+								"width" : 1529,
+								"service": [
+								    {
+										"@id": "https://iiif.archivelab.org/iiif/tesi_db_13r",
+										"@type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+	        {
+			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/13v",
+			"type": "Canvas",
+			"label": { "none": [ "13v" ] },
+			"height": 2040,
+			"width": 1517,
+			"items": [
+			    {
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/13v",
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/13v",
+							"type": "Annotation",
+							"motivation": "painting",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/13v",
+                                                        "body": {
+								"id": "https://iiif.archivelab.org/iiif/tesi_db_13v/full/full/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"height" : 2040,
+								"width" : 1517,
+								"service": [
+								    {
+										"@id": "https://iiif.archivelab.org/iiif/tesi_db_13v",
+										"@type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
 		}
 		
 	]
