@@ -563,7 +563,181 @@
 					]
 				}
 			]
+		},
+	        {
+			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/9r",
+			"type": "Canvas",
+			"label": { "none": [ "9r" ] },
+			"height": 2032,
+			"width": 1521,
+			"items": [
+			    {
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/9r",
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/9r",
+							"type": "Annotation",
+							"motivation": "painting",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/9r",
+                                                        "body": {
+								"id": "https://iiif.archivelab.org/iiif/tesi_db_9r/full/full/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"height" : 2032,
+								"width" : 1521,
+								"service": [
+								    {
+										"@id": "https://iiif.archivelab.org/iiif/tesi_db_9r",
+										"@type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+	        {
+			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/9v",
+			"type": "Canvas",
+			"label": { "none": [ "9v" ] },
+			"height": 1982,
+			"width": 1486,
+			"items": [
+			    {
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/9v",
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/9v",
+							"type": "Annotation",
+							"motivation": "painting",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/9v",
+                                                        "body": {
+								"id": "https://iiif.archivelab.org/iiif/tesi_db_9v/full/full/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"height" : 1982,
+								"width" : 1486,
+								"service": [
+								    {
+										"@id": "https://iiif.archivelab.org/iiif/tesi_db_9v",
+										"@type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+	        {
+			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/10r",
+			"type": "Canvas",
+			"label": { "none": [ "10r" ] },
+			"height": 2020,
+			"width": 1528,
+			"items": [
+			    {
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/10r",
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/10r",
+							"type": "Annotation",
+							"motivation": "painting",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/10r",
+                                                        "body": {
+								"id": "https://iiif.archivelab.org/iiif/tesi_db_10r/full/full/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"height" : 2020,
+								"width" : 1528,
+								"service": [
+								    {
+										"@id": "https://iiif.archivelab.org/iiif/tesi_db_10r",
+										"@type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+	        {
+			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/10v",
+			"type": "Canvas",
+			"label": { "none": [ "10v" ] },
+			"height": 2001,
+			"width": 1505,
+			"items": [
+			    {
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/10v",
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/10v",
+							"type": "Annotation",
+							"motivation": "painting",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/10v",
+                                                        "body": {
+								"id": "https://iiif.archivelab.org/iiif/tesi_db_10v/full/full/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"height" : 2001,
+								"width" : 1505,
+								"service": [
+								    {
+										"@id": "https://iiif.archivelab.org/iiif/tesi_db_10v",
+										"@type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+	        {
+			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/11r",
+			"type": "Canvas",
+			"label": { "none": [ "11r" ] },
+			"height": 2036,
+			"width": 1532,
+			"items": [
+			    {
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/11r",
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/11r",
+							"type": "Annotation",
+							"motivation": "painting",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/11r",
+                                                        "body": {
+								"id": "https://iiif.archivelab.org/iiif/tesi_db_11r/full/full/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"height" : 2036,
+								"width" : 1532
+								"service": [
+								    {
+										"@id": "https://iiif.archivelab.org/iiif/tesi_db_11r",
+										"@type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
 		}
-		
 	]
 }
