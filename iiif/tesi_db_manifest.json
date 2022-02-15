@@ -725,7 +725,7 @@
 								"type": "Image",
 								"format": "image/jpeg",
 								"height" : 2036,
-								"width" : 1532
+								"width" : 1532,
 								"service": [
 								    {
 										"@id": "https://iiif.archivelab.org/iiif/tesi_db_11r",
