@@ -8,4 +8,4 @@ I'll work on two different kind of digitisation:
 
 Links will be provided as soon as the resources above are avaiable.  
 
-![CC BY-NC-ND 4.0](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)(https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode) This work is licensed under a [CC BY-NC-ND 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en).
+![CC BY-NC-ND 4.0](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png) This work is licensed under a [CC BY-NC-ND 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en).
