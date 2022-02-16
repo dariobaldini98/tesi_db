@@ -1513,8 +1513,8 @@
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/22v",
 			"type": "Canvas",
 			"label": { "none": [ "22v" ] },
-			"height": ,
-			"width": ,
+			"height": 2035,
+			"width": 1563,
 			"items": [
 			    {
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/22v",
@@ -1529,8 +1529,8 @@
 								"id": "https://iiif.archivelab.org/iiif/tesi_db_22v/full/full/0/default.jpg",
 								"type": "Image",
 								"format": "image/jpeg",
-								"height" : ,
-								"width" : ,
+								"height" : 2035,
+								"width" : 1563,
 								"service": [
 								    {
 										"@id": "https://iiif.archivelab.org/iiif/tesi_db_22v",
