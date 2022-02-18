@@ -931,7 +931,7 @@
 				}
 			]
 		},
-	    {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/14r",
 			"type": "Canvas",
 			"label": { "none": [ "14r" ] },
@@ -966,7 +966,7 @@
 				}
 			]
 		},
-	    {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/14v",
 			"type": "Canvas",
 			"label": { "none": [ "14v" ] },
@@ -1001,7 +1001,7 @@
 				}
 			]
 		},
-	    {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/15r",
 			"type": "Canvas",
 			"label": { "none": [ "15r" ] },
@@ -1036,7 +1036,7 @@
 				}
 			]
 		},
-	    {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/15v",
 			"type": "Canvas",
 			"label": { "none": [ "15v" ] },
@@ -1071,7 +1071,7 @@
 				}
 			]
 		},
-	    {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/16r",
 			"type": "Canvas",
 			"label": { "none": [ "16r" ] },
@@ -1106,7 +1106,7 @@
 				}
 			]
 		},
-	    {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/16v",
 			"type": "Canvas",
 			"label": { "none": [ "16v" ] },
@@ -1141,7 +1141,7 @@
 				}
 			]
 		},
-	    {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/17r",
 			"type": "Canvas",
 			"label": { "none": [ "17r" ] },
@@ -1176,7 +1176,7 @@
 				}
 			]
 		},
-	    {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/17v",
 			"type": "Canvas",
 			"label": { "none": [ "17v" ] },
@@ -1211,7 +1211,7 @@
 				}
 			]
 		},		
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/18r",
 			"type": "Canvas",
 			"label": { "none": [ "18r" ] },
@@ -1246,7 +1246,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/18v",
 			"type": "Canvas",
 			"label": { "none": [ "18v" ] },
@@ -1281,7 +1281,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/19r",
 			"type": "Canvas",
 			"label": { "none": [ "19r" ] },
@@ -1316,7 +1316,7 @@
 				}
 			]
 		},	
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/19v",
 			"type": "Canvas",
 			"label": { "none": [ "19v" ] },
@@ -1351,7 +1351,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/20r",
 			"type": "Canvas",
 			"label": { "none": [ "20r" ] },
@@ -1386,7 +1386,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/20v",
 			"type": "Canvas",
 			"label": { "none": [ "20v" ] },
@@ -1421,7 +1421,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/21r",
 			"type": "Canvas",
 			"label": { "none": [ "21r" ] },
@@ -1456,7 +1456,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/21v",
 			"type": "Canvas",
 			"label": { "none": [ "21v" ] },
@@ -1491,7 +1491,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/22r",
 			"type": "Canvas",
 			"label": { "none": [ "22r" ] },
@@ -1526,7 +1526,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/22v",
 			"type": "Canvas",
 			"label": { "none": [ "22v" ] },
@@ -1561,7 +1561,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/23r",
 			"type": "Canvas",
 			"label": { "none": [ "23r" ] },
@@ -1596,7 +1596,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/23v",
 			"type": "Canvas",
 			"label": { "none": [ "23v" ] },
@@ -1631,7 +1631,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/24r",
 			"type": "Canvas",
 			"label": { "none": [ "24r" ] },
@@ -1666,7 +1666,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/24v",
 			"type": "Canvas",
 			"label": { "none": [ "24v" ] },
@@ -1701,7 +1701,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/25r",
 			"type": "Canvas",
 			"label": { "none": [ "25r" ] },
@@ -1736,7 +1736,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/25v",
 			"type": "Canvas",
 			"label": { "none": [ "25v" ] },
@@ -1771,7 +1771,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/26r",
 			"type": "Canvas",
 			"label": { "none": [ "26r" ] },
@@ -1806,7 +1806,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/26v",
 			"type": "Canvas",
 			"label": { "none": [ "26v" ] },
@@ -1841,7 +1841,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/27r",
 			"type": "Canvas",
 			"label": { "none": [ "27r" ] },
@@ -1876,7 +1876,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/27v",
 			"type": "Canvas",
 			"label": { "none": [ "27v" ] },
@@ -1911,7 +1911,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/28r",
 			"type": "Canvas",
 			"label": { "none": [ "28r" ] },
@@ -1946,7 +1946,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/28v",
 			"type": "Canvas",
 			"label": { "none": [ "28v" ] },
@@ -1981,7 +1981,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/29r",
 			"type": "Canvas",
 			"label": { "none": [ "29r" ] },
@@ -2016,7 +2016,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/29v",
 			"type": "Canvas",
 			"label": { "none": [ "29v" ] },
@@ -2051,7 +2051,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/30r",
 			"type": "Canvas",
 			"label": { "none": [ "30r" ] },
@@ -2086,7 +2086,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/30v",
 			"type": "Canvas",
 			"label": { "none": [ "30v" ] },
@@ -2121,7 +2121,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/31r",
 			"type": "Canvas",
 			"label": { "none": [ "31r" ] },
@@ -2156,7 +2156,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/31v",
 			"type": "Canvas",
 			"label": { "none": [ "31v" ] },
@@ -2191,7 +2191,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/32r",
 			"type": "Canvas",
 			"label": { "none": [ "32r" ] },
@@ -2226,7 +2226,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/32v",
 			"type": "Canvas",
 			"label": { "none": [ "32v" ] },
@@ -2261,7 +2261,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/33r",
 			"type": "Canvas",
 			"label": { "none": [ "33r" ] },
@@ -2296,7 +2296,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/33v",
 			"type": "Canvas",
 			"label": { "none": [ "33v" ] },
@@ -2331,7 +2331,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/34r",
 			"type": "Canvas",
 			"label": { "none": [ "34r" ] },
@@ -2366,7 +2366,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/34v",
 			"type": "Canvas",
 			"label": { "none": [ "34v" ] },
@@ -2401,7 +2401,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/35r",
 			"type": "Canvas",
 			"label": { "none": [ "35r" ] },
@@ -2436,7 +2436,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/35v",
 			"type": "Canvas",
 			"label": { "none": [ "35v" ] },
@@ -2471,7 +2471,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/36r",
 			"type": "Canvas",
 			"label": { "none": [ "36r" ] },
@@ -2506,7 +2506,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/36v",
 			"type": "Canvas",
 			"label": { "none": [ "36v" ] },
@@ -2541,7 +2541,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/37r",
 			"type": "Canvas",
 			"label": { "none": [ "37r" ] },
@@ -2576,7 +2576,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/37v",
 			"type": "Canvas",
 			"label": { "none": [ "37v" ] },
@@ -2611,7 +2611,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/38r",
 			"type": "Canvas",
 			"label": { "none": [ "38r" ] },
@@ -2646,7 +2646,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/38v",
 			"type": "Canvas",
 			"label": { "none": [ "38v" ] },
@@ -2681,7 +2681,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/39r",
 			"type": "Canvas",
 			"label": { "none": [ "39r" ] },
@@ -2716,7 +2716,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/39v",
 			"type": "Canvas",
 			"label": { "none": [ "39v" ] },
@@ -2751,7 +2751,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/40r",
 			"type": "Canvas",
 			"label": { "none": [ "40r" ] },
@@ -2786,7 +2786,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/40v",
 			"type": "Canvas",
 			"label": { "none": [ "40v" ] },
@@ -2821,7 +2821,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/41r",
 			"type": "Canvas",
 			"label": { "none": [ "41r" ] },
@@ -2856,7 +2856,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/41v",
 			"type": "Canvas",
 			"label": { "none": [ "41v" ] },
@@ -2891,7 +2891,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/42r",
 			"type": "Canvas",
 			"label": { "none": [ "42r" ] },
@@ -2926,7 +2926,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/42v",
 			"type": "Canvas",
 			"label": { "none": [ "42v" ] },
@@ -2961,7 +2961,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/43r",
 			"type": "Canvas",
 			"label": { "none": [ "43r" ] },
@@ -2996,7 +2996,7 @@
 				}
 			]
 		},
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/43v",
 			"type": "Canvas",
 			"label": { "none": [ "43v" ] },
@@ -3031,7 +3031,7 @@
 				}
 			]
 		},		
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/44r",
 			"type": "Canvas",
 			"label": { "none": [ "44r" ] },
@@ -3066,12 +3066,12 @@
 				}
 			]
 		},		
-	       {
+	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/44v",
 			"type": "Canvas",
 			"label": { "none": [ "44v" ] },
 			"height": 1982,
-			"width": 1470
+			"width": 1470,
 			"items": [
 			    {
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/44v",
