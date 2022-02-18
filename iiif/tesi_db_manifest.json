@@ -4,6 +4,22 @@
 	"type": "Manifest",
 	"label": { "it": [ "WIP - Diario di Pasquale Riccioni - WIP" ] },
 	"rights": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.it",
+	"thumbnail":[
+	    {
+			"id": "https://iiif.archivelab.org/iiif/tesi_db_38v/66,31,758,162/400,/0/default.jpg",
+			"type": "Image",
+			"format": "image/jpeg",
+			"width": 400,
+			"height": 85,
+			"service": [
+			    {
+					"@id": "https://iiif.archivelab.org/iiif/tesi_db_38v",
+					"@type": "ImageService2",
+					"profile": "http://iiif.io/api/image/2/level2.json"
+				}
+			]
+		}
+	],
 	"items": [
 	    {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/1r",
