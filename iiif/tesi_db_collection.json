@@ -1,0 +1,12 @@
+{
+	"@context": "http://iiif.io/api/presentation/3/context.json",
+	"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_collection.json",
+	"type": "Collection",
+	"items": [
+	    {
+			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json",
+			"type": "Manifest",
+			"label": { "it": [ "Diario di Pasquale Riccioni" ] }
+		}
+	]
+}
