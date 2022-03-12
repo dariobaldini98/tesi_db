@@ -2781,30 +2781,45 @@
 									}
 								]
 							}
-						},
-					    {
-							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/40r_b",
-							"type": "Annotation",
-							"motivation": "supplementing",
-							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/40r",
-                                                        "body": {
-								"id": "https://iiif.archivelab.org/iiif/tesi_db_40r/785,619,688,1132/800,/0/default.jpg",
-								"type": "Image",
-								"format": "image/jpeg",
-								"height" : 1316,
-								"width" : 800,
-								"service": [
-								    {
-										"@id": "https://iiif.archivelab.org/iiif/tesi_db_40r",
-										"@type": "ImageService2",
-										"profile": "http://iiif.io/api/image/2/level2.json"
-									}
-								]
-							}
 						}
 					]
 				}
-			]
+			],
+			"accompanyingCanvas": {
+				"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/40r_b",
+				"type": "Canvas",
+				"label": { "none": [ "particolare in 40r" ] },
+				"height" : 1316,
+				"width" : 800,
+				"items": [
+				    {
+						"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/40r_b",
+						"type": "AnnotationPage",
+						"items": [
+						    {
+								"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/40r_b",
+								"type": "Annotation",
+								"motivation": "painting",
+								"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/40r_b",
+								"body": {
+									"id": "https://iiif.archivelab.org/iiif/tesi_db_40r/785,619,688,1132/800,/0/default.jpg",
+									"type": "Image",
+								    "format": "image/jpeg",
+								    "height" : 1316,
+								    "width" : 800,
+									"service": [
+								        {
+										    "@id": "https://iiif.archivelab.org/iiif/tesi_db_40r",
+										    "@type": "ImageService2",
+										    "profile": "http://iiif.io/api/image/2/level2.json"
+									    }
+								    ]
+								}
+							}
+						]
+					}
+				]
+			}
 		},
 	        {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/40v",
