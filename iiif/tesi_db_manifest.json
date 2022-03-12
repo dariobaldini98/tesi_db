@@ -1,6 +1,6 @@
 {
 	"@context": "http://iiif.io/api/presentation/3/context.json",
-	"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json",
+	"id": "",
 	"type": "Manifest",
 	"label": { "it": [ "WIP - Diario di Pasquale Riccioni - WIP" ] },
 	"rights": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.it",
