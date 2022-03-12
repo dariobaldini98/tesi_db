@@ -20,6 +20,14 @@
 			]
 		}
 	],
+	"rendering": [
+	    {
+			"id": "https://drive.google.com/file/d/1ics8fNo8Zb33WYbv_rAursSZx9Nya7AE/view?usp=sharing",
+			"type": "Text",
+			"label": { "it": [ "Scannerizzazioni in formato PDF" ] },
+			"format": "application/pdf"
+		}
+	],
 	"items": [
 	    {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/1r",
