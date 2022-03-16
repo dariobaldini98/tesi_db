@@ -2804,18 +2804,10 @@
 							"motivation": "tagging",
 							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/40r#xywh=772,74,684,1674",
 							"body": {
-								"id": "https://iiif.archivelab.org/iiif/tesi_db_40r/773,70,695,1678/800,/0/default.jpg",
-								"type": "Image",
-							    "format": "image/jpeg",
-							    "height" : 1932,
-							    "width" : 800,
-								"service": [
-							        {
-									    "@id": "https://iiif.archivelab.org/iiif/tesi_db_40r",
-									    "@type": "ImageService2",
-									    "profile": "http://iiif.io/api/image/2/level2.json"
-								    }
-							    ]
+								"type": "TextualBody",
+                                "language": "it",
+                                "format": "text/plain",
+                                "value": "Scritte di Orombello"
 							}
 						}
 					]
