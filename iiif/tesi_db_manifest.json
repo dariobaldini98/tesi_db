@@ -2801,7 +2801,7 @@
 					    {
 							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/40r_b",
 							"type": "Annotation",
-							"motivation": "supplementing",
+							"motivation": "tagging",
 							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/40r#xywh=772,74,684,1674",
 							"body": {
 								"id": "https://iiif.archivelab.org/iiif/tesi_db_40r/773,70,695,1678/800,/0/default.jpg",
