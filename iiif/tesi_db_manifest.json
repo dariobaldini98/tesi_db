@@ -6,7 +6,7 @@
 	"rights": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
 	"requiredStatement": {
 		"label": { "it": [ "Licenza" ] },
-		"value": { "it": [ "<span><img src=\'https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png'\> Il <i>manifest</i> è pubblicato su licenza <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it'>CC BY-NC-ND 4.0</a></span>" ] }
+		"value": { "it": [ "<span><img src='https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png'> Il <i>manifest</i> è pubblicato su licenza <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it'>CC BY-NC-ND 4.0</a></span>" ] }
 	},
 	"provider": [
 	    {
