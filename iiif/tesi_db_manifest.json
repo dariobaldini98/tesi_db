@@ -6,8 +6,33 @@
 	"rights": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
 	"requiredStatement": {
 		"label": { "it": [ "Licenza" ] },
-		"value": { "it": [ "<span><img src='https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png' width='31' height='88'> Il <i>manifest</i> è pubblicato su licenza <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it'>CC BY-NC-ND 4.0</a></span>" ] }
+		"value": { "it": [ "<span>Il <i>manifest</i> è pubblicato su licenza <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it'>CC BY-NC-ND 4.0</a></span>" ] }
 	},
+	"provider": [
+	    {
+			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/unitus",
+            "type": "Agent",
+            "label": { "it": [ "UNITUS" ] },
+			"homepage": 
+			[
+			    {
+					"id": "http://www.unitus.it/",
+                    "type": "Text",
+                    "label": { "it": [ "Homepage del sito di Ateneo" ] },
+                    "format": "text/html" 
+				}
+			],
+			"logo": [
+			    {
+					"id": "https://studenti.unitus.it/Version2020/Portal/img/atenei/unitus_logon.png",
+                    "type": "Image",
+                    "format": "image/png",
+                    "height": 100,
+                    "width": 100
+				}
+			]
+		}
+	],
 	"thumbnail":[
 	    {
 			"id": "https://iiif.archivelab.org/iiif/tesi_db_38v/66,31,758,162/400,/0/default.jpg",
