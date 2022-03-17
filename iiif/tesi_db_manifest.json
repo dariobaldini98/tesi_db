@@ -3,7 +3,11 @@
 	"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json",
 	"type": "Manifest",
 	"label": { "it": [ "WIP - Diario di Pasquale Riccioni - WIP" ] },
-	"rights": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.it",
+	"rights": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+	"requiredStatement": {
+		"label": { "it": [ "Licenza" ] },
+		"value": { "it": [ "<span>Il <i>manifest</i> è pubblicato su licenza <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it'>CC BY-NC-ND 4.0</a></span>" ] }
+	},
 	"thumbnail":[
 	    {
 			"id": "https://iiif.archivelab.org/iiif/tesi_db_38v/66,31,758,162/400,/0/default.jpg",
@@ -2807,7 +2811,7 @@
 								"type": "TextualBody",
                                 "language": "it",
                                 "format": "text/plain",
-                                "value": "Scritte di Orombello"
+                                "value": "Scritte di Orombello in 40r"
 							}
 						}
 					]
