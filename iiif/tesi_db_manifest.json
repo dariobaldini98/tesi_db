@@ -74,7 +74,7 @@
 					    {
 							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/1r",
 							"type": "Annotation",
-							"motivation": "painting",
+							"motivation": "supplementing",
 							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/1r",
                                                         "body": {
 								"id": "https://iiif.archivelab.org/iiif/tesi_db_1r/full/full/0/default.jpg",
