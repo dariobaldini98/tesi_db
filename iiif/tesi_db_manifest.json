@@ -59,36 +59,6 @@
 			"format": "application/pdf"
 		}
 	],
-	"structures": [
-        {
-			"id": "https://example.org/iiif/range/1",
-            "type": "Range",
-			"label": { "it": [ "Illustrazioni" ] },
-			"behavior": [ "individuals" ],
-            "items": [
-			    {
-					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/20r",
-                    "type": "Canvas"
-				},
-				{
-					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/20v",
-                    "type": "Canvas"
-				},
-				{
-					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/25r",
-                    "type": "Canvas"
-				},
-				{
-					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/36r",
-                    "type": "Canvas"
-				},
-				{
-					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/36v",
-                    "type": "Canvas"
-				}
-			]
-		}
-	],
 	"items": [
 	    {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/1r",
