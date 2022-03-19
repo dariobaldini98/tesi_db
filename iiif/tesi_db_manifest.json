@@ -67,28 +67,28 @@
             "items": [
 			    {
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/20r",
-                    "type": "Canvas"
-					"behavior": [ "facing-pages" ],
+                    "type": "Canvas",
+					"behavior": [ "facing-pages" ]
 				},
 				{
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/20v",
-                    "type": "Canvas"
-					"behavior": [ "facing-pages" ],
+                    "type": "Canvas",
+					"behavior": [ "facing-pages" ]
 				},
 				{
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/25r",
-                    "type": "Canvas"
-					"behavior": [ "facing-pages" ],
+                    "type": "Canvas",
+					"behavior": [ "facing-pages" ]
 				},
 				{
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/36r",
-                    "type": "Canvas"
-					"behavior": [ "facing-pages" ],
+                    "type": "Canvas",
+					"behavior": [ "facing-pages" ]
 				},
 				{
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/36v",
-                    "type": "Canvas"
-					"behavior": [ "facing-pages" ],
+                    "type": "Canvas",
+					"behavior": [ "facing-pages" ]
 				}
 			]
 		}
