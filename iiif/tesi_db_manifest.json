@@ -2832,7 +2832,7 @@
 					    {
 							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/40r_b",
 							"type": "Annotation",
-							"motivation": "tagging",
+							"motivation": "commenting",
 							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/40r#xywh=772,74,684,1674",
 							"body": {
 								"type": "TextualBody",
