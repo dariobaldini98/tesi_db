@@ -59,6 +59,19 @@
 			"format": "application/pdf"
 		}
 	],
+	"structures": [
+	    {
+			"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/1",
+            "type": "Range",
+			"label": { "it": [ "Illustrazioni" ] },
+			"items": [
+			    {
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/20r",
+                    "type": "Canvas"
+				}
+			]
+		}
+	],
 	"items": [
 	    {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/1r",
