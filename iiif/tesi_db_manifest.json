@@ -61,30 +61,65 @@
 	],
 	"structures": [
 	    {
-			"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/1",
+			"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/ill",
 			"type": "Range",
 			"label": { "it": [ "Illustrazioni" ] },
 			"behavior": [ "individuals" ],
 			"items": [
 			    {
-					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/20r",
-					"type": "Canvas"
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/ill/20r",
+					"type": "Range",
+					"label": { "none": [ "20r" ] },
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/20r",
+							"type": "Canvas"
+						}
+					]
 				},
 				{
-					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/20v",
-					"type": "Canvas"
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/ill/20v",
+					"type": "Range",
+					"label": { "none": [ "20v" ] },
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/20v",
+							"type": "Canvas"
+						}
+					]
 				},
 				{
-					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/25r",
-					"type": "Canvas"
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/ill/25r",
+					"type": "Range",
+					"label": { "none": [ "25r" ] },
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/25r",
+							"type": "Canvas"
+						}
+					]
 				},
 				{
-					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/36r",
-					"type": "Canvas"
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/ill/36r",
+					"type": "Range",
+					"label": { "none": [ "36r" ] },
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/36r",
+							"type": "Canvas"
+						}
+					]
 				},
 				{
-					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/36v",
-					"type": "Canvas"
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/ill/36v",
+					"type": "Range",
+					"label": { "none": [ "36v" ] },
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/36v",
+							"type": "Canvas"
+						}
+					]
 				}
 			]
 		}
