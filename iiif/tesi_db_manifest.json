@@ -64,7 +64,7 @@
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/1",
 			"type": "Range",
 			"label": { "it": [ "Illustrazioni" ] },
-			"behavior": [ "sequence" ],
+			"behavior": [ "thumbnail-nav" ],
 			"items": [
 			    {
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/20r",
