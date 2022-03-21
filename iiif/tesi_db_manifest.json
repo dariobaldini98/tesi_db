@@ -123,7 +123,7 @@
 				}
 			]
 		},
-	    {
+		{
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/oromb",
 			"type": "Range",
 			"label": { "it": [ "Scritte di Orombello" ] },
@@ -140,7 +140,7 @@
 						}
 					]
 				},
-                {
+				{
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/oromb/9v",
 					"type": "Range",
 					"label": { "none": [ "9v" ] },
@@ -151,7 +151,7 @@
 						}
 					]
 				},
-                {
+				{
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/oromb/40r",
 					"type": "Range",
 					"label": { "none": [ "40r" ] },
@@ -162,7 +162,7 @@
 						}
 					]
 				},
-                {
+				{
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/oromb/40v",
 					"type": "Range",
 					"label": { "none": [ "40v" ] },
@@ -173,7 +173,7 @@
 						}
 					]
 				},
-                {
+				{
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/oromb/41r",
 					"type": "Range",
 					"label": { "none": [ "41r" ] },
@@ -184,7 +184,7 @@
 						}
 					]
 				},
-                {
+				{
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/oromb/41v",
 					"type": "Range",
 					"label": { "none": [ "41v" ] },
@@ -195,7 +195,7 @@
 						}
 					]
 				},
-                {
+				{
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/oromb/42r",
 					"type": "Range",
 					"label": { "none": [ "42r" ] },
@@ -206,7 +206,7 @@
 						}
 					]
 				},
-                {
+				{
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/oromb/42v",
 					"type": "Range",
 					"label": { "none": [ "42v" ] },
@@ -217,7 +217,7 @@
 						}
 					]
 				},
-                {
+				{
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/oromb/43r",
 					"type": "Range",
 					"label": { "none": [ "43r" ] },
@@ -228,18 +228,18 @@
 						}
 					]
 				},
-                {
+				{
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/oromb/43v",
 					"type": "Range",
 					"label": { "none": [ "43v" ] },
 					"items": [
 					    {
-							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/43v"
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/43v",
 							"type": "Canvas"
 						}
 					]
 				},
-                {
+				{
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/oromb/44r",
 					"type": "Range",
 					"label": { "none": [ "44r" ] },
@@ -250,8 +250,8 @@
 						}
 					]
 				},
-                {
-					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/oromb/44v",
+				{
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/oromb/44v",,
 					"type": "Range",
 					"label": { "none": [ "44v" ] },
 					"items": [
@@ -260,8 +260,7 @@
 							"type": "Canvas"
 						}
 					]
-				}
-                
+				} 
 			]
 		}
 	],
