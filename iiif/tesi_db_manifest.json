@@ -275,11 +275,11 @@
 			"width": 1528,
 			"thumbnail": [
                 {
-					"id": "https://iiif.archivelab.org/iiif/tesi_db_1r/full/300,/0/default.jpg",
+					"id": "https://iiif.archivelab.org/iiif/tesi_db_1r/full/full/0/default.jpg",
 					"type": "Image",
 					"format": "image/jpeg",
-					"height" : 300,
-					"width" : 403,
+					"height" : 2055,
+					"width" : 1528,
 					"service": [
 					    {
 							"@id": "https://iiif.archivelab.org/iiif/tesi_db_1r",
