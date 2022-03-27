@@ -3961,6 +3961,36 @@
 						}
 					]
 				}
+			],
+			"annotations": [
+			    {
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/36r_b",
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/36r_b",
+							"type": "Annotation",
+							"motivation": "linking",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/36r#xywh=74,118,1374,1842",
+							"body": [
+							    {
+									"id": "https://iiif.archivelab.org/iiif/tesi_db_36r/full/full/90/default.jpg",
+									"type": "Image",
+									"format": "image/jpeg",
+									"height" : 1525,
+									"width" : 2056,
+									"service": [
+									    {
+											"@id": "https://iiif.archivelab.org/iiif/tesi_db_36r",
+											"@type": "ImageService2",
+											"profile": "http://iiif.io/api/image/2/level2.json"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
 			]
 		},
 	        {
