@@ -4373,6 +4373,22 @@
 			"label": { "none": [ "41r" ] },
 			"height": 2063,
 			"width": 1516,
+			"thumbnail": [
+                                {
+					"id": "https://iiif.archivelab.org/iiif/tesi_db_41r/full/full/0/default.jpg",
+					"type": "Image",
+					"format": "image/jpeg",
+					"height" : 2063,
+					"width" : 1516,
+					"service": [
+					    {
+							"@id": "https://iiif.archivelab.org/iiif/tesi_db_41r",
+							"@type": "ImageService2",
+							"profile": "http://iiif.io/api/image/2/level2.json"
+					    }
+					]
+				}
+			],
 			"items": [
 			    {
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/41r",
@@ -4408,6 +4424,22 @@
 			"label": { "none": [ "41v" ] },
 			"height": 2055,
 			"width": 1563,
+			"thumbnail": [
+                                {
+					"id": "https://iiif.archivelab.org/iiif/tesi_db_41v/full/full/0/default.jpg",
+					"type": "Image",
+					"format": "image/jpeg",
+					"height" : 2055,
+					"width" : 1563,
+					"service": [
+					    {
+							"@id": "https://iiif.archivelab.org/iiif/tesi_db_41v",
+							"@type": "ImageService2",
+							"profile": "http://iiif.io/api/image/2/level2.json"
+					    }
+					]
+				}
+			],
 			"items": [
 			    {
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/41v",
@@ -4443,6 +4475,22 @@
 			"label": { "none": [ "42r" ] },
 			"height": 2048,
 			"width": 1533,
+			"thumbnail": [
+                                {
+					"id": "https://iiif.archivelab.org/iiif/tesi_db_42r/full/full/0/default.jpg",
+					"type": "Image",
+					"format": "image/jpeg",
+					"height" : 2048,
+					"width" : 1533,
+					"service": [
+					    {
+							"@id": "https://iiif.archivelab.org/iiif/tesi_db_42r",
+							"@type": "ImageService2",
+							"profile": "http://iiif.io/api/image/2/level2.json"
+					    }
+					]
+				}
+			],
 			"items": [
 			    {
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/42r",
@@ -4478,6 +4526,22 @@
 			"label": { "none": [ "42v" ] },
 			"height": 2094,
 			"width": 1582,
+			"thumbnail": [
+                                {
+					"id": "https://iiif.archivelab.org/iiif/tesi_db_42v/full/full/0/default.jpg",
+					"type": "Image",
+					"format": "image/jpeg",
+					"height" : 2094,
+					"width" : 1582,
+					"service": [
+					    {
+							"@id": "https://iiif.archivelab.org/iiif/tesi_db_42v",
+							"@type": "ImageService2",
+							"profile": "http://iiif.io/api/image/2/level2.json"
+					    }
+					]
+				}
+			],
 			"items": [
 			    {
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/42v",
@@ -4513,6 +4577,22 @@
 			"label": { "none": [ "43r" ] },
 			"height": 2024,
 			"width": 1524,
+			"thumbnail": [
+                                {
+					"id": "https://iiif.archivelab.org/iiif/tesi_db_43r/full/full/0/default.jpg",
+					"type": "Image",
+					"format": "image/jpeg",
+					"height" : 2024,
+					"width" : 1524,
+					"service": [
+					    {
+							"@id": "https://iiif.archivelab.org/iiif/tesi_db_43r",
+							"@type": "ImageService2",
+							"profile": "http://iiif.io/api/image/2/level2.json"
+					    }
+					]
+				}
+			],
 			"items": [
 			    {
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/43r",
@@ -4548,6 +4628,22 @@
 			"label": { "none": [ "43v" ] },
 			"height": 2071,
 			"width": 1563,
+			"thumbnail": [
+                                {
+					"id": "https://iiif.archivelab.org/iiif/tesi_db_43v/full/full/0/default.jpg",
+					"type": "Image",
+					"format": "image/jpeg",
+					"height" : 2071,
+					"width" : 1563,
+					"service": [
+					    {
+							"@id": "https://iiif.archivelab.org/iiif/tesi_db_43v",
+							"@type": "ImageService2",
+							"profile": "http://iiif.io/api/image/2/level2.json"
+					    }
+					]
+				}
+			],
 			"items": [
 			    {
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/43v",
@@ -4583,6 +4679,22 @@
 			"label": { "none": [ "44r" ] },
 			"height": 1970,
 			"width": 1463,
+			"thumbnail": [
+                                {
+					"id": "https://iiif.archivelab.org/iiif/tesi_db_44r/full/full/0/default.jpg",
+					"type": "Image",
+					"format": "image/jpeg",
+					"height" : 1970,
+					"width" : 1463,
+					"service": [
+					    {
+							"@id": "https://iiif.archivelab.org/iiif/tesi_db_44r",
+							"@type": "ImageService2",
+							"profile": "http://iiif.io/api/image/2/level2.json"
+					    }
+					]
+				}
+			],
 			"items": [
 			    {
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/44r",
@@ -4618,6 +4730,22 @@
 			"label": { "none": [ "44v" ] },
 			"height": 1982,
 			"width": 1470,
+			"thumbnail": [
+                                {
+					"id": "https://iiif.archivelab.org/iiif/tesi_db_44v/full/full/0/default.jpg",
+					"type": "Image",
+					"format": "image/jpeg",
+					"height" : 1982,
+					"width" : 1470,
+					"service": [
+					    {
+							"@id": "https://iiif.archivelab.org/iiif/tesi_db_44v",
+							"@type": "ImageService2",
+							"profile": "http://iiif.io/api/image/2/level2.json"
+					    }
+					]
+				}
+			],
 			"items": [
 			    {
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/44v",
