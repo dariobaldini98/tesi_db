@@ -1971,7 +1971,7 @@
 							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/16r_b",
 							"type": "Annotation",
 							"motivation": "commenting",
-							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/15v#xywh=670,266,71,73",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/16r#xywh=670,266,71,73",
 							"body": {
 								"type": "TextualBody",
                                 "language": "it",
@@ -2385,6 +2385,26 @@
 										"profile": "http://iiif.io/api/image/2/level2.json"
 									}
 								]
+							}
+						}
+					]
+				}
+			],
+			"annotations": [
+			    {
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/20r_b",
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/20r_b",
+							"type": "Annotation",
+							"motivation": "commenting",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/20r#xywh=474,959,122,137",
+							"body": {
+								"type": "TextualBody",
+                                "language": "it",
+                                "format": "text/plain",
+                                "value": "Autoritratto."
 							}
 						}
 					]
