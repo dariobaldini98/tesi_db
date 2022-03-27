@@ -3916,6 +3916,12 @@
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/36r",
 			"type": "Canvas",
 			"label": { "none": [ "36r" ] },
+			"metadata": [
+			    {
+					"label": { "it": [ "Nota" ] },
+					"value": { "it": [ "<span>Al seguente link è disponibile l'<a href='https://iiif.archivelab.org/iiif/tesi_db_36r/full/full/90/default.jpg'>immagine ruotata orizzontalmente</a></span>" ] }
+				}
+			]
 			"height": 2055,
 			"width": 1524,
 			"thumbnail": [
@@ -3958,36 +3964,6 @@
 									}
 								]
 							}
-						}
-					]
-				}
-			],
-			"annotations": [
-			    {
-					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/36r_b",
-					"type": "AnnotationPage",
-					"items": [
-					    {
-							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/36r_b",
-							"type": "Annotation",
-							"motivation": "linking",
-							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/36r#xywh=74,118,1374,1842",
-							"body": [
-							    {
-									"id": "https://iiif.archivelab.org/iiif/tesi_db_36r/full/full/90/default.jpg",
-									"type": "Image",
-									"format": "image/jpeg",
-									"height" : 1525,
-									"width" : 2056,
-									"service": [
-									    {
-											"@id": "https://iiif.archivelab.org/iiif/tesi_db_36r",
-											"@type": "ImageService2",
-											"profile": "http://iiif.io/api/image/2/level2.json"
-										}
-									]
-								}
-							]
 						}
 					]
 				}
