@@ -1890,9 +1890,29 @@
 						}
 					]
 				}
+			],
+			"annotations": [
+			    {
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/15v_b",
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/15v_b",
+							"type": "Annotation",
+							"motivation": "commenting",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/15v#xywh=608,343,78,74",
+							"body": {
+								"type": "TextualBody",
+                                "language": "it",
+                                "format": "text/plain",
+                                "value": "Simbolo che ricorda l'operatore matematico della somma diretta."
+							}
+						}
+					]
+				}
 			]
 		},
-	        {
+		{
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/16r",
 			"type": "Canvas",
 			"label": { "none": [ "16r" ] },
@@ -1941,9 +1961,29 @@
 						}
 					]
 				}
+			],
+			"annotations": [
+			    {
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/16r_b",
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/16r_b",
+							"type": "Annotation",
+							"motivation": "commenting",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/15v#xywh=670,266,71,73",
+							"body": {
+								"type": "TextualBody",
+                                "language": "it",
+                                "format": "text/plain",
+                                "value": "Simbolo che ricorda l'operatore matematico della somma diretta."
+							}
+						}
+					]
+				}
 			]
 		},
-	        {
+		{
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/16v",
 			"type": "Canvas",
 			"label": { "none": [ "16v" ] },
@@ -4410,7 +4450,7 @@
 								"type": "TextualBody",
                                 "language": "it",
                                 "format": "text/plain",
-                                "value": "Scritte di Orombello in 40r."
+                                "value": "Scritte di Orombello."
 							}
 						}
 					]
