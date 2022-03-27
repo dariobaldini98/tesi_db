@@ -7,4 +7,4 @@ Both these resources will eventually be published on a dedicated website: client
 
 Links will be provided in this readme as soon as avaiable.  
 
-![CC BY-NC-ND 4.0](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png) This work is licensed under a [CC BY-NC-ND 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en).
+![CC BY-NC-ND 4.0](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png) All parts of this project are licensed under a [CC BY-NC-ND 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en).
