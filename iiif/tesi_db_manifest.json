@@ -1309,9 +1309,29 @@
 						}
 					]
 				}
+			],
+			"annotations": [
+			    {
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/10r_b",
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/10r_b",
+							"type": "Annotation",
+							"motivation": "commenting",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/10r#xywh=476,52,285,138",
+							"body": {
+								"type": "TextualBody",
+								"language": "it",
+								"format": "text/plain",
+								"value": "Riproduzione del timbro della Cassa di Risparmio di Viterbo."
+							}
+						}
+					]
+				}
 			]
 		},
-	        {
+		{
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/10v",
 			"type": "Canvas",
 			"label": { "none": [ "10v" ] },
@@ -4390,7 +4410,7 @@
 								"type": "TextualBody",
                                 "language": "it",
                                 "format": "text/plain",
-                                "value": "Scritte di Orombello in 40r"
+                                "value": "Scritte di Orombello in 40r."
 							}
 						}
 					]
