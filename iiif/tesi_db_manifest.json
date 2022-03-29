@@ -3,7 +3,32 @@
 	"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json",
 	"type": "Manifest",
 	"label": { "it": [ "WIP - Diario di Pasquale Riccioni - WIP" ] },
-	
+	"metadata": [
+	    {
+			"label": { "it": [ "Autore" ] },
+			"value": { "it": [ "<span><a href='https://github.com/dariobaldini98'>Dario Baldini</a></span>" ] }
+		},
+		{
+			"label": { "it": [ "Attribuzione" ] },
+			"value": { "it": [ "Pasquale Riccioni (???), Orombello Riccioni (???)" ] }
+		},
+		{
+			"label": { "it": [ "Formato" ] },
+			"value": { "it": [ "Carta, XXcmxXXcm" ] }
+		},
+		{
+			"label": { "it": [ "Lingua" ] },
+			"value": { "it": [ "Italiano" ] }
+		},
+		{
+			"label": { "it": [ "Copertura spaziale" ] },
+			"value": { "it": [ "<span><a href='https://goo.gl/maps/3r2dASMH5jiRZWDp8'>Civitavecchia</a> (RM), <a href='https://goo.gl/maps/aaAEFm1cHmj4spqB9'>Viterbo</a> (VT)</span>" ] }
+		},
+		{
+			"label": { "it": [ "Copertura temporale" ] },
+			"value": { "it": [ "31/03/1901-26/07/1903" ] }
+		}
+	],
 	"summary": { "it": [ "Diario scritto dalla guardia carceraria Pasquale Riccioni tra il 1901 e il 1903; alcune pagine presentano aggiunte del figlio Orombello." ] },
 	"rights": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
 	"requiredStatement": {
