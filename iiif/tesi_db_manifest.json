@@ -4680,6 +4680,12 @@
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/42r",
 			"type": "Canvas",
 			"label": { "none": [ "42r" ] },
+			"metadata": [
+			    {
+					"label": { "it": [ "Nota" ] },
+					"value": { "it": [ "<span>In questa pagina è stata trovata la copertina del libro <i><a href='https://drive.google.com/file/d/1XPiVdzCbYVOaD1VCnppZzDnTKZOMwkbr/view?usp=sharing'>Geografia Moderna Universale</a></i> di G. R. Pagnozzi.</span>" ] }
+				}
+			],
 			"height": 2048,
 			"width": 1533,
 			"thumbnail": [
