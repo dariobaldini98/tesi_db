@@ -4404,9 +4404,29 @@
 						}
 					]
 				}
+			],
+			"annotations": [
+			    {
+					"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/annpg/39v_b",
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/ann/39v_b",
+							"type": "Annotation",
+							"motivation": "commenting",
+							"target": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/39v#xywh=1117,539,354,156",
+							"body": {
+								"type": "TextualBody",
+                                "language": "it",
+                                "format": "text/plain",
+                                "value": "Probabile etichetta identificativa di un fascicolo."
+							}
+						}
+					]
+				}
 			]
 		},
-	        {
+		{
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/canv/40r",
 			"type": "Canvas",
 			"label": { "none": [ "40r" ] },
