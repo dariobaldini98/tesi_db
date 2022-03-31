@@ -38,24 +38,24 @@
 	"provider": [
 	    {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/unitus",
-            "type": "Agent",
-            "label": { "it": [ "UNITUS" ] },
-			"homepage": 
+			"type": "Agent",
+			"label": { "it": [ "UNITUS" ] },
+			"homepage":
 			[
 			    {
 					"id": "http://www.unitus.it/",
-                    "type": "Text",
-                    "label": { "it": [ "Homepage del sito di Ateneo" ] },
-                    "format": "text/html" 
+					"type": "Text",
+					"label": { "it": [ "Homepage del sito di Ateneo" ] },
+					"format": "text/html"
 				}
 			],
 			"logo": [
 			    {
 					"id": "https://studenti.unitus.it/Version2020/Portal/img/atenei/unitus_logon.png",
-                    "type": "Image",
-                    "format": "image/png",
-                    "height": 100,
-                    "width": 100
+					"type": "Image",
+					"format": "image/png",
+					"height": 100,
+					"width": 100
 				}
 			]
 		}
