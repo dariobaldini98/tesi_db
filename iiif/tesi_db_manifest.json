@@ -40,8 +40,7 @@
 			"id": "http://www.unitus.it/it/unitus",
 			"type": "Agent",
 			"label": { "none": [ "UNITUS" ] },
-			"homepage":
-			[
+			"homepage": [
 			    {
 					"id": "http://www.unitus.it/",
 					"type": "Text",
