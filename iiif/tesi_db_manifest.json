@@ -37,9 +37,9 @@
 	},
 	"provider": [
 	    {
-			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest/unitus",
+			"id": "http://www.unitus.it/it/unitus",
 			"type": "Agent",
-			"label": { "it": [ "UNITUS" ] },
+			"label": { "none": [ "UNITUS" ] },
 			"homepage":
 			[
 			    {
