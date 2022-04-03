@@ -51,11 +51,11 @@
 			],
 			"logo": [
 			    {
-					"id": "https://studenti.unitus.it/Version2020/Portal/img/atenei/unitus_logon.png",
+					"id": "http://www.unitus.it/web/images/headerLogo.jpg",
 					"type": "Image",
-					"format": "image/png",
-					"height": 100,
-					"width": 100
+					"format": "image/jpeg",
+					"height": 102,
+					"width": 232
 				}
 			]
 		}
