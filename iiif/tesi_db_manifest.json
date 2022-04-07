@@ -91,7 +91,6 @@
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/ill",
 			"type": "Range",
 			"label": { "it": [ "Illustrazioni" ] },
-			"behavior": [ "individuals" ],
 			"items": [
 			    {
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/ill/20r",
@@ -154,7 +153,6 @@
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/oromb",
 			"type": "Range",
 			"label": { "it": [ "Scritte di Orombello" ] },
-			"behavior": [ "individuals" ],
 			"items": [
 			    {
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/oromb/9r",
