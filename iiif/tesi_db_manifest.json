@@ -13,8 +13,8 @@
 			"value": { "it": [ "Pasquale Riccioni (1852-???), Orombello Riccioni (1913-1995)" ] }
 		},
 		{
-			"label": { "it": [ "Formato" ] },
-			"value": { "it": [ "Carta, 20cm x 15cm" ] }
+			"label": { "it": [ "Formato" ], "en": [ "Format" ] },
+			"value": { "it": [ "Carta, 20cm x 15cm" ], "en": [ "Paper, 20cm x 15cm" ] }
 		},
 		{
 			"label": { "it": [ "Lingua" ] },
