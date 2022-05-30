@@ -80,8 +80,7 @@
 	"behavior": [ "paged" ],
 	"rendering": [
 	    {
-			"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_scans.pdf",
-			"type": "Text",
+			"id": "https://drive.google.com/file/d/1nTF13nuC9G-qCnpiHWOFSsh170aYMkyP/view?usp=sharing"
 			"label": { "it": [ "Scannerizzazioni in formato PDF" ] },
 			"format": "application/pdf"
 		}
