@@ -4,12 +4,12 @@ This repo hosts a project for my Masters Dissertation on Electronic Publishing; 
 
 The project is composed of the following parts:  
 
-- [x] [IIIF 2.1.1 Image APIs](https://iiif.io/api/image/2/level2.json) of [high-quality scans of the pages](https://iiif.archivelab.org/iiif/tesi_db_1r/full/full/0/default.jpg) (eg. *r1*);  
-- [x] [IIIF 3.0.0 Presentation API of a manifest](https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json);  
+- [x] [IIIF 2.1.1 Image APIs](https://iiif.archivelab.org/iiif/tesi_db_1r/info.json) of [high-quality scans of the pages](https://iiif.archivelab.org/iiif/tesi_db_1r/full/full/0/default.jpg) (eg. *r1*);  
+- [x] a [IIIF 3.0.0 Presentation API of a manifest](https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json);  
 - [x] Clients like [Universal Viewer](https://uv-v4.netlify.app/#?manifest=https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json) and [Mirador 3](https://projectmirador.org/embed/?iiif-content=https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json) to display the manifest (demos atm);  
 - [ ] a TEI encoding of the transcription;
 - [ ] CSS style sheets to display the TEI encoding;  
-- [ ] a simple website to publish the project;     
+- [ ] a simple website to publish the project.     
 
 Links will be provided in the task list above as soon as avaiable.  
 
