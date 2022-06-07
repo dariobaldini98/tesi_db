@@ -2,7 +2,7 @@
 	"@context": "http://iiif.io/api/presentation/3/context.json",
 	"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json",
 	"type": "Manifest",
-	"label": { "it": [ "WIP - Diario di Pasquale Riccioni - WIP" ], "en": [ "WIP - Pasquale Riccioni's Diary - WIP" ]},
+	"label": { "it": [ "WIP - Diario di Pasquale Riccioni - WIP" ], "en": [ "WIP - Pasquale Riccioni's Diary - WIP" ] },
 	"metadata": [
 	    {
 			"label": { "it": [ "Autore" ], "en": [ "Author" ] },
