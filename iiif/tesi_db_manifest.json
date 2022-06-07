@@ -4640,7 +4640,7 @@
 			"label": { "none": [ "42r" ] },
 			"metadata": [
 			    {
-					"label": { "it": [ "Nota" ] } "en": [ "Note" ],
+					"label": { "it": [ "Nota" ] }, "en": [ "Note" ],
 					"value": { "it": [ "<span>In questa pagina è stata trovata la copertina del libro <i><a href='https://iiif.archivelab.org/iiif/tesi_db_42r_geo_202205/full/full/0/default.jpg'>Geografia Moderna Universale</a></i> di Giuseppe R. Pagnozzi.</span>" ],  "en": [ "<span>In this page it was found the cover of the book <i><a href='https://iiif.archivelab.org/iiif/tesi_db_42r_geo_202205/full/full/0/default.jpg'>Geografia Moderna Universale</a></i> by Giuseppe R. Pagnozzi.</span>" ] }
 				}
 			],
