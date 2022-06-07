@@ -2,7 +2,7 @@
 	"@context": "http://iiif.io/api/presentation/3/context.json",
 	"id": "https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json",
 	"type": "Manifest",
-	"label": { "it": [ "WIP - Diario di Pasquale Riccioni - WIP" ] },
+	"label": { "it": [ "WIP - Diario di Pasquale Riccioni - WIP" ], "en": [ "WIP - Pasquale Riccioni's Diary - WIP" ]},
 	"metadata": [
 	    {
 			"label": { "it": [ "Autore" ], "en": [ "Author" ] },
@@ -29,11 +29,11 @@
 			"value": { "none": [ "31/03/1901-26/07/1903" ] }
 		}
 	],
-	"summary": { "it": [ "Diario scritto dalla guardia carceraria Pasquale Riccioni tra il 1901 e il 1903; alcune pagine presentano aggiunte del figlio Orombello." ] },
+	"summary": { "it": [ "Diario scritto dalla guardia carceraria Pasquale Riccioni tra il 1901 e il 1903; alcune pagine presentano aggiunte del figlio Orombello." ], "en": [ "Diary written by the prison guard Pasquale Riccioni between 1901 and 1903; some pages exhibit additions by his son Orombello." ] },
 	"rights": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
 	"requiredStatement": {
-		"label": { "it": [ "Licenza" ] },
-		"value": { "it": [ "<span>Il <i>manifest</i> è pubblicato su licenza <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it'>CC BY-NC-ND 4.0</a></span>" ] }
+		"label": { "it": [ "Licenza" ], "en": [ "Licence" ] },
+		"value": { "it": [ "<span>Il <i>manifest</i> è pubblicato su licenza <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it'>CC BY-NC-ND 4.0</a></span>" ], "en": [ "<span>The manifest is published under a <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en'>CC BY-NC-ND 4.0</a> licence</span>" ] }
 	},
 	"provider": [
 	    {
@@ -44,7 +44,7 @@
 			    {
 					"id": "http://www.unitus.it/",
 					"type": "Text",
-					"label": { "it": [ "Homepage del sito di Ateneo" ] },
+					"label": { "it": [ "Homepage del sito di Ateneo" ], "en": [ "University website homepage" ]},
 					"format": "text/html"
 				}
 			],
@@ -81,7 +81,7 @@
 	"rendering": [
 	    {
 			"id": "https://drive.google.com/file/d/1nTF13nuC9G-qCnpiHWOFSsh170aYMkyP/view?usp=sharing",
-			"label": { "it": [ "Scannerizzazioni in formato PDF" ] },
+			"label": { "it": [ "Scannerizzazioni in formato PDF" ], "en": [ "Scans in PDF format" ] },
 			"format": "application/pdf"
 		}
 	],
@@ -89,7 +89,7 @@
 	    {
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/ill",
 			"type": "Range",
-			"label": { "it": [ "Illustrazioni" ] },
+			"label": { "it": [ "Illustrazioni" ], "en": [ "Pictures" ] },
 			"items": [
 			    {
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/ill/20r",
@@ -151,7 +151,7 @@
 		{
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/oromb",
 			"type": "Range",
-			"label": { "it": [ "Scritte di Orombello" ] },
+			"label": { "it": [ "Scritte di Orombello" ], "it": [ "Writings by Orombello" ] },
 			"items": [
 			    {
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/oromb/9r",
