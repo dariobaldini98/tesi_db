@@ -5,28 +5,28 @@
 	"label": { "it": [ "WIP - Diario di Pasquale Riccioni - WIP" ] },
 	"metadata": [
 	    {
-			"label": { "it": [ "Autore" ] },
-			"value": { "it": [ "<span><a href='https://github.com/dariobaldini98'>Dario Baldini</a></span>" ] }
+			"label": { "it": [ "Autore" ], "en": [ "Author" ] },
+			"value": { "none": [ "<span><a href='https://github.com/dariobaldini98'>Dario Baldini</a></span>" ] }
 		},
 		{
-			"label": { "it": [ "Attribuzione" ] },
-			"value": { "it": [ "Pasquale Riccioni (1852-???), Orombello Riccioni (1913-1995)" ] }
+			"label": { "it": [ "Attribuzione" ], "en": [ "Attribution" ] },
+			"value": { "none": [ "Pasquale Riccioni (1852-???), Orombello Riccioni (1913-1995)" ] }
 		},
 		{
 			"label": { "it": [ "Formato" ], "en": [ "Format" ] },
 			"value": { "it": [ "Carta, 20cm x 15cm" ], "en": [ "Paper, 20cm x 15cm" ] }
 		},
 		{
-			"label": { "it": [ "Lingua" ] },
-			"value": { "it": [ "Italiano" ] }
+			"label": { "it": [ "Lingua" ], "en": [ "Language" ] },
+			"value": { "it": [ "Italiano" ], "en": [ "Italian" ] }
 		},
 		{
-			"label": { "it": [ "Copertura spaziale" ] },
-			"value": { "it": [ "<span><a href='https://goo.gl/maps/3r2dASMH5jiRZWDp8'>Civitavecchia</a> (RM), <a href='https://goo.gl/maps/aaAEFm1cHmj4spqB9'>Viterbo</a> (VT)</span>" ] }
+			"label": { "it": [ "Copertura spaziale" ], "en": [ "Spatial coverage" ] },
+			"value": { "none": [ "<span><a href='https://goo.gl/maps/3r2dASMH5jiRZWDp8'>Civitavecchia</a> (RM), <a href='https://goo.gl/maps/aaAEFm1cHmj4spqB9'>Viterbo</a> (VT)</span>" ] }
 		},
 		{
-			"label": { "it": [ "Copertura temporale" ] },
-			"value": { "it": [ "31/03/1901-26/07/1903" ] }
+			"label": { "it": [ "Copertura temporale" ], "en": [ "Temporal Coverage" ] },
+			"value": { "none": [ "31/03/1901-26/07/1903" ] }
 		}
 	],
 	"summary": { "it": [ "Diario scritto dalla guardia carceraria Pasquale Riccioni tra il 1901 e il 1903; alcune pagine presentano aggiunte del figlio Orombello." ] },
