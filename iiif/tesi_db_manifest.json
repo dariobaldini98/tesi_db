@@ -3945,8 +3945,8 @@
 			"label": { "none": [ "36r" ] },
 			"metadata": [
 			    {
-					"label": { "it": [ "Nota" ] },
-					"value": { "it": [ "<span>Al seguente link è disponibile l'<a href='https://iiif.archivelab.org/iiif/tesi_db_36r/full/full/90/default.jpg'>immagine ruotata orizzontalmente.</a></span>" ] }
+					"label": { "it": [ "Nota" ], "en": [ "Note" ] },
+					"value": { "it": [ "<span>Al seguente link è disponibile l'<a href='https://iiif.archivelab.org/iiif/tesi_db_36r/full/full/90/default.jpg'>immagine ruotata orizzontalmente</a>.</span>" ], "en": [ "<span>At the following link is avaiable the <a href='https://iiif.archivelab.org/iiif/tesi_db_36r/full/full/90/default.jpg'>image rotated horizontally</a>.</span>" ] }
 				}
 			],
 			"height": 2055,
@@ -4640,8 +4640,8 @@
 			"label": { "none": [ "42r" ] },
 			"metadata": [
 			    {
-					"label": { "it": [ "Nota" ] },
-					"value": { "it": [ "<span>In questa pagina è stata trovata la copertina del libro <i><a href='https://iiif.archivelab.org/iiif/tesi_db_42r_geo_202205/full/full/0/default.jpg'>Geografia Moderna Universale</a></i> di Giuseppe R. Pagnozzi.</span>" ] }
+					"label": { "it": [ "Nota" ] } "en": [ "Note" ],
+					"value": { "it": [ "<span>In questa pagina è stata trovata la copertina del libro <i><a href='https://iiif.archivelab.org/iiif/tesi_db_42r_geo_202205/full/full/0/default.jpg'>Geografia Moderna Universale</a></i> di Giuseppe R. Pagnozzi.</span>" ],  "en": [ "<span>In this page it was found the cover of the book <i><a href='https://iiif.archivelab.org/iiif/tesi_db_42r_geo_202205/full/full/0/default.jpg'>Geografia Moderna Universale</a></i> by Giuseppe R. Pagnozzi.</span>" ] }
 				}
 			],
 			"height": 2048,
