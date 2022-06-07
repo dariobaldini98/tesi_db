@@ -151,7 +151,7 @@
 		{
 			"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/oromb",
 			"type": "Range",
-			"label": { "it": [ "Scritte di Orombello" ], "it": [ "Writings by Orombello" ] },
+			"label": { "it": [ "Scritte di Orombello" ], "en": [ "Writings by Orombello" ] },
 			"items": [
 			    {
 					"id": "https://dariobaldini98.github.io/tesi_db/iiif/ran/oromb/9r",
