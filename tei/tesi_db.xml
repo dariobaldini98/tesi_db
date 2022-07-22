@@ -15,7 +15,7 @@
       <publicationStmt>
 	    <authority>Università degli Studi della Tuscia</authority>
 		<pubPlace>Viterbo</pubPlace>
-		<date when="2022-12">(AGGIUNGI GIORNO) dicembre 2022</date>
+		<date when="2022-12"><!--METTI GIORNO--> dicembre 2022</date>
 		<availability status="restricted">
 		  <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">Pubblicato elettronicamente su licenza CC BY-NC-ND 4.0</licence>
 		</availability>
@@ -35,6 +35,19 @@
 	  </sourceDesc>
 	</fileDesc>
 	<!--Encoding Description-->
+	<profileDesc>
+	  <creation>
+	    <date from="1901-03-31" to="1903-07-26">Tra il 31 marzo 1901 e il 26 luglio 1903</date>
+		<name type="city">Civitavecchia (RM)<name>
+	  </creation>
+	  <langUsage>
+	    <language ident="it" usage="100">Italiano</language>
+	  </langUsage>
+	  <!--Text Classification-->
+	  <calendarDesc>
+	    <calendar xml:id="Gregorian"><p>Calendario gregoriano</p></calendar>
+	  </calendarDesc>
+	</profileDesc>
   </teiHeader>
   <text>
     <body xml:lang="it">
