@@ -9,7 +9,7 @@ The project is composed of the following parts:
   - [x] [2.1.1 Image APIs](https://iiif.archivelab.org/iiif/tesi_db_1r/info.json) of the scans (eg. *r1*);  
   - [x] [3.0.0 Presentation API of a manifest](https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json);  
 2. TEI:  
-  - [ ] encoding of the transcription;
+  - [ ] [encoding of the transcription](https://dariobaldini98.github.io/tesi_db/tei/tesi_db.xml);
   - [ ] CSS style sheets to display the encoding;  
 3. Website:  
   - [ ] informative homepage;  
