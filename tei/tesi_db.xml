@@ -1,10 +1,44 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
- <teiHeader>
-  <!-- WIP -->
- </teiHeader>
- <text>
-  <body>
-   <!-- WIP -->
-  </body>
- </text>
+<TEI version="4.4.0" xml:lang="it" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="it">
+    <fileDesc>
+      <titleStmt>
+	    <title>WIP - Trascrizione digitale del diario di Pasquale Riccioni - WIP</title>
+	    <author>Pasquale Riccioni (1852-???), Orombello Riccioni (1913-1995)</author>
+	    <respStmt>
+	      <resp>codificato da</resp>
+	      <name>Dario Baldini</name>
+	    </respStmt>
+	  </titleStmt>
+      <extent>
+	    <measure unit="pages" quantity="88">88 pagine</measure>
+	  </extent>
+      <publicationStmt>
+	    <authority>Università degli Studi della Tuscia</authority>
+		<pubPlace>Viterbo</pubPlace>
+		<date when="2022-12">(AGGIUNGI GIORNO) dicembre 2022</date>
+		<availability status="restricted">
+		  <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">Pubblicato elettronicamente su licenza CC BY-NC-ND 4.0</licence>
+		</availability>
+	  </publicationStmt>
+      <sourceDesc>
+	    <msDesc>
+		  <msContents>
+		    <p>Diario scritto dalla guardia carceraria Pasquale Riccioni; alcune pagine presentano aggiunte del figlio Orombello.</p> 
+		  </msContents>
+		  <physDesc>
+		    <p>Quadernino composto da 88 pagine di carta di 20cm x 15cm.</p>
+		  </physDesc>
+		  <history>
+		    <p>Scritto tra il 1901 e il 1903.</p>
+		  </history>
+		</msDesc>
+	  </sourceDesc>
+	</fileDesc>
+	<!--Encoding Description-->
+  </teiHeader>
+  <text>
+    <body xml:lang="it">
+      <!-- WIP -->
+    </body>
+  </text>
 </TEI>
