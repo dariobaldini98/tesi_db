@@ -1,5 +1,5 @@
 <TEI version="4.4.0" xml:lang="it" xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xml:lang="it">
+  <teiHeader>
     <fileDesc>
       <titleStmt>
 	    <title>WIP - Trascrizione digitale del diario di Pasquale Riccioni - WIP</title>
@@ -34,7 +34,12 @@
 		</msDesc>
 	  </sourceDesc>
 	</fileDesc>
-	<!--Encoding Description-->
+	<encodingDesc>
+	  <projectDesc>
+	    <p>La trascrizione elettronica del diario è parte di un progetto di tesi magistrale in Editoria Digitale.</p>
+	  </projectDesc>
+	<!--Editorial Practices Declaration-->
+	</encodingDesc>
 	<profileDesc>
 	  <creation>
 	    <date from="1901-03-31" to="1903-07-26">Tra il 31 marzo 1901 e il 26 luglio 1903</date>
@@ -50,7 +55,7 @@
 	</profileDesc>
   </teiHeader>
   <text>
-    <body xml:lang="it">
+    <body>
       <!-- WIP -->
     </body>
   </text>
