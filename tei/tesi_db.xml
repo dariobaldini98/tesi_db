@@ -39,14 +39,19 @@
 	    <p>La trascrizione elettronica del diario è parte di un progetto di tesi magistrale in Editoria Digitale.</p>
 	  </projectDesc>
 	<!--Editorial Practices Declaration-->
+	<!--Tagging Declaration-->
 	</encodingDesc>
 	<profileDesc>
+	  <handNotes>
+	    <handNote xml:id="PR" scribe="Pasquale Riccioni" script="roman" medium="black-ink" scope="major"><!--DESCRIZIONE--></handNote>
+		<handNote xml:id="OR" scribe="Orombello Riccioni" script="italic" medium="black-ink" scope="minor"><!--DESCRIZIONE--></handNote>
+	  </handNotes>
 	  <creation>
 	    <date from="1901-03-31" to="1903-07-26">Tra il 31 marzo 1901 e il 26 luglio 1903</date>
 		<name type="city">Civitavecchia (RM)</name>
 	  </creation>
 	  <langUsage>
-	    <language ident="it" usage="100">Italiano</language>
+	    <language ident="it" usage="100"><!--VEDI SE SPECIFICARE--> Italiano</language>
 	  </langUsage>
 	  <!--Text Classification-->
 	  <calendarDesc>
