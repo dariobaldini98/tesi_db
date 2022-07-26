@@ -22,11 +22,40 @@
 	  </publicationStmt>
       <sourceDesc>
 	    <msDesc>
+		  <msIdentifier>
+		    <country>Italia</country>
+            <region>Lazio</region>
+            <settlement>Viterbo</settlement>
+			<msName>Diario di Pasquale Riccioni</msName>
+		  </msIdentifier>
 		  <msContents>
 		    <p>Diario scritto dalla guardia carceraria Pasquale Riccioni; alcune pagine presentano aggiunte del figlio Orombello.</p> 
 		  </msContents>
 		  <physDesc>
-		    <p>Quadernino composto da 88 pagine di carta di 20cm x 15cm.</p>
+		    <objectDesc form="notebook">
+			  <supportDesc>
+			    <support><p>Quadernino a quadretti di <material>carta</material></p></support>
+				<extent>88 pagine
+				  <dimensions unit="cm">
+				    <height>20</height>
+				    <width>15</width>
+				  </dimensions>
+				</extent>
+				<collation>
+				  <p><!--CONTROLLA-->Composto da un solo fascicolo</p>
+				</collation>
+				<condition>
+				  <p>La prima e l'ultima carta sono staccate e abbastanza consumate, soprattutto negli angoli; il resto è in buone condizioni.</p>
+				</condition>
+			  </supportDesc>
+			  <layoutDesc>
+			    <layout columns="1" ruledLines="10 24">Tra 10 e 24 linee su una colonna;<!--METTI LOCUS--></layout>
+				<layout columns="1" ruledLines="36 50">Tra 36 e 50 linee su una colonna;<!--METTI LOCUS--></layout>
+				<layout columns="2" ruledLines="36 50">Tra 36 e 50 linee su due colonna;<!--METTI LOCUS--></layout>
+				<layout columns="2" writtenLines="11 23">Tra 11 e 23 linee su due colonna in pagine senza quadretti;<!--METTI LOCUS--></layout>
+			  </layoutDesc>
+			</objectDesc>
+			<!--Writing, Decoration, and Other Notations-->
 		  </physDesc>
 		  <history>
 		    <p>Scritto tra il 1901 e il 1903.</p>
