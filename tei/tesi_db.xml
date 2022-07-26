@@ -52,7 +52,7 @@
 			    <layout columns="1" ruledLines="10 24">Tra 10 e 24 linee su una colonna;<!--METTI LOCUS--></layout>
 				<layout columns="1" ruledLines="36 50">Tra 36 e 50 linee su una colonna;<!--METTI LOCUS--></layout>
 				<layout columns="2" ruledLines="36 50">Tra 36 e 50 linee su due colonna;<!--METTI LOCUS--></layout>
-				<layout columns="2" writtenLines="11 23">Tra 11 e 23 linee su due colonna in pagine senza quadretti;<!--METTI LOCUS--></layout>
+				<layout columns="2" writtenLines="11 23">Tra 11 e 23 linee su due colonne in pagine senza quadretti;<!--METTI LOCUS--></layout>
 			  </layoutDesc>
 			</objectDesc>
 			<!--Writing, Decoration, and Other Notations-->
