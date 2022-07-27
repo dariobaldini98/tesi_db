@@ -90,7 +90,14 @@
 				<layout columns="2" writtenLines="11 23">Tra 11 e 23 linee su due colonne in pagine senza quadretti;<!--METTI LOCUS--></layout>
 			  </layoutDesc>
 			</objectDesc>
-			<!--Writing, Decoration, and Other Notations-->
+			<handDesc hands="3">
+	          <handNote scribe="#PR" script="roman" medium="black-ink" scope="major"><!--DESCRIZIONE--></handNote>
+			  <handNote scribe="#PR" script="italic" medium="black-ink" scope="major"><!--DESCRIZIONE--></handNote>
+		      <handNote scribe="#OR" script="italic" medium="black-ink" scope="minor"><!--DESCRIZIONE--></handNote>
+	        </handDesc>
+			<decoDesc>
+              <p><!--DESCRIZIONE--></p>
+			<decoDesc>
 		  </physDesc>
 		  <history>
 		    <p>Scritto tra il 1901 e il 1903.</p>
@@ -106,10 +113,6 @@
 	<!--Tagging Declaration-->
 	</encodingDesc>
 	<profileDesc>
-	  <handNotes>
-	    <handNote xml:id="PR" scribe="Pasquale Riccioni" script="roman" medium="black-ink" scope="major"><!--DESCRIZIONE--></handNote>
-		<handNote xml:id="OR" scribe="Orombello Riccioni" script="italic" medium="black-ink" scope="minor"><!--DESCRIZIONE--></handNote>
-	  </handNotes>
 	  <creation>
 	    <date from="1901-03-31" to="1903-07-26">Tra il 31 marzo 1901 e il 26 luglio 1903</date>
 		<name type="city">Civitavecchia (RM)</name>
