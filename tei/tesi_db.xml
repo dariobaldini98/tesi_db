@@ -41,11 +41,30 @@
                     <forename>Pasquale</forename>
 					<surname>Riccioni</surname>
                   </persName>
-                  <birth notBefore="1368"/>
+                  <birth notBefore="1852"/>
+				  <death notAfter="<!--???????-->"/>
                   <occupation>Guardia carceraria</occupation>
                 </person>
 			  </author>
-			</msItem> 
+			</msItem>
+		    <msItem n="2">
+			  <locusGrp>
+                <locus from="1r" to="8v">1r-8v</locus>
+                <locus from="10r" to="40r">10r-40r</locus>
+              </locusGrp>
+			  <title type="supplied">Aggiunte successive</title>
+			  <author>
+			    <person xml:id="OR">
+                  <persName>
+                    <forename>Orombello</forename>
+					<surname>Riccioni</surname>
+                  </persName>
+                  <birth when="1913"/>
+				  <death when="1995"/>
+                  <occupation><!--???????--></occupation>
+                </person>
+			  </author>
+			</msItem> 			
 		  </msContents>
 		  <physDesc>
 		    <objectDesc form="notebook">
