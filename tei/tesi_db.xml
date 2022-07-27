@@ -16,7 +16,7 @@
 		<pubPlace>Viterbo</pubPlace>
 		<date when="2022-12"><!--METTI GIORNO--> dicembre 2022</date>
 		<availability status="restricted">
-		  <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">Pubblicato elettronicamente su licenza CC BY-NC-ND 4.0</licence>
+		  <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">Pubblicato su licenza CC BY-NC-ND 4.0</licence>
 		</availability>
 	  </publicationStmt>
       <sourceDesc>
@@ -123,10 +123,10 @@
 	<!--Editorial Practices Declaration-->
 	<!--Tagging Declaration-->
 	</encodingDesc>
-	<profileDesc> <!--COMPLETA-->
+	<profileDesc>
 	  <creation>
-	    <date from="" to=""></date>
-		<name type="city"></name>
+	    <date from="1901-03-31" to="1903-07-26">Tra il 31 marzo 1901 e il 26 luglio 1903</date>
+		<name type="city">Civitavecchia</name>
 	  </creation>
 	  <langUsage>
 	    <language ident="it" usage="100">Italiano</language>
