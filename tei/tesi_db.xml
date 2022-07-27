@@ -3,9 +3,12 @@
     <fileDesc>
       <titleStmt>
 	    <title>WIP - Trascrizione digitale del diario di Pasquale Riccioni - WIP</title>
-	    <respStmt>
+	    <respStmt xml:id="DB">
 	      <resp>codificato da</resp>
-	      <name>Dario Baldini</name>
+	      <persName>
+            <forename>Dario</forename>
+			<surname>Baldini</surname>
+          </persName>
 	    </respStmt>
 	  </titleStmt>
       <extent>
@@ -25,7 +28,7 @@
 		    <country>Italia</country>
             <region>Lazio</region>
             <settlement>Viterbo</settlement>
-			<msName>Diario di Pasquale Riccioni</msName>
+			<msName type="supplied" resp="#DB">Diario di Pasquale Riccioni</msName>
 		  </msIdentifier>
 		  <msContents defective="true">
 		    <msItem n="1">
@@ -33,7 +36,7 @@
                 <locus from="1r" to="8v">1r-8v</locus>
                 <locus from="10r" to="40r">10r-40r</locus>
               </locusGrp>
-			  <title type="supplied">Scritte originali</title>
+			  <title type="supplied" resp="#DB">Scritte originali</title>
 			  <author>
 			    <person xml:id="PR">
                   <persName>
@@ -51,7 +54,7 @@
                 <locus from="1r" to="8v">1r-8v</locus>
                 <locus from="10r" to="40r">10r-40r</locus>
               </locusGrp>
-			  <title type="supplied">Aggiunte successive</title>
+			  <title type="supplied" resp="#DB">Aggiunte successive</title>
 			  <author>
 			    <person xml:id="OR">
                   <persName>
@@ -78,6 +81,9 @@
 				<collation>
 				  <p><!--CONTROLLA-->Composto da un solo fascicolo</p>
 				</collation>
+				<foliation resp="#DB">
+				  <p>I numeri di carta sono stai definiti da Dario Baldini; non sono indicati sulle pagine del diario.</p>
+				</foliation>
 				<condition>
 				  <p>La prima e l'ultima carta sono staccate e abbastanza consumate, soprattutto negli angoli; il resto è in buone condizioni.</p>
 				</condition>
