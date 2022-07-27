@@ -3,14 +3,13 @@
     <fileDesc>
       <titleStmt>
 	    <title>WIP - Trascrizione digitale del diario di Pasquale Riccioni - WIP</title>
-	    <author>Pasquale Riccioni (1852-???), Orombello Riccioni (1913-1995)</author>
 	    <respStmt>
 	      <resp>codificato da</resp>
 	      <name>Dario Baldini</name>
 	    </respStmt>
 	  </titleStmt>
       <extent>
-	    <measure unit="pages" quantity="88">88 pagine</measure>
+	    <measure unit="<!--AGGIUNGI ALLA FINE-->" quantity="<!--AGGIUNGI ALLA FINE-->"><!--AGGIUNGI ALLA FINE--></measure>
 	  </extent>
       <publicationStmt>
 	    <authority>Università degli Studi della Tuscia</authority>
@@ -98,6 +97,9 @@
 			<decoDesc>
               <p><!--DESCRIZIONE--></p>
 			<decoDesc>
+			<accMat>
+			  <p><!--METTI COPERTINA GEO--></p>
+			</accMat>
 		  </physDesc>
 		  <history>
 		    <origin>
@@ -121,13 +123,13 @@
 	<!--Editorial Practices Declaration-->
 	<!--Tagging Declaration-->
 	</encodingDesc>
-	<profileDesc>
+	<profileDesc> <!--COMPLETA-->
 	  <creation>
-	    <date from="1901-03-31" to="1903-07-26">tra il 31 marzo 1901 e il 26 luglio 1903</date>
-		<name type="city">Civitavecchia (RM)</name>
+	    <date from="" to=""></date>
+		<name type="city"></name>
 	  </creation>
 	  <langUsage>
-	    <language ident="it" usage="100"><!--VEDI SE SPECIFICARE--> Italiano</language>
+	    <language ident="it" usage="100">Italiano</language>
 	  </langUsage>
 	  <!--Text Classification-->
 	  <calendarDesc>
