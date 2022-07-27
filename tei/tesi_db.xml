@@ -97,8 +97,8 @@
 			<decoDesc>
               <p><!--DESCRIZIONE--></p>
 			<decoDesc>
-			<accMat>
-			  <p><!--METTI COPERTINA GEO--></p>
+			<accMat facs="https://iiif.archivelab.org/iiif/tesi_db_42r_geo_202205/full/full/0/default.jpg">
+			  <p><locus from="41v" to="42r">Tra 41v e 42r</locus> è stata trovata la copertina del libro <title type="short" level="m">Geografia Moderna Universale</title> di <author>Giuseppe R. Pagnozzi</author>.</p>
 			</accMat>
 		  </physDesc>
 		  <history>
