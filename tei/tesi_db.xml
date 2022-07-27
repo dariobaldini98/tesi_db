@@ -131,7 +131,7 @@
 	  <langUsage>
 	    <language ident="it" usage="100">Italiano</language>
 	  </langUsage>
-	  <!--Text Classification-->
+	  <!--Text Classification FORSE-->
 	  <calendarDesc>
 	    <calendar xml:id="Gregorian"><p>Calendario gregoriano</p></calendar>
 	  </calendarDesc>
