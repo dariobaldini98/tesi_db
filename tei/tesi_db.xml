@@ -100,8 +100,17 @@
 			<decoDesc>
 		  </physDesc>
 		  <history>
-		    <p>Scritto tra il 1901 e il 1903.</p>
+		    <origin>
+		      <p>Scritto a <origPlace>Civitavecchia</origPlace><origDate from="1901-03-31" to="1903-07-26">tra il 31 marzo 1901 e il 26 luglio 1903</origDate>.</p>
+			<origin>
+			<provenance>
+			  <p><!--FATTI DIRE--></p>
+			</provenance>
+			<acquisition>
+			  <p><!--FATTI DIRE--></p>
+			</acquisition>
 		  </history>
+		  <!--Additional Information (FORSE)-->
 		</msDesc>
 	  </sourceDesc>
 	</fileDesc>
@@ -114,7 +123,7 @@
 	</encodingDesc>
 	<profileDesc>
 	  <creation>
-	    <date from="1901-03-31" to="1903-07-26">Tra il 31 marzo 1901 e il 26 luglio 1903</date>
+	    <date from="1901-03-31" to="1903-07-26">tra il 31 marzo 1901 e il 26 luglio 1903</date>
 		<name type="city">Civitavecchia (RM)</name>
 	  </creation>
 	  <langUsage>
