@@ -28,8 +28,24 @@
             <settlement>Viterbo</settlement>
 			<msName>Diario di Pasquale Riccioni</msName>
 		  </msIdentifier>
-		  <msContents>
-		    <p>Diario scritto dalla guardia carceraria Pasquale Riccioni; alcune pagine presentano aggiunte del figlio Orombello.</p> 
+		  <msContents defective="true">
+		    <msItem n="1">
+			  <locusGrp>
+                <locus from="1r" to="8v">1r-8v</locus>
+                <locus from="10r" to="40r">10r-40r</locus>
+              </locusGrp>
+			  <title type="supplied">Scritte originali</title>
+			  <author>
+			    <person xml:id="PR">
+                  <persName>
+                    <forename>Pasquale</forename>
+					<surname>Riccioni</surname>
+                  </persName>
+                  <birth notBefore="1368"/>
+                  <occupation>Guardia carceraria</occupation>
+                </person>
+			  </author>
+			</msItem> 
 		  </msContents>
 		  <physDesc>
 		    <objectDesc form="notebook">
