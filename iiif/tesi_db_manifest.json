@@ -3444,7 +3444,7 @@
 					"width" : 1513,
 					"service": [
 					    {
-							"@id": "https://iiif.archivelab.org/iiif/tesi_db_31r/full/full/0/default.jpg",
+							"@id": "https://iiif.archivelab.org/iiif/tesi_db_31r",
 							"@type": "ImageService2",
 							"profile": "http://iiif.io/api/image/2/level2.json"
 					    }
