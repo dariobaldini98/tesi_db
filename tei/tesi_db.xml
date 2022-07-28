@@ -36,7 +36,7 @@
                 <locus from="1r" to="8v">1r-8v</locus>
                 <locus from="10r" to="40r">10r-40r</locus>
               </locusGrp>
-			  <title type="supplied" resp="#DB">Scritte originali</title>
+			  <title type="supplied" resp="#DB">Testo originale</title>
 			  <author>
 			    <person xml:id="PR">
                   <persName>
@@ -54,7 +54,7 @@
                 <locus from="1r" to="8v">1r-8v</locus>
                 <locus from="10r" to="40r">10r-40r</locus>
               </locusGrp>
-			  <title type="supplied" resp="#DB">Aggiunte successive</title>
+			  <title type="supplied" resp="#DB">Scritte aggiunte successivamente</title>
 			  <author>
 			    <person xml:id="OR">
                   <persName>
@@ -118,9 +118,9 @@
 			  </layoutDesc>
 			</objectDesc>
 			<handDesc hands="3">
-	          <handNote scribe="#PR" script="roman" medium="black-ink" scope="major"><!--DESCRIZIONE--></handNote>
-			  <handNote scribe="#PR" script="italic" medium="black-ink" scope="major"><!--DESCRIZIONE--></handNote>
-		      <handNote scribe="#OR" script="italic" medium="black-ink" scope="minor"><!--DESCRIZIONE--></handNote>
+	          <handNote scribe="#PR" script="roman" medium="black-ink" scope="major">Corsivo originale di Pasquale Riccioni</handNote>
+			  <handNote scribe="#PR" script="italic" medium="black-ink" scope="major">Minuscolo originale di Pasquale Riccioni</handNote>
+		      <handNote scribe="#OR" script="italic" medium="black-ink" scope="minor">Imitazione del corsivo del padre da parte di Orombello Riccioni</handNote>
 	        </handDesc>
 			<decoDesc>
               <p><!--DESCRIZIONE--></p>
