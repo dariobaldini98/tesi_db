@@ -51,8 +51,8 @@
 			</msItem>
 		    <msItem n="2">
 			  <locusGrp>
-                <locus from="1r" to="8v">1r-8v</locus>
-                <locus from="10r" to="40r">10r-40r</locus>
+                <locus from="9r" to="9v">9r-9v</locus>
+                <locus from="40r" to="44v">40r-44v</locus>
               </locusGrp>
 			  <title type="supplied" resp="#DB">Scritte aggiunte successivamente</title>
 			  <author>
