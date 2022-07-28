@@ -123,8 +123,22 @@
 		      <handNote scribe="#OR" script="italic" medium="black-ink" scope="minor">Imitazione del corsivo del padre da parte di Orombello Riccioni</handNote>
 	        </handDesc>
 			<decoDesc>
-              <p><!--DESCRIZIONE--></p>
-			<decoDesc>
+              <decoNote type="picture">
+                <p>Cinque disegni a tutta pagina in 
+				  <locusGrp>
+				    <locus from="20r" to="20v">in 20r, 20v</locus>,
+				    <locus>25r</locus>,
+					<locus from="36r" to="36v">36r e 36v</locus>
+				  </locusGrp>.
+				</p>
+              </decoNote>
+			  <decoNote type="symbol">
+                <p>Due simboli che ricordanp l'operatore matematico della somma diretta in <locus from="15v" to="16r">15v e 16r</locus>.</p>
+              </decoNote>
+			  <decoNote type="stamp">
+                <p>Riproduzione del timbro della Cassa di Risparmio di Viterbo in <locus>10r</locus>; riproduzione di una probabile etichetta identificativa di un documento giudiziario in <locus>39v</locus>.</p>
+              </decoNote>
+			</decoDesc>
 			<accMat facs="https://iiif.archivelab.org/iiif/tesi_db_42r_geo_202205/full/full/0/default.jpg">
 			  <p><locus from="41v" to="42r">Tra 41v e 42r</locus> è stata trovata la copertina del libro <title type="short" level="m">Geografia Moderna Universale</title> di <author>Giuseppe R. Pagnozzi</author>.</p>
 			</accMat>
