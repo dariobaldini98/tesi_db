@@ -118,9 +118,9 @@
 			  </layoutDesc>
 			</objectDesc>
 			<handDesc hands="3">
-	          <handNote xml:id="PRit" scribe="#PR" script="italic" medium="black-ink" scope="major">Corsivo originale di Pasquale Riccioni</handNote>
-			  <handNote xml:id="PRro" scribe="#PR" script="roman" medium="black-ink" scope="major">Minuscolo originale di Pasquale Riccioni</handNote>
-		      <handNote xml:id="ORit" scribe="#OR" script="italic" medium="black-ink" scope="minor">Imitazione del corsivo del padre da parte di Orombello Riccioni</handNote>
+	          <handNote xml:id="PRit" scribeRef="#PR" script="italic" medium="black-ink" scope="major">Corsivo originale di Pasquale Riccioni</handNote>
+			  <handNote xml:id="PRro" scribeRef="#PR" script="roman" medium="black-ink" scope="major">Minuscolo originale di Pasquale Riccioni</handNote>
+		      <handNote xml:id="ORit" scribeRef="#OR" script="italic" medium="black-ink" scope="minor">Imitazione del corsivo del padre da parte di Orombello Riccioni</handNote>
 	        </handDesc>
 			<decoDesc>
               <decoNote type="picture">
