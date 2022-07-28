@@ -5,11 +5,11 @@
 	"label": { "it": [ "WIP - Diario di Pasquale Riccioni - WIP" ], "en": [ "WIP - Pasquale Riccioni's Diary - WIP" ] },
 	"metadata": [
 	    {
-			"label": { "it": [ "Autore" ], "en": [ "Author" ] },
+			"label": { "it": [ "Codificatore" ], "en": [ "Encoder" ] },
 			"value": { "none": [ "<span><a href='https://github.com/dariobaldini98'>Dario Baldini</a></span>" ] }
 		},
 		{
-			"label": { "it": [ "Attribuzione" ], "en": [ "Attribution" ] },
+			"label": { "it": [ "Autore" ], "en": [ "Author" ] },
 			"value": { "none": [ "Pasquale Riccioni (1852-???), Orombello Riccioni (1913-1995)" ] }
 		},
 		{
