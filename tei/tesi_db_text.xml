@@ -12,7 +12,7 @@
 	    </respStmt>
 	  </titleStmt>
       <extent>
-	    <measure unit="<!--AGGIUNGI ALLA FINE-->" quantity="<!--AGGIUNGI ALLA FINE-->"><!--AGGIUNGI ALLA FINE--></measure>
+	    <measure unit="" quantity=""><!--AGGIUNGI ALLA FINE--></measure>
 	  </extent>
       <publicationStmt>
 	    <authority>Università degli Studi della Tuscia</authority>
@@ -44,7 +44,7 @@
 					<surname>Riccioni</surname>
                   </persName>
                   <birth notBefore="1852"/>
-				  <death notAfter="<!--???????-->"/>
+				  <death notAfter=""/><!--???????-->
                   <occupation>Guardia carceraria</occupation>
                 </person>
 			  </author>
@@ -162,8 +162,30 @@
 	  <projectDesc>
 	    <p>La trascrizione elettronica del diario è parte di un progetto di tesi magistrale in Editoria Digitale.</p>
 	  </projectDesc>
-	<!--Editorial Practices Declaration-->
-	<!--Tagging Declaration-->
+	  <editorialDecl resp="#DB">
+	    <correction status="low" method="silent">
+		  <p>Aggiunti accenti mancanti.<!--COMPLETA--></p>
+		</correction>
+		<normalization>
+		  <p>Mantenuto il linguaggio e l'ortografia originali.<!--COMPLETA--></p>
+		</normalization>
+		<punctuation marks="all" placement="external">
+		  <p>Mantenuti tutti i segni di punteggiatura originali.</p>
+		</punctuation>
+		<quotation marks="all">
+		  <p><!--VEDERE SE CI SONO VIRGOLETTE--></p>
+		</quotation>
+		<hyphenation eol="none">
+		  <p>Eliminati tutti i trattini di fine riga; mantenuti quelli interno alle righe.</p>
+		</hyphenation>
+		<segmentation>
+		  <p>Il testo non è stato segmentato a un livello inferiore a quello del paragrafo.</p>
+		</segmentation>
+		<interpretation>
+		  <p>Il testo è stato trascritto nella sua forma originale senza nessun tipo di interpretazione.</p>
+		</interpretation>
+	  </editorialDecl>
+	  <!--Tagging Declaration-->
 	</encodingDesc>
 	<profileDesc>
 	  <creation>
