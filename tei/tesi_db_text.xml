@@ -156,7 +156,11 @@
 			  <p><!--FATTI DIRE--></p>
 			</acquisition>
 		  </history>
-		  <!--Additional Information (FORSE)-->
+		  <additional>
+		    <availability>
+			  <p>Conservato dalla famiglia Riccioni.</p>
+			</availability>
+		  </additional>
 		</msDesc>
 	  </sourceDesc>
 	</fileDesc>
