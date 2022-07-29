@@ -46,7 +46,6 @@
                   <birth notBefore="1852"/>
 				  <death notAfter=""/><!--???????-->
                   <occupation>Guardia carceraria</occupation>
-				  <relation name="parent" active="#OR"/>
                 </person>
 			  </author>
 			</msItem>
@@ -65,7 +64,6 @@
                   <birth when="1913"/>
 				  <death when="1995"/>
                   <occupation><!--???????--></occupation>
-				  <relation name="parent" passive="#PR"/>
                 </person>
 			  </author>
 			</msItem> 			
