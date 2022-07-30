@@ -207,7 +207,182 @@
   </teiHeader>
   <text>
     <body>
-      <!-- WIP -->
+      <pb n="1r" facs="https://iiif.archivelab.org/iiif/tesi_db_1r/full/full/0/default.jpg"/>
+
+	  <pb n="1v" facs="https://iiif.archivelab.org/iiif/tesi_db_1v/full/full/0/default.jpg"/>
+	  
+	  <pb n="2r" facs="https://iiif.archivelab.org/iiif/tesi_db_2r/full/full/0/default.jpg"/>
+
+	  <pb n="2v" facs="https://iiif.archivelab.org/iiif/tesi_db_2v/full/full/0/default.jpg"/>
+
+	  <pb n="3r" facs="https://iiif.archivelab.org/iiif/tesi_db_3r/full/full/0/default.jpg"/>
+
+	  <pb n="3v" facs="https://iiif.archivelab.org/iiif/tesi_db_3v/full/full/0/default.jpg"/>
+
+	  <pb n="4r" facs="https://iiif.archivelab.org/iiif/tesi_db_4r/full/full/0/default.jpg"/>
+
+	  <pb n="4v" facs="https://iiif.archivelab.org/iiif/tesi_db_4v/full/full/0/default.jpg"/>
+
+	  <pb n="5r" facs="https://iiif.archivelab.org/iiif/tesi_db_5r/full/full/0/default.jpg"/>
+
+	  <pb n="5v" facs="https://iiif.archivelab.org/iiif/tesi_db_5v/full/full/0/default.jpg"/>
+
+	  <pb n="6r" facs="https://iiif.archivelab.org/iiif/tesi_db_6r/full/full/0/default.jpg"/>
+
+	  <pb n="6v" facs="https://iiif.archivelab.org/iiif/tesi_db_6v/full/full/0/default.jpg"/>
+
+	  <pb n="7r" facs="https://iiif.archivelab.org/iiif/tesi_db_7r/full/full/0/default.jpg"/>
+
+	  <pb n="7v" facs="https://iiif.archivelab.org/iiif/tesi_db_7v/full/full/0/default.jpg"/>
+
+	  <pb n="8r" facs="https://iiif.archivelab.org/iiif/tesi_db_8r/full/full/0/default.jpg"/>
+
+	  <pb n="8v" facs="https://iiif.archivelab.org/iiif/tesi_db_8v/full/full/0/default.jpg"/>
+
+	  <pb n="9r" facs="https://iiif.archivelab.org/iiif/tesi_db_9r/full/full/0/default.jpg"/>
+
+	  <pb n="9v" facs="https://iiif.archivelab.org/iiif/tesi_db_9v/full/full/0/default.jpg"/>
+
+	  <pb n="10r" facs="https://iiif.archivelab.org/iiif/tesi_db_10r/full/full/0/default.jpg"/>
+
+	  <pb n="10v" facs="https://iiif.archivelab.org/iiif/tesi_db_10v/full/full/0/default.jpg"/>
+
+	  <pb n="11r" facs="https://iiif.archivelab.org/iiif/tesi_db_11r/full/full/0/default.jpg"/>
+
+	  <pb n="11v" facs="https://iiif.archivelab.org/iiif/tesi_db_11v/full/full/0/default.jpg"/>
+
+	  <pb n="12r" facs="https://iiif.archivelab.org/iiif/tesi_db_12r/full/full/0/default.jpg"/>
+
+	  <pb n="12v" facs="https://iiif.archivelab.org/iiif/tesi_db_12v/full/full/0/default.jpg"/>
+
+	  <pb n="13r" facs="https://iiif.archivelab.org/iiif/tesi_db_13r/full/full/0/default.jpg"/>
+
+	  <pb n="13v" facs="https://iiif.archivelab.org/iiif/tesi_db_13v/full/full/0/default.jpg"/>
+
+	  <pb n="14r" facs="https://iiif.archivelab.org/iiif/tesi_db_14r/full/full/0/default.jpg"/>
+
+	  <pb n="14v" facs="https://iiif.archivelab.org/iiif/tesi_db_14v/full/full/0/default.jpg"/>
+
+	  <pb n="15r" facs="https://iiif.archivelab.org/iiif/tesi_db_15r/full/full/0/default.jpg"/>
+
+	  <pb n="15v" facs="https://iiif.archivelab.org/iiif/tesi_db_15v/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+	  
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+	  
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+
+	  <pb n="" facs="https://iiif.archivelab.org/iiif/tesi_db_/full/full/0/default.jpg"/>
+	  
     </body>
   </text>
 </TEI>
