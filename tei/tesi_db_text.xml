@@ -17,7 +17,7 @@
       <publicationStmt>
 	    <authority>Università degli Studi della Tuscia</authority>
 		<pubPlace>Viterbo</pubPlace>
-		<date when="2022-12"><!--METTI GIORNO--> dicembre 2022</date>
+		<date when="2022-12"><!--METTI GIORNO-->dicembre 2022</date>
 		<availability status="restricted">
 		  <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">Pubblicato su licenza CC BY-NC-ND 4.0</licence>
 		</availability>
@@ -61,9 +61,9 @@
                     <forename>Orombello</forename>
 					<surname>Riccioni</surname>
                   </persName>
-                  <birth when="1913"/>
-				  <death when="1995"/>
-                  <occupation><!--???????--></occupation>
+                  <birth when="1913-02-02"/>
+				  <death when="1995-03-13"/>
+                  <occupation>Sarto</occupation>
                 </person>
 			  </author>
 			</msItem> 			
@@ -79,7 +79,7 @@
 				  </dimensions>
 				</extent>
 				<collation>
-				  <p><!--CONTROLLA-->Composto da un solo fascicolo</p>
+				  <p>Composto da un solo fascicolo.</p>
 				</collation>
 				<foliation resp="#DB">
 				  <p>I numeri di carta sono stai definiti da Dario Baldini; non sono indicati sulle pagine del diario.</p>
@@ -133,10 +133,10 @@
 				</p>
               </decoNote>
 			  <decoNote type="symbol">
-                <p>Due simboli che ricordanp l'operatore matematico della somma diretta in <locus from="15v" to="16r">15v e 16r</locus>.</p>
+                <p>Due simboli che ricordano l'operatore matematico della somma diretta in <locus from="15v" to="16r">15v e 16r</locus>.</p>
               </decoNote>
 			  <decoNote type="stamp">
-                <p>Riproduzione del timbro della Cassa di Risparmio di Viterbo in <locus>10r</locus>; riproduzione della probabile etichetta identificativa di un documento giudiziario in <locus>39v</locus>.</p>
+                <p>Riproduzione del timbro della <orgName type="bank">Cassa di Risparmio di <placeName><settlement type="city">Viterbo</settlement></placeName></orgName> in <locus>10r</locus>; riproduzione della probabile etichetta identificativa di un documento giudiziario in <locus>39v</locus>.</p>
               </decoNote>
 			</decoDesc>
 			<accMat facs="https://iiif.archivelab.org/iiif/tesi_db_42r_geo_202205/full/full/0/default.jpg">
@@ -145,18 +145,18 @@
 		  </physDesc>
 		  <history>
 		    <origin>
-		      <p>Scritto a <origPlace>Civitavecchia</origPlace><origDate from="1901-03-31" to="1903-07-26">tra il 31 marzo 1901 e il 26 luglio 1903</origDate>.</p>
+		      <p>Scritto a <origPlace>Civitavecchia</origPlace><origDate notBefore="1901-03-31" notAfter="1903-07-26">tra il 31 marzo 1901 e il 26 luglio 1903</origDate>.</p>
 			</origin>
 			<provenance>
-			  <p><!--FATTI DIRE--></p>
+			  <p>Conservato nella casa di famiglia, situata nella frazione di <placeName><settlement type="town">La Quercia</settlement></placeName> (VT), in cui <persName ref="#PR"><forename>Pasquale</forename></persName> si è trasferito dopo il pensionamento.</p>
 			</provenance>
 			<acquisition>
-			  <p><!--FATTI DIRE--></p>
+			  <p>Trovaro e recuperato <date notBefore="1980" notAfter="1989">negli anni Ottanta</date> dai nipoti <persName><forename>Luigi</forename></persName> e <persName><forename>Pasquale</forename></persName>.</p>
 			</acquisition>
 		  </history>
 		  <additional>
 		    <availability>
-			  <p>Conservato dalla famiglia Riccioni.</p>
+			  <p>Conservato a casa del nipote <persName><forename>Luigi</forename></persName> nel paese di <placeName><settlement type="town">Bagnaia</settlement></placeName> (VT).</p>
 			</availability>
 		  </additional>
 		</msDesc>
@@ -193,8 +193,8 @@
 	</encodingDesc>
 	<profileDesc>
 	  <creation>
-	    <date from="1901-03-31" to="1903-07-26">Tra il 31 marzo 1901 e il 26 luglio 1903</date>
-		<name type="city">Civitavecchia</name>
+	    <origDate notBefore="1901-03-31" notAfter="1903-07-26">Tra il 31 marzo 1901 e il 26 luglio 1903</origDate>
+		<<origPlace>Civitavecchia</<origPlace>>
 	  </creation>
 	  <langUsage>
 	    <language ident="it" usage="100">Italiano</language>
