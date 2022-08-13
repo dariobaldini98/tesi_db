@@ -171,7 +171,7 @@
 		  <p>Aggiunti accenti mancanti.<!--COMPLETA--></p>
 		</correction>
 		<normalization>
-		  <p>Mantenuto il linguaggio e l'ortografia originali.<!--COMPLETA--></p>
+		  <p>Mantenuti linguaggio e ortografia originali.<!--COMPLETA--></p>
 		</normalization>
 		<punctuation marks="all" placement="external">
 		  <p>Mantenuti tutti i segni di punteggiatura originali.</p>
@@ -180,7 +180,7 @@
 		  <p><!--VEDERE SE CI SONO VIRGOLETTE--></p>
 		</quotation>
 		<hyphenation eol="none">
-		  <p>Eliminati tutti i trattini di fine riga; mantenuti quelli interno alle righe.</p>
+		  <p>Eliminati tutti i trattini di fine riga; mantenuti quelli interni alle righe.</p>
 		</hyphenation>
 		<segmentation>
 		  <p>Il testo non è stato segmentato a un livello inferiore a quello del paragrafo.</p>
