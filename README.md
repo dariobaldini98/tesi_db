@@ -9,12 +9,14 @@ The project is composed of the following parts:
   - [x] [2.1.1 Image APIs](https://iiif.archivelab.org/iiif/tesi_db_1r/info.json) of the scans (eg. *r1*);  
   - [x] [3.0.0 Presentation API of a manifest](https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json);  
 2. TEI:  
-  - [ ] [encoding of the transcription](https://dariobaldini98.github.io/tesi_db/tei/tesi_db_text.xml);
+  - [ ] [encoding of the transcription](https://raw.githubusercontent.com/dariobaldini98/tesi_db/main/tei/tesi_db_text.xml) (WIP);
+  - [ ] ODD scheme;  
+  or  
   - [ ] CSS style sheets to display the encoding;  
 3. Website:  
   - [ ] informative homepage;  
   - [x] clients displaying the manifest (just [Universal Viewer](https://uv-v4.netlify.app/#?manifest=https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json) and [Mirador 3](https://projectmirador.org/embed/?iiif-content=https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json) demos atm);  
-  - [ ] page rendering the text;  
+  - [ ] [page rendering the text](https://dariobaldini98.github.io/tesi_db/tei/tesi_db_text.xml) (WIP - no style info atm);  
 
 Links will be provided in the task list above as soon as avaiable.  
 
