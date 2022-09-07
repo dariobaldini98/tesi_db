@@ -64,7 +64,7 @@
 				  <p>Composto da un solo fascicolo.</p>
 				</collation>
 				<foliation resp="#DB">
-				  <p>I numeri di carta sono stai definiti da <persName ref="#DB"><forename>Dario</forename><surname>Baldini</surname></persName>; non sono scritti sulle pagine del diario.</p>
+				  <p>I numeri di carta sono stai definiti da <persName ref="#DB"><forename>Dario</forename> <surname>Baldini</surname></persName>; non sono scritti sulle pagine del diario.</p>
 				</foliation>
 				<condition>
 				  <p>La prima e l'ultima carta sono staccate e abbastanza consumate, soprattutto negli angoli; il resto è in buone condizioni.</p>
@@ -123,7 +123,7 @@
 			</decoDesc>
 			<additions>
 			  <p>
-			    <locusGrp><locus from="9r" to="9v">In 9r, 9v</locus> e <locus from="40r" to="44v">da 40r a 44v</locus></locusGrp> sono presenti scritte apportate successivamente da <person xml:id="OR"><persName><forename>Orombello</forename> <surname>Riccioni</surname></persName>, figlio di <persName ref="#PR"><forename>Pasquale</forename></persName>.
+			    <locusGrp><locus from="9r" to="9v">In 9r, 9v</locus> e <locus from="40r" to="44v">da 40r a 44v</locus></locusGrp> sono presenti scritte apportate successivamente da <persName xml:id="OR"><forename>Orombello</forename> <surname>Riccioni</surname></persName>, figlio di <persName ref="#PR"><forename>Pasquale</forename></persName>.
 			  </p>
 			</additions>
 			<accMat facs="https://iiif.archivelab.org/iiif/tesi_db_42r_geo_202205/full/full/0/default.jpg">
