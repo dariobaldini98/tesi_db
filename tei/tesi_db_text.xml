@@ -31,12 +31,12 @@
 			<msName type="supplied" resp="#DB">Diario di Pasquale Riccioni</msName>
 		  </msIdentifier>
 		  <msContents defective="true">
-		    <msItem n="1">
+		    <msItem>
 			  <locusGrp>
                 <locus from="1r" to="8v">1r-8v</locus>
                 <locus from="10r" to="40r">10r-40r</locus>
               </locusGrp>
-			  <title type="supplied" resp="#DB">Testo originale</title>
+			  <title type="supplied" resp="#DB">Scritte originali</title>
 			  <author>
 			    <person xml:id="PR">
                   <persName>
@@ -48,25 +48,7 @@
                   <occupation>Guardia carceraria</occupation>
                 </person>
 			  </author>
-			</msItem>
-		    <msItem n="2">
-			  <locusGrp>
-                <locus from="9r" to="9v">9r-9v</locus>
-                <locus from="40r" to="44v">40r-44v</locus>
-              </locusGrp>
-			  <title type="supplied" resp="#DB">Scritte aggiunte successivamente</title>
-			  <author>
-			    <person xml:id="OR">
-                  <persName>
-                    <forename>Orombello</forename>
-					<surname>Riccioni</surname>
-                  </persName>
-                  <birth when="1913-02-02"/>
-				  <death when="1995-03-13"/>
-                  <occupation>Sarto</occupation>
-                </person>
-			  </author>
-			</msItem> 			
+			</msItem>			
 		  </msContents>
 		  <physDesc>
 		    <objectDesc form="notebook">
@@ -82,7 +64,7 @@
 				  <p>Composto da un solo fascicolo.</p>
 				</collation>
 				<foliation resp="#DB">
-				  <p>I numeri di carta sono stai definiti da Dario Baldini; non sono indicati sulle pagine del diario.</p>
+				  <p>I numeri di carta sono stai definiti da <persName ref="#DB"><forename>Dario</forename><surname>Baldini</surname></persName>; non sono scritti sulle pagine del diario.</p>
 				</foliation>
 				<condition>
 				  <p>La prima e l'ultima carta sono staccate e abbastanza consumate, soprattutto negli angoli; il resto è in buone condizioni.</p>
@@ -139,6 +121,11 @@
                 <p>Riproduzione del timbro della <orgName type="bank">Cassa di Risparmio di <placeName><settlement type="city">Viterbo</settlement></placeName></orgName> in <locus>10r</locus>; riproduzione della probabile etichetta identificativa di un documento giudiziario in <locus>39v</locus>.</p>
               </decoNote>
 			</decoDesc>
+			<additions>
+			  <p>
+			    <locusGrp><locus from="9r" to="9v">In 9r, 9v</locus> e <locus from="40r" to="44v">da 40r a 44v</locus></locusGrp> sono presenti scritte apportate successivamente da <person xml:id="OR"><persName><forename>Orombello</forename> <surname>Riccioni</surname></persName>, figlio di <persName ref="#PR"><forename>Pasquale</forename></persName>.
+			  </p>
+			</additions>
 			<accMat facs="https://iiif.archivelab.org/iiif/tesi_db_42r_geo_202205/full/full/0/default.jpg">
 			  <p><locus from="41v" to="42r">Tra 41v e 42r</locus> è stata trovata la copertina del libro <title type="short" level="m">Geografia Moderna Universale</title> di <author>Giuseppe R. Pagnozzi</author>.</p>
 			</accMat>
