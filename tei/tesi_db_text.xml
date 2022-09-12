@@ -196,13 +196,14 @@
     <body>
       <pb n="1r" facs="https://iiif.archivelab.org/iiif/tesi_db_1r/full/full/0/default.jpg"/>
       <diaryEntry>
-	    <p><measure type="currency" unit="ITL" quantity="50">&#8356; 50,00</measure>, che da quell'epoca in poi, forza di scrivergli riuscì con estenti avere <measure type="currency" unit="ITL" quantity="25">lire 25,00</measure>, come risulta a tergo della qui unita ricevuta.</p>
-		<p>Ringraziandola di tanto favore, si dichiara suo De.mo <choice><expan>Umilissimo</expan><abbr>Um.mo</abbr></choice> Servo</p>
-		<p>Rimettendo alla Direzione anco la ricevuta del <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Milano</surname> <forename>Giovanni</forename></persName>; che era così concipita, <q type="written">Io sottoscritto dichiaro di aver ricevuto dalla <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname></persName>, per favorire il <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Perugi</surname></persName>, che ristituisco appena liquidati i conti della mensa alla fine del Mese.</p>
-		<closer>
-          <dateline><placeName><settlement type="city">Viterbo</settlement></placeName> <date when="1894-12-22">22 Dicembre 1894</date>,</dateline>
-		  <signed><persName><roleName type="honorific">Signor</roleName> <forename><choice><expan>Giovanni</expan><abbr>G.</abbr></choice></forename> <surname>Milano</surname></persName></signed>
-        </closer>
+	    <p><measure type="currency" unit="ITL" quantity="50">&#8356;. 50,00</measure>, che da quell'epoca in poi, a forza di scrivergli riuscì con estenti avere <measure type="currency" unit="ITL" quantity="25">lire 25,00</measure>, come risulta a tergo della qui unita ricevuta.</p>
+		<p>Ringraziandola di tanto favore, si dichiara suo <choice><expan>Devotissimo Umilissimo</expan><abbr>De.mo Um.mo</abbr></choice> Servo</p>
+		<p>Rimettendo alla Direzione anco la ricevuta del <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Milano</surname> <forename>Giovanni</forename></persName>; che era così concipita, <q type="written">Io sottoscritto dichiaro di aver ricevuto dalla <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname></persName>, per favorire il <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Perugi</surname></persName>, che ristituisco appena liquidati i conti della mensa alla fine del Mese.</q></p>
+		<q type="written">
+		  <closer>
+            <dateline><placeName><settlement type="city">Viterbo</settlement></placeName> <date when="1894-12-22">22 Dicembre 1894</date>,</dateline>
+		    <signed><persName><roleName type="honorific">Signor</roleName> <forename><choice><expan>Giovanni</expan><abbr>G.</abbr></choice></forename> <surname>Milano</surname></persName></signed>
+          </closer>
 		</q>
 		<ab>Una risposta di una Cartolina mandata al <persName><roleName type="military">Sotto capo<choice><expan>Guardia</expan><abbr>G.a</abbr></choice></roleName> <surname>Zaffarini</surname></persName></ab>
 	  </diaryEntry>
@@ -211,7 +212,7 @@
 		  <opener>
 		    <salute><persName ref="#PR"><surname>Riccioni</surname></persName>!</salute> <dateline><placeName><settlement type="city">Lanciano</settlement></placeName> <date when="1901-03-31">31 Marzo 1901</date></dateline> 
 		  </opener>
-		  <p>In una mia cartolina domandai quanto era la rimanenza: solamente il <date when="1901-03-26">26 corrente</date> mi pervenne Cartolina; dicendomi di avermi scritto in proposito: lasciamo le chiacchiere, alla Settimana Ventura riceverai <measure type="currency" unit="ITL" quantity="5">&#8356; 5,00</measure> in saldo delle <measure type="currency" unit="ITL" quantity="60">&#8356; 60</measure>. Vesto lana onesta: questa tua cartolina mi servirà per provartelo meglio ancora! non so- caffone... mi vanto di essere un cittadino<pb n="1v" facs="https://iiif.archivelab.org/iiif/tesi_db_1v/full/full/0/default.jpg"/> onesto, gli impegni a suo tempo saranno tutti soddisfatti, di <measure type="currency" unit="ITL" quantity="60">&#8356; 60</measure> te ne pagai <measure type="currency" unit="ITL" quantity="55">55</measure> e per la rimanenza di <measure type="currency" unit="ITL" quantity="5">&#8356; 5,00</measure> ti credi permetterti certe parole che non conosci il significato!</p>
+		  <p>In una mia cartolina domandai quanto era la rimanenza: solamente il <date when="1901-03-26">26 corrente</date> mi pervenne Cartolina; dicendomi di avermi scritto in proposito: lasciamo le chiacchiere, alla settimana ventura riceverai <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure> in saldo delle <measure type="currency" unit="ITL" quantity="60">&#8356;. 60</measure>. Vesto lana onesta: questa tua cartolina mi servirà per provartelo meglio ancora! non so- caffone... mi vanto di essere un cittadino<pb n="1v" facs="https://iiif.archivelab.org/iiif/tesi_db_1v/full/full/0/default.jpg"/> onesto, gli impegni a suo tempo saranno tutti soddisfatti, di <measure type="currency" unit="ITL" quantity="60">&#8356;. 60</measure> te ne pagai <measure type="currency" unit="ITL" quantity="55">55</measure> e per la rimanenza di <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure> ti credi permetterti certe parole che non conosci il significato!</p>
 		  <closer>
 		  <signed><persName><surname>Zaffarini</surname></persName></signed>
           </closer>
