@@ -235,7 +235,43 @@
 		<ab>(spedita il <date when="1901-05-24">24 maggio 1901</date>)</ab>
 		<ab>Inviata a questo indirizzo All'<choice><expan>Illustrissimo Signor</expan><abbr>Ill.mo Sig.</abbr></choice> Direttore delle <orgName type="phrase">Carceri Giudiziarie <placeName><settlement type="city">Lanciano</settlement></placeName></orgName></ab>
 	  </diaryEntry>
-
+	  <diaryEntry>
+	    <ab>Le due ricevute rilasciate carta da bollo, dal <persName><roleName type="military">Sotto capo<choice><expan>Guardia</expan><abbr>G.</abbr></choice></roleName> <surname>Zaffarini</surname></persName></ab>
+		<q type="written">
+		  <p>Il sottoscritto dichiara aver ricevuto dalla <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname> <forename>Pasquale</forename></persName> <measure type="currency" unit="ITL" quantity="35">&#8356;. 35</measure> in titolo di prestito con obbligo restituirgliele il giorno <date when="1900-05-27">27 Maggio con<!--SENTI FRANCA--></date></p>
+		  <closer>
+		    <signed>Il <persName><roleName type="military">Sotto capo</roleName> <surname>Zaffarini</surname> <forename>Augusto</forename></persName></signed>
+			<dateline><placeName><settlement type="city">Civitavecchia</settlement></placeName> addì <date when="1900-05-10">10 Maggio 1900</date></dateline>
+          </closer>
+		</q>
+		<ab>Dico <measure type="currency" unit="ITL" quantity="35">Lire trentacinque</measure></ab>
+		<table rows="5" cols="1">
+		  <head>Invece poi a stento poté riscuotere le seguente rade come segue</head>
+		  <row>
+		    <cell>Il <date when="1900-05-27">27 Maggio 1900</date>, Ricevuto, delle <measure type="currency" unit="ITL" quantity="35">35 lire</measure> a conto <measure type="currency" unit="ITL" quantity="20">&#8356;. 20,00</measure></cell>
+		  </row>
+		  <row>
+		    <cell>Il <date when="1900-07-01">1 Luglio 1900</date> //  // //   // // <measure type="currency" unit="ITL" quantity="5">5,00</measure></cell>
+		  </row>
+		  <row>
+		    <cell>Il <date when="1900-19-01">1 Ottobre 1900</date> //  // //   // // <measure type="currency" unit="ITL" quantity="5">5,00</measure></cell>
+		  </row>
+		  <row>
+		    <cell>Il <date when="1901-01-04">4 Gennaio 1901</date> //  // //   // // <measure type="currency" unit="ITL" quantity="5">5,00</measure></cell>
+		  </row>
+		  <row>
+		    <cell>(Saldato il conto il <date when="1901-01-04">4 Gennaio 1901</date>) totale <measure type="currency" unit="ITL" quantity="35">&#8356;. 35,00</measure></cell>
+		  </row>
+		</table>
+		<q type="written">
+		  <p>Il sottoscritto dichiara di aver ricevuto dalla <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname> <forename>Pasquale</forename></persName> <measure type="currency" unit="ITL" quantity="25">&#8356;. 25,00</measure> obbligandomi restituirgliele a <measure type="currency" unit="ITL" quantity="5">&#8356;. cinque</measure> mensili incominciando dal <date when="1900-05-27">27 Maggio con<!--SENTI FRANCA--></date></p>
+		  <closer>
+		    <signed>Il <persName><roleName type="military">Sotto capo</roleName> <surname>Zaffarini</surname> <forename>Augusto</forename></persName></signed>
+			<dateline><placeName><settlement type="city">Civitavecchia</settlement></placeName> addì <date when="1900-05-10">10 Maggio 1900</date></dateline>
+          </closer>
+		</q>
+		<ab>Dico <measure type="currency" unit="ITL" quantity="25">Lire venticinque</measure></ab>
+	  </diaryEntry>
 	  <pb n="2v" facs="https://iiif.archivelab.org/iiif/tesi_db_2v/full/full/0/default.jpg"/>
 
 	  <pb n="3r" facs="https://iiif.archivelab.org/iiif/tesi_db_3r/full/full/0/default.jpg"/>
