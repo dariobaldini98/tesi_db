@@ -118,7 +118,7 @@
                 <p>Due simboli che ricordano l'operatore matematico della somma diretta in <locus from="15v" to="16r">15v e 16r</locus>.</p>
               </decoNote>
 			  <decoNote type="stamp">
-                <p>Riproduzione del timbro della <orgName type="bank">Cassa di Risparmio di <placeName><settlement type="city">Viterbo</settlement></placeName></orgName> in <locus>10r</locus>; riproduzione della probabile etichetta identificativa di un documento giudiziario in <locus>39v</locus>.</p>
+                <p>Riproduzione del timbro della <orgName type="phrase">Cassa di Risparmio di <placeName><settlement type="city">Viterbo</settlement></placeName></orgName> in <locus>10r</locus>; riproduzione della probabile etichetta identificativa di un documento giudiziario in <locus>39v</locus>.</p>
               </decoNote>
 			</decoDesc>
 			<additions>
@@ -217,10 +217,17 @@
 		  <signed><persName><surname>Zaffarini</surname></persName></signed>
           </closer>
 		</q>
-		<p>Realmente sapendo che è un buffarolo il <persName><roleName type="military">Sotto capo<choice><expan>Guardia</expan><abbr>G.a</abbr></choice></roleName> <surname>Zaffarini</surname></persName>, sono già trascorsi due mesi da che mandò la suddetta cartolina e riconosciuto che è pagaccia. Scrisse subito al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore di quelle carceri, con la seguente Cartolina.</p>
 	  </diaryEntry>
-	  
-	  <pb n="2r" facs="https://iiif.archivelab.org/iiif/tesi_db_2r/full/full/0/default.jpg"/>
+	  <diaryEntry>
+		<p>Realmente sapendo che è un buffarolo il <persName><roleName type="military">Sotto capo<choice><expan>Guardia</expan><abbr>G.a</abbr></choice></roleName> <surname>Zaffarini</surname></persName>, sono già trascorsi due mesi da che mandò la suddetta cartolina e riconosciuto che è pagaccia. Scrisse subito al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore di quelle carceri, con la seguente Cartolina.</p>
+		<opener>
+		    <salute><choice><expan>Illustrissimo Signor</expan><abbr>Ill.mo Sig.</abbr></choice> Direttore delle <orgName type="phrase">Carceri Giudiziarie <placeName><settlement type="city">Lanciano</settlement></placeName></orgName></salute>
+			<dateline>(<placeName><settlement type="city">Civitavecchia</settlement></placeName> addì <date when="1901-05-23">23 maggio 1901</date>)</dateline>
+		</opener>
+		<p><persName ref="#PR"><surname>Riccioni</surname> <forename>Pasquale</forename></persName> Guardia Carceraria nel <orgName type="phrase">Giudiziario di <placeName><settlement type="city">Civitavecchia</settlement></placeName></orgName>. Chiede umilmente perdono alla <choice><expan>Signoria Vostra Illustrissima</expan><abbr>S. V. Ill.a</abbr></choice> dell'ardire che si prese di indirizzarle la presente. Il caso vole che egli deve avere dal <persName><roleName type="military">Sotto capo<choice><expan>Guardia</expan><abbr>G.a</abbr></choice></roleName> <surname>Zaffarini</surname> <forename>Augusto</forename></persName> una rimanenza di <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure>. Perché il <date when="1900-05-10">10 Maggio 1900</date> a forza di preghiere, e per levarselo d'intorno fu costretto a fargli un prestito di <measure type="currency" unit="ITL" quantity="60">&#8356;. <damage hand="#PRit" agent="tear" degree="high" group="1" extent="2 words"><unclear reason="illegible" resp="#DB">60,00</measure> per</unclear></damage><pb n="2r" facs="https://iiif.archivelab.org/iiif/tesi_db_2r/full/full/0/default.jpg"/> non far vedere che era un egoista non volle né meno un <measure type="currency" unit="ITL" quantity="0,01">Cent.mo</measure> di fruttato, rilasciando regolare ricevuta in carta da bollo.</p>
+		<p></p>
+		<p></p>
+	  </diaryEntry>
 
 	  <pb n="2v" facs="https://iiif.archivelab.org/iiif/tesi_db_2v/full/full/0/default.jpg"/>
 
