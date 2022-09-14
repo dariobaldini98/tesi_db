@@ -310,10 +310,10 @@
 		  <opener>
 		    <salute>Caro <persName ref="#PR"><surname>Riccioni</surname></persName></salute>
 		  </opener>
-		  <p>per questo mese sole <measure type="currency" unit="ITL" quantity="25">&#8356;. 10<measure>fine di Ottobre la rimanenza riservandomi riscontrare a quell'epoca alla tua lettera, salutandoti</p>
+		  <p>per questo mese sole <measure type="currency" unit="ITL" quantity="25">&#8356;. 10<measure>, alla fine di Ottobre la rimanenza riservandomi riscontrare a quell'epoca alla tua lettera, salutandoti</p>
 		  <closer>
-		    <signed></signed>
-			<dateline></dateline>
+		    <signed><persName><surname>Zaffarini</surname></persName></signed>
+			<dateline><placeName><settlement type="city">Terracina</settlement></placeName><date when="1900-09-29">29 Settembre 1900</date></dateline>
           </closer>
 		</q>
 		<ab>altra Cartolina</ab>
@@ -321,10 +321,10 @@
 		  <opener>
 		    <salute><persName ref="#PR"><surname>Riccioni</surname></persName></salute>
 		  </opener>
-		  <p></p>
+		  <p>Anche a piccoli passi si giunge alla meta! <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure></p>
 		  <closer>
-		    <signed></signed>
-			<dateline></dateline>
+		    <signed><persName><surname>Zaffarini</surname></persName></signed>
+			<dateline><placeName><settlement type="city">Terracina</settlement></placeName><date when="1900-10-31">31 Ottobre 1900 </date></dateline>
           </closer>
 		</q>
 		<ab>3° Cartolina</ab>
@@ -332,16 +332,35 @@
 		  <opener>
 		    <salute>Caro <persName ref="#PR"><surname>Riccioni</surname></persName></salute>
 		  </opener>
-		  <p></p>
+		  <p>Ti spedisco <measure type="currency" unit="ITL" quantity="5">&#8356;. 5</measure>, metterai a a conto mio. Sperando vorrai farmi sapere quanto sia la rimanenza, derai al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> capo Guardia che domani spedisco a Lui del danaro che passerà al Birraio:</p> 
 		  <closer>
-		    <signed></signed>
-			<dateline></dateline>
+		    <salute>buon'anno e salute a tutti</salute>
+		    <signed><persName><surname>Zaffarini</surname></persName></signed>
+			<dateline><placeName><settlement type="city">Lanciano</settlement></placeName><date when="1900-12-30">30 Dicembre 1900</date></dateline>
           </closer>
 		</q>
 	  </diaryEntry>
-
-	  <pb n="4r" facs="https://iiif.archivelab.org/iiif/tesi_db_4r/full/full/0/default.jpg"/>
-
+      <pb n="4r" facs="https://iiif.archivelab.org/iiif/tesi_db_4r/full/full/0/default.jpg"/>
+	  <diaryEntry>
+	    <q type="written">
+		  <p>Ricevo dalla <persName ref="#PR"><roleName type="military">guardia</roleName> <surname>Riccioni</surname></persName> per favorire il <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Perugi</surname></persName>, la somma di <measure type="currency" unit="ITL" quantity="50">&#8356;. 50</measure> che ristituisco al <date when="1894-12-30">30 del volgente</date>, appena liquidati i conti della mensa</p>
+		  <closer>
+			<dateline><placeName><settlement type="city">Viterbo</settlement> lì </placeName><date when="1894-12-22">22 Dicembre 1894</date></dateline>
+		    <signed>Il <persName><roleName type="military">Capo Guardia</roleName> <forename full="init">G.</forename> <surname>Milano</surname></persName></signed>
+          </closer>
+		</q>
+		<table rows="3" cols="1">
+		  <row>
+		    <cell>Danari riscossi il <date when="1898-10-31">23 Ottobre 1898</date> <measure type="currency" unit="ITL" quantity="10">&#8356;. 10,00</measure></cell>
+		  </row>
+		  <row>
+		    <cell>//  // il <date when="1900-04-02">2 Aprile 1900</date> <measure type="currency" unit="ITL" quantity="10">&#8356;. 10,00</measure></cell>
+		  </row>
+		  <row>
+		    <cell>//  // il <date when="1900-12-03">3 Dicembre 1900</date> <measure type="currency" unit="ITL" quantity="5">&#8356;. 05,00</measure></cell>
+	      </row>
+		</table>
+	  </diaryEntry>
 	  <pb n="4v" facs="https://iiif.archivelab.org/iiif/tesi_db_4v/full/full/0/default.jpg"/>
 
 	  <pb n="5r" facs="https://iiif.archivelab.org/iiif/tesi_db_5r/full/full/0/default.jpg"/>
