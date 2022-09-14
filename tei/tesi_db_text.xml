@@ -235,6 +235,7 @@
 		<ab>(spedita il <date when="1901-05-24">24 maggio 1901</date>)</ab>
 		<ab>Inviata a questo indirizzo All'<choice><expan>Illustrissimo Signor</expan><abbr>Ill.mo Sig.</abbr></choice> Direttore delle <orgName type="phrase">Carceri Giudiziarie <placeName><settlement type="city">Lanciano</settlement></placeName></orgName></ab>
 	  </diaryEntry>
+	  <pb n="2v" facs="https://iiif.archivelab.org/iiif/tesi_db_2v/full/full/0/default.jpg"/>
 	  <diaryEntry>
 	    <ab>Le due ricevute rilasciate carta da bollo, dal <persName><roleName type="military">Sotto capo<choice><expan>Guardia</expan><abbr>G.</abbr></choice></roleName> <surname>Zaffarini</surname></persName></ab>
 		<q type="written">
@@ -271,12 +272,73 @@
           </closer>
 		</q>
 		<ab>Dico <measure type="currency" unit="ITL" quantity="25">Lire venticinque</measure></ab>
+		<pb n="3r" facs="https://iiif.archivelab.org/iiif/tesi_db_3r/full/full/0/default.jpg"/>
+		<table rows="6" cols="1">
+		  <head>Riscosse come segue</head>
+		  <row>
+		    <cell>Il <date when="1900-05-27">27 Maggio 1900</date> a conto delle <measure type="currency" unit="ITL" quantity="25">&#8356;. 25</measure>, <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure></cell>
+		  </row>
+		  <row>
+		    <cell>Il <date when="1900-07-01">1 Luglio 1900</date> a //  //  //  // <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure></cell>
+		  </row>
+		  <row>
+		    <cell>Il <date when="1900-09-10">10 Settembre 1900</date> //  //  //  // <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure></cell>
+		  </row>
+		  <row>
+		    <cell>Il <date when="1900-10-05">5 Ottobre 1900</date> //  //   //  // <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure></cell>
+		  </row>
+		  <row>
+		    <cell>Il <date when="1902-02-01">1 Febbraio 1902</date> //  //  //  // <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure></cell>
+		  </row>
+		  <row>
+		    <cell>(Saldato il conto il <date when="1902-02-01">1°<!--CONTROLLA SE FUNZIONA--> Febbraio 1902</date>) totale <measure type="currency" unit="ITL" quantity="25">&#8356;. 25,00</measure></cell>
+		  </row>
+		</table>
+		<p>Prima di prendere il danaro, fece tante promesse di essere puntuale, che alla fine del Mese mi doveva dare al meno <measure type="currency" unit="ITL" quantity="40">&#8356;. 40,00</measure> a stare come dice sulle due ricevute da Lui rilasciatomi. Invece si ne sortì con questa storiella qui sotto</p>
+		<q type="written">
+		  <opener>
+		    <salute><persName ref="#PR"><surname>Riccioni</surname></persName></salute>
+		  </opener>
+		  <p>abbia pazienza, per questo mese segna Nella mia obbligazione <measure type="currency" unit="ITL" quantity="20">&#8356;. 20,00</measure>, e nell'altra delle <measure type="currency" unit="ITL" quantity="25">&#8356;. 25,00</measure> <measure type="currency" unit="ITL" quantity="5">&#8356;. 05</measure>. Ti devi persuadere che non è per catteveria se non faccio quello che era mio obbligo: ma solamente perché debbo pure pagare quelli che mi diedero da mangiare, per il mese - alla paga di Giugno pagherò la rimanenza: la tua paga è di <measure type="currency" unit="ITL" quantity="56.12">&#8356;. 56,12</measure>, più <measure type="currency" unit="ITL" quantity="25">&#8356;. 25,00</measure>, in tutto <measure type="currency" unit="ITL" quantity="81.12">&#8356;. 81,12</measure></p>
+		  <closer>
+			<dateline>(<date when="1900-05-27">27 Maggio 1900</date>)</dateline>
+          </closer>
+		</q>
+		<pb n="3v" facs="https://iiif.archivelab.org/iiif/tesi_db_3v/full/full/0/default.jpg"/>
+		<ab>(In una Cartolina diceva)</ab>
+		<q type="written">
+		  <opener>
+		    <salute>Caro <persName ref="#PR"><surname>Riccioni</surname></persName></salute>
+		  </opener>
+		  <p>per questo mese sole <measure type="currency" unit="ITL" quantity="25">&#8356;. 10<measure>fine di Ottobre la rimanenza riservandomi riscontrare a quell'epoca alla tua lettera, salutandoti</p>
+		  <closer>
+		    <signed></signed>
+			<dateline></dateline>
+          </closer>
+		</q>
+		<ab>altra Cartolina</ab>
+		<q type="written">
+		  <opener>
+		    <salute><persName ref="#PR"><surname>Riccioni</surname></persName></salute>
+		  </opener>
+		  <p></p>
+		  <closer>
+		    <signed></signed>
+			<dateline></dateline>
+          </closer>
+		</q>
+		<ab>3° Cartolina</ab>
+		<q type="written">
+		  <opener>
+		    <salute>Caro <persName ref="#PR"><surname>Riccioni</surname></persName></salute>
+		  </opener>
+		  <p></p>
+		  <closer>
+		    <signed></signed>
+			<dateline></dateline>
+          </closer>
+		</q>
 	  </diaryEntry>
-	  <pb n="2v" facs="https://iiif.archivelab.org/iiif/tesi_db_2v/full/full/0/default.jpg"/>
-
-	  <pb n="3r" facs="https://iiif.archivelab.org/iiif/tesi_db_3r/full/full/0/default.jpg"/>
-
-	  <pb n="3v" facs="https://iiif.archivelab.org/iiif/tesi_db_3v/full/full/0/default.jpg"/>
 
 	  <pb n="4r" facs="https://iiif.archivelab.org/iiif/tesi_db_4r/full/full/0/default.jpg"/>
 
