@@ -310,7 +310,7 @@
 		  <opener>
 		    <salute>Caro <persName ref="#PR"><surname>Riccioni</surname></persName></salute>
 		  </opener>
-		  <p>per questo mese sole <measure type="currency" unit="ITL" quantity="25">&#8356;. 10<measure>, alla fine di Ottobre la rimanenza riservandomi riscontrare a quell'epoca alla tua lettera, salutandoti</p>
+		  <p>per questo mese sole <measure type="currency" unit="ITL" quantity="25">&#8356;. 10</measure>, alla fine di Ottobre la rimanenza riservandomi riscontrare a quell'epoca alla tua lettera, salutandoti</p>
 		  <closer>
 		    <signed><persName><surname>Zaffarini</surname></persName></signed>
 			<dateline><placeName><settlement type="city">Terracina</settlement></placeName><date when="1900-09-29">29 Settembre 1900</date></dateline>
