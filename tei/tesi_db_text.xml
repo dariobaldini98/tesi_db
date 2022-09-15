@@ -345,7 +345,7 @@
 	    <q type="written">
 		  <p>Ricevo dalla <persName ref="#PR"><roleName type="military">guardia</roleName> <surname>Riccioni</surname></persName> per favorire il <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Perugi</surname></persName>, la somma di <measure type="currency" unit="ITL" quantity="50">&#8356;. 50</measure> che ristituisco al <date when="1894-12-30">30 del volgente</date>, appena liquidati i conti della mensa</p>
 		  <closer>
-			<dateline><placeName><settlement type="city">Viterbo</settlement> lì </placeName><date when="1894-12-22">22 Dicembre 1894</date></dateline>
+			<dateline><placeName><settlement type="city">Viterbo</settlement></placeName> lì <date when="1894-12-22">22 Dicembre 1894</date></dateline>
 		    <signed>Il <persName><roleName type="military">Capo Guardia</roleName> <forename full="init">G.</forename> <surname>Milano</surname></persName></signed>
           </closer>
 		</q>
@@ -361,7 +361,24 @@
 	      </row>
 		</table>
 	  </diaryEntry>
-	  <pb n="4v" facs="https://iiif.archivelab.org/iiif/tesi_db_4v/full/full/0/default.jpg"/>
+	  <diaryEntry>
+	    <p>Della domanda fatta al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore di <placeName><settlement type="city">Civitavecchia</settlement></placeName> la risposta è questa, a carico del <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Milano</surname> <forename>Giovanni</forename></persName></p>
+		<q type="written">
+		  <ab>Deliberazione</ab>
+		  <p>Faccia regolare domanda al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore di <placeName><settlement type="city">Viterbo</settlement></placeName>.</p>
+		  <closer>
+			<dateline>Lì <date when="1901-05-27">27-5-1901</date>,</dateline>
+		    <signed>Il <persName><roleName type="military">Direttore</roleName> <surname>De Angeli</surname></persName></signed>
+          </closer>
+		</q>
+		<ab>Domanda fatta al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore di <placeName><settlement type="city">Viterbo</settlement></placeName></ab>
+		<opener>
+		  <salute><choice><expan>Illustrissimo Signor</expan><abbr>Ill.mo Sig.</abbr></choice> Direttore della <orgName type="phrase">Casa Reclusione <placeName><settlement type="city">Viterbo</settlement></placeName></orgName></salute>
+		  <signed>La <persName ref="#PR"><roleName type="military">Guardia Carceraria</roleName> <surname>Riccioni</surname> <forename>Pasquale</forename></persName></signed>
+		</opener>
+		<pb n="4v" facs="https://iiif.archivelab.org/iiif/tesi_db_4v/full/full/0/default.jpg"/>
+		
+	  </diaryEntry>
 
 	  <pb n="5r" facs="https://iiif.archivelab.org/iiif/tesi_db_5r/full/full/0/default.jpg"/>
 
