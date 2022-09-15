@@ -377,10 +377,16 @@
 		  <signed>La <persName ref="#PR"><roleName type="military">Guardia Carceraria</roleName> <surname>Riccioni</surname> <forename>Pasquale</forename></persName></signed>
 		</opener>
 		<pb n="4v" facs="https://iiif.archivelab.org/iiif/tesi_db_4v/full/full/0/default.jpg"/>
-		
+		<p>attualmente a <placeName><settlement type="city">Civitavecchia</settlement></placeName>, notifica alla <choice><expan>Signoria Vostra Illustrissima</expan><abbr>S. V. Ill.a</abbr></choice> che egli nel <date when="1894">1894</date> prestava servizio in codesta casa reclusione, ora nobilmente da Lei amministrata.</p>
+		<p>Il <date when="1894-12-22">22 Dicembre dello stesso anno</date>, dietro richiesta del <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <roleName type="military">Capo Guardia</roleName> <surname>Milano</surname> <forename>Giovanni</forename></persName>, gli fece un prestito di <measure type="currency" unit="ITL" quantity="50">&#8356;. 50,00</measure> come diceva Lui per favorire il <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Perugi</surname></persName> che appena liquidati i conti della mensa, cioè il <date when="1894-12-30">30 volgente</date> restituiva. Invece fu tutto al contrario, e da quell'epoca impoi a forza di scrivergli poté ricuperare la somma di <measure type="currency" unit="ITL" quantity="25">&#8356;. 25,00</measure>, come risulta a tergo della qui unita ricevuta.</p>
+		<p>Il <date when="1901-04-25">25 Aprile</date> scorso avendogli scritto una Cartolina non diede ne meno risposta, a secondo del caso il <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <forename>Giovanni</forename> <surname>Milano</surname></persName> si diverta a farle spendere danari alla posta e carta bollata.</p>
+		<p>Quello che umilia la presente, Si rivolge alla prelodata <choice><expan>Vostra Signoria Illustrissima</expan><abbr>V. S. Ill.ma</abbr></choice> onde voglia compiacersi di richiamare l'attenzione del <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <forename>Giovanni</forename> <surname>Milano</surname></persName> e obbligandolo alla restituzione delle <measure type="currency" unit="ITL" quantity="25">&#8356;. 25</measure> che egli deve dare ancora, che ne ha molto bisogno il suo<pb n="5r" facs="https://iiif.archivelab.org/iiif/tesi_db_5r/full/full/0/default.jpg"/> creditore. Intanto egli col più profondo rispetto si dichiara Suo</p>
+		<closer>
+			<signed><choice><expan>Devotissimo</expan><abbr>De.mo</abbr></choice> Servo <persName ref="#PR"><forename full="init">P.</forename> <surname>Riccioni</surname></persName></signed>
+			<dateline><placeName><settlement type="city">Civitavecchia</settlement></placeName> addì <date when="1901-05-29">29 Maggio 1901</date></dateline>
+        </closer>
+		<ab>oggi stesso consegnata alla Direzione Locale (<date when="1901-05-29">29-5-901</date>)</ab>
 	  </diaryEntry>
-
-	  <pb n="5r" facs="https://iiif.archivelab.org/iiif/tesi_db_5r/full/full/0/default.jpg"/>
 
 	  <pb n="5v" facs="https://iiif.archivelab.org/iiif/tesi_db_5v/full/full/0/default.jpg"/>
 
