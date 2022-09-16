@@ -349,17 +349,11 @@
 		    <signed>Il <persName><roleName type="military">Capo Guardia</roleName> <forename full="init">G.</forename> <surname>Milano</surname></persName></signed>
           </closer>
 		</quote>
-		<table rows="3" cols="1">
-		  <row>
-		    <cell>Danari riscossi il <date when="1898-10-31">23 Ottobre 1898</date> <measure type="currency" unit="ITL" quantity="10">&#8356;. 10,00</measure></cell>
-		  </row>
-		  <row>
-		    <cell>//  // il <date when="1900-04-02">2 Aprile 1900</date> <measure type="currency" unit="ITL" quantity="10">&#8356;. 10,00</measure></cell>
-		  </row>
-		  <row>
-		    <cell>//  // il <date when="1900-12-03">3 Dicembre 1900</date> <measure type="currency" unit="ITL" quantity="5">&#8356;. 05,00</measure></cell>
-	      </row>
-		</table>
+		<list>
+		  <item>Danari riscossi il <date when="1898-10-31">23 Ottobre 1898</date> <measure type="currency" unit="ITL" quantity="10">&#8356;. 10,00</measure></item>
+		  <item>//  // il <date when="1900-04-02">2 Aprile 1900</date> <measure type="currency" unit="ITL" quantity="10">&#8356;. 10,00</measure></item>
+		  <item>//  // il <date when="1900-12-03">3 Dicembre 1900</date> <measure type="currency" unit="ITL" quantity="5">&#8356;. 05,00</measure></item>
+		</list>
 	  </diaryEntry>
 	  <diaryEntry>
 	    <p>Della domanda fatta al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore di <placeName><settlement type="city">Civitavecchia</settlement></placeName> la risposta è questa, a carico del <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Milano</surname> <forename>Giovanni</forename></persName></p>
