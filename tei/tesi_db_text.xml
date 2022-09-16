@@ -198,17 +198,17 @@
 	  <pb n="1r" facs="https://iiif.archivelab.org/iiif/tesi_db_1r/full/full/0/default.jpg"/>
 	    <p><measure type="currency" unit="ITL" quantity="50">&#8356;. 50,00</measure>, che da quell'epoca in poi, a forza di scrivergli riuscì con estenti avere <measure type="currency" unit="ITL" quantity="25">lire 25,00</measure>, come risulta a tergo della qui unita ricevuta.</p>
 		<p>Ringraziandola di tanto favore, si dichiara suo <choice><expan>Devotissimo Umilissimo</expan><abbr>De.mo Um.mo</abbr></choice> Servo</p>
-		<p>Rimettendo alla Direzione anco la ricevuta del <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Milano</surname> <forename>Giovanni</forename></persName>; che era così concipita, <q type="written">Io sottoscritto dichiaro di aver ricevuto dalla <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname></persName>, per favorire il <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Perugi</surname></persName>, che ristituisco appena liquidati i conti della mensa alla fine del Mese.</q></p>
-		<q type="written">
+		<p>Rimettendo alla Direzione anco la ricevuta del <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Milano</surname> <forename>Giovanni</forename></persName>; che era così concipita, <quote>Io sottoscritto dichiaro di aver ricevuto dalla <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname></persName>, per favorire il <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Perugi</surname></persName>, che ristituisco appena liquidati i conti della mensa alla fine del Mese.</quote></p>
+		<quote>
 		  <closer>
             <dateline><placeName><settlement type="city">Viterbo</settlement></placeName> <date when="1894-12-22">22 Dicembre 1894</date>,</dateline>
 		    <signed><persName><roleName type="honorific">Signor</roleName> <forename full="init">G.</forename> <surname>Milano</surname></persName></signed>
           </closer>
-		</q>
+		</quote>
 		<ab>Una risposta di una Cartolina mandata al <persName><roleName type="military">Sotto capo<choice><expan>Guardia</expan><abbr>G.a</abbr></choice></roleName> <surname>Zaffarini</surname></persName></ab>
 	  </diaryEntry>
 	  <diaryEntry>
-		<q type="written">
+		<quote>
 		  <opener>
 		    <salute><persName ref="#PR"><surname>Riccioni</surname></persName>!</salute> <dateline><placeName><settlement type="city">Lanciano</settlement></placeName> <date when="1901-03-31">31 Marzo 1901</date></dateline> 
 		  </opener>
@@ -216,7 +216,7 @@
 		  <closer>
 		  <signed><persName><surname>Zaffarini</surname></persName></signed>
           </closer>
-		</q>
+		</quote>
 	  </diaryEntry>
 	  <diaryEntry>
 		<p>Realmente sapendo che è un buffarolo il <persName><roleName type="military">Sotto capo<choice><expan>Guardia</expan><abbr>G.a</abbr></choice></roleName> <surname>Zaffarini</surname></persName>, sono già trascorsi due mesi da che mandò la suddetta cartolina e riconosciuto che è pagaccia. Scrisse subito al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore di quelle carceri, con la seguente Cartolina.</p>
@@ -238,13 +238,13 @@
 	  <pb n="2v" facs="https://iiif.archivelab.org/iiif/tesi_db_2v/full/full/0/default.jpg"/>
 	  <diaryEntry>
 	    <ab>Le due ricevute rilasciate carta da bollo, dal <persName><roleName type="military">Sotto capo<choice><expan>Guardia</expan><abbr>G.</abbr></choice></roleName> <surname>Zaffarini</surname></persName></ab>
-		<q type="written">
+		<quote>
 		  <p>Il sottoscritto dichiara aver ricevuto dalla <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname> <forename>Pasquale</forename></persName> <measure type="currency" unit="ITL" quantity="35">&#8356;. 35</measure> in titolo di prestito con obbligo restituirgliele il giorno <date when="1900-05-27">27 Maggio con<!--SENTI FRANCA--></date></p>
 		  <closer>
 		    <signed>Il <persName><roleName type="military">Sotto capo</roleName> <surname>Zaffarini</surname> <forename>Augusto</forename></persName></signed>
 			<dateline><placeName><settlement type="city">Civitavecchia</settlement></placeName> addì <date when="1900-05-10">10 Maggio 1900</date></dateline>
           </closer>
-		</q>
+		</quote>
 		<ab>Dico <measure type="currency" unit="ITL" quantity="35">Lire trentacinque</measure></ab>
 		<table rows="5" cols="1">
 		  <head>Invece poi a stento poté riscuotere le seguente rade come segue</head>
@@ -264,13 +264,13 @@
 		    <cell>(Saldato il conto il <date when="1901-01-04">4 Gennaio 1901</date>) totale <measure type="currency" unit="ITL" quantity="35">&#8356;. 35,00</measure></cell>
 		  </row>
 		</table>
-		<q type="written">
+		<quote>
 		  <p>Il sottoscritto dichiara di aver ricevuto dalla <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname> <forename>Pasquale</forename></persName> <measure type="currency" unit="ITL" quantity="25">&#8356;. 25,00</measure> obbligandomi restituirgliele a <measure type="currency" unit="ITL" quantity="5">&#8356;. cinque</measure> mensili incominciando dal <date when="1900-05-27">27 Maggio con<!--SENTI FRANCA--></date></p>
 		  <closer>
 		    <signed>Il <persName><roleName type="military">Sotto capo</roleName> <surname>Zaffarini</surname> <forename>Augusto</forename></persName></signed>
 			<dateline><placeName><settlement type="city">Civitavecchia</settlement></placeName> addì <date when="1900-05-10">10 Maggio 1900</date></dateline>
           </closer>
-		</q>
+		</quote>
 		<ab>Dico <measure type="currency" unit="ITL" quantity="25">Lire venticinque</measure></ab>
 		<pb n="3r" facs="https://iiif.archivelab.org/iiif/tesi_db_3r/full/full/0/default.jpg"/>
 		<table rows="6" cols="1">
@@ -295,7 +295,7 @@
 		  </row>
 		</table>
 		<p>Prima di prendere il danaro, fece tante promesse di essere puntuale, che alla fine del Mese mi doveva dare al meno <measure type="currency" unit="ITL" quantity="40">&#8356;. 40,00</measure> a stare come dice sulle due ricevute da Lui rilasciatomi. Invece si ne sortì con questa storiella qui sotto</p>
-		<q type="written">
+		<quote>
 		  <opener>
 		    <salute><persName ref="#PR"><surname>Riccioni</surname></persName></salute>
 		  </opener>
@@ -303,10 +303,10 @@
 		  <closer>
 			<dateline>(<date when="1900-05-27">27 Maggio 1900</date>)</dateline>
           </closer>
-		</q>
+		</quote>
 		<pb n="3v" facs="https://iiif.archivelab.org/iiif/tesi_db_3v/full/full/0/default.jpg"/>
 		<ab>(In una Cartolina diceva)</ab>
-		<q type="written">
+		<quote
 		  <opener>
 		    <salute>Caro <persName ref="#PR"><surname>Riccioni</surname></persName></salute>
 		  </opener>
@@ -315,9 +315,9 @@
 		    <signed><persName><surname>Zaffarini</surname></persName></signed>
 			<dateline><placeName><settlement type="city">Terracina</settlement></placeName><date when="1900-09-29">29 Settembre 1900</date></dateline>
           </closer>
-		</q>
+		</quote>
 		<ab>altra Cartolina</ab>
-		<q type="written">
+		<quote>
 		  <opener>
 		    <salute><persName ref="#PR"><surname>Riccioni</surname></persName></salute>
 		  </opener>
@@ -326,9 +326,9 @@
 		    <signed><persName><surname>Zaffarini</surname></persName></signed>
 			<dateline><placeName><settlement type="city">Terracina</settlement></placeName><date when="1900-10-31">31 Ottobre 1900 </date></dateline>
           </closer>
-		</q>
+		</quote>
 		<ab>3° Cartolina</ab>
-		<q type="written">
+		<quote>
 		  <opener>
 		    <salute>Caro <persName ref="#PR"><surname>Riccioni</surname></persName></salute>
 		  </opener>
@@ -338,17 +338,17 @@
 		    <signed><persName><surname>Zaffarini</surname></persName></signed>
 			<dateline><placeName><settlement type="city">Lanciano</settlement></placeName><date when="1900-12-30">30 Dicembre 1900</date></dateline>
           </closer>
-		</q>
+		</quote>
 	  </diaryEntry>
       <pb n="4r" facs="https://iiif.archivelab.org/iiif/tesi_db_4r/full/full/0/default.jpg"/>
 	  <diaryEntry>
-	    <q type="written">
+	    <quote>
 		  <p>Ricevo dalla <persName ref="#PR"><roleName type="military">guardia</roleName> <surname>Riccioni</surname></persName> per favorire il <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Perugi</surname></persName>, la somma di <measure type="currency" unit="ITL" quantity="50">&#8356;. 50</measure> che ristituisco al <date when="1894-12-30">30 del volgente</date>, appena liquidati i conti della mensa</p>
 		  <closer>
 			<dateline><placeName><settlement type="city">Viterbo</settlement></placeName> lì <date when="1894-12-22">22 Dicembre 1894</date></dateline>
 		    <signed>Il <persName><roleName type="military">Capo Guardia</roleName> <forename full="init">G.</forename> <surname>Milano</surname></persName></signed>
           </closer>
-		</q>
+		</quote>
 		<table rows="3" cols="1">
 		  <row>
 		    <cell>Danari riscossi il <date when="1898-10-31">23 Ottobre 1898</date> <measure type="currency" unit="ITL" quantity="10">&#8356;. 10,00</measure></cell>
@@ -363,14 +363,14 @@
 	  </diaryEntry>
 	  <diaryEntry>
 	    <p>Della domanda fatta al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore di <placeName><settlement type="city">Civitavecchia</settlement></placeName> la risposta è questa, a carico del <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Milano</surname> <forename>Giovanni</forename></persName></p>
-		<q type="written">
+		<quote>
 		  <ab>Deliberazione</ab>
 		  <p>Faccia regolare domanda al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore di <placeName><settlement type="city">Viterbo</settlement></placeName>.</p>
 		  <closer>
 			<dateline>Lì <date when="1901-05-27">27-5-1901</date>,</dateline>
 		    <signed>Il <persName><roleName type="military">Direttore</roleName> <surname>De Angeli</surname></persName></signed>
           </closer>
-		</q>
+		</quote>
 		<ab>Domanda fatta al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore di <placeName><settlement type="city">Viterbo</settlement></placeName></ab>
 		<opener>
 		  <salute><choice><expan>Illustrissimo Signor</expan><abbr>Ill.mo Sig.</abbr></choice> Direttore della <orgName type="phrase">Casa Reclusione <placeName><settlement type="city">Viterbo</settlement></placeName></orgName></salute>
