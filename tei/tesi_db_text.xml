@@ -246,24 +246,14 @@
           </closer>
 		</quote>
 		<ab>Dico <measure type="currency" unit="ITL" quantity="35">Lire trentacinque</measure></ab>
-		<table rows="5" cols="1">
+		<list>
 		  <head>Invece poi a stento poté riscuotere le seguente rade come segue</head>
-		  <row>
-		    <cell>Il <date when="1900-05-27">27 Maggio 1900</date>, Ricevuto, delle <measure type="currency" unit="ITL" quantity="35">35 lire</measure> a conto <measure type="currency" unit="ITL" quantity="20">&#8356;. 20,00</measure></cell>
-		  </row>
-		  <row>
-		    <cell>Il <date when="1900-07-01">1 Luglio 1900</date> //  // //   // // <measure type="currency" unit="ITL" quantity="5">5,00</measure></cell>
-		  </row>
-		  <row>
-		    <cell>Il <date when="1900-19-01">1 Ottobre 1900</date> //  // //   // // <measure type="currency" unit="ITL" quantity="5">5,00</measure></cell>
-		  </row>
-		  <row>
-		    <cell>Il <date when="1901-01-04">4 Gennaio 1901</date> //  // //   // // <measure type="currency" unit="ITL" quantity="5">5,00</measure></cell>
-		  </row>
-		  <row>
-		    <cell>(Saldato il conto il <date when="1901-01-04">4 Gennaio 1901</date>) totale <measure type="currency" unit="ITL" quantity="35">&#8356;. 35,00</measure></cell>
-		  </row>
-		</table>
+		  <item>Il <date when="1900-05-27">27 Maggio 1900</date>, Ricevuto, delle <measure type="currency" unit="ITL" quantity="35">35 lire</measure> a conto <measure type="currency" unit="ITL" quantity="20">&#8356;. 20,00</measure></item>
+		  <item>Il <date when="1900-07-01">1 Luglio 1900</date> //  // //   // // <measure type="currency" unit="ITL" quantity="5">5,00</measure></item>
+		  <item>Il <date when="1900-19-01">1 Ottobre 1900</date> //  // //   // // <measure type="currency" unit="ITL" quantity="5">5,00</measure></item>
+		  <item>Il <date when="1901-01-04">4 Gennaio 1901</date> //  // //   // // <measure type="currency" unit="ITL" quantity="5">5,00</measure></item>
+		  <item>(Saldato il conto il <date when="1901-01-04">4 Gennaio 1901</date>) totale <measure type="currency" unit="ITL" quantity="35">&#8356;. 35,00</measure></item>
+		</list>
 		<quote>
 		  <p>Il sottoscritto dichiara di aver ricevuto dalla <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname> <forename>Pasquale</forename></persName> <measure type="currency" unit="ITL" quantity="25">&#8356;. 25,00</measure> obbligandomi restituirgliele a <measure type="currency" unit="ITL" quantity="5">&#8356;. cinque</measure> mensili incominciando dal <date when="1900-05-27">27 Maggio con<!--SENTI FRANCA--></date></p>
 		  <closer>
@@ -273,27 +263,15 @@
 		</quote>
 		<ab>Dico <measure type="currency" unit="ITL" quantity="25">Lire venticinque</measure></ab>
 		<pb n="3r" facs="https://iiif.archivelab.org/iiif/tesi_db_3r/full/full/0/default.jpg"/>
-		<table rows="6" cols="1">
+		<list>
 		  <head>Riscosse come segue</head>
-		  <row>
-		    <cell>Il <date when="1900-05-27">27 Maggio 1900</date> a conto delle <measure type="currency" unit="ITL" quantity="25">&#8356;. 25</measure>, <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure></cell>
-		  </row>
-		  <row>
-		    <cell>Il <date when="1900-07-01">1 Luglio 1900</date> a //  //  //  // <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure></cell>
-		  </row>
-		  <row>
-		    <cell>Il <date when="1900-09-10">10 Settembre 1900</date> //  //  //  // <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure></cell>
-		  </row>
-		  <row>
-		    <cell>Il <date when="1900-10-05">5 Ottobre 1900</date> //  //   //  // <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure></cell>
-		  </row>
-		  <row>
-		    <cell>Il <date when="1902-02-01">1 Febbraio 1902</date> //  //  //  // <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure></cell>
-		  </row>
-		  <row>
-		    <cell>(Saldato il conto il <date when="1902-02-01">1°<!--CONTROLLA SE FUNZIONA--> Febbraio 1902</date>) totale <measure type="currency" unit="ITL" quantity="25">&#8356;. 25,00</measure></cell>
-		  </row>
-		</table>
+		  <item>Il <date when="1900-05-27">27 Maggio 1900</date> a conto delle <measure type="currency" unit="ITL" quantity="25">&#8356;. 25</measure>, <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure></item>
+		  <item>Il <date when="1900-07-01">1 Luglio 1900</date> a //  //  //  // <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure></item>
+		  <item>Il <date when="1900-09-10">10 Settembre 1900</date> //  //  //  // <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure></item>
+		  <item>Il <date when="1900-10-05">5 Ottobre 1900</date> //  //   //  // <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure></item>
+		  <item>Il <date when="1902-02-01">1 Febbraio 1902</date> //  //  //  // <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure></item>
+		  <item>(Saldato il conto il <date when="1902-02-01">1°<!--CONTROLLA SE FUNZIONA--> Febbraio 1902</date>) totale <measure type="currency" unit="ITL" quantity="25">&#8356;. 25,00</measure></item>
+		</list>
 		<p>Prima di prendere il danaro, fece tante promesse di essere puntuale, che alla fine del Mese mi doveva dare al meno <measure type="currency" unit="ITL" quantity="40">&#8356;. 40,00</measure> a stare come dice sulle due ricevute da Lui rilasciatomi. Invece si ne sortì con questa storiella qui sotto</p>
 		<quote>
 		  <opener>
@@ -381,11 +359,53 @@
         </closer>
 		<ab>oggi stesso consegnata alla Direzione Locale (<date when="1901-05-29">29-5-901</date>)</ab>
 	  </diaryEntry>
-
+	  <diaryEntry>
+	    <p>Oggi stesso ha risposto alla cartolina di <persName><surname>Aquilanti</surname> <forename>Vittorio</forename></persName>. Nel leggerla mi diede la trista notizia, che <persName><forename>Elisabetta</forename></persName> è ricoverata di nuovo ammalata già <date from="1901-05-17" to="1901-05-29">da 12 giorni</date>. <!--POI VEDI-->fa. Questi sì che sono dispiaceri; sognavo per l'avvenire dei giorni felici, ed invece pare che la sorte voglia troncare l'uniche speranze.</p>
+		<p>Dio non voglia che la cosa fosse realtà; Anzi tutto al contrario che lei per grazia della Dio mercé, abbia riacquistare quella florida gaezza di una volta, le speranze di un buon avvenire, non verranno mai meno. Questo è l'unico conforto che ho e ripongo tutto le mie speranze nella volontà di Dio e della madre natura che gli voglia dare lunga vita.</p>
+		<closer>
+	      <signed><persName ref="#PR"><forename full="init">P.</forename> <surname>Riccioni</surname></persName></signed>
+		  <dateline><placeName><settlement type="city">Civitavecchia</settlement></placeName> addì <date when="1901-05-29">29 Maggio 1901</date></dateline>
+        </closer>
+	  </diaryEntry>
+      <diaryEntry>
+	    <p><date when="1901-05-31">Oggi 31 Maggio 1901</date>, senza pensarci mi giunge verso <time when="12:00:00">le ore 12:00</time> una Cartolina Vaglia di <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure>, mandata da <persName><surname>Milano</surname> <forename>Giovanni</forename></persName> a questo indirizzo: <quote>Al <persName ref="#PR"><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice> <surname>Riccione</surname> <forename>Pasquale</forename></persName>, guardia al <orgName type="phrase">carcere di <placeName><settlement type="city">Civitavecchia</settlement></placeName></orgName></quote></p>
+	  </diaryEntry>
 	  <pb n="5v" facs="https://iiif.archivelab.org/iiif/tesi_db_5v/full/full/0/default.jpg"/>
-
+	  <diaryEntry>
+	    <ab><orgName type="phrase">Carcere Giudiziario di <placeName><settlement type="city">Civitavecchia</settlement></placeName></orgName></ab>
+		<opener>
+		  <dateline>Lì <date when="1901-06-02">2 Giugno 1901</date></dateline>
+		  <salute>Domanda al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore</salute>
+		</opener>
+		<p>La <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname> <forename>Pasquale</forename></persName> prega di volerla autorizzare di avanzare una domanda per <measure quantity="10" unit="day">10 giorni</measure> permesso per affari urgentissimi di famiglia</p>
+		<closer>
+		  <salute>La ringrazia tanta bontà suo</salute>
+		  <signed>Umilissimo Servo</signed>
+        </closer>
+		<ab>Oggi stesso il <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore risponde in questo modo</ab>
+		<quote>
+		  <ab>Deliberazione</ab>
+		  <p>Non è possibile, trovandosi altra agente in congedo.</p>
+		  <closer>
+		    <dateline>Lì <date when="1901-06-02">2 Giugno 1901</date></dateline>
+		    <signed>Il <persName><roleName type="military">Direttore</roleName> <surname>De Angelis<!--S???--></surname></persName></signed>
+          </closer>
+		</quote>
+	  </diaryEntry>
+	  <diaryEntry>
+		<ab>(Domanda in carta Bollata fatta al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore di queste carcere)</ab>
+		<opener>
+		  <salute><choice><expan>Illustrissimo Signor</expan><abbr>Ill.mo Sig.</abbr></choice> Direttore</salute>
+		</opener>
+		<p>La guardia sottoscritta prega la <choice><expan>Signoria Vostra Illustrissima</expan><abbr>S. V. Ill.a</abbr></choice> onde si voglia compiacere di concederle un permesso di <measure quantity="10" unit="day">giorni 10</measure>, per recarsi a <placeName><settlement type="city">Viterbo</settlement></placeName> per affari urgentissimi di famiglia.</p>
+		<closer>
+		  <salute>Le porgo i miei più distinti ossequi e ringraziamenti</salute>
+		  <signed>Suo <choice><expan>Umilissimo</expan><abbr>Um.mo</abbr></choice> Servo <persName ref="#PR"><surname>Riccioni</surname> <forename>Pasquale</forename></persName></signed>
+		  <dateline><placeName><settlement type="city">Civitavecchia</settlement></placeName> addì <date when="1901-06-08">8 Giugno 1901</date></dateline>
+        </closer>
+	  </diaryEntry>
 	  <pb n="6r" facs="https://iiif.archivelab.org/iiif/tesi_db_6r/full/full/0/default.jpg"/>
-
+      
 	  <pb n="6v" facs="https://iiif.archivelab.org/iiif/tesi_db_6v/full/full/0/default.jpg"/>
 
 	  <pb n="7r" facs="https://iiif.archivelab.org/iiif/tesi_db_7r/full/full/0/default.jpg"/>
