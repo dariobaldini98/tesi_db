@@ -377,7 +377,7 @@
 		  <dateline>Lì <date when="1901-06-02">2 Giugno 1901</date></dateline>
 		  <salute>Domanda al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore</salute>
 		</opener>
-		<p>La <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname> <forename>Pasquale</forename></persName> prega di volerla autorizzare di avanzare una domanda per <measure quantity="10" unit="day">10 giorni</measure> permesso per affari urgentissimi di famiglia</p>
+		<p>La <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname> <forename>Pasquale</forename></persName> prega di volerla autorizzare di avanzare una domanda per <measure quantity="10" unit="days">10 giorni</measure> permesso per affari urgentissimi di famiglia</p>
 		<closer>
 		  <salute>La ringrazia tanta bontà suo</salute>
 		  <signed>Umilissimo Servo</signed>
@@ -397,7 +397,7 @@
 		<opener>
 		  <salute><choice><expan>Illustrissimo Signor</expan><abbr>Ill.mo Sig.</abbr></choice> Direttore</salute>
 		</opener>
-		<p>La guardia sottoscritta prega la <choice><expan>Signoria Vostra Illustrissima</expan><abbr>S. V. Ill.a</abbr></choice> onde si voglia compiacere di concederle un permesso di <measure quantity="10" unit="day">giorni 10</measure>, per recarsi a <placeName><settlement type="city">Viterbo</settlement></placeName> per affari urgentissimi di famiglia.</p>
+		<p>La guardia sottoscritta prega la <choice><expan>Signoria Vostra Illustrissima</expan><abbr>S. V. Ill.a</abbr></choice> onde si voglia compiacere di concederle un permesso di <measure quantity="10" unit="days">giorni 10</measure>, per recarsi a <placeName><settlement type="city">Viterbo</settlement></placeName> per affari urgentissimi di famiglia.</p>
 		<closer>
 		  <salute>Le porgo i miei più distinti ossequi e ringraziamenti</salute>
 		  <signed>Suo <choice><expan>Umilissimo</expan><abbr>Um.mo</abbr></choice> Servo <persName ref="#PR"><surname>Riccioni</surname> <forename>Pasquale</forename></persName></signed>
@@ -405,9 +405,31 @@
         </closer>
 	  </diaryEntry>
 	  <pb n="6r" facs="https://iiif.archivelab.org/iiif/tesi_db_6r/full/full/0/default.jpg"/>
-      
+      <diaryEntry>
+	    <ab>(Annunzio della prossima licenza a <persName><surname>Bernini</surname> <forename>Elisabetta</forename></persName> per mezza di una cartolina)</ab>
+	    <opener>
+		  <salute>Mia carissima <persName><forename>Elisabetta</forename></persName></salute>
+		</opener>
+		<p>Oggi stesso ho rimesso la domanda a <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore di queste carcere per <measure quantity="10" unit="day">10 giorni</measure> di permesso, più di questo non si può ottenere che è contro la volontà di chi comanda. Del resto bisogna contentarsi, e prendere le cose come viene. Sarebbe tutta la mia contentezza che la malattia accusata fosse finta, e che vi trovasse invece piena di salute, meglio di prima. Ma se vi trovo invece ammalata per me sarà un dispiacere più forte di quello che ho provato quanto ho ricevuto la Cartolina di <persName><surname>Aquilanti</surname> <forename>Vittorio</forename></persName>. Nel sentire della medesima ricaduta ammalata. E ripensando a tante cose, nell'animo mio è rimasto una traccia di dolore.</p>
+		<p>Dunque il <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore ancora non mi ha dato risposta. Ma è probabile che mi farà partire fra <date when="1901-06-10">il giorno 10</date>, o <date when="1901-06-011">il giorno 11</date> corrente. Credo che non mi vorrà negata. Io di salute sto bene così sperar voglia che sia di voi'altri. Un saluto a tutti di casa, e a voi un caro amplesso mi dico per la vita vostro</p>
+		<closer>
+		  <signed><choice><expan>Affettuosissimo <!--MARITO???--></expan><abbr>Aff.mo M.to</abbr></choice> Servo <persName ref="#PR"><forename full="init">P.</forename> <surname>Riccioni</surname></persName></signed>
+		  <dateline><placeName><settlement type="city">Civitavecchia</settlement></placeName> addì <date when="1901-06-08">8 Giugno 1901</date></dateline>
+        </closer>
+		<list>
+		  <head>Ricetta pratica</head>
+		  <item><label>Vasellina</label> <measure type="weight" unit="g" quantity="30" commodity="vaseline">gram. 30</measure></item>
+		  <item><label>Estratto della nonna</label> <measure type="weight" unit="g" quantity="4">gram. 4</measure></item>
+		  <item><label>Clorado di Morfina fem<!--???--></label> <measure type="weight" unit="g" quantity="30" commodity="morphine chloride">gra. 30</measure></item>
+		  <item><label>Ioduro di potassio</label> <measure type="weight" unit="g" quantity="4" commodity="potassium iodide">gra. 4</measure></item>
+		  <item><label>Iodio</label> <measure type="weight" unit="g" quantity="1" commodity="iodine">gram. uno</measure></item>
+		</list>
+		<ab>Esterno</ab>
+	  </diaryEntry>
 	  <pb n="6v" facs="https://iiif.archivelab.org/iiif/tesi_db_6v/full/full/0/default.jpg"/>
-
+      <diaryEntry>
+	  </diaryEntry>
+	  
 	  <pb n="7r" facs="https://iiif.archivelab.org/iiif/tesi_db_7r/full/full/0/default.jpg"/>
 
 	  <pb n="7v" facs="https://iiif.archivelab.org/iiif/tesi_db_7v/full/full/0/default.jpg"/>
