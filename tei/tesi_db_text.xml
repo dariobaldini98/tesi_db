@@ -270,7 +270,7 @@
 		  <item>Il <date when="1900-09-10">10 Settembre 1900</date> //  //  //  // <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure></item>
 		  <item>Il <date when="1900-10-05">5 Ottobre 1900</date> //  //   //  // <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure></item>
 		  <item>Il <date when="1902-02-01">1 Febbraio 1902</date> //  //  //  // <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure></item>
-		  <item>(Saldato il conto il <date when="1902-02-01">1°<!--CONTROLLA SE FUNZIONA--> Febbraio 1902</date>) totale <measure type="currency" unit="ITL" quantity="25">&#8356;. 25,00</measure></item>
+		  <item>(Saldato il conto il <date when="1902-02-01">1° Febbraio 1902</date>) totale <measure type="currency" unit="ITL" quantity="25">&#8356;. 25,00</measure></item>
 		</list>
 		<p>Prima di prendere il danaro, fece tante promesse di essere puntuale, che alla fine del Mese mi doveva dare al meno <measure type="currency" unit="ITL" quantity="40">&#8356;. 40,00</measure> a stare come dice sulle due ricevute da Lui rilasciatomi. Invece si ne sortì con questa storiella qui sotto</p>
 		<quote>
@@ -442,8 +442,16 @@
 		</quote>  
 		<ab>(Mi è stata notificata la presente <date when="1901-06-08">oggi 8 Giugno 1901</date> <placeName><settlement type="city">C.Vecchia</settlement></placeName>)</ab>
 	  </diaryEntry>
-	  
-	  <pb n="7r" facs="https://iiif.archivelab.org/iiif/tesi_db_7r/full/full/0/default.jpg"/>
+	  <diaryEntry>
+	    <ab>Il risultato della Domanda fatta al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore</ab>
+		<p>Il giorno <date when="1901-06-08">8 Giugno corrente</date> appena ricevuta la domanda non diede nessuna risposta al <persName><roleName type="military">capo Guardia</roleName> <surname>Cerrito</surname> <forename>Giovanni</forename></persName>.</p>
+		<p>La mattina del <date when="1901-06-10">10</date> dico al capo. <q>- Che risposta vi ha dato il <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore.</q> Ecco la risposta, mi fa vedere la mia domanda, con questa deliberazione. <quote>Si ordine al <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <roleName type="office">Segretario</roleName><pb n="7r" facs="https://iiif.archivelab.org/iiif/tesi_db_7r/full/full/0/default.jpg"/> <surname>Finetti</surname> <forename>Francesco</forename></persName> di Osservare sui registri, Se La <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname></persName> è nel diritto di avere la Licenza.</quote> Il quale avendo osservato e dice al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore che aveva diritto. Il medesimo ordine si accorda dopo il giorno <date when="1901-06-12">12</date>.</p>
+		<p>Viene la mattina del <date when="1901-06-12">12</date>, e di partire non sene discorre. La mattina del <date when="1901-06-13">13</date> quando il capo viene e dà rapporto, gli dico <q>ebbene <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> capo quando è che mi fai partire. Certamente se non aveva bisogno del permesso non lo avrebbe chiesto. -</q> Il capo risponde <q>le Carte sono tutte pronte, appena che partono i Detenuti transitanti per la Sardegna, Vi fo partire in Licenza.</q></p>
+		<p>Aspetta oggi per domai, i Detenuti invece di partire crescono nello stabilimento. Oggi sono n. 74. Ho dovuto riaprirela Seconda sezione. Sono ferme le partenze per il Battesimo Reale <q>appena che chiudo la 2&#170; Sezione, e che ho una guardia disponibile, vi fo partire.</q></p>
+		<closer>
+		  <dateline>Oggi <date when="1901-06-16">16-Giugno 1901</date></dateline>
+        </closer>
+	  </diaryEntry>
 
 	  <pb n="7v" facs="https://iiif.archivelab.org/iiif/tesi_db_7v/full/full/0/default.jpg"/>
 
