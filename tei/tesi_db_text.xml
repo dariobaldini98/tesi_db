@@ -368,7 +368,7 @@
         </closer>
 	  </diaryEntry>
       <diaryEntry>
-	    <p><date when="1901-05-31">Oggi 31 Maggio 1901</date>, senza pensarci mi giunge verso <time when="12:00:00">le ore 12:00</time> una Cartolina Vaglia di <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure>, mandata da <persName><surname>Milano</surname> <forename>Giovanni</forename></persName> a questo indirizzo: <quote>Al <persName ref="#PR"><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Riccione</surname> <forename>Pasquale</forename></persName>, guardia al <orgName type="phrase">carcere di <placeName><settlement type="city">Civitavecchia</settlement></placeName></orgName></quote></p>
+	    <p><date when="1901-05-31">Oggi 31 Maggio 1901</date>, senza pensarci mi giunge verso le <time when="12:00:00">ore 12:00</time> una Cartolina Vaglia di <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure>, mandata da <persName><surname>Milano</surname> <forename>Giovanni</forename></persName> a questo indirizzo: <quote>Al <persName ref="#PR"><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Riccione</surname> <forename>Pasquale</forename></persName>, guardia al <orgName type="phrase">carcere di <placeName><settlement type="city">Civitavecchia</settlement></placeName></orgName></quote></p>
 	  </diaryEntry>
 	  <pb n="5v" facs="https://iiif.archivelab.org/iiif/tesi_db_5v/full/full/0/default.jpg"/>
 	  <diaryEntry>
@@ -447,13 +447,23 @@
 		<p>Il giorno <date when="1901-06-08">8 Giugno corrente</date> appena ricevuta la domanda non diede nessuna risposta al <persName><roleName type="military">capo Guardia</roleName> <surname>Cerrito</surname> <forename>Giovanni</forename></persName>.</p>
 		<p>La mattina del <date when="1901-06-10">10</date> dico al capo. <q>- Che risposta vi ha dato il <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore.</q> Ecco la risposta, mi fa vedere la mia domanda, con questa deliberazione. <quote>Si ordine al <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <roleName type="office">Segretario</roleName><pb n="7r" facs="https://iiif.archivelab.org/iiif/tesi_db_7r/full/full/0/default.jpg"/> <surname>Finetti</surname> <forename>Francesco</forename></persName> di Osservare sui registri, Se La <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname></persName> è nel diritto di avere la Licenza.</quote> Il quale avendo osservato e dice al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore che aveva diritto. Il medesimo ordine si accorda dopo il giorno <date when="1901-06-12">12</date>.</p>
 		<p>Viene la mattina del <date when="1901-06-12">12</date>, e di partire non sene discorre. La mattina del <date when="1901-06-13">13</date> quando il capo viene e dà rapporto, gli dico <q>ebbene <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> capo quando è che mi fai partire. Certamente se non aveva bisogno del permesso non lo avrebbe chiesto. -</q> Il capo risponde <q>le Carte sono tutte pronte, appena che partono i Detenuti transitanti per la Sardegna, Vi fo partire in Licenza.</q></p>
-		<p>Aspetta oggi per domai, i Detenuti invece di partire crescono nello stabilimento. Oggi sono n. 74. Ho dovuto riaprirela Seconda sezione. Sono ferme le partenze per il Battesimo Reale <q>appena che chiudo la 2&#170; Sezione, e che ho una guardia disponibile, vi fo partire.</q></p>
+		<p>Aspetta oggi per domai, i Detenuti invece di partire crescono nello stabilimento. Oggi sono n. 74. Ho dovuto riaprire la Seconda sezione. Sono ferme le partenze per il Battesimo Reale <q>appena che chiudo la 2&#170; Sezione, e che ho una guardia disponibile, vi fo partire.</q></p>
 		<closer>
 		  <dateline>Oggi <date when="1901-06-16">16-Giugno 1901</date></dateline>
         </closer>
 	  </diaryEntry>
-
+	  <diaryEntry>
+	    <p>La Mattina del <date when="1901-06-17">17 corrente</date>, dico al <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <roleName type="office">Segretario</roleName> <surname>Finetti</surname></persName>. <q>- Come <persName><roleName type="office">Segretario</roleName> <surname>Finetti</surname></persName> non mi fanno più partire per la Licenza.</q> <q>- E se prima non partono i transitanti.</q> <q>- E pure mi sono raccomandato che sono affari urgentissimi di famiglia.</q> <q>- E ne parlerò al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore.</q></p>
+		<p>Verso le <time when="11:45:00">ore 11. &#190;</time> torna il capo <choice><expan>Guardia</expan><abbr>G.a</abbr></choice> da Rapporto e mi dice che il <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Finetti</surname></persName> ne aveva parlato al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore. Il quale rispose che aveva già dato ordine al capo <choice><expan>Guardia</expan><abbr>G.a</abbr></choice>, quello che doveva fare</p>
+		<closer>
+		  <dateline><date when="1901-06-17">17 - 6 - 901</date></dateline>
+        </closer>
+	  </diaryEntry>
 	  <pb n="7v" facs="https://iiif.archivelab.org/iiif/tesi_db_7v/full/full/0/default.jpg"/>
+      <diaryEntry>
+	    <p>Questa Mattina verso le <time when="11:40:00">ore 11.40</time> Il <persName><roleName type="military">capo <choice><expan>Guardia</expan><abbr>G.a</abbr></choice></roleName> <surname><choice><expan>Cerrito</expan><abbr>C.to</abbr></choice></surname> <forename><choice><expan>Giovanni</expan><abbr>G.ni</abbr></choice></forename></persName> Mi dice. <q>Come vai in Licenza. In Borghese, o in divisa -</q> Io gli rispondo. <q>Vado in Borghese.</q> <q>- parla non dici nulla.</q> <q>cosa gli debbo dire, se non mi domandono.</q></p>
+		<p></p>
+	  </diaryEntry>
 
 	  <pb n="8r" facs="https://iiif.archivelab.org/iiif/tesi_db_8r/full/full/0/default.jpg"/>
 
