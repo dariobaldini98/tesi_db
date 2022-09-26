@@ -486,7 +486,7 @@
 	  </diaryEntry>
 	  <diaryEntry>
 	  <ab>(Oggi <date when="1901-07-02">2 Luglio 1901</date>, ho ricevuto una Cartolina Vaglia di <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure> dal <persName><roleName type="military">Capo <choice><expan>Guardia</expan><abbr>G.a</abbr></choice></roleName> <surname>Milano</surname> <forename>Giovanni</forename></persName>)</ab>
-	  <ab>(1&#170; di <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure> con la parola <q>Tanti Saluti</q>)</ab>
+	  <ab>(1&#170; Rata di <measure type="currency" unit="ITL" quantity="5">&#8356;. 5,00</measure> con la parola <quote>Tanti Saluti</quote>)</ab>
 	  </diaryEntry>
 	  <diaryEntry>
 	  <ab>(Oggi <date when="1901-07-05">5 Luglio 1901</date> ho avuto risposta della Cartolina Mandata al <persName><roleName type="military">Sotto capo<choice><expan>Guardia</expan><abbr>G.</abbr></choice></roleName> <surname>Zaffarini</surname></persName> il <date when="1901-06-21">21 Giugno scorso</date> con queste righe <quote><persName ref="#PR"><surname>Riccioni</surname></persName>: Ti spedisco <measure type="currency" unit="ITL" quantity="1">&#8356;. 1,00</measure>, tanto per farte comprendere che non dimentico i debiti, Insequito la rimanenza in <measure type="currency" unit="ITL" quantity="4">lire quattro. Ti saluto.)</measure></quote></ab>
