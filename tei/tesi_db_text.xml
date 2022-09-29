@@ -511,11 +511,25 @@
 		<p>Senza sapere niente e nessuno la Mattina del <date when="1901-07-18">18 Luglio 1901</date>, Si presente la <persName><roleName type="military">Guardia</roleName> <surname>Di Pasquale</surname> <forename>Settimio</forename></persName> al Carciretto, gli dico Io <q type="spoken" who="#PR">dove vai ,</q> <q type="spoken">vengo qui,</q> e nello stesso tempo chiamai il <persName><roleName type="military">capo Guardia</roleName> <surname>Cerrito</surname></persName>, il quale gli disse <q type="spoken">chi vi ha mandato</q> <q type="spoken">- Mi ha mandato il<persName><roleName type="military">capo Guardia</roleName> <surname>Filippi</surname></persName>, mi ha messo tanta premura che appena fatto giorno fosse venuto qua. -</q> Il <persName><surname>Cerrito</surname></persName> dice, <q type="spoken">Se a me non mi ha parlato nessuno né meno il <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Segretario me ne ha fatto parole, forse perché <persName ref="#PR"><surname>Riccioni</surname></persName> deve andare in Licenza</q></p>
 		<p>Il caso vuole che il <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Finetti</surname></persName> in quel giorno era in Lcenza, e il foglio di Via l'aveva Lui nel cassetto. La Mattina del <date when="1901-07-19">19 Luglio 1901</date>, essendo ritornato, gli fo di nuovo <q type="spoken" who="#PR">domani posso partire tanto è venuta un'altra Guardia -</q> risponde il Segretario <q type="spoken">e lo so</q>, quando poi verso le ore <time when="11:55:00">11,55</time> nello uscire dal carcere, mi dice <q type="spoken">all'ora dom'attina parti.</q> Verso le ore <time when="14:45:00">14 &#190;</time> il capo <choice><expan>Guardia</expan><abbr>G.a</abbr></choice> mi consegna il Foglio di Via bello che corretto. E così sia finalmente si arriva alla sospirata Licenza.</p>
 	  </div>
-	  <div type="diaryEntry">
-	  </div>
 	  <pb n="9r" facs="https://iiif.archivelab.org/iiif/tesi_db_9r/full/full/0/default.jpg"/>
-
+      <handShift new="#ORit" resp="#DB"/>
+      <addSpan n="9r-9v" hand="#ORit" spanTo="#end_9v"/>
+	  <div type="diaryEntry">	
+        <quote>	  
+	      <opener>
+		    <dateline><placeName><settlement type="city">Viterbo</settlement></placeName>. <date when="1932-05-16">5. 16. 1932</date></dateline>
+		    <salute>Carissimo <persName ref="#OR"><forename>Orombello</forename></persName></salute>
+		  </opener>
+		  <p>Sei un bel giovani e tutti le ragazzetti del villaggio lo dicono, non sai quale devi prende, ma però sei un po' troppo sbarazzino o che?</p>
+		</quote>
+		<ab>Rispondo</ab>
+		<p>Sono un bel giovani e me lo riconosco e tutti me lo dicono</p>
+		<closer>
+		  <signed><persName ref="#OR"><surname>Riccioni</surname> <forename><choice><corr resp="#DB" cert="high">Orombello</corr><sic>Rombello</sic></choice></forename></persName></signed>
+		</closer>
+	  </div>
 	  <pb n="9v" facs="https://iiif.archivelab.org/iiif/tesi_db_9v/full/full/0/default.jpg"/>
+      <anchor xml:id="end_9v"/>
 
 	  <pb n="10r" facs="https://iiif.archivelab.org/iiif/tesi_db_10r/full/full/0/default.jpg"/>
 
