@@ -43,8 +43,8 @@
                     <forename>Pasquale</forename>
 					<surname>Riccioni</surname>
                   </persName>
-                  <birth notBefore="1852"/>
-				  <death notAfter=""/><!--???????-->
+                  <birth when="1852-06-01"/>
+				  <death when="1923-09-27"/>
                   <occupation>Guardia carceraria</occupation>
                 </person>
 			  </author>
