@@ -529,6 +529,19 @@
 		</closer>
 	  </div>
 	  <pb n="9v" facs="https://iiif.archivelab.org/iiif/tesi_db_9v/full/full/0/default.jpg"/>
+	  <!--POI VEDI BENE-->
+	  <div type="diaryEntry">
+	    <ab>Pensando meglio</ab>
+	    <opener>
+		  <dateline><placeName><settlement type="town">La Quercia</settlement></placeName> <date when="1932-06">6. 1932</date></dateline>
+		  <salute>Egregia Signorina</salute>
+		</opener>
+		<p>Le idee sono tante che mi tormentano l'anima.</p>
+		<p>Dal giorno <date when="1932-06-28">28</date> che ebbi ricevuto un suo scritto <del rend="overstrike"><!--SENTI FRANCA--></del><add place="above">leggendo con ansia ma non finì di leggere che un singhiozzo mi chiusi la gola</add>.</p>
+		<p>apen lesse le primi parole <choice><corr resp="#DB" cert="high">pianse</corr><sic>pianze</sic></choice></p>
+		<p></p>
+		<p></p>
+	  </div>
       <anchor xml:id="end_9v"/>
 
 	  <pb n="10r" facs="https://iiif.archivelab.org/iiif/tesi_db_10r/full/full/0/default.jpg"/>
