@@ -559,10 +559,10 @@
 		<ab>Libretto di credito personale creato il <date when="1897-07-23">23 Luglio 1897</date> a favore del <persName ref="#PR"><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Riccioni</surname> <forename>Pasquale</forename> <roleName type="military">Guardia Carceraria</roleName></persName></ab>
 		<ab>Firma dell'intestato <persName ref="#PR"><surname>Riccioni</surname> <forename>Pasquale</forename></persName></ab>
 		<ab>Il <persName><roleName type="office">Presidente</roleName> <forename full="init">G. B.</forename> <surname>Mazzichelli</surname> </persName></ab>
-		<ab>Il <persName><roleName type="office">Cassieri</roleName> <surname>Carinci</surname></persName></ab>
+		<ab>Il <persName><roleName type="office">Cassiere</roleName> <surname>Carinci</surname></persName></ab>
 		<ab>Il <persName><roleName type="office">Direttore</roleName> <surname>Carletti</surname></persName></ab>
 		<ab>5 Clementine della <persName><forename>Mara</forename></persName></ab>
-		<ab></ab>
+		<ab>Capitalizzato fino al <date when="1901-06-30">30 Giugno 1901</date> <measure type="currency" unit="ITL" quantity="1954.89">&#8356;. 1954,89</measure></ab>
 	  </div>
 
 	  <pb n="10v" facs="https://iiif.archivelab.org/iiif/tesi_db_10v/full/full/0/default.jpg"/>
