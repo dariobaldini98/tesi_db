@@ -14,7 +14,7 @@ The project is composed of the following parts:
   or  
   - [ ] CSS style sheets to display the encoding;  
 3. Website:  
-  - [ ] informative homepage;  
+  - [ ] [informative homepage](https://dariobaldini98.github.io/tesi_db/website/tesi_db_homepage.html) (WIP);  
   - [x] clients displaying the manifest (just [Universal Viewer](https://uv-v4.netlify.app/#?manifest=https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json) and [Mirador 3](https://projectmirador.org/embed/?iiif-content=https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json) demos atm);  
   - [ ] page rendering the text;  
 
