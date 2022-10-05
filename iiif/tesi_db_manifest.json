@@ -82,7 +82,7 @@
 	    {
 			"id": "https://dariobaldini98.github.io/tesi_db/website/tesi_db_homepage.html",
 			"type": "Text",
-			"label": { "it": [ "Homepage informativa sulla pubblicazione elettronica del diario" ],
+			"label": { "it": [ "Homepage informativa sulla pubblicazione elettronica del diario" ] },
 			"format": "text/html",
 			"language": [ "it" ]
 		}
