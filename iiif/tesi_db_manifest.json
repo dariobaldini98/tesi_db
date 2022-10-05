@@ -78,6 +78,15 @@
 	"navDate": "1901-03-31T00:00:00+01:00",
 	"viewingDirection": "left-to-right",
 	"behavior": [ "paged" ],
+	"homepage": [
+	    {
+			"id": "https://dariobaldini98.github.io/tesi_db/website/tesi_db_homepage.html",
+			"type": "Text",
+			"label": { "it": [ "Homepage informativa sulla pubblicazione elettronica del diario" ],
+			"format": "text/html",
+			"language": [ "it" ]
+		}
+	]
 	"rendering": [
 	    {
 			"id": "https://drive.google.com/file/d/1nTF13nuC9G-qCnpiHWOFSsh170aYMkyP/view?usp=sharing",
