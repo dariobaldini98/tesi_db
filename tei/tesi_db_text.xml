@@ -16,7 +16,7 @@
 		<measure unit="pages" quantity=""><!--AGGIUNGI ALLA FINE--> pagine del diario</measure>
 	  </extent>
       <publicationStmt>
-	    <authority>Università degli Studi della Tuscia</authority>
+	    <authority><orgName type="phrase">Università degli Studi della <placeName><settlement type="region">Tuscia</settlement></placeName></orgName></authority>
 		<pubPlace>Viterbo</pubPlace>
 		<date when="2022-12"><!--METTI GIORNO-->dicembre 2022</date>
 		<availability status="restricted">
