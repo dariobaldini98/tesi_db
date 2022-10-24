@@ -12,7 +12,8 @@
 	    </respStmt>
 	  </titleStmt>
       <extent>
-	    <measure unit="" quantity=""><!--AGGIUNGI ALLA FINE--></measure>
+	    <measure unit="MB" quantity=""><!--AGGIUNGI ALLA FINE--></measure>
+		<measure unit="pages" quantity=""><!--AGGIUNGI ALLA FINE--> pagine del diario</measure>
 	  </extent>
       <publicationStmt>
 	    <authority>Università degli Studi della Tuscia</authority>
