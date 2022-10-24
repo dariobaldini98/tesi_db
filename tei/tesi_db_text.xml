@@ -17,7 +17,7 @@
 	  </extent>
       <publicationStmt>
 	    <authority><orgName type="phrase">Università degli Studi della <placeName><region>Tuscia</region></placeName></orgName></authority>
-		<pubPlace>Viterbo</pubPlace>
+		<pubPlace><placeName><settlement type="city">Viterbo</settlement></placeName></pubPlace>
 		<date when="2022-12"><!--METTI GIORNO-->dicembre 2022</date>
 		<availability status="restricted">
 		  <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">Pubblicato su licenza CC BY-NC-ND 4.0</licence>
