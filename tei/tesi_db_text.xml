@@ -156,16 +156,16 @@
 	  </projectDesc>
 	  <editorialDecl resp="#DB">
 	    <correction status="low" method="silent">
-		  <p>Aggiunti accenti mancanti.<!--COMPLETA--></p>
+		  <p>Sono stati aggiunti gli accenti mancanti e corretti errori di ortografia generici.</p>
 		</correction>
 		<normalization>
-		  <p>Mantenuti linguaggio e ortografia originali.<!--COMPLETA--></p>
+		  <p>Le probabili forme storiche o dialettali sono state mantenute nella forma originale.</p>
 		</normalization>
 		<punctuation marks="all" placement="external">
-		  <p>Mantenuti tutti i segni di punteggiatura originali.</p>
+		  <p>I segni di punteggiatura sono stati interpretati contestualmente dove risultano troppo vaghi o ambigui.</p>
 		</punctuation>
 		<quotation marks="all">
-		  <p><!--VEDERE SE CI SONO VIRGOLETTE--></p>
+		  <p>Non sono presenti virgolette e non ne sono state aggiunte.</p>
 		</quotation>
 		<hyphenation eol="none">
 		  <p>Eliminati tutti i trattini di fine riga; mantenuti quelli interni alle righe.</p>
@@ -174,7 +174,7 @@
 		  <p>Il testo non è stato segmentato a un livello inferiore a quello del paragrafo.</p>
 		</segmentation>
 		<interpretation>
-		  <p>Il testo è stato trascritto nella sua forma originale senza nessun tipo di interpretazione.</p>
+		  <p>Non sono state fornite informazioni interpretative.</p>
 		</interpretation>
 	  </editorialDecl>
 	  <!--Tagging Declaration-->
