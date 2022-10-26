@@ -155,7 +155,7 @@
 	    <p>La trascrizione elettronica del diario è parte di un progetto di tesi magistrale in Editoria Digitale.</p>
 	  </projectDesc>
 	  <editorialDecl resp="#DB">
-	    <correction status="low" method="markup">
+	    <correction status="medium" method="markup">
 		  <p>Sono stati aggiunti gli accenti mancanti e corretti errori di ortografia generici; questi ultimi sono stati resi esplicitamente dalla marcatura insieme alla forma originale.</p>
 		</correction>
 		<normalization>
