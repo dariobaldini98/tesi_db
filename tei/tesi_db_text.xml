@@ -187,6 +187,7 @@
 	    <calendar xml:id="Gregorian"><p>Calendario gregoriano</p></calendar>
 	  </calendarDesc>
 	</profileDesc>
+	<!--Revision Description-->
   </teiHeader>
   <text>
     <body>
