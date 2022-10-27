@@ -180,14 +180,9 @@
 	  <!--Tagging Declaration-->
 	</encodingDesc>
 	<profileDesc>
-	  <creation>
-	    <origDate notBefore="1901-03-31" notAfter="1903-07-26">Tra il 31 marzo 1901 e il 26 luglio 1903</origDate>
-		<origPlace>Civitavecchia</origPlace>
-	  </creation>
 	  <langUsage>
 	    <language ident="it" usage="100">Italiano</language>
 	  </langUsage>
-	  <!--Text Classification FORSE-->
 	  <calendarDesc>
 	    <calendar xml:id="Gregorian"><p>Calendario gregoriano</p></calendar>
 	  </calendarDesc>
