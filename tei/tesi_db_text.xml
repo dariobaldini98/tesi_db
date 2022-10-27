@@ -164,7 +164,7 @@
 		<punctuation marks="all" placement="external">
 		  <p>I segni di punteggiatura sono stati interpretati contestualmente dove risultano troppo vaghi o ambigui.</p>
 		</punctuation>
-		<quotation marks="all">
+		<quotation>
 		  <p>Non sono presenti virgolette e non ne sono state aggiunte.</p>
 		</quotation>
 		<hyphenation eol="none">
