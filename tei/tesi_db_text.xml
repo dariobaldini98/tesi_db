@@ -171,7 +171,7 @@
 		  <p>Eliminati tutti i trattini di fine riga; mantenuti quelli interni alle righe.</p>
 		</hyphenation>
 		<segmentation>
-		  <p>Il testo non è stato segmentato a un livello inferiore a quello del paragrafo.</p>
+		  <p>Il testo è stato segmentato in elementi <gi>div</gi> il cui attributo <att>type</att> ha valore <val>diaryEntry</val>. A un livello inferiore, sono stati individuati diversi tipi di unità testuali: paragrafi, segnalati con <gi>p</gi>; frasi slegate dal testo adiacente, indicate con <gi>ab</gi>; introduzioni e chiusure delle lettere, contrassegnati rispettivamente con <gi>opener</gi> e <gi>closer</gi>.</p>
 		</segmentation>
 		<interpretation>
 		  <p>Non sono state fornite informazioni interpretative.</p>
