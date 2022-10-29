@@ -38,16 +38,13 @@
                 <locus from="10r" to="40r">10r-40r</locus>
               </locusGrp>
 			  <title type="supplied" resp="#DB">Scritte originali</title>
-			  <author>
-			    <person xml:id="PR">
-                  <persName>
-                    <forename>Pasquale</forename>
-					<surname>Riccioni</surname>
-                  </persName>
-                  <birth when="1852-06-01"/>
-				  <death when="1923-09-27"/>
-                  <occupation>Guardia carceraria</occupation>
-                </person>
+			  <author xml:id="PR">
+                <persName>
+                  <forename>Pasquale</forename>
+			      <surname>Riccioni</surname>
+                </persName>
+				<affiliation>Guardia carceraria presso il <orgName type="phrase">Carcere Giudiziario di <placeName><settlement type="city">Civitavecchia</settlement></placeName></orgName></affiliation>
+				<trait>Appassionato di scrittura e disegno</trait>
 			  </author>
 			  <textLang mainLang="it">Italiano regionale primonovecentesco di area laziale</textLang>
 			</msItem>			
