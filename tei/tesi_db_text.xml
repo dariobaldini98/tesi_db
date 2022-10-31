@@ -126,7 +126,7 @@
 			  </p>
 			</additions>
 			<accMat facs="https://iiif.archivelab.org/iiif/tesi_db_42r_geo_202205/full/full/0/default.jpg">
-			  <p><locus from="41v" to="42r">Tra 41v e 42r</locus> è stata trovata la copertina del libro <title type="short" level="m">Geografia Moderna Universale</title> di <author>Giuseppe R. Pagnozzi</author>.</p>
+			  <p><locus from="41v" to="42r">Tra 41v e 42r</locus> è stata trovata la copertina del libro <title type="short" level="m">Geografia Moderna Universale</title> di <author><persName><forename>Giuseppe R.</forename> <surname>Pagnozzi</surname></persName></author>.</p>
 			</accMat>
 		  </physDesc>
 		  <history>
@@ -137,7 +137,7 @@
 			  <p>Conservato nella casa di famiglia, situata nella frazione di <placeName><settlement type="town">La Quercia</settlement></placeName> (VT), in cui <persName ref="#PR"><forename>Pasquale</forename></persName> si è trasferito dopo il pensionamento.</p>
 			</provenance>
 			<acquisition>
-			  <p>Trovato e recuperato <date notBefore="1980" notAfter="1989">negli anni Ottanta</date> dai nipoti <persName><forename>Luigi</forename></persName> e <persName><forename>Pasquale</forename></persName>.</p>
+			  <p>Trovato e recuperato negli <date notBefore="1980" notAfter="1989">anni Ottanta</date> dai nipoti <persName><forename>Luigi</forename></persName> e <persName><forename>Pasquale</forename></persName>.</p>
 			</acquisition>
 		  </history>
 		  <additional>
