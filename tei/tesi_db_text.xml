@@ -53,7 +53,7 @@
 		    <objectDesc form="notebook">
 			  <supportDesc>
 			    <support>
-				  <p>Quadernino a quadretti di <material function="support">carta</material></p>
+				  <p><objectType>Quadernino</objectType> a quadretti di <material function="support">carta</material></p>
 				</support>
 				<extent>88 pagine
 				  <dimensions unit="cm">
