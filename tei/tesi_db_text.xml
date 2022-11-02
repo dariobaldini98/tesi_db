@@ -504,10 +504,9 @@
 		</closer>
 	  </quote>
 	  </div>
-	  <handShift scriptRef="#script-ro" resp="#DB"/>
 	  <div type="diaryEntry">
 	    <head>(Sorpresa innaspettata)</head>
-		<handShift new="#PRro" resp="#DB"/>
+		<handShift scriptRef="#script-ro" resp="#DB"/>
 		<p>La sera del <date when="1901-07-06">6 Luglio 1901</date> mentre per caso mi affacciai nella porta principale di queste Carcere verso le ore <time when="21:30:00">9 &#189; <choice><expan>pomeridiane</expan><abbr>pom.ne</abbr></choice></time> vedo passare 4 o 5 giovanotti tra i quali uno mi disse <q type="spoken">- <persName ref="#PR"><surname>Riccio'</surname></persName>  mi riconosci, vi porto i saluti della <persName><forename>Betta</forename></persName></q> avvicinandosi sempre più verso di me. <q type="spoken">che non mi riconosci io sono <persName><surname>Colonna</surname> <forename>Giuseppe</forename></persName> vengo da <placeName><settlement type="town">Bagnaia</settlement></placeName></q> <q type="spoken" who="#PR">- E bene come sta la <persName><forename>Betta</forename></persName></q> <q type="spoken">- Sta bene</q> <q type="spoken" who="#PR">- Ma tu <choice><corr resp="#DB" cert="high">l'hai</corr><sic>lai</sic></choice> veduta</q> <q type="spoken">- Sì che <choice><corr resp="#DB" cert="high">l'ho</corr><sic>lo</sic></choice> veduta ci ha servito a tavola</q> <q type="spoken" who="#PR">- Dunque mi assicuri che sta bene,</q> <q type="spoken">vi dico di sì</q> <q type="spoken" who="#PR">Perché mi erano scritto che stava ammalata. Ora che ho saputo bone notizie ne ringrazio Iddio della Sua alta bontà e misericordia che ha verso i miseri che lo invogano.</q> <q type="spoken">Anzi mi disse dove andava gli disse che veniva a <placeName><settlement type="city">Civitavecchia</settlement></placeName>.</q> <q type="spoken" who="#PR">- E allora fategli tanti Saluti</q> <q type="spoken">- Io per parte mia sono proprio contento e vi ringrazio</q></p>
 	  </div>
 	  <pb n="8v" facs="https://iiif.archivelab.org/iiif/tesi_db_8v/full/full/0/default.jpg"/>
