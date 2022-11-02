@@ -128,9 +128,7 @@
               </decoNote>
 			</decoDesc>
 			<additions>
-			  <p>
-			    In <locusGrp><locus from="9r" to="9v">9r, 9v</locus> e <locus from="40r" to="44v">da 40r a 44v</locus></locusGrp> sono presenti scritte apportate successivamente da <persName xml:id="OR"><forename>Orombello</forename> <surname>Riccioni</surname></persName>, figlio di <persName ref="#PR"><forename>Pasquale</forename></persName>.
-			  </p>
+			  <p>In <locusGrp><locus from="9r" to="9v">9r, 9v</locus> e <locus from="40r" to="44v">da 40r a 44v</locus></locusGrp> sono presenti scritte apportate successivamente da <persName xml:id="OR"><forename>Orombello</forename> <surname>Riccioni</surname></persName>, figlio di <persName ref="#PR"><forename>Pasquale</forename></persName>.</p>
 			</additions>
 			<accMat facs="https://iiif.archivelab.org/iiif/tesi_db_42r_geo_202205/full/full/0/default.jpg">
 			  <p><locus from="41v" to="42r">Tra 41v e 42r</locus> è stata trovata la copertina del libro <title type="short" level="m">Geografia Moderna Universale</title> di <author><persName><forename>Giuseppe R.</forename> <surname>Pagnozzi</surname></persName></author>.</p>
