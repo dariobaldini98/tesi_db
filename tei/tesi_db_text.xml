@@ -504,13 +504,14 @@
 		</closer>
 	  </quote>
 	  </div>
+	  <handShift scriptRef="#script-ro" resp="#DB"/>
 	  <div type="diaryEntry">
 	    <head>(Sorpresa innaspettata)</head>
 		<handShift new="#PRro" resp="#DB"/>
 		<p>La sera del <date when="1901-07-06">6 Luglio 1901</date> mentre per caso mi affacciai nella porta principale di queste Carcere verso le ore <time when="21:30:00">9 &#189; <choice><expan>pomeridiane</expan><abbr>pom.ne</abbr></choice></time> vedo passare 4 o 5 giovanotti tra i quali uno mi disse <q type="spoken">- <persName ref="#PR"><surname>Riccio'</surname></persName>  mi riconosci, vi porto i saluti della <persName><forename>Betta</forename></persName></q> avvicinandosi sempre più verso di me. <q type="spoken">che non mi riconosci io sono <persName><surname>Colonna</surname> <forename>Giuseppe</forename></persName> vengo da <placeName><settlement type="town">Bagnaia</settlement></placeName></q> <q type="spoken" who="#PR">- E bene come sta la <persName><forename>Betta</forename></persName></q> <q type="spoken">- Sta bene</q> <q type="spoken" who="#PR">- Ma tu <choice><corr resp="#DB" cert="high">l'hai</corr><sic>lai</sic></choice> veduta</q> <q type="spoken">- Sì che <choice><corr resp="#DB" cert="high">l'ho</corr><sic>lo</sic></choice> veduta ci ha servito a tavola</q> <q type="spoken" who="#PR">- Dunque mi assicuri che sta bene,</q> <q type="spoken">vi dico di sì</q> <q type="spoken" who="#PR">Perché mi erano scritto che stava ammalata. Ora che ho saputo bone notizie ne ringrazio Iddio della Sua alta bontà e misericordia che ha verso i miseri che lo invogano.</q> <q type="spoken">Anzi mi disse dove andava gli disse che veniva a <placeName><settlement type="city">Civitavecchia</settlement></placeName>.</q> <q type="spoken" who="#PR">- E allora fategli tanti Saluti</q> <q type="spoken">- Io per parte mia sono proprio contento e vi ringrazio</q></p>
 	  </div>
 	  <pb n="8v" facs="https://iiif.archivelab.org/iiif/tesi_db_8v/full/full/0/default.jpg"/>
-	  <handShift new="#PRit" resp="#DB"/>
+	  <handShift scriptRef="#script-it" resp="#DB"/>
       <div type="diaryEntry">
 	    <p>Il giorno <date when="1901-07-13">13 Luglio 1901</date>, il <orgName type="phrase">Carcere Giudiziario di <placeName><settlement type="city"><choice><expan>Civitavecchia</expan><abbr>C.Vecchia</abbr></choice></settlement></placeName></orgName> rimane senza transitanti partono gli ultimi 17 detenuti per la <placeName><region>Sardegna</region></placeName>, se in giornata del <date when="1901-07-13">13</date> non arrivano altri. Se non vi sono cose al contrario sarebbe il caso favorevole di partire per la Licenza.</p>
 		<p>La mattina del <date when="1901-07-16">16 Luglio 1901</date> dico al <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Finetti</surname></persName>. <q type="spoken" who="#PR">Ma come in Licenza non mi mandano più, ora i transitanti sono tutti partiti</q> <q type="spoken">- Sì ora potresti andare dove vai</q> <q type="spoken" who="#PR">- vado a <placeName><settlement type="city">Viterbo</settlement></placeName> come Lei già lo sa, quando per dieci o pure 15 giorni.</q> <q type="spoken">- Ma che è per dieci giorni.</q> <q type="spoken" who="#PR">Va bene e poi vi è nessuna Guardia all'ospedale</q> <q type="spoken">- <choice><corr resp="#DB" cert="high">C'è</corr><sic>Ce</sic></choice> quella <persName><roleName type="military">Guardia</roleName> <surname>Martone</surname></persName></q> <q type="spoken" who="#PR">- Ma che quello deve andare all'ospedale Militare, e parlerò al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore.</q></p>
@@ -519,8 +520,8 @@
 		<p>Il caso vuole che il <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Finetti</surname></persName> in quel giorno era in Lcenza, e il foglio di Via l'aveva Lui nel cassetto. La Mattina del <date when="1901-07-19">19 Luglio 1901</date>, essendo ritornato, gli fo di nuovo <q type="spoken" who="#PR">domani posso partire tanto è venuta un'altra Guardia -</q> risponde il Segretario <q type="spoken">e lo so</q>, quando poi verso le ore <time when="11:55:00">11,55</time> nello uscire dal carcere, mi dice <q type="spoken">all'ora dom'attina parti.</q> Verso le ore <time when="14:45:00">14 &#190;</time> il capo <choice><expan>Guardia</expan><abbr>G.a</abbr></choice> mi consegna il Foglio di Via bello che corretto. E così sia finalmente si arriva alla sospirata Licenza.</p>
 	  </div>
 	  <pb n="9r" facs="https://iiif.archivelab.org/iiif/tesi_db_9r/full/full/0/default.jpg"/>
-      <handShift new="#ORit" resp="#DB"/>
-      <addSpan n="9r-9v" hand="#ORit" spanTo="#end_9v"/>
+      <handShift new="#hand-OR" resp="#DB"/>
+      <addSpan n="9r-9v" hand="#hand-OR" spanTo="#end_9v"/>
 	  <div type="diaryEntry">	
         <quote>	  
 	      <opener>
@@ -558,7 +559,7 @@
 	  </div>
       <anchor xml:id="end_9v"/>
 	  <pb n="10r" facs="https://iiif.archivelab.org/iiif/tesi_db_10r/full/full/0/default.jpg"/>
-      <handShift new="#PRit" resp="#DB"/>
+      <handShift new="#hand-PR" resp="#DB"/>
 	  <div type="diaryEntry">
 	    <ab>N. 155 <figure><graphic url="https://iiif.archivelab.org/iiif/tesi_db_10r/476,52,285,138/full/0/default.jpg" mimeType="image/jpeg" width="285" height="138"/><figDesc>Timbro della Cassa di Risparmio di Viterbo</figDesc></figure> Ser.</ab>
 	    <ab><orgName type="phrase">Cassa di Risparmio di <placeName><settlement type="city">Viterbo</settlement></placeName></orgName></ab>
