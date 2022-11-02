@@ -100,11 +100,22 @@
 				</layout>
 			  </layoutDesc>
 			</objectDesc>
-			<handDesc hands="3">
-	          <handNote xml:id="PRit" scribeRef="#PR" script="italic" medium="black-ink" scope="major">Corsivo originale di Pasquale Riccioni</handNote>
-			  <handNote xml:id="PRro" scribeRef="#PR" script="roman" medium="black-ink" scope="major">Minuscolo originale di Pasquale Riccioni</handNote>
-		      <handNote xml:id="ORit" scribeRef="#OR" script="italic" medium="black-ink" scope="minor">Imitazione del corsivo del padre da parte di Orombello Riccioni</handNote>
+			<handDesc hands="2">
+	          <handNote xml:id="hand-PR" scribeRef="#PR" scriptRef="#script-it #script-ro" scope="major">
+			    <p>Le scritte originali di <persName ref="#PR"><forename>Pasquale</forename></persName> hanno forma corsiva <locusGrp><locus from="1r" to="8v">da 1r a 8v</locus>, <locus>in 10r</locus>, <locus from="13v" to="14r">da 13v a 14r</locus>, <locus from="15v" to="16r">da 15v a 16r</locus>, <locus from="16v" to="19r">da 16v a 19r</locus></locusGrp> e tonda <locusGrp><locus>in 19v</locus>, <locus from="21r" to="24v">da 21r a 24v</locus>, <locus from="25v" to="35v">da 25v a 35v</locus>, <locus from="16v" to="19r">da 37r a 40r</locus></locusGrp>.</p>
+			  </handNote>
+		      <handNote xml:id="hand-OR" scribeRef="#OR" scriptRef="#script-it" scope="minor">
+			    <p>Le scritte di <persName ref="#OR"><forename>Orombello</forename></persName> sono un'imitazione del corsivo del padre; presentano un tratto decisamente più impreciso.</p>
+			  </handNote>
 	        </handDesc>
+			<scriptDesc>
+			  <scriptNote xml:id="script-it" script="italic" medium="black-ink">
+			    <p>Corsivo in inchiostro nero.</p>
+			  </scriptNote>
+			  <scriptNote xml:id="script-ro" script="roman" medium="black-ink">
+			    <p>Tondo in inchiostro nero.</p>
+			  </scriptNote>
+			</scriptDesc>
 			<decoDesc>
               <decoNote type="picture">
                 <p>Cinque disegni a tutta pagina in <locusGrp><locus from="20r" to="20v">20r, 20v</locus>, <locus>25r</locus>, <locus from="36r" to="36v">36r e 36v</locus></locusGrp>.</p>
@@ -179,7 +190,7 @@
 	  </calendarDesc>
 	</profileDesc>
 	<revisionDesc>
-      <change who="#DB" when="2022-10-29" status="draft">Terminata la revisione di <gi>teiHeader</gi></change>
+      <change who="#DB" when="2022-11-02" status="draft">Terminata la revisione di <gi>teiHeader</gi></change>
       <change who="#DB" when="2022-10-04" status="draft">Completata la trascrizione fino a 10r</change>
       <change who="#DB" when="2022-09-29" status="draft">Sostituiti <gi>diaryEntry</gi> con <tag>div type="diaryEntry"</tag></change>
       <change who="#DB" when="2022-08-12" status="draft">Iniziata la trascrizione</change>
