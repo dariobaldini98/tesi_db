@@ -200,7 +200,7 @@
 	  </calendarDesc>
 	</profileDesc>
 	<revisionDesc>
-      <change who="#DB" when="2022-11-02" status="draft">Terminata la revisione di <gi>teiHeader</gi></change>
+      <change who="#DB" when="2022-11-03" status="draft">Terminata la revisione di <gi>teiHeader</gi></change>
       <change who="#DB" when="2022-10-04" status="draft">Completata la trascrizione fino a 10r</change>
       <change who="#DB" when="2022-09-29" status="draft">Sostituiti <gi>diaryEntry</gi> con <tag>div type="diaryEntry"</tag></change>
       <change who="#DB" when="2022-08-12" status="draft">Iniziata la trascrizione</change>
