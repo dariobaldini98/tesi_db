@@ -152,8 +152,8 @@
 				  <p>Catalogato direttamente dall'originale e con informazioni fornite dalla famiglia.</p>
 				</source>
 			  </recordHist>
-		      <availability>
-			    <p>Conservato a casa del nipote <persName><forename>Luigi</forename></persName> nel paese di <placeName><settlement type="town">Bagnaia</settlement></placeName> (VT); per ora non è prevista la possibilità di esaminarlo.</p>
+		      <availability status="restricted">
+			    <p>Conservato a casa del nipote <persName><forename>Luigi</forename></persName> nel paese di <placeName><settlement type="town">Bagnaia</settlement></placeName> (VT); per ora non è prevista la possibilità di consultarlo.</p>
 			  </availability>
 			  <custodialHist>
 			    <custEvent type="scan" when="2022-01-12">
