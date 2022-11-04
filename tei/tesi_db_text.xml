@@ -330,7 +330,7 @@
 		  <closer>
 		    <salute>buon'anno e salute a tutti</salute>
 		    <signed><persName><surname>Zaffarini</surname></persName></signed>
-			<dateline><placeName><settlement type="city">Lanciano</settlement></placeName><date when="1900-12-30">30 Dicembre 1900</date></dateline>
+			<dateline><placeName><settlement type="city">Lanciano</settlement></placeName> <date when="1900-12-30">30 Dicembre 1900</date></dateline>
           </closer>
 		</quote>
 	  </div>
