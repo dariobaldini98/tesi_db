@@ -462,7 +462,7 @@
 		  <ab>Oggetto</ab>
 		  <p>Sul Debito del <persName><roleName type="military">Capo <choice><expan>Guardia</expan><abbr>G.a</abbr></choice></roleName> <surname>Milano</surname> <forename>Giovanni</forename></persName> Verso l'<persName ref="#PR"><roleName type="military">agente</roleName> <surname>Riccioni</surname></persName></p>
 		</quote>  
-		<ab>(Mi è stata notificata la presente <date when="1901-06-08">oggi 8 Giugno 1901</date> <placeName><settlement type="city"><choice><expan>Civitavecchia</expan><abbr>C.Vecchia</abbr></choice></settlement></placeName>)</ab>
+		<ab>(Mi è stata notificata la presente oggi <date when="1901-06-08">8 Giugno 1901</date> <placeName><settlement type="city"><choice><expan>Civitavecchia</expan><abbr>C.Vecchia</abbr></choice></settlement></placeName>)</ab>
 	  </div>
 	  <div type="diaryEntry">
 	    <ab>Il risultato della Domanda fatta al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore</ab>
