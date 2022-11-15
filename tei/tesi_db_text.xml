@@ -383,7 +383,7 @@
 		<ab>oggi stesso consegnata alla Direzione Locale (<date when="1901-05-29">29-5-901</date>)</ab>
 	  </div>
 	  <div type="diaryEntry">
-	    <p>Oggi stesso ha risposto alla cartolina di <persName><surname>Aquilanti</surname> <forename>Vittorio</forename></persName>. Nel leggerla mi diede la trista notizia, che <persName><forename>Elisabetta</forename></persName> è ricoverata di nuovo ammalata già <date from="1901-05-17" to="1901-05-29"><add hand="#PRro" place="above">da</add> 12 giorni</date>. <del hand="#PRro" status="shortEnd">fa.</del> Questi sì che sono dispiaceri; sognavo per l'avvenire dei giorni felici, ed invece pare che la sorte voglia troncare l'uniche speranze.</p>
+	    <p>Oggi stesso ha risposto alla cartolina di <persName><surname>Aquilanti</surname> <forename>Vittorio</forename></persName>. Nel leggerla mi diede la trista notizia, che <persName><forename>Elisabetta</forename></persName> è ricoverata di nuovo ammalata già <date when="1901-05-17" dur="P12D"><add hand="#PRro" place="above"><offset>da</offset></add> 12 giorni</date>. <del hand="#PRro" status="shortEnd">fa.</del> Questi sì che sono dispiaceri; sognavo per l'avvenire dei giorni felici, ed invece pare che la sorte voglia troncare l'uniche speranze.</p>
 		<p>Dio non voglia che la cosa fosse realtà; Anzi tutto al contrario che lei per grazia della Dio mercé, abbia riacquistare quella florida gaezza di una volta, le speranze di un buon avvenire, non verranno mai meno. Questo è l'unico conforto che ho e ripongo tutto le mie speranze nella volontà di Dio e della madre natura che gli voglia dare lunga vita.</p>
 		<closer>
 	      <signed><persName ref="#PR"><forename full="init">P.</forename> <surname>Riccioni</surname></persName></signed>
