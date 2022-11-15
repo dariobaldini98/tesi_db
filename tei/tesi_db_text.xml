@@ -399,7 +399,7 @@
 		  <dateline>Lì <date when="1901-06-02">2 Giugno 1901</date></dateline>
 		  <salute>Domanda al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore</salute>
 		</opener>
-		<p>La <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname> <forename>Pasquale</forename></persName> prega di volerla autorizzare di avanzare una domanda per <num>10</num> giorni permesso per affari urgentissimi di famiglia</p>
+		<p>La <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname> <forename>Pasquale</forename></persName> prega di volerla autorizzare di avanzare una domanda per <num value="10">10</num> giorni permesso per affari urgentissimi di famiglia</p>
 		<closer>
 		  <salute>La ringrazia tanta bontà suo</salute>
 		  <signed>Umilissimo Servo</signed>
