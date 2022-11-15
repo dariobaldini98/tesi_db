@@ -440,11 +440,11 @@
         </closer>
 		<list>
 		  <head>Ricetta pratica</head>
-		  <item><label>Vasellina</label> <measure type="weight" unit="g" quantity="30" commodity="vaseline">gram. <num>30</num></measure></item>
-		  <item><label>Estratto della nonna</label> <measure type="weight" unit="g" quantity="4">gram. <num>4</num></measure></item>
-		  <item><label>Clorado di Morfina fem<!--???--></label> <measure type="weight" unit="g" quantity="30" commodity="morphine chloride">gra. <num>30</num></measure></item>
-		  <item><label>Ioduro di potassio</label> <measure type="weight" unit="g" quantity="4" commodity="potassium iodide">gra. <num>4</num></measure></item>
-		  <item><label>Iodio</label> <measure type="weight" unit="g" quantity="1" commodity="iodine">gram. <num>uno</num></measure></item>
+		  <item><label>Vasellina</label> <measure type="weight" unit="g" quantity="30" commodity="vaseline"><unit>gram.</unit> <num>30</num></measure></item>
+		  <item><label>Estratto della nonna</label> <measure type="weight" unit="g" quantity="4"><unit>gram.</unit> <num>4</num></measure></item>
+		  <item><label>Clorado di Morfina fem<!--???--></label> <measure type="weight" unit="g" quantity="30" commodity="morphine chloride"><unit>gra.</unit> <num>30</num></measure></item>
+		  <item><label>Ioduro di potassio</label> <measure type="weight" unit="g" quantity="4" commodity="potassium iodide"><unit>gra.</unit> <num>4</num></measure></item>
+		  <item><label>Iodio</label> <measure type="weight" unit="g" quantity="1" commodity="iodine"><unit>gram.</unit> <num>uno</num></measure></item>
 		</list>
 		<ab>Esterno</ab>
 	  </div>
