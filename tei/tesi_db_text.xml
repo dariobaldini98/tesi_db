@@ -557,7 +557,7 @@
 		  <dateline><placeName><settlement type="town">La Quercia</settlement></placeName> <date when="1932-06">6. 1932</date></dateline>
 		  <salute>Egregia Signorina</salute>
 		</opener>
-		<ab><add hand="#hand-OR" place="margin"><surplus reason="interpolated">perché anche lei accettasse<surplus></add></ab>
+		<ab><add hand="#hand-OR" place="margin"><secl reason="interpolated">perché anche lei accettasse</secl></add></ab>
 		<p>Le idee sono tante che mi tormentano l'anima.</p>
 		<p>Dal giorno <date when="1932-06-28">28</date> che ebbi ricevuto un suo scritto <subst><del rend="overstrike"><!--SENTI FRANCA--></del><add hand="#hand-OR" place="above">leggendo con ansia ma non finì di leggere che un singhiozzo mi chiusi la gola</add></subst> appena lesse le primi parole pianse</p>
 		<p><add hand="#hand-OR" place="above">Dopo rileggendo con attenzione</add> capì <del rend="overstrike">subito che</del> la sua <subst><del rend="overstrike">idea sono altrove, certo a</del><add hand="#hand-OR" place="above"><del rend="overstrike">era un saperla</del><surplus reason="out-of-context"><!--SENTI FRANCA--></surplus></add></subst> ragione;</p>
