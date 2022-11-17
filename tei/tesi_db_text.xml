@@ -565,11 +565,11 @@
 		<p>Con questo io <del rend="overstrike">non voglio</del> insistere <del rend="overstrike">per a</del> al suo amore, perché <add hand="#hand-OR" place="above"><del rend="overstrike">adesso</del> capisco che</add> le mie condizione per quanto siano buone al paragone delle sue sono infime <del rend="overstrike">ma però <!--SENTI FRANCA--> buone <!--SENTI FRANCA-->  presto perché</del></p>
 		<p>Pregherò Iddio <del rend="overstrike">che spero di raggiungere</del> <add hand="#hand-OR" place="above">dal bene che <subst><del rend="overstrike">per lei</del><add hand="#hand-OR" place="below">mi sento di volerle</add><subst> signorina <del rend="overstrike">che poi perché</del></add> che avessi fatta la felicità, e che trovasse <del rend="overstrike">un</del> <choice><corr resp="#DB" cert="high">un </corr><sic>un'</sic></choice>omo <del rend="overstrike">che l'ama</del> come l'amo io. <del rend="overstrike">sarà sarà ben difficile</del> che non dimenticherà <add hand="#hand-OR" place="above">pensare a lei per</add> per fino la mia vita</p>
 		<p>mi resta solo un pensiero dentro di me e più non posso attende</p>
-		<p>Mi perdoni se mancano non è colpa mia <add hand="#hand-OR" place="margin">per me e per lei, a lei dia la felicità la tranquilezza e me <del rend="overstrike">la</del> rassegnazione che è difficile averla perché è troppo il bene <del rend="overstrike">che anco l'amerò</del> sempre anco sempre un</add></p>
-		<closer>
+        <closer>
 		  <salute>Distinti Saluti</salute>
 		  <signed><persName ref="#OR"><forename>Orombello</forename> <surname>Riccioni</surname></persName></signed>
 		</closer>
+		<p><secl>Mi perdoni se mancano non è colpa mia <add hand="#hand-OR" place="margin">per me e per lei, a lei dia la felicità la tranquilezza e me <del rend="overstrike">la</del> rassegnazione che è difficile averla perché è troppo il bene <del rend="overstrike">che anco l'amerò</del> sempre anco sempre un</add></secl></p>
 	  </div>
       <anchor xml:id="end_9v"/>
 	  <pb n="10r" facs="https://iiif.archivelab.org/iiif/tesi_db_10r/full/full/0/default.jpg"/>
