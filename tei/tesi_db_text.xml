@@ -582,7 +582,7 @@
 	  <pb n="10r" facs="https://iiif.archivelab.org/iiif/tesi_db_10r/full/full/0/default.jpg"/>
       <handShift new="#hand-PR" resp="#DB"/>
 	  <div type="diaryEntry">
-	    <ab>N. 155 <figure><graphic url="https://iiif.archivelab.org/iiif/tesi_db_10r/476,52,285,138/full/0/default.jpg" mimeType="image/jpeg" width="285" height="138"/><figDesc>Timbro della Cassa di Risparmio di Viterbo</figDesc></figure> Ser.</ab>
+	    <ab>N. <num type="cardinal" value="155">155</num> <figure><graphic url="https://iiif.archivelab.org/iiif/tesi_db_10r/476,52,285,138/full/0/default.jpg" mimeType="image/jpeg" width="285" height="138"/><figDesc>Riproduzione di un timbro della Cassa di Risparmio di Viterbo</figDesc></figure> Ser.</ab>
 	    <ab><orgName type="phrase">Cassa di Risparmio di <placeName><settlement type="city">Viterbo</settlement></placeName></orgName></ab>
 		<ab>N. <del rend="overstrike"><num type="cardinal" value="155">Centocinquantacinque</num></del></ab>
 		<ab>Libretto di credito personale creato il <date when="1897-07-23">23 Luglio 1897</date> a favore del <persName ref="#PR"><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Riccioni</surname> <forename>Pasquale</forename> <roleName type="military">Guardia Carceraria</roleName></persName></ab>
