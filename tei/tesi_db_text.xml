@@ -20,7 +20,7 @@
 	  </titleStmt>
       <extent>
 	    <measure unit="KB" quantity="65.9">65,9 KB</measure>
-		<measure unit="pages" quantity="">19 pagine del diario</measure>
+		<measure unit="pages" quantity="19">19 pagine del diario</measure>
 	  </extent>
       <publicationStmt>
 	    <authority><orgName type="phrase">Università degli Studi della <placeName><region>Tuscia</region></placeName></orgName></authority>
