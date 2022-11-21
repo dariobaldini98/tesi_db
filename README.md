@@ -9,14 +9,12 @@ The project is composed of the following parts:
   - [x] [2.1.1 Image APIs](https://iiif.archivelab.org/iiif/tesi_db_1r/info.json) of the scans (eg. *r1*);  
   - [x] [3.0.0 Presentation API of a manifest](https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json);  
 2. TEI:  
-  - [ ] [encoding of the transcription](https://dariobaldini98.github.io/tesi_db/tei/tesi_db_text.xml) (WIP);
-  - [ ] ODD scheme;  
-  or  
-  - [ ] CSS style sheets to display the encoding;  
+  - [ ] [TEI encoding of the transcription](https://dariobaldini98.github.io/tesi_db/tei/tesi_db_text.xml) (WIP);
 3. Website:  
-  - [ ] [informative homepage](https://dariobaldini98.github.io/tesi_db/website/tesi_db_homepage.html) (WIP);  
-  - [x] clients displaying the manifest (just [Universal Viewer](https://uv-v4.netlify.app/#?manifest=https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json) and [Mirador 3](https://projectmirador.org/embed/?iiif-content=https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json) demos atm);  
-  - [ ] page rendering the text;  
+  - [ ] [informative homepage in HTML](https://dariobaldini98.github.io/tesi_db/website/tesi_db_homepage.html) (WIP);  
+  - [x] clients displaying the manifest (just [Universal Viewer](https://uv-v4.netlify.app/#?manifest=https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json) and [Mirador 3](https://projectmirador.org/embed/?iiif-content=https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json) demos atm - 2 pages on the website coming soon);  
+  - [ ] XSLT document to turn the TEI encoding into XHTML;  
+  - [ ] CSS document to style the website.  
 
 Links will be provided in the task list above as soon as avaiable.  
 
