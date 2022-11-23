@@ -14,7 +14,7 @@
           * {
             font-family: EasyReading;
 		    color: black;
-		    background-color:: #e1d0a5;
+		    background-color: #e1d0a5;
           }
 		</style>
       </head>
