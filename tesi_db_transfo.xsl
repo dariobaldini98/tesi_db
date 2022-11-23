@@ -9,7 +9,11 @@
       </head>
 	  <body>
 	      <xsl:for-each select="TEI/text/body">
-	        <div><xsl:value-of select="div"/></div>
+	        <div>
+			  <xsl:for-each select="div">
+			    <p><xsl:value-of select="p"/></p>
+			  </xsl:for-each>
+			</div>
 	      </xsl:for-each>
 	  </body>
 	</html>
