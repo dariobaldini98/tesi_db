@@ -4,14 +4,14 @@ This repo hosts a project for my Masters Dissertation on Electronic Publishing; 
 
 The project is composed of the following parts:  
   
-1. [x] [high-quality scans of the pages](https://iiif.archivelab.org/iiif/tesi_db_1r/full/full/0/default.jpg) (eg. *r1*)  
-2. [x] [IIIF Image APIs](https://iiif.archivelab.org/iiif/tesi_db_1r/info.json) of the scans (eg. *r1*)  
-3. [x] [IIIF Presentation API of a manifest](https://dariobaldini98.github.io/tesi_db/tesi_db_manifest.json)  
-4. [x] clients displaying the manifest (just [Universal Viewer](https://uv-v4.netlify.app/#?manifest=https://dariobaldini98.github.io/tesi_db/tesi_db_manifest.json) and [Mirador 3](https://projectmirador.org/embed/?iiif-content=https://dariobaldini98.github.io/tesi_db/tesi_db_manifest.json) demos atm - 2 website pages tbd)  
-5. [x] [TEI encoding of the transcription](https://dariobaldini98.github.io/tesi_db/tesi_db_text.xml) (till *10r* atm)  
-6. [ ] WIP - [informative homepage in HTML](https://dariobaldini98.github.io/tesi_db/tesi_db_homepage.html) - WIP  
-7. [ ] XSLT document to turn the TEI encoding into XHTML  
-8. [ ] CSS document to style the website  
+- [x] [high-quality scans of the pages](https://iiif.archivelab.org/iiif/tesi_db_1r/full/full/0/default.jpg) (eg. *r1*)  
+- [x] [IIIF Image APIs](https://iiif.archivelab.org/iiif/tesi_db_1r/info.json) of the scans (eg. *r1*)  
+- [x] [IIIF Presentation API of a manifest](https://dariobaldini98.github.io/tesi_db/tesi_db_manifest.json)  
+- [x] clients displaying the manifest (just [Universal Viewer](https://uv-v4.netlify.app/#?manifest=https://dariobaldini98.github.io/tesi_db/tesi_db_manifest.json) and [Mirador 3](https://projectmirador.org/embed/?iiif-content=https://dariobaldini98.github.io/tesi_db/tesi_db_manifest.json) demos atm - 2 website pages tbd)  
+- [x] [TEI encoding of the transcription](https://dariobaldini98.github.io/tesi_db/tesi_db_text.xml) (till *10r* atm)  
+- [ ] WIP - [informative homepage in HTML](https://dariobaldini98.github.io/tesi_db/tesi_db_homepage.html) - WIP  
+- [ ] XSLT document to turn the TEI encoding into XHTML  
+- [ ] CSS document to style the website  
 
 Links will be provided in the task list above as soon as avaiable.  
 
