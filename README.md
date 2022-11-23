@@ -3,18 +3,15 @@
 This repo hosts a project for my Masters Dissertation on Electronic Publishing; it consists in the digitisation of a diary written between 1901 and 1903 by the prison guard Pasquale Riccioni.  
 
 The project is composed of the following parts:  
-
-1. IIIF:  
-  - [x] [high-quality scans of the pages](https://iiif.archivelab.org/iiif/tesi_db_1r/full/full/0/default.jpg) (eg. *r1*);
-  - [x] [2.1.1 Image APIs](https://iiif.archivelab.org/iiif/tesi_db_1r/info.json) of the scans (eg. *r1*);  
-  - [x] [3.0.0 Presentation API of a manifest](https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json);  
-2. TEI:  
-  - [ ] [TEI encoding of the transcription](https://dariobaldini98.github.io/tesi_db/tei/tesi_db_text.xml) (WIP);
-3. Website:  
-  - [ ] [informative homepage in HTML](https://dariobaldini98.github.io/tesi_db/website/tesi_db_homepage.html) (WIP);  
-  - [x] clients displaying the manifest (just [Universal Viewer](https://uv-v4.netlify.app/#?manifest=https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json) and [Mirador 3](https://projectmirador.org/embed/?iiif-content=https://dariobaldini98.github.io/tesi_db/iiif/tesi_db_manifest.json) demos atm - 2 pages on the website coming soon);  
-  - [ ] XSLT document to turn the TEI encoding into XHTML;  
-  - [ ] CSS document to style the website.  
+  
+1. [x] [high-quality scans of the pages](https://iiif.archivelab.org/iiif/tesi_db_1r/full/full/0/default.jpg) (eg. *r1*)  
+2. [x] [IIIF Image APIs](https://iiif.archivelab.org/iiif/tesi_db_1r/info.json) of the scans (eg. *r1*)  
+3. [x] [IIIF Presentation API of a manifest](https://dariobaldini98.github.io/tesi_db/tesi_db_manifest.json)  
+4. [x] clients displaying the manifest (just [Universal Viewer](https://uv-v4.netlify.app/#?manifest=https://dariobaldini98.github.io/tesi_db/tesi_db_manifest.json) and [Mirador 3](https://projectmirador.org/embed/?iiif-content=https://dariobaldini98.github.io/tesi_db/tesi_db_manifest.json) demos atm - 2 website pages tbd)  
+5. [x] [TEI encoding of the transcription](https://dariobaldini98.github.io/tesi_db/tesi_db_text.xml) (till *10r* atm)  
+6. [ ] WIP - [informative homepage in HTML](https://dariobaldini98.github.io/tesi_db/tesi_db_homepage.html) - WIP  
+7. [ ] XSLT document to turn the TEI encoding into XHTML  
+8. [ ] CSS document to style the website  
 
 Links will be provided in the task list above as soon as avaiable.  
 
