@@ -14,7 +14,7 @@ The project is composed of the following parts:
   - [Mirador 3](https://projectmirador.org/embed/?iiif-content=https://dariobaldini98.github.io/tesi_db/tesi_db_manifest.json)  
 - [ ] [XHTML page rendering the transcription](https://dariobaldini98.github.io/tesi_db/tesi_db_text.xml) (**till *10r* atm**)  
   - [ ] **WIP** - [XSL document to turn the TEI encoding into XHTML](https://dariobaldini98.github.io/tesi_db/tesi_db_transfo.xsl) - **WIP**  
-  - [ ] CSS document to style the website (**tbd**)  
+  - [ ] **WIP** - [CSS document to style the website](https://dariobaldini98.github.io/tesi_db/tesi_db_style.css) - **WIP**  
 
 Links will be provided in the task list above as soon as avaiable.  
 
