@@ -10,13 +10,6 @@
       </head>
 	  <body>
 	    <h1><xsl:value-of select="TEI/teiHeader/fileDesc/titleStmt/title"/></h1>
-	    <xsl:for-each select="TEI/text/body">
-	      <div>
-		    <xsl:for-each select="div">
-			  <p><xsl:value-of select="p"/></p>
-			</xsl:for-each>
-		  </div>
-	    </xsl:for-each>
 	  </body>
 	</html>
   </xsl:template>
