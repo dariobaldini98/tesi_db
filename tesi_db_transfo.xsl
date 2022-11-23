@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:template match="/">
+  <xsl:template match="/TEI">
     <html>
 	  <head>
         <meta charset="utf-8"/>
@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="tesi_db_style.css"/>
       </head>
 	  <body>
-	    <h1><xsl:value-of select="//*"/></h1>
+	    <h1><xsl:value-of select="TEI/teiHeader/fileDesc/titleStmt/title"/></h1>
 	  </body>
 	</html>
   </xsl:template>
