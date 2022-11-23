@@ -15,5 +15,8 @@
         }  
       </style>
     </head>
+	<body>
+	  <h1><xsl:value-of select="TEI/teiHeader/fileDesc/titleStmt/title"/></h1>
+	</body>
   </xsl:template>
 </xsl:stylesheet>
