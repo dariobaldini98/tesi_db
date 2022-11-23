@@ -8,11 +8,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
       </head>
 	  <body>
-	    <h1><xsl:value-of select="TEI/teiHeader/fileDesc//title"/></h1>
-	    <xsl:for-each select="TEI/text/body">
+	    <h1><xsl:value-of select="/TEI/teiHeader/fileDesc//title"/></h1>
+	    <xsl:for-each select="/TEI/text/body">
 	      <div>
-		    <xsl:for-each select="div">
-			  <p><xsl:value-of select="p"/></p>
+		    <xsl:for-each select="/div">
+			  <p><xsl:value-of select="/p | /ab"/></p>
 			</xsl:for-each>
 		  </div>
 	    </xsl:for-each>
