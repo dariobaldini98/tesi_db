@@ -1,4 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="tesi_db_transfo.xml"?>
+<?xml-stylesheet type="text/xsl" href="tesi_db_transfo.xsl"?>
 <TEI version="4.5.0" xml:lang="it" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
