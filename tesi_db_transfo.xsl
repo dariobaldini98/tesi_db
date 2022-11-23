@@ -8,11 +8,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
       </head>
 	  <body>
-	    <div>
-	      <xsl:for-each select="TEI/text/body/div">
-	        <p><xsl:value-of select="p"/></p>
+	      <xsl:for-each select="TEI/text/body">
+	        <div><xsl:value-of select="div"/></div>
 	      </xsl:for-each>
-		</div>
 	  </body>
 	</html>
   </xsl:template>
