@@ -4,7 +4,7 @@
     <html>
 	  <head>
         <meta charset="utf-8"/>
-        <title>WIP - tesi_db_text - WIP</title>
+        <title>WIP - tesi_db - WIP</title>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link rel="stylesheet" href="tesi_db_style.css"/>
       </head>
