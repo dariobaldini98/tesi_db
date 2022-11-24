@@ -16,16 +16,12 @@
 		</xsl:for-each>
 		<xsl:for-each select="tei:TEI/tei:text/tei:body/tei:div">
 		  <div>
-		    <xsl:for-each select="tei:div//tei:p">
-			  <p>
-			    <xsl:value-of select="."/>
+	          <p>
+			    <xsl:value-of select="tei:div//tei:p"/>
 			  </p>
-			</xsl:for-each>
-		    <xsl:for-each select="tei:div//tei:ab">
 			  <p>
-			    <xsl:value-of select="."/>
+			    <xsl:value-of select="tei:div//tei:ab"/>
 			  </p>
-			</xsl:for-each>
 	      </div>
 		</xsl:for-each>
 	  </body>
