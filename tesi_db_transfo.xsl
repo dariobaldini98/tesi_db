@@ -10,7 +10,7 @@
       </head>
 	  <body>
 	    <div>
-	      <p><xsl:value-of select="TEI/teiHeader/fileDesc/titleStmt/title"/></p>
+	      <p>CIAO</p>
 	    </div>
 	  </body>
 	</html>
