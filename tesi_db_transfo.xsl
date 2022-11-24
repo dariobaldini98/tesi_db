@@ -9,7 +9,9 @@
 		<link rel="stylesheet" href="tesi_db_style.css"/>
       </head>
 	  <body>
-	    <h1><xsl:value-of select="TEI/teiHeader/fileDesc/titleStmt/title"/></h1>
+	    <div>
+	      <p><xsl:value-of select="TEI/teiHeader/fileDesc/titleStmt/title"/></p>
+	    </div>
 	  </body>
 	</html>
   </xsl:template>
