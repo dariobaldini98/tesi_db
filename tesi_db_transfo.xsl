@@ -14,6 +14,12 @@
 		<h3><xsl:value-of select="tei:resp"/></h3>
 		<h2><xsl:value-of select="tei:persName"/></h2>
 		</xsl:for-each>
+		<xsl:for-each select="tei:text/tei:body/tei:div">
+		  <p><xsl:value-of select="tei:p | tei:ab"/></p>
+		  <xsl:for-each select="tei:opener | tei:closer">
+		    <p><xsl:value-of select="tei:salute | tei:dateline | tei:signed"/></p>
+		  </xsl:for-each>
+		</xsl:for-each>
 	  </body>
 	</html>
   </xsl:template>
