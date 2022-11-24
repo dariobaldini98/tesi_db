@@ -21,6 +21,11 @@
 			    <xsl:value-of select="."/>
 			  </p>
 			</xsl:for-each>
+		    <xsl:for-each select="tei:ab">
+			  <p>
+			    <xsl:value-of select="."/>
+			  </p>
+			</xsl:for-each>
 	      </div>
 		</xsl:for-each>
 	  </body>
