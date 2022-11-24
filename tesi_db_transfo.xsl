@@ -9,9 +9,7 @@
 		<link rel="stylesheet" href="tesi_db_style.css"/>
       </head>
 	  <body>
-	    <div>
-	      <p>CIAO</p>
-	    </div>
+	    <h1><xsl:value-of select="TEI"/></h1>
 	  </body>
 	</html>
   </xsl:template>
