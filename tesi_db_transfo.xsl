@@ -20,7 +20,7 @@
   </xsl:template>
   <xsl:template match="tei:div">
     <p>
-      <xsl:apply-templates select="tei:div//*"/>  
+      <xsl:apply-templates select="/tei:div//*"/>  
     </p>
   </xsl:template>
 </xsl:stylesheet>
