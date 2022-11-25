@@ -18,9 +18,9 @@
 	  </body>
 	</html>
   </xsl:template>
-  <xsl:template match="tei:div">
+  <xsl:template match="tei:TEI/tei:text/tei:body/tei:div">
     <p>
-      <xsl:apply-templates select="/tei:div//*"/>  
+      <xsl:apply-templates select="tei:TEI/tei:text/tei:body/tei:div//*"/>  
     </p>
   </xsl:template>
 </xsl:stylesheet>
