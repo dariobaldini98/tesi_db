@@ -16,7 +16,7 @@
 		</xsl:for-each>
 		<xsl:for-each select="tei:TEI/tei:text/tei:body/tei:div">
 		  <div>
-		    <xsl:for-each select="tei:div//*">
+		    <xsl:for-each select="tei:div/descendant">
 	          <p>
 			    <xsl:value-of select="."/>
 			  </p>
