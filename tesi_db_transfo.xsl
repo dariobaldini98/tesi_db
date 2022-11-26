@@ -28,10 +28,10 @@
       </p>
 	</div>
   </xsl:template>
-  <xsl:template match="tei:p">
+  <xsl:template match="//tei:p[ancestor::tei:div]">
     <xsl:value-of select="."/>
   </xsl:template>
-  <xsl:template match="tei:ab">
+  <xsl:template match="//tei:ab[ancestor::tei:div]">
     <xsl:value-of select="."/>
   </xsl:template>
 </xsl:stylesheet>
