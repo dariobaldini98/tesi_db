@@ -14,22 +14,36 @@
 		<h3><xsl:value-of select="tei:resp"/></h3>
 		<h2><xsl:value-of select="tei:persName"/></h2>
 		</xsl:for-each>
-          <div>
+        <div class="diaryEntry">
+		  <xsl:for-each select="tei:TEI/tei:text/tei:body/tei:div">
 		    <xsl:for-each select="//tei:p[ancestor::tei:div]">
 			  <p><xsl:value-of select="."/></p>
 	        </xsl:for-each>
 		    <xsl:for-each select="//tei:ab[ancestor::tei:div]">
 			  <p><xsl:value-of select="."/></p>
    	        </xsl:for-each>
-		    <xsl:for-each select="//tei:salute[ancestor::tei:div]">
-			  <p><xsl:value-of select="."/></p>
-	        </xsl:for-each>
-		    <xsl:for-each select="//tei:dateline[ancestor::tei:div]">
-			  <p><xsl:value-of select="."/></p>
-	        </xsl:for-each>
-		    <xsl:for-each select="//tei:signed[ancestor::tei:div]">
-			  <p><xsl:value-of select="."/></p>
-	        </xsl:for-each>
+		    <div class="opener">
+			  <xsl:for-each select="//tei:salute[parent::tei:opener]">
+			    <p><xsl:value-of select="."/></p>
+	          </xsl:for-each> 
+			  <xsl:for-each select="//tei:dateline[parent::tei:opener]">
+			    <p><xsl:value-of select="."/></p>
+	          </xsl:for-each>
+		      <xsl:for-each select="//tei:signed[parent::tei:opener]">
+			    <p><xsl:value-of select="."/></p>
+	          </xsl:for-each>
+			</div>
+		    <div class="closer">
+			  <xsl:for-each select="//tei:salute[parent::tei:closer]">
+			    <p><xsl:value-of select="."/></p>
+	          </xsl:for-each> 
+			  <xsl:for-each select="//tei:dateline[parent::tei:closer]">
+			    <p><xsl:value-of select="."/></p>
+	          </xsl:for-each>
+		      <xsl:for-each select="//tei:signed[parent::tei:closer]">
+			    <p><xsl:value-of select="."/></p>
+	          </xsl:for-each>
+			</div>
 			<xsl:for-each select="//tei:list[ancestor::tei:div]">
 			  <xsl:for-each select=".">
 			    <ul>
@@ -37,7 +51,15 @@
 				</ul>
 			  </xsl:for-each>
 	        </xsl:for-each>
-		  </div>
+			<xsl:for-each select="//tei:list[parent::tei:div]">
+			  <xsl:for-each select=".">
+			    <ul>
+				  <li><xsl:value-of select="//tei:item[parent::tei:list]"/></li>
+				</ul>
+			  </xsl:for-each>
+	        </xsl:for-each>
+		  </xsl:for-each>
+		</div>
 	  </body>
 	</html>
   </xsl:template>
