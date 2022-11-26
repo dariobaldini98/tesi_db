@@ -14,8 +14,8 @@
 		<h3><xsl:value-of select="tei:resp"/></h3>
 		<h2><xsl:value-of select="tei:persName"/></h2>
 		</xsl:for-each>
-        <div class="diaryEntry">
-		  <xsl:for-each select="tei:TEI/tei:text/tei:body/tei:div">
+        <xsl:for-each select="tei:TEI/tei:text/tei:body/tei:div">
+		  <div class="diaryEntry">
 		    <xsl:for-each select="//tei:p[ancestor::tei:div]">
 			  <p><xsl:value-of select="."/></p>
 	        </xsl:for-each>
@@ -58,8 +58,8 @@
 				</ul>
 			  </xsl:for-each>
 	        </xsl:for-each>
-		  </xsl:for-each>
-		</div>
+	      </div>
+		</xsl:for-each>
 	  </body>
 	</html>
   </xsl:template>
