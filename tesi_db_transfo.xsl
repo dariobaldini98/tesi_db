@@ -20,7 +20,7 @@
   </xsl:template>
   <xsl:template match="//tei:div">
     <xsl:sort select="position()"/>
-    <div><xsl:value-of select="."></div>
+    <div><xsl:value-of select="."/></div>
   </xsl:template>
   <xsl:template match="//tei:p[ancestor::tei:div]">
     <p><xsl:value-of select="."/></p>
