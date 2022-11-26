@@ -22,7 +22,9 @@
     <div class="diaryEntry">
       <p>
 	    <xsl:apply-templates select="//tei:p[ancestor::tei:div]"/>
-        <xsl:apply-templates select="//tei:ab[ancestor::tei:div]"/>
+      </p>
+	  <p>
+	    <xsl:apply-templates select="//tei:ab[ancestor::tei:div]"/>
       </p>
 	</div>
   </xsl:template>
