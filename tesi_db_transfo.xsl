@@ -33,7 +33,7 @@
 			<xsl:for-each select="//tei:list[ancestor::tei:div]">
 			  <xsl:for-each select=".">
 			    <ul>
-				  <li><xsl:value-of select="//tei:item[ancestor::tei:list]"/></li>
+				  <li><xsl:value-of select="//tei:item[parent::tei:list]"/></li>
 				</ul>
 			  </xsl:for-each>
 	        </xsl:for-each>
