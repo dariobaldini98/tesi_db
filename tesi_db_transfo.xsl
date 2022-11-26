@@ -15,7 +15,8 @@
 		<h2><xsl:value-of select="tei:persName"/></h2>
 		</xsl:for-each>
 		<xsl:for-each select="tei:TEI/tei:text/tei:body/tei:div">
-            <p><xsl:value-of select=".//tei:p"/></p>
+          <p><xsl:value-of select="./descendant::tei:p"/></p>
+		  <p><xsl:value-of select="./descendant::tei:ab"/></p>			
 		</xsl:for-each>
 	  </body>
 	</html>
