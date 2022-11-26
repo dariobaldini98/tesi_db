@@ -26,4 +26,10 @@
       </p>
 	</div>
   </xsl:template>
+  <xsl:template match="tei:p">
+    <xsl:value-of select="."/>
+  </xsl:template>
+  <xsl:template match="tei:ab">
+    <xsl:value-of select="."/>
+  </xsl:template>
 </xsl:stylesheet>
