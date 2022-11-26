@@ -14,12 +14,9 @@
 		<h3><xsl:value-of select="tei:resp"/></h3>
 		<h2><xsl:value-of select="tei:persName"/></h2>
 		</xsl:for-each>
-		<xsl:apply-templates/>
+		<div><xsl:value-of select="tei:TEI/tei:text/tei:body"/></div>
 	  </body>
 	</html>
-  </xsl:template>
-  <xsl:template match="//tei:div">
-    <div><xsl:value-of select="."/></div>
   </xsl:template>
   <xsl:template match="//tei:p[ancestor::tei:div]">
     <p><xsl:value-of select="."/></p>
