@@ -14,16 +14,14 @@
 		<h3><xsl:value-of select="tei:resp"/></h3>
 		<h2><xsl:value-of select="tei:persName"/></h2>
 		</xsl:for-each>
-        <xsl:for-each select="tei:TEI/tei:text/tei:body/tei:div">
-		  <div class="diaryEntry">
-		    <xsl:template match="tei:div">
-              <p>
-                <xsl:apply-templates select="//tei:p[ancestor::tei:div]"/>
-				<xsl:apply-templates select="//tei:ab[ancestor::tei:div]"/>
-              </p>
-            </xsl:template>
-	      </div>
-		</xsl:for-each>
+		<div class="diaryEntry">
+		  <xsl:template match="tei:TEI/tei:text/tei:body/tei:div">
+            <p>
+              <xsl:apply-templates select="//tei:p[ancestor::tei:div]"/>
+		      <xsl:apply-templates select="//tei:ab[ancestor::tei:div]"/>
+            </p>
+          </xsl:template>
+	    </div>
 	  </body>
 	</html>
   </xsl:template>
