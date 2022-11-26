@@ -14,12 +14,7 @@
 		<h3><xsl:value-of select="tei:resp"/></h3>
 		<h2><xsl:value-of select="tei:persName"/></h2>
 		</xsl:for-each>
-		<div class="diaryEntry">
-	      <xsl:apply-templates select="//tei:p[ancestor::tei:div]"/>
-          <xsl:apply-templates select="//tei:ab[ancestor::tei:div]"/>
-		  <xsl:apply-templates select="//tei:opener[ancestor::tei:div]"/>
-		  <xsl:apply-templates select="//tei:closer[ancestor::tei:div]"/>
-        </div>
+		<xsl:apply-templates/>
 	  </body>
 	</html>
   </xsl:template>
