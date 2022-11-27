@@ -9,35 +9,23 @@
 		<link rel="stylesheet" href="tesi_db_style.css"/>
       </head>
 	  <body>
-	    <h1><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
-		<xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt">
-		  <h3><xsl:value-of select="tei:resp"/></h3>
-		  <h2><xsl:value-of select="tei:persName"/></h2>
-		</xsl:for-each>
-		<div class="body"><xsl:apply-templates select="tei:TEI/tei:text/tei:body"/></div>
+	    <div class="heading">
+	      <h1><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
+		  <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt">
+		    <h3><xsl:value-of select="tei:resp"/></h3>
+		    <h2><xsl:value-of select="tei:persName"/></h2>
+		  </xsl:for-each>
+		</div>
+		<div class="body">
+		  <xsl:for-each select="tei:TEI/tei:text/tei:body/tei:div">
+		    <div clas="diaryEntry">
+			  <xsl:for-each select="tei:TEI/tei:text/tei:body/tei:div/tei:p">
+			    <p><xsl:value-of select="."/></p>
+			  </xsl:for-each>
+		    </div>
+		  </xsl:for-each>
+		</div>
 	  </body>
 	</html>
   </xsl:template>
-  
-  <xsl:template match="tei:TEI/tei:text/tei:body">
-      <xsl:for-each select="tei:TEI/tei:text/tei:body/tei:div">
-	    <div class="diaryEntry">
-		  <xsl:call-template name="para"/>
-		  <xsl:call-template name="blocco"/>
-	    </div>
-	  </xsl:for-each>
-  </xsl:template>
-  
-  <xsl:template name="para">
-    <xsl:for-each select="//tei:p[ancestor::tei:div]">
-	  <p><xsl:value-of select="."/></p>
-	</xsl:for-each>
-  </xsl:template>
-  
-  <xsl:template name="blocco">
-    <xsl:for-each select="//tei:ab[ancestor::tei:div]">
-	  <p><xsl:value-of select="."/></p>
-	</xsl:for-each>
-  </xsl:template>
-  
 </xsl:stylesheet>
