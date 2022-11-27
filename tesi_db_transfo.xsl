@@ -25,11 +25,15 @@
   </xsl:template>
   
   <xsl:template match="//tei:p[ancestor::tei:div]">
-    <p><xsl:value-of select="."/></p>
+    <xsl:for-each select="//tei:p[ancestor::tei:div]">
+	  <p><xsl:value-of select="text()"/></p>
+	</xsl:for-each>
   </xsl:template>
   
   <xsl:template match="//tei:ab[ancestor::tei:div]">
-    <p><xsl:value-of select="."/></p>
+    <xsl:for-each select="//tei:ab[ancestor::tei:div]">
+	  <p><xsl:value-of select="text()"/></p>
+	</xsl:for-each>
   </xsl:template>
   
 </xsl:stylesheet>
