@@ -21,19 +21,21 @@
   
   <xsl:template match="tei:TEI/tei:text/tei:body">
       <div class="diaryEntry">
-        <xsl:for-each select="tei:TEI/tei:text/tei:body/tei:div">
-          <xsl:apply-templates select="//tei:p[ancestor::tei:div]"/>
-	      <xsl:apply-templates select="//tei:ab[ancestor::tei:div]"/>
-        </xsl:for-each>
+        <xsl:call-template name="para"/>
+		<xsl:call-template name="blocco"/>
 	  </div>
   </xsl:template>
   
-  <xsl:template match="//tei:p[ancestor::tei:div]">
+  <xsl:template name="para">
+    <xsl:for-each select="//tei:p[ancestor::tei:div]">
 	  <p><xsl:value-of select="."/></p>
+	</xsl:for-each>
   </xsl:template>
   
-  <xsl:template match="//tei:ab[ancestor::tei:div]">
+  <xsl:template name="blocco">
+    <xsl:for-each select="//tei:ab[ancestor::tei:div]">
 	  <p><xsl:value-of select="."/></p>
+	</xsl:for-each>
   </xsl:template>
   
 </xsl:stylesheet>
