@@ -29,11 +29,11 @@
   </xsl:template>
   
   <xsl:template match="//tei:p[ancestor::tei:div]">
-	  <p><xsl:value-of select="text()"/></p>
+	  <p><xsl:value-of select="."/></p>
   </xsl:template>
   
   <xsl:template match="//tei:ab[ancestor::tei:div]">
-	  <p><xsl:value-of select="text()"/></p>
+	  <p><xsl:value-of select="."/></p>
   </xsl:template>
   
 </xsl:stylesheet>
