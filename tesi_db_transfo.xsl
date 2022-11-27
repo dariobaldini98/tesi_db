@@ -19,34 +19,34 @@
 	</html>
   </xsl:template>
   <xsl:template match="//tei:p[ancestor::tei:div]">
-    <p><xsl:value-of select="."/></p>
+    <p><xsl:apply-templates/></p>
   </xsl:template>
   <xsl:template match="//tei:ab[ancestor::tei:div]">
-    <p><xsl:value-of select="."/></p>
+    <p><xsl:apply-templates/></p>
   </xsl:template>
   <xsl:template match="//tei:opener[ancestor::tei:div]">
     <div class="opener">
 	  <xsl:for-each select="//tei:salute[parent::tei:opener]">
-	    <p><xsl:value-of select="."/></p>
+	    <p><xsl:apply-templates/></p>
 	  </xsl:for-each> 
 	  <xsl:for-each select="//tei:dateline[parent::tei:opener]">
-	    <p><xsl:value-of select="."/></p>
+	    <p><xsl:apply-templates/></p>
 	  </xsl:for-each>
 	  <xsl:for-each select="//tei:signed[parent::tei:opener]">
-	    <p><xsl:value-of select="."/></p>
+	    <p><xsl:apply-templates/></p>
 	  </xsl:for-each>
 	</div>
   </xsl:template>
   <xsl:template match="//tei:closer[ancestor::tei:div]">
     <div class="closer">
 	  <xsl:for-each select="//tei:salute[parent::tei:closer]">
-	    <p><xsl:value-of select="."/></p>
+	    <p><xsl:apply-templates/></p>
 	  </xsl:for-each> 
 	  <xsl:for-each select="//tei:dateline[parent::tei:closer]">
-	    <p><xsl:value-of select="."/></p>
+	    <p><xsl:apply-templates/></p>
 	  </xsl:for-each>
 	  <xsl:for-each select="//tei:signed[parent::tei:closer]">
-	    <p><xsl:value-of select="."/></p>
+	    <p><xsl:apply-templates/></p>
 	  </xsl:for-each>
 	</div>
   </xsl:template>
