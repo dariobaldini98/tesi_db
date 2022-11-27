@@ -20,8 +20,12 @@
   </xsl:template>
   
   <xsl:template match="tei:TEI/tei:text/tei:body">
-    <xsl:apply-templates select="//tei:p[ancestor::tei:div]"/>
-	<xsl:apply-templates select="//tei:ab[ancestor::tei:div]"/>
+      <div class="diaryEntry">
+        <xsl:for-each select="tei:TEI/tei:text/tei:body/tei:div">
+          <xsl:apply-templates select="//tei:p[ancestor::tei:div]"/>
+	      <xsl:apply-templates select="//tei:ab[ancestor::tei:div]"/>
+        </xsl:for-each>
+	  </div>
   </xsl:template>
   
   <xsl:template match="//tei:p[ancestor::tei:div]">
