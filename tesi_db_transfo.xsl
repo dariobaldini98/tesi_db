@@ -14,7 +14,7 @@
 		<h3><xsl:value-of select="tei:resp"/></h3>
 		<h2><xsl:value-of select="tei:persName"/></h2>
 		</xsl:for-each>
-		<div><xsl:value-of select="tei:TEI/tei:text/tei:body"/></div>
+		<div class="body"><xsl:value-of select="tei:TEI/tei:text/tei:body"/></div>
 	  </body>
 	</html>
   </xsl:template>
