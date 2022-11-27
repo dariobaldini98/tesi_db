@@ -18,35 +18,35 @@
 	  </body>
 	</html>
   </xsl:template>
-  <xsl:template match="//tei:p[ancestor::tei:div]">
-    <p><xsl:apply-templates select="."/></p>
+  <xsl:template match="tei:TEI/tei:text/tei:body">
+    <p><xsl:apply-templates select="//tei:p[ancestor::tei:div]"/></p>
   </xsl:template>
-  <xsl:template match="//tei:ab[ancestor::tei:div]">
-    <p><xsl:apply-templates select="."/></p>
+  <xsl:template match="tei:TEI/tei:text/tei:body">
+    <p><xsl:apply-templates select="//tei:ab[ancestor::tei:div]"/></p>
   </xsl:template>
-  <xsl:template match="//tei:opener[ancestor::tei:div]">
+  <xsl:template match="tei:TEI/tei:text/tei:body">
     <div class="opener">
-	  <xsl:for-each select="//tei:salute[parent::tei:opener]">
-	    <p><xsl:apply-templates select="."/></p>
+	  <xsl:for-each select="//tei:opener[ancestor::tei:div]">
+	    <p><xsl:apply-templates select="//tei:salute[parent::tei:opener]"/></p>
 	  </xsl:for-each> 
-	  <xsl:for-each select="//tei:dateline[parent::tei:opener]">
-	    <p><xsl:apply-templates select="."/></p>
+	  <xsl:for-each select="//tei:opener[ancestor::tei:div]">
+	    <p><xsl:apply-templates select="//tei:dateline[parent::tei:opener]"/></p>
 	  </xsl:for-each>
-	  <xsl:for-each select="//tei:signed[parent::tei:opener]">
-	    <p><xsl:apply-templates select="."/></p>
+	  <xsl:for-each select="//tei:opener[ancestor::tei:div]">
+	    <p><xsl:apply-templates select="//tei:signed[parent::tei:opener]"/></p>
 	  </xsl:for-each>
 	</div>
   </xsl:template>
-  <xsl:template match="//tei:closer[ancestor::tei:div]">
+  <xsl:template match="tei:TEI/tei:text/tei:body">
     <div class="closer">
-	  <xsl:for-each select="//tei:salute[parent::tei:closer]">
-	    <p><xsl:apply-templates select="."/></p>
+	  <xsl:for-each select="//tei:closer[ancestor::tei:div]">
+	    <p><xsl:apply-templates select="//tei:salute[parent::tei:closer]"/></p>
 	  </xsl:for-each> 
-	  <xsl:for-each select="//tei:dateline[parent::tei:closer]">
-	    <p><xsl:apply-templates select="."/></p>
+	  <xsl:for-each select="//tei:closer[ancestor::tei:div]">
+	    <p><xsl:apply-templates select="//tei:dateline[parent::tei:closer]"/></p>
 	  </xsl:for-each>
-	  <xsl:for-each select="//tei:signed[parent::tei:closer]">
-	    <p><xsl:apply-templates select="."/></p>
+	  <xsl:for-each select="//tei:closer[ancestor::tei:div]">
+	    <p><xsl:apply-templates select="//tei:signed[parent::tei:closer]"/></p>
 	  </xsl:for-each>
 	</div>
   </xsl:template>
