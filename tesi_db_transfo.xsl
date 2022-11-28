@@ -17,15 +17,12 @@
 		  </xsl:for-each>
 		</div>
 		<div class="body">
-		  <xsl:for-each select="tei:TEI/tei:text/tei:body/tei:div">
-		    <div clas="diaryEntry">
-			  <xsl:for-each select="tei:TEI/tei:text/tei:body/tei:div/tei:p">
-			    <p><xsl:value-of select="."/></p>
-			  </xsl:for-each>
-		    </div>
-		  </xsl:for-each>
+		  <xsl:apply-templates/>
 		</div>
 	  </body>
 	</html>
+  </xsl:template>
+  <xsl:template match="tei:TEI/tei:text/tei:body/tei:div">
+    <p><xsl:copy-of select="//tei:p[ancestor::tei:div]"/></p>
   </xsl:template>
 </xsl:stylesheet>
