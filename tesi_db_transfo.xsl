@@ -19,14 +19,14 @@
 		<div class="body">
           <xsl:for-each select="tei:TEI/tei:text/tei:body/tei:div">
 		    <div class="diaryEntry">
-			  <xsl:value-of select="."/>
+			  <xsl:apply-templates select="//tei:p[ancestor::tei:div]"/>
 			</div>
 		  </xsl:for-each>
 		</div>
 	  </body>
 	</html>
   </xsl:template>
-  <xsl:template match="tei:TEI/tei:text/tei:body/tei:div">
-    <p><xsl:apply-templates select="//tei:p[ancestor::tei:div]"/></p>
+  <xsl:template match="//tei:p[ancestor::tei:div]">
+    <p><xsl:value-of select="."/></p>
   </xsl:template>
 </xsl:stylesheet>
