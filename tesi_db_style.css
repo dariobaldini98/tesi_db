@@ -10,10 +10,14 @@ body {
 h1, h2, h3 {
   text-align: center;	
 }
-div {
+div.diaryEntry {
   margin: auto;
+  border-style: solid;
+  border-width: medium;
 }
 p {
   margin: auto;
   text-align: left;
+  border-style: dotted;
+  border-width: medium;
 }
