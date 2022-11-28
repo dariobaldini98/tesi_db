@@ -23,6 +23,6 @@
 	</html>
   </xsl:template>
   <xsl:template match="tei:TEI/tei:text/tei:body/tei:div">
-    <p><xsl:value-of select="/descendant-or-self::tei:p"/></p>
+    <p><xsl:value-of select="tei:div/descendant-or-self::tei:p"/></p>
   </xsl:template>
 </xsl:stylesheet>
