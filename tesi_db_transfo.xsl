@@ -26,7 +26,7 @@
 	  </body>
 	</html>
   </xsl:template>
-  <xsl:template match="//tei:p[ancestor::tei:div]">
-    <p><xsl:apply-templates select="."/></p>
+  <xsl:template match="tei:TEI/tei:text/tei:body/tei:div">
+    <p><xsl:apply-templates select="//tei:p[ancestor::tei:div]"/></p>
   </xsl:template>
 </xsl:stylesheet>
