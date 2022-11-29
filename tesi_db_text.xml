@@ -591,8 +591,8 @@
 		<ab>Il <persName><roleName type="office">Presidente</roleName> <forename full="init">G. B.</forename> <surname>Mazzichelli</surname> </persName></ab>
 		<ab>Il <persName><roleName type="office">Cassiere</roleName> <surname>Carinci</surname></persName></ab>
 		<ab>Il <persName><roleName type="office">Direttore</roleName> <surname>Carletti</surname></persName></ab>
-		<ab><num type="cardinal" value="5">5</num> Clementine della <persName><forename>Mara</forename></persName></ab>
 		<ab>Capitalizzato fino al <date when="1901-06-30">30 Giugno 1901</date> <measure type="currency" unit="ITL" quantity="1954.89"><unit>&#8356;.</unit> <num>1954,89</num></measure></ab>
+		<ab><persName><forename>Clementina</forename> <addName type="matronymic">della Mara</addName></persName></ab>
 	  </div>
     </body>
   </text>
