@@ -270,7 +270,7 @@
 	  <div type="diaryEntry">
 	    <ab>Le <num type="cardinal" value="2">due</num> ricevute rilasciate carta da bollo, dal <persName><roleName type="military">Sotto capo<choice><expan>Guardia</expan><abbr>G.</abbr></choice></roleName> <surname>Zaffarini</surname></persName></ab>
 		<quote>
-		  <p>Il sottoscritto dichiara aver ricevuto dalla <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname> <forename>Pasquale</forename></persName> <measure type="currency" unit="ITL" quantity="35"><unit>&#8356;.</unit> <num>35</num></measure> in titolo di prestito con obbligo restituirgliele il giorno <date when="1900-05-27">27 Maggio con<!--FRANCA--></date></p>
+		  <p>Il sottoscritto dichiara aver ricevuto dalla <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname> <forename>Pasquale</forename></persName> <measure type="currency" unit="ITL" quantity="35"><unit>&#8356;.</unit> <num>35</num></measure> in titolo di prestito con obbligo restituirgliele il giorno <date when="1900-05-27">27 Maggio <choice><expan>corrente</expan><abbr>corr</abbr></choice></date></p>
 		  <closer>
 		    <signed>Il <persName><roleName type="military">Sotto capo</roleName> <surname>Zaffarini</surname> <forename>Augusto</forename></persName></signed>
 			<dateline><placeName><settlement type="city">Civitavecchia</settlement></placeName> addì <date when="1900-05-10">10 Maggio 1900</date></dateline>
@@ -286,7 +286,7 @@
 		  <item>(Saldato il conto il <date when="1901-01-04">4 Gennaio 1901</date>) totale <measure type="currency" unit="ITL" quantity="35"><unit>&#8356;.</unit> <num>35,00</num></measure></item>
 		</list>
 		<quote>
-		  <p>Il sottoscritto dichiara di aver ricevuto dalla <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname> <forename>Pasquale</forename></persName> <measure type="currency" unit="ITL" quantity="25"><unit>&#8356;.</unit> <num>25,00</num></measure> obbligandomi restituirgliele a <measure type="currency" unit="ITL" quantity="5"><unit>&#8356;.</unit> <num>cinque</num></measure> mensili incominciando dal <date when="1900-05-27">27 Maggio con<!--FRANCA--></date></p>
+		  <p>Il sottoscritto dichiara di aver ricevuto dalla <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname> <forename>Pasquale</forename></persName> <measure type="currency" unit="ITL" quantity="25"><unit>&#8356;.</unit> <num>25,00</num></measure> obbligandomi restituirgliele a <measure type="currency" unit="ITL" quantity="5"><unit>&#8356;.</unit> <num>cinque</num></measure> mensili incominciando dal <date when="1900-05-27">27 Maggio <choice><expan>corrente</expan><abbr>corr</abbr></choice></date></p>
 		  <closer>
 		    <signed>Il <persName><roleName type="military">Sotto capo</roleName> <surname>Zaffarini</surname> <forename>Augusto</forename></persName></signed>
 			<dateline><placeName><settlement type="city">Civitavecchia</settlement></placeName> addì <date when="1900-05-10">10 Maggio 1900</date></dateline>
@@ -419,7 +419,7 @@
 		  <p>Non è possibile, trovandosi altra agente in congedo.</p>
 		  <closer>
 		    <dateline>Lì <date when="1901-06-02">2 Giugno 1901</date></dateline>
-		    <signed>Il <persName><roleName type="military">Direttore</roleName> <surname>De Angelis<!--FRANCA--></surname></persName></signed>
+		    <signed>Il <persName><roleName type="military">Direttore</roleName> <surname>De Angelis</surname></persName></signed>
           </closer>
 		</quote>
 	  </div>
@@ -444,14 +444,14 @@
 		<p>Oggi stesso ho rimesso la domanda a <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore di queste carcere per <num>10</num> giorni di permesso, più di questo non si può ottenere che è contro la volontà di chi comanda. Del resto bisogna contentarsi, e prendere le cose come viene. Sarebbe tutta la mia contentezza che la malattia accusata fosse finta, e che vi trovasse invece piena di salute, meglio di prima. Ma se vi trovo invece ammalata per me sarà un dispiacere più forte di quello che ho provato quanto ho ricevuto la Cartolina di <persName><surname>Aquilanti</surname> <forename>Vittorio</forename></persName>. Nel sentire della medesima ricaduta ammalata. E ripensando a tante cose, nell'animo mio è rimasto una traccia di dolore.</p>
 		<p>Dunque il <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore ancora non mi ha dato risposta. Ma è probabile che mi farà partire fra <date when="1901-06-10">il giorno 10</date>, o <date when="1901-06-011">il giorno 11</date> corrente. Credo che non mi vorrà negata. Io di salute sto bene così sperar voglia che sia di voi'altri. Un saluto a tutti di casa, e a voi un caro amplesso mi dico per la vita vostro</p>
 		<closer>
-		  <signed><choice><expan>Affettuosissimo <!--FRANCA--></expan><abbr>Aff.mo M.to</abbr></choice> Servo <persName ref="#PR"><forename full="init">P.</forename> <surname>Riccioni</surname></persName></signed>
+		  <signed><choice><expan>Affettuosissimo Marito</expan><abbr>Aff.mo M.to</abbr></choice> Servo <persName ref="#PR"><forename full="init">P.</forename> <surname>Riccioni</surname></persName></signed>
 		  <dateline><placeName><settlement type="city">Civitavecchia</settlement></placeName> addì <date when="1901-06-08">8 Giugno 1901</date></dateline>
         </closer>
 		<list>
 		  <head>Ricetta pratica</head>
 		  <item><label>Vasellina</label> <measure type="weight" unit="g" quantity="30" commodity="vaseline"><unit>gram.</unit> <num>30</num></measure></item>
-		  <item><label>Estratto della nonna</label> <measure type="weight" unit="g" quantity="4"><unit>gram.</unit> <num>4</num></measure></item>
-		  <item><label>Clorado di Morfina fem<!--FRANCA--></label> <measure type="weight" unit="g" quantity="30" commodity="morphine chloride"><unit>gra.</unit> <num>30</num></measure></item>
+		  <item><label>Estratto della Donna</label> <measure type="weight" unit="g" quantity="4"><unit>gram.</unit> <num>4</num></measure></item>
+		  <item><label>Clorado di Morfina</label> <measure type="weight" unit="hg" quantity="30" commodity="morphine chloride"><unit>ettogra.</unit> <num>30</num></measure></item>
 		  <item><label>Ioduro di potassio</label> <measure type="weight" unit="g" quantity="4" commodity="potassium iodide"><unit>gra.</unit> <num>4</num></measure></item>
 		  <item><label>Iodio</label> <measure type="weight" unit="g" quantity="1" commodity="iodine"><unit>gram.</unit> <num>uno</num></measure></item>
 		</list>
@@ -513,7 +513,7 @@
         </closer>
 	  </div>
 	  <div type="diaryEntry">
-	  <p>Dove mai si è visto dopo l'amnestia del del giorno <date when="1900-11-11">11 Novembre 1900</date> una forza di <num type="cardinal" value="103">103</num> detenuti al <orgName type="phrase">Carcere Giudiziario di <placeName><settlement type="city"><choice><expan>Civitavecchia</expan><abbr>C.Vecchia</abbr></choice></settlement></placeName></orgName> come la mattina del <date when="1901-06-24">24 Giugno 1901</date> (S.G.B.<!--FRANCA-->)</p>
+	  <p>Dove mai si è visto dopo l'amnestia del del giorno <date when="1900-11-11">11 Novembre 1900</date> una forza di <num type="cardinal" value="103">103</num> detenuti al <orgName type="phrase">Carcere Giudiziario di <placeName><settlement type="city"><choice><expan>Civitavecchia</expan><abbr>C.Vecchia</abbr></choice></settlement></placeName></orgName> come la mattina del <date when="1901-06-24">24 Giugno 1901</date> <abbr>(S.G.B.</abbr>)</p>
 	  </div>
 	  <div type="diaryEntry">
 	  <ab>(Oggi <date when="1901-07-02">2 Luglio 1901</date>, ho ricevuto una Cartolina Vaglia di <measure type="currency" unit="ITL" quantity="5"><unit>&#8356;.</unit> <num>5,00</num></measure> dal <persName><roleName type="military">Capo <choice><expan>Guardia</expan><abbr>G.a</abbr></choice></roleName> <surname>Milano</surname> <forename>Giovanni</forename></persName>)</ab>
@@ -567,17 +567,17 @@
 		</opener>
 		<ab><add hand="#hand-OR" place="margin"><secl reason="interpolated">perché anche lei accettasse</secl></add></ab>
 		<p>Le idee sono tante che mi tormentano l'anima.</p>
-		<p>Dal giorno <date when="1932-06-28">28</date> che ebbi ricevuto un suo scritto <subst><del rend="overstrike"><unclear reason="eccentric_ductus" resp="#FV" evidence="internal"><!--SENTI FRANCA--></unclear></del><add hand="#hand-OR" place="above">leggendo con ansia ma non finì di leggere che un singhiozzo mi chiusi la gola</add></subst> appena lesse le primi parole pianse</p>
-		<p><add hand="#hand-OR" place="above">Dopo rileggendo con attenzione</add> capì <del rend="overstrike">subito che</del> la sua <subst><del rend="overstrike">idea sono altrove, certo a</del><add hand="#hand-OR" place="above"><del rend="overstrike">era un saperla</del><surplus reason="out-of-context"><unclear reason="eccentric_ductus" resp="#FV" evidence="internal"><!--SENTI FRANCA--></unclear></surplus></add></subst> ragione;</p>
-		<p><del rend="overstrike">ma</del> però non <choice><corr resp="#DB" cert="high">creda</corr><sic>chreda</sic></choice>, che le ricchezza siano <del rend="overstrike">quelle</del> la felicità <subst><del rend="overstrike">delle famiglia</del><add hand="#hand-OR" place="above">, ma anche la <unclear reason="eccentric_ductus" resp="#FV" evidence="internal"><!--SENTI FRANCA--></unclear></add></subst></p>
-		<p>Con questo io <del rend="overstrike">non voglio</del> insistere <del rend="overstrike">per a</del> al suo amore, perché <add hand="#hand-OR" place="above"><del rend="overstrike">adesso</del> capisco che</add> le mie condizione per quanto siano buone al paragone delle sue sono infime <del rend="overstrike">ma però <unclear reason="eccentric_ductus" resp="#FV" evidence="internal"><!--SENTI FRANCA--></unclear> buone <unclear reason="eccentric_ductus" resp="#FV" evidence="internal"><!--SENTI FRANCA--></unclear> presto perché</del></p>
-		<p>Pregherò Iddio <del rend="overstrike">che spero di raggiungere</del> <add hand="#hand-OR" place="above">dal bene che <subst><del rend="overstrike">per lei</del><add hand="#hand-OR" place="below">mi sento di volerle</add></subst> signorina <del rend="overstrike">che poi perché</del></add> che avessi fatta la felicità, e che trovasse <del rend="overstrike">un</del> <choice><corr resp="#DB" cert="high">un </corr><sic>un'</sic></choice>omo <del rend="overstrike">che l'ama</del> come l'amo io. <del rend="overstrike">sarà sarà ben difficile</del> che non dimenticherà <add hand="#hand-OR" place="above">pensare a lei per</add> per fino la mia vita</p>
-		<p>mi resta solo un pensiero dentro di me e più non posso attende</p>
-        <closer>
+		<p>Dal giorno <date when="1932-06-28">28</date> che ebbi ricevuto un suo scritto <subst><del rend="overstrike"><unclear reason="eccentric_ductus" resp="#FV" evidence="internal">mi sentii ardere di odio ma</unclear></del><add hand="#hand-OR" place="above">principiai leggendo con ansia ma non finì di leggere che un singhiozzo mi chiusi la gola</add></subst> appena lesse le primi parole pianse</p>
+		<p><add hand="#hand-OR" place="above">Dopo rileggendo con attenzio</add> capì <del rend="overstrike">subito che</del> la sua <subst><del rend="overstrike">idea sono altrove, certo a</del><add hand="#hand-OR" place="above"><del rend="overstrike">era un superba</del> <surplus reason="out-of-context"><unclear reason="eccentric_ductus" resp="#FV" evidence="internal">vessodi ma</unclear></surplus></add></subst> ragione;</p>
+		<p><del rend="overstrike">ma</del> però non <choice><corr resp="#DB" cert="high">creda</corr><sic>chreda</sic></choice>, che le ricchezza siano <del rend="overstrike">quelle</del> la felicità <subst><del rend="overstrike">delle famiglia</del><add hand="#hand-OR" place="above">, ne anche la <unclear reason="eccentric_ductus" resp="#FV" evidence="internal">superbia</unclear></add></subst></p>
+		<p>Con questo io <del rend="overstrike">non voglio</del> insistere <del rend="overstrike">per a</del> al suo amore, perché <add hand="#hand-OR" place="above"><del rend="overstrike">adesso</del> capisco che</add> le mie condizione per quanto siano buone al paragone delle sue sono infime <del rend="overstrike">ma però <choice><corr resp="#DB" cert="high">ho</corr><sic>o</sic></choice> <unclear reason="eccentric_ductus" resp="#FV" evidence="internal">intenzi</unclear> buone <unclear reason="eccentric_ductus" resp="#FV" evidence="internal">idee</unclear></del></p>
+		<p><del rend="overstrike">presto</del> Pregherò Iddio <subst><del rend="overstrike">che spero di raggiungere perché</del><add hand="#hand-OR" place="margin">per me e per lei, a lei dia la felicità la tranquilezza e me <del rend="overstrike">la</del> rassegnazione che è difficile averla perché è troppo il bene <del rend="overstrike">che anco l'amerò</del> sempre anco sempre un pensiero</add></subst> <add hand="#hand-OR" place="above">dal bene che <subst><del rend="overstrike">per lei</del><add hand="#hand-OR" place="below">mi sento di volerle</add></subst> signorina <del rend="overstrike">che poi perché</del></add> che avessi tutta la felicità, e che trovasse <del rend="overstrike">un</del> <choice><corr resp="#DB" cert="high">un </corr><sic>un'</sic></choice>omo <del rend="overstrike">che l'ama</del> come l'amo io. <del rend="overstrike">sarà sarà ben difficile</del> che non dimenticherà <add hand="#hand-OR" place="above">pensare a lei per</add> per fino la mia vita</p>
+		<p>mi basta solo un pensiero verso di me e più non posso attende</p>
+		<p>Mi perdoni se <choice><corr resp="#DB" cert="high">ho</corr><sic>o</sic></choice> mancato non è colpa mia <unclear reason="eccentric_ductus" resp="#DB" evidence="internal">ma il caso mai</unclear></p>
+		<closer>
 		  <salute>Distinti Saluti</salute>
 		  <signed><persName ref="#OR"><forename>Orombello</forename> <surname>Riccioni</surname></persName></signed>
 		</closer>
-		<p><secl>Mi perdoni se mancano non è colpa mia <add hand="#hand-OR" place="margin">per me e per lei, a lei dia la felicità la tranquilezza e me <del rend="overstrike">la</del> rassegnazione che è difficile averla perché è troppo il bene <del rend="overstrike">che anco l'amerò</del> sempre anco sempre un</add></secl></p>
 	  </div>
       <anchor xml:id="end_9v"/>
 	  <pb n="10r" facs="https://iiif.archivelab.org/iiif/tesi_db_10r/full/full/0/default.jpg"/>
