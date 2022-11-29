@@ -19,7 +19,6 @@
 		<div class="body">
           <xsl:for-each select="tei:TEI/tei:text/tei:body/tei:div">
 		    <div class="diaryEntry">
-			  <xsl:value-of select="."/>
 			  <xsl:apply-templates select=".//tei:p"/>
 			</div>
 		  </xsl:for-each>
