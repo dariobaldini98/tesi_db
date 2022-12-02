@@ -11,7 +11,7 @@ h1, h2, h3 {
   text-align: center;	
 }
 div.body {
-	padding: 1% 10% 1%;
+  padding: 1% 10% 1%;
 }
 div.diaryEntry {
   margin: auto;
@@ -29,8 +29,8 @@ p {
 .licence_tooltip {
   position: fixed;
   display: inline-block;
-  bottom: 3%;
-  left: 3%;
+  bottom: 1%;
+  left: 1%;
 }
 
 /* Tooltip text */
@@ -53,4 +53,8 @@ p {
 /* Show the tooltip text when you mouse over the tooltip container */
 .licence_tooltip:hover .tooltiptext {
   visibility: visible;
+}
+.tooltip_img {
+  width: 5vw;
+  height: 5vh;
 }
