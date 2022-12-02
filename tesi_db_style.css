@@ -17,6 +17,7 @@ div.diaryEntry {
   margin: auto;
   border-style: solid;
   border-width: medium;
+  background-color: #e1e1e1;
 }
 p {
   margin: auto;
@@ -37,8 +38,7 @@ p {
 .licence_tooltip .tooltiptext {
   visibility: hidden;
   width: fit-content;
-  background-color: white;
-  opacity: 0.2;
+  background-color: #e1e1e1;
   color: black;
   text-align: center;
   padding: 1%;
