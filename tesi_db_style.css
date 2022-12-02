@@ -32,6 +32,7 @@ p {
   display: inline-block;
   bottom: 1%;
   left: 1%;
+  width: 20em;
 }
 
 /* Tooltip text */
