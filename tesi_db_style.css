@@ -57,6 +57,6 @@ p {
   visibility: visible;
 }
 .tooltip_img {
-  width: 5vw;
+  width: auto;
   height: 5vh;
 }
