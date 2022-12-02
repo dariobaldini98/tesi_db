@@ -36,18 +36,18 @@ p {
 /* Tooltip text */
 .licence_tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
+  width: 100%;
   background-color: white;
   color: black;
   text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
+  padding: 1%;
+  border-radius: 15px;
   /* Position the tooltip text - */
   position: absolute;
   z-index: 1;
   bottom: 100%;
   left: 50%;
-  margin-left: -60px;
+  margin-left: -50%;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
