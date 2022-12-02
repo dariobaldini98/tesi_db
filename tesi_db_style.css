@@ -1,62 +1,63 @@
 @font-face {
-  font-family: EasyReading;
-  src: url(EasyReadingPRO.ttf);
+    font-family: EasyReading;
+    src: url(EasyReadingPRO.ttf);
   }
 body {
-  font-family: EasyReading;
-  color: black;
-  background-color: #f2ebcf;
+    font-family: EasyReading;
+    color: black;
+    background-color: #f2ebcf;
 }
 h1, h2, h3 {
-  text-align: center;	
+    text-align: center;	
 }
 div.body {
-  padding: 1% 10% 1%;
+    padding: 1% 10% 1%;
 }
 div.diaryEntry {
-  margin: auto;
-  border-style: solid;
-  border-width: medium;
-  background-color: #e1e1e1;
+    margin: auto;
+    border-style: solid;
+    border-width: medium;
+    background-color: #e1e1e1;
 }
 p {
-  margin: auto;
-  text-align: left;
-  border-style: dotted;
-  border-width: medium;
+    margin: auto;
+    text-align: left;
+    border-style: dotted;
+    border-width: medium;
 }
 
 /* Tooltip container */
 .licence_tooltip {
-  position: fixed;
-  display: inline-block;
-  bottom: 1%;
-  left: 1%;
-  width: 20em;
+    position: fixed;
+    display: inline-block;
+    bottom: 1%;
+    left: 1%;
+    width: 20em;
 }
-
+.licence_tooltiptext {
+    width: 20em;
+}
 /* Tooltip text */
-.licence_tooltip .tooltiptext {
-  visibility: hidden;
-  width: auto;
-  background-color: #e1e1e1;
-  color: black;
-  text-align: center;
-  padding: 1%;
-  border-radius: 15px;
-  /* Position the tooltip text - */
-  position: absolute;
-  z-index: 1;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -50%;
+.licence_tooltip .licence_tooltiptext {
+    visibility: hidden;
+    width: auto;
+    background-color: #e1e1e1;
+    color: black;
+    text-align: center;
+    padding: 1%;
+    border-radius: 15px;
+    /* Position the tooltip text - */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -50%;
 }
-
 /* Show the tooltip text when you mouse over the tooltip container */
-.licence_tooltip:hover .tooltiptext {
-  visibility: visible;
+.licence_tooltip:hover .licence_tooltiptext {
+    visibility: visible;
 }
 .tooltip_img {
-  width: auto;
-  height: 5vh;
+    width: auto;
+    height: 5vh;
 }
