@@ -38,6 +38,7 @@ p {
   visibility: hidden;
   width: 100%;
   background-color: white;
+  opacity: 0.2;
   color: black;
   text-align: center;
   padding: 1%;
