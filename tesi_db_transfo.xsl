@@ -18,13 +18,16 @@
 		  </xsl:for-each>
 		</div>
 		<div class="body">
-          <xsl:for-each select="tei:TEI/tei:text/tei:body/tei:div">
 		    <div class="diaryEntry">
-			  <xsl:value-of select="."/>
+			  <xsl:apply-template select="tei:TEI/tei:text/tei:body/tei:div"/>
 			</div>
-		  </xsl:for-each>
 		</div>
 	  </body>
 	</html>
+  </xsl:template>
+  <xsl:template match="tei:TEI/tei:text/tei:body/tei:div">
+    <div class="diaryEntry">
+	  <xsl:apply-template/>
+	</div>
   </xsl:template>
 </xsl:stylesheet>
