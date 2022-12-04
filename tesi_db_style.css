@@ -24,3 +24,9 @@ p {
     margin: auto;
     text-align: left;
 }
+h4 {
+	font-weight: normal; 
+}
+ol {
+	list-style-type: none;
+}
