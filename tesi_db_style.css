@@ -30,3 +30,12 @@ h4 {
 ol {
 	list-style-type: none;
 }
+.licence {
+	position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.banner {
+	width: 5em;
+	height: 5em;
+}
