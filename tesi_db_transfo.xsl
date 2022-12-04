@@ -64,8 +64,6 @@
 	</ol>
   </xsl:template>
   <xsl:template match="tei:item">
-	<il>
-	  <xsl:value-of select="."/><br/>
-	</il>
+	<il><xsl:value-of select="."/><br/></il>
   </xsl:template>
 </xsl:stylesheet>

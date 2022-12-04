@@ -33,9 +33,8 @@ ol {
 .licence {
 	position: fixed;
     bottom: 0;
-    right: 0;
+    left: 0;
 }
 .banner {
-	width: 5em;
-	height: 5em;
+	width: 5vh;
 }
