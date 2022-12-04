@@ -31,9 +31,9 @@
 	</div>
   </xsl:template>
   <xsl:template match="tei:p">
-    <p><xsl:apply-template/></p>
+    <p><xsl:value-of select="."/></p>
   </xsl:template>
   <xsl:template match="tei:ab">
-    <p><xsl:apply-template/></p>
+    <p><xsl:value-of select="."/></p>
   </xsl:template>
 </xsl:stylesheet>
