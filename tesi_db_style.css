@@ -19,45 +19,12 @@ div.diaryEntry {
     border-width: medium;
     background-color: #e1e1e1;
 }
+div.opener {
+	text-align: right;
+}
 p {
     margin: auto;
     text-align: left;
     border-style: dotted;
     border-width: medium;
-}
-
-/* Tooltip container */
-.licence_tooltip {
-    position: fixed;
-    display: inline-block;
-    bottom: 1%;
-    left: 1%;
-    width: 20em;
-}
-.licence_tooltiptext {
-    width: 20em;
-}
-/* Tooltip text */
-.licence_tooltip .licence_tooltiptext {
-    visibility: hidden;
-    width: auto;
-    background-color: #e1e1e1;
-    color: black;
-    text-align: center;
-    padding: 1%;
-    border-radius: 15px;
-    /* Position the tooltip text - */
-    position: absolute;
-    z-index: 1;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -50%;
-}
-/* Show the tooltip text when you mouse over the tooltip container */
-.licence_tooltip:hover .licence_tooltiptext {
-    visibility: visible;
-}
-.tooltip_img {
-    width: auto;
-    height: 5vh;
 }
