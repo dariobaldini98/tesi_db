@@ -55,4 +55,17 @@
   <xsl:template match="tei:signed">
     <p><xsl:value-of select="."/></p>
   </xsl:template>
+  <xsl:template match="tei:head">
+    <h4><xsl:value-of select="."/></h4>
+  </xsl:template>
+  <xsl:template match="tei:list">
+	<ol>
+	  <xsl:apply-templates/>
+	</ol>
+  </xsl:template>
+  <xsl:template match="tei:item">
+	<il>
+	  <xsl:value-of select="."/>
+	</il>
+  </xsl:template>
 </xsl:stylesheet>
