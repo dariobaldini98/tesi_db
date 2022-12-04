@@ -19,7 +19,7 @@ div.diaryEntry {
     border-width: medium;
     background-color: #e1e1e1;
 }
-div.opener {
+div.opener > p {
 	text-align: right;
 }
 p {
