@@ -19,7 +19,7 @@
 		</div>
 		<div class="body">
 		    <div class="diaryEntry">
-			  <xsl:apply-template select="tei:TEI/tei:text/tei:body/tei:div"/>
+			  <xsl:apply-templates select="tei:TEI/tei:text/tei:body/tei:div"/>
 			</div>
 		</div>
 	  </body>
@@ -27,7 +27,7 @@
   </xsl:template>
   <xsl:template match="tei:TEI/tei:text/tei:body/tei:div">
     <div class="diaryEntry">
-	  <xsl:apply-template/>
+	  <xsl:apply-templates/>
 	</div>
   </xsl:template>
   <xsl:template match="tei:p">
