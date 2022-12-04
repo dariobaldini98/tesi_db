@@ -36,4 +36,23 @@
   <xsl:template match="tei:ab">
     <p><xsl:value-of select="."/></p>
   </xsl:template>
+  <xsl:template match="tei:opener">
+    <div class="opener">
+	  <xsl:apply-templates/>
+	</div>
+  </xsl:template>
+  <xsl:template match="tei:closer">
+    <div class="closer">
+	  <xsl:apply-templates/>
+	</div>
+  </xsl:template>
+  <xsl:template match="tei:salute">
+    <p><xsl:value-of select="."/></p>
+  </xsl:template>
+  <xsl:template match="tei:dateline">
+    <p><xsl:value-of select="."/></p>
+  </xsl:template>
+  <xsl:template match="tei:signed">
+    <p><xsl:value-of select="."/></p>
+  </xsl:template>
 </xsl:stylesheet>
