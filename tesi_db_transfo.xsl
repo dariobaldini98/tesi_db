@@ -16,6 +16,8 @@
 		    <h3><xsl:value-of select="tei:resp"/></h3>
 		    <h2><xsl:value-of select="tei:persName"/></h2>
 		  </xsl:for-each>
+		  <div class="licence" title="Pubblicato su licenza CC BY-NC-ND 4.0">&#127341;&#127343;&#127247;&#8860;</div>
+	      <div class="cookie" title="Questo sito non utilizza cookie di terze parti">&#127850;</div>
 		</div>
 		<div class="body">
 		  <xsl:apply-templates select="tei:TEI/tei:text/tei:body/tei:div"/>
