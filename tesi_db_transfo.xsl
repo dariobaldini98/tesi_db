@@ -29,10 +29,16 @@
 	</div>
   </xsl:template>
   <xsl:template match="tei:p">
-    <p><xsl:value-of select="."/></p>
+    <p>
+	  <xsl:value-of select="."/>
+	  <xsl:apply-templates/>   
+	</p>
   </xsl:template>
   <xsl:template match="tei:ab">
-    <p><xsl:value-of select="."/></p>
+    <p>
+	  <xsl:value-of select="."/>
+	  <xsl:apply-templates/>   
+	</p>
   </xsl:template>
   <xsl:template match="tei:opener">
     <div class="opener">
@@ -64,7 +70,7 @@
   <xsl:template match="tei:item">
 	<il><xsl:value-of select="."/><br/></il>
   </xsl:template>
-  <xsl:template match="tei:p">
-	<span class="del"><xsl:value-of select="tei:del"/></span>
+  <xsl:template match="tei:del">
+	<span class="del"><xsl:value-of select="."/></span>
   </xsl:template>
 </xsl:stylesheet>
