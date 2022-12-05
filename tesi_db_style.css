@@ -13,9 +13,11 @@ h1, h2, h3 {
 div.body {
     padding: 1% 10% 1%;
 }
-div.diaryEntry {
-    margin: auto;
-    background-color: #e1e1e1;
+ {
+    margin: 3% 0%;
+    background-color: #e7e4cd;
+	padding: 3% 3% 3% 3%;
+	border-radius: 15px;
 }
 div.opener > p {
 	text-align: right;
