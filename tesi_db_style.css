@@ -2,6 +2,10 @@
     font-family: EasyReading;
     src: url(EasyReadingPRO.ttf);
   }
+ @font-face {
+    font-family: CCSymbols;
+    src: url(CCSymbols.ttf);
+  }
 body {
     font-family: EasyReading;
 	font-size: 100%;
@@ -35,6 +39,7 @@ ol {
 	list-style-type: none;
 }
 div.licence {
+	font-family: CCSymbols;
 	position: fixed;
     bottom: 0;
     left: 0;
@@ -45,7 +50,7 @@ div.cookie {
     right: 0;
 }
 div.licence, div.cookie {
-	font-size: 3vw;
+	font-size: 110%;
 }
 span.overstrike {
 	text-decoration: line-through;
