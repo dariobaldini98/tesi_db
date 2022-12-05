@@ -18,7 +18,9 @@
 		  </xsl:for-each>
 		</div>
 		<div class="body">
-	      <xsl:apply-templates/>
+	      <div class="diaryEntry">
+			<xsl:apply-templates select="tei:TEI/tei:text/tei:body/tei:div"/>
+		  </div>
 		</div>
 	  </body>
 	</html>
