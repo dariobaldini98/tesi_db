@@ -49,7 +49,7 @@ div.cookie {
     bottom: 0;
     right: 0;
 }
-div.licence, div.cookie {
+.licence, .cookie {
 	font-size: 140%;
 }
 span.overstrike {
