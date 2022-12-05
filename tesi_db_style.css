@@ -38,3 +38,6 @@ ol {
 .banner {
 	width: 5vh;
 }
+.del {
+	text-decoration: line-through;
+}
