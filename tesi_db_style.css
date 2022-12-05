@@ -18,7 +18,7 @@ div.diaryEntry {
     background-color: #e7e4cd;
 	padding: 3% 3% 3% 3%;
 	border-radius: 15px;
-	font-size: 2.5vw;
+	font-size: 2vw;
 }
 div.opener > p {
 	text-align: right;
@@ -43,8 +43,8 @@ div.cookie {
     bottom: 0;
     right: 0;
 }
-.banner {
-	width: 5vh;
+div.licence, div.cookie {
+	font-size: 1vw;
 }
 span.del {
 	text-decoration: line-through;
