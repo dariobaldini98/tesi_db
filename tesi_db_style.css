@@ -6,9 +6,11 @@
     font-family: CCSymbols;
     src: url(CCSymbols.ttf);
   }
+html {
+    font-size: 100%;
+}
 body {
     font-family: EasyReading;
-	font-size: 100%;
     color: black;
     background-color: #f2ebcf;
 }
@@ -23,7 +25,7 @@ div.diaryEntry {
     background-color: #e7e4cd;
 	padding: 3% 3% 3% 3%;
 	border-radius: 15px;
-	font-size: 160%;
+	font-size: 1.6em;
 }
 div.opener > p {
 	text-align: right;
@@ -49,11 +51,8 @@ div.cookie {
     bottom: 0;
     right: 0;
 }
-.licence {
-	font-size: 1000000%;
-}
-.cookie {
-	font-size: 1000000%;
+.licence, .cookie {
+	font-size: 5em;
 }
 span.overstrike {
 	text-decoration: line-through;
