@@ -16,8 +16,18 @@
 		    <h3><xsl:value-of select="tei:resp"/></h3>
 		    <h2><xsl:value-of select="tei:persName"/></h2>
 		  </xsl:for-each>
-	 	  <div class="licence" title="Pubblicato su licenza CC BY-NC-ND 4.0">&#127341;&#127343;&#127247;&#8860;</div>
-          <div class="cookie" title="Questo sito non utilizza cookie di terze parti">&#127850;</div>
+	 	  <div class="licence">
+	        <span class="tooltip_container">&#127341;&#127343;&#127247;&#8860;
+	          <span class="tooltip_text">Pubblicato su licenza<br/> 
+		        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">CC BY-NC-ND 4.0</a>
+		      </span>
+            </span>
+	      </div>
+	      <div class="cookie">
+	        <span class="tooltip_container">&#127850;
+	          <span class="tooltip_text">Questo sito non utilizza<br/> cookie di terze parti</span>
+	        </span>
+	      </div>
 		</div>
 		<div class="body">
 		  <xsl:apply-templates select="tei:TEI/tei:text/tei:body/tei:div"/>
@@ -96,6 +106,25 @@
 	  <xsl:value-of select="."/>
 	  <span class="tooltip_text">
 	    *<xsl:value-of select="preceding-sibling::tei:corr"/>
+	  </span>
+	</span>
+  </xsl:template>
+  <xsl:template match="tei:damage">
+	<xsl:apply-templates/>
+  </xsl:template>
+  <xsl:template match="tei:unclear">
+	<span class="tooltip_container">
+	  <xsl:value-of select="."/>
+	  <span class="tooltip_text">
+	    Interpretazione di <xsl:value-of select="//tei:forename[@xml:id=current()[@tei:resp]]"/> <xsl:value-of select="//tei:surname[@xml:id=current()[@tei:resp]]"/>
+	  </span>
+	</span>
+  </xsl:template>
+  <xsl:template match="tei:supplied">
+	<span class="tooltip_container">
+	  <xsl:value-of select="."/>
+	  <span class="tooltip_text">
+	    Interpretazione di <xsl:value-of select="//tei:forename[@xml:id=current()[@tei:resp]]"/> <xsl:value-of select="//tei:surname[@xml:id=current()[@tei:resp]]"/>
 	  </span>
 	</span>
   </xsl:template>
