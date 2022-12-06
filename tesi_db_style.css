@@ -63,17 +63,15 @@ span.overstrike {
 .tooltip_container {
     position: relative;
     display: inline-block;
-	background-color: #cf9fff;
+	border-bottom: 1px dotted #cf9fff;
 }
 div.licence .tooltip_container {
-    position: relative;
-    display: inline-block;
 	background-color: #transparent;
+	border-bottom: none;
 }
 div.cookie .tooltip_container {
-    position: relative;
-    display: inline-block;
 	background-color: #transparent;
+	border-bottom: none;
 }
 /* Tooltip text */
 .tooltip_container .tooltip_text {
