@@ -16,8 +16,8 @@
 		    <h3><xsl:value-of select="tei:resp"/></h3>
 		    <h2><xsl:value-of select="tei:persName"/></h2>
 		  </xsl:for-each>
-		  <div class="licence" title="Pubblicato su licenza CC BY-NC-ND 4.0">&#127341;&#127343;&#127247;&#8860;</div>
-	      <div class="cookie" title="Questo sito non utilizza cookie di terze parti">&#127850;</div>
+		  <div class="licence">&#127341;&#127343;&#127247;&#8860;<div class="tooltip">Pubblicato su licenza<br/> <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">CC BY-NC-ND 4.0</a></div></div>
+	      <div class="cookie">&#127850;<div class="tooltip">Questo sito non utilizza<br/> cookie di terze parti</div></div>
 		</div>
 		<div class="body">
 		  <xsl:apply-templates select="tei:TEI/tei:text/tei:body/tei:div"/>
@@ -78,7 +78,15 @@
   <xsl:template match="tei:abbr">
 	<span class="abbr"><xsl:value-of select="."/></span>
   </xsl:template>
+  <xsl:template match="tei:expan">
+	<span class="tooltip"><xsl:value-of select="."/></span>
+  </xsl:template>
+</xsl:stylesheet>
   <xsl:template match="tei:sic">
 	<span class="sic"><xsl:value-of select="."/></span>
   </xsl:template>
+  <xsl:template match="tei:corr">
+	<span class="tooltip">*<xsl:value-of select="."/></span>
+  </xsl:template>
+</xsl:stylesheet>
 </xsl:stylesheet>

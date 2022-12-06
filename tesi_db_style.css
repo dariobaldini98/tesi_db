@@ -12,7 +12,7 @@ html {
 body {
     font-family: EasyReading;
     color: black;
-    background-color: ##bec597;
+    background-color: #bec597;
 }
 h1, h2, h3 {
     text-align: center;	
@@ -59,4 +59,26 @@ div.cookie {
 }
 span.overstrike {
 	text-decoration: line-through;
+}
+.tooltip {
+	visibility: hidden;
+    background-color: #bec597;
+    text-align: center;
+    padding: 2%;
+    border-radius: 15px;
+	font-size: 1.2rem;
+	position: absolute;
+    z-index: 1;
+}
+.licence:hover .tooltip {
+	visibility: visible;
+}
+.cookie:hover .tooltip {
+	visibility: visible;
+}
+.abbr:hover .tooltip {
+	visibility: visible;
+}
+.sic:hover .tooltip {
+	visibility: visible;
 }
