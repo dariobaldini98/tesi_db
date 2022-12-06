@@ -115,37 +115,13 @@
   <xsl:template match="tei:unclear">
 	<span class="tooltip_container">
 	  <xsl:value-of select="."/>
-	  <span class="tooltip_text">
-	    Interpretazione:<br/>
-		<xsl:for-each select=".">
-          <xsl:choose>
-		    <xsl:when test="@xml:id=#DB">
-		      <xsl:value-of select="tei:respStmt[@tei:resp=DB]//tei:persName"/>
-		    </xsl:when>
-		    <xsl:otherwise>
-			  <xsl:value-of select="tei:respStmt[@tei:resp=FV]//tei:persName"/>
-		    </xsl:otherwise>
-		  </xsl:choose>
-        </xsl:for-each>
-	  </span>
+	  <span class="tooltip_text">Originale poco comprensibile</span>
 	</span>
   </xsl:template>
   <xsl:template match="tei:supplied">
 	<span class="tooltip_container">
 	  <xsl:value-of select="."/>
-	  <span class="tooltip_text">
-	    Interpretazione:<br/>
-		<xsl:for-each select=".">
-          <xsl:choose>
-		    <xsl:when test="@xml:id=#DB">
-		      <xsl:value-of select="tei:respStmt[@tei:resp=DB]//tei:persName"/>
-		    </xsl:when>
-		    <xsl:otherwise>
-			  <xsl:value-of select="tei:respStmt[@tei:resp=FV]//tei:persName"/>
-		    </xsl:otherwise>
-		  </xsl:choose>
-        </xsl:for-each>
-	  </span>
+	  <span class="tooltip_text">Originale illeggibile</span>
 	</span>
   </xsl:template>
 </xsl:stylesheet>
