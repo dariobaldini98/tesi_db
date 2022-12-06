@@ -12,7 +12,7 @@ html {
 body {
     font-family: EasyReading;
     color: black;
-    background-color: #e7e4cd;
+    background-color: ##bec597;
 }
 h1, h2, h3 {
     text-align: center;	
@@ -36,6 +36,7 @@ p {
 }
 h4 {
 	font-weight: normal; 
+	margin: 0% 0%;
 }
 ol {
 	list-style-type: none;
