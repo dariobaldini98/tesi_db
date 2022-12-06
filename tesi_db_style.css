@@ -126,3 +126,9 @@ div.cookie .tooltip_container {
 .tooltip_container:hover .tooltip_text {
     visibility: visible;
 }
+.tooltip_container:hover .tooltip_text_licence {
+    visibility: visible;
+}
+.tooltip_container:hover .tooltip_text_cookie {
+    visibility: visible;
+}
