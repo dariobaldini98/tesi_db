@@ -71,13 +71,13 @@ span.overstrike {
     text-align: center;
 	padding: 3% 3% 3% 3%;
 	border-radius: 15px;
-	font-size: 1rem;
+	font-size: 5vw;
 	font-family: EasyReading;
 /* Position the tooltip text - see examples below! */
     position: absolute;
     z-index: 1;
-	width: fit-content;
-	margin-left: -50%; /* Use half of the width (120/2 = 60), to center the tooltip */
+	width: 6vw;
+	margin-left: -3vw; /* Use half of the width (120/2 = 60), to center the tooltip */
     bottom: 100%;
     left: 50%;
 }
