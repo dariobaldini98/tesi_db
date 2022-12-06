@@ -62,6 +62,7 @@ span.overstrike {
 }
 .tooltip {
 	visibility: hidden;
+	position: absolute;
     background-color: #bec597;
     text-align: center;
     padding: 2%;
