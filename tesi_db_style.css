@@ -71,15 +71,15 @@ span.overstrike {
     text-align: center;
 	padding: 3% 3% 3% 3%;
 	border-radius: 15px;
-	font-size: 0.6rem;
+	font-size: 0.4rem;
 	font-family: EasyReading;
 /* Position the tooltip text - see examples below! */
     position: absolute;
     z-index: 1;
-	width: 120px;
+	width: 8vw;
     bottom: 100%;
     left: 50%;
-    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    margin-left: -4vw; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip_container:hover .tooltip_text {
