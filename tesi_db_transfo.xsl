@@ -76,11 +76,30 @@
   <xsl:template match="tei:item">
 	<il><xsl:value-of select="."/><br/></il>
   </xsl:template>
+  <xsl:template match="tei:add">
+	<xsl:apply-templates/>
+  </xsl:template>
+  <xsl:template match="tei:subst">
+	<xsl:apply-templates/>
+  </xsl:template>
   <xsl:template match="tei:del">
 	<span class="overstrike"><xsl:value-of select="."/></span>
   </xsl:template>
   <xsl:template match="tei:surplus">
-	<span class="overstrike"><xsl:value-of select="."/></span>
+	<span class="overstrike">
+	  <span class="tooltip_container">
+	    <xsl:value-of select="."/>
+	    <span class="tooltip_text">Originale probabilmente superfluo</span>
+	  </span>
+	</span>
+  </xsl:template>
+  <xsl:template match="tei:secl">
+	<span class="overstrike">
+	  <span class="tooltip_container">
+	    <xsl:value-of select="."/>
+	    <span class="tooltip_text">Originale probabilmente interpolato</span>
+	  </span>
+	</span>
   </xsl:template>
   <xsl:template match="tei:roleName">
 	<xsl:apply-templates/>
