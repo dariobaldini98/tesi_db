@@ -48,38 +48,38 @@ div.licence {
 	position: fixed;
     bottom: 0;
     left: 0;
+	font-size: 2rem;
 }
 div.cookie {
 	position: fixed;
     bottom: 0;
     right: 0;
-}
-.licence, .cookie {
 	font-size: 1.8rem;
 }
 span.overstrike {
 	text-decoration: line-through;
 }
-.tooltip {
-	visibility: hidden;
-	position: absolute;
+/* Tooltip container */
+.tooltip_container {
+    position: relative;
+    display: inline-block;
+}
+/* Tooltip text */
+.tooltip_container .tooltip_text {
+    visibility: hidden;
     background-color: #bec597;
     text-align: center;
-    padding: 2%;
-    border-radius: 15px;
-	font-size: 1.2rem;
-	position: absolute;
+	padding: 3% 3% 3% 3%;
+	border-radius: 15px;
+/* Position the tooltip text - see examples below! */
+    position: absolute;
     z-index: 1;
+	width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
-.licence:hover .tooltip {
-	visibility: visible;
-}
-.cookie:hover .tooltip {
-	visibility: visible;
-}
-.abbr:hover .tooltip {
-	visibility: visible;
-}
-.sic:hover .tooltip {
-	visibility: visible;
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip_container:hover .tooltip_text {
+    visibility: visible;
 }

@@ -16,8 +16,18 @@
 		    <h3><xsl:value-of select="tei:resp"/></h3>
 		    <h2><xsl:value-of select="tei:persName"/></h2>
 		  </xsl:for-each>
-		  <div class="licence">&#127341;&#127343;&#127247;&#8860;<div class="tooltip">Pubblicato su licenza<br/> <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">CC BY-NC-ND 4.0</a></div></div>
-	      <div class="cookie">&#127850;<div class="tooltip">Questo sito non utilizza<br/> cookie di terze parti</div></div>
+	 	  <div class="licence">
+	        <span class="tooltip_container">&#127341;&#127343;&#127247;&#8860;
+	          <span class="tooltip_text">Pubblicato su licenza<br/> 
+		        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">CC BY-NC-ND 4.0</a>
+		      </span>
+            </span>
+	      </div>
+	      <div class="cookie">
+	        <span class="tooltip_container">&#127850;
+	          <span class="tooltip_text">Questo sito non utilizza<br/> cookie di terze parti</span>
+	          </span>
+	      </div>
 		</div>
 		<div class="body">
 		  <xsl:apply-templates select="tei:TEI/tei:text/tei:body/tei:div"/>
@@ -76,17 +86,19 @@
 	<xsl:apply-templates/>
   </xsl:template>
   <xsl:template match="tei:abbr">
-	<span class="abbr"><xsl:value-of select="."/></span>
+	<span class="tooltip_container">
+	  <xsl:value-of select="."/>
+	  <span class="tooltip_text">
+	    <xsl:value-of select="preceding-sibling::tei:expan"/>
+	  </span>
+	</span>
   </xsl:template>
-  <xsl:template match="tei:expan">
-	<span class="tooltip"><xsl:value-of select="."/></span>
-  </xsl:template>
-</xsl:stylesheet>
   <xsl:template match="tei:sic">
-	<span class="sic"><xsl:value-of select="."/></span>
+	<span class="tooltip_container">
+	  <xsl:value-of select="."/>
+	  <span class="tooltip_text">
+	    *<xsl:value-of select="preceding-sibling::tei:corr"/>
+	  </span>
+	</span>
   </xsl:template>
-  <xsl:template match="tei:corr">
-	<span class="tooltip">*<xsl:value-of select="."/></span>
-  </xsl:template>
-</xsl:stylesheet>
 </xsl:stylesheet>
