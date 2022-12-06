@@ -85,6 +85,8 @@
   <xsl:template match="tei:choice">
 	<xsl:apply-templates/>
   </xsl:template>
+  <xsl:template match="tei:expan"/>
+  <xsl:template match="tei:corr"/>
   <xsl:template match="tei:abbr">
 	<span class="tooltip_container">
 	  <xsl:value-of select="."/>
