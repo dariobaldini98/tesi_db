@@ -48,11 +48,13 @@ div.licence {
 	position: fixed;
     bottom: 0;
     left: 0;
+	font-size: 2.3rem;
 }
 div.cookie {
 	position: fixed;
     bottom: 0;
     right: 0;
+	font-size: 1.8rem;
 }
 span.overstrike {
 	text-decoration: line-through;
@@ -61,6 +63,7 @@ span.overstrike {
 .tooltip_container {
     position: relative;
     display: inline-block;
+	background-color: #cf9fff;
 }
 /* Tooltip text */
 .tooltip_container .tooltip_text {
@@ -79,7 +82,7 @@ span.overstrike {
     left: 50%;
     margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
-.licence .tooltip_text {
+.tooltip_container .tooltip_text_licence {
     visibility: hidden;
     background-color: #cf9fff;
     text-align: center;
@@ -93,7 +96,7 @@ span.overstrike {
     top: -5px;
     left: 105%;
 }
-.cookie .tooltip_text {
+.tooltip_container .tooltip_text_cookie {
     visibility: hidden;
     background-color: #cf9fff;
     text-align: center;

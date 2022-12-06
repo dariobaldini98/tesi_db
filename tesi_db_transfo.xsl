@@ -18,14 +18,14 @@
 		  </xsl:for-each>
 	 	  <div class="licence">
 	        <span class="tooltip_container">&#127341;&#127343;&#127247;&#8860;
-	          <span class="tooltip_text">Pubblicato su licenza<br/> 
+	          <span class="tooltip_text_licence">Pubblicato su licenza<br/> 
 		        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">CC BY-NC-ND 4.0</a>
 		      </span>
             </span>
 	      </div>
 	      <div class="cookie">
 	        <span class="tooltip_container">&#127850;
-	          <span class="tooltip_text">Questo sito non utilizza<br/> cookie di terze parti</span>
+	          <span class="tooltip_text_cookie">Questo sito non utilizza<br/> cookie di terze parti</span>
 	        </span>
 	      </div>
 		</div>
