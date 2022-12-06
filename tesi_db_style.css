@@ -65,6 +65,16 @@ span.overstrike {
     display: inline-block;
 	background-color: #cf9fff;
 }
+div.licence .tooltip_container {
+    position: relative;
+    display: inline-block;
+	background-color: #transparent;
+}
+div.cookie .tooltip_container {
+    position: relative;
+    display: inline-block;
+	background-color: #transparent;
+}
 /* Tooltip text */
 .tooltip_container .tooltip_text {
     visibility: hidden;
