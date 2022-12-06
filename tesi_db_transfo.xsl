@@ -116,7 +116,15 @@
 	<span class="tooltip_container">
 	  <xsl:value-of select="."/>
 	  <span class="tooltip_text">
-	    Interpretazione di <xsl:value-of select="//tei:forename[@xml:id=current()[@tei:resp]]"/> <xsl:value-of select="//tei:surname[@xml:id=current()[@tei:resp]]"/>
+	    Interpretazione:<br/>
+		<xsl:for-each select=".">
+          <xsl:if test="@xml:id=#DB">
+		    <xsl:value-of select="tei:respStmt[@tei:resp=DB]//tei:persName"/>
+		  </xsl:if>
+		  <xsl:if test="@xml:id=#FV">
+			<xsl:value-of select="tei:respStmt[@tei:resp=FV]//tei:persName"/>
+		  </xsl:if>
+        </xsl:for-each>
 	  </span>
 	</span>
   </xsl:template>
@@ -124,7 +132,15 @@
 	<span class="tooltip_container">
 	  <xsl:value-of select="."/>
 	  <span class="tooltip_text">
-	    Interpretazione di <xsl:value-of select="//tei:forename[@xml:id=current()[@tei:resp]]"/> <xsl:value-of select="//tei:surname[@xml:id=current()[@tei:resp]]"/>
+	    Interpretazione:<br/>
+		<xsl:for-each select=".">
+          <xsl:if test="@xml:id=#DB">
+		    <xsl:value-of select="tei:respStmt[@tei:resp=DB]//tei:persName"/>
+		  </xsl:if>
+		  <xsl:if test="@xml:id=#FV">
+			<xsl:value-of select="tei:respStmt[@tei:resp=FV]//tei:persName"/>
+		  </xsl:if>
+        </xsl:for-each>
 	  </span>
 	</span>
   </xsl:template>
