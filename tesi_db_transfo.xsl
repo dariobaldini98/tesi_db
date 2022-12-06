@@ -75,6 +75,9 @@
   <xsl:template match="tei:roleName">
 	<xsl:apply-templates/>
   </xsl:template>
+  <xsl:template match="tei:salute">
+	<xsl:apply-templates/>
+  </xsl:template>
   <xsl:template match="tei:choice">
 	<xsl:apply-templates/>
   </xsl:template>
