@@ -71,6 +71,8 @@ span.overstrike {
     text-align: center;
 	padding: 3% 3% 3% 3%;
 	border-radius: 15px;
+	font-size: 0.6rem;
+	font-family: EasyReading;
 /* Position the tooltip text - see examples below! */
     position: absolute;
     z-index: 1;
