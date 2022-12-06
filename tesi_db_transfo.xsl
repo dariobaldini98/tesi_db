@@ -73,9 +73,12 @@
 	<span class="overstrike"><xsl:value-of select="."/></span>
   </xsl:template>
   <xsl:template match="tei:choice">
-	<span class="abbr"><xsl:value-of select="tei:abbr"/></span>
+	<xsl:apply-templates/>
   </xsl:template>
-  <xsl:template match="tei:choice">
-	<span class="sic"><xsl:value-of select="tei:sic"/></span>
+  <xsl:template match="tei:abbr">
+	<span class="abbr"><xsl:value-of select="."/></span>
+  </xsl:template>
+  <xsl:template match="tei:sic">
+	<span class="sic"><xsl:value-of select="."/></span>
   </xsl:template>
 </xsl:stylesheet>
