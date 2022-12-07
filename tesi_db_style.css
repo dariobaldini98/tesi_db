@@ -21,11 +21,12 @@ div.heading {
 	margin-top: 4%;
 }
 div.body {
-    padding: 1% 10% 1%;
 	margin-top: 4%;
 }
 div.diaryEntry {
     margin-bottom: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
     background-color: #f2ebcf;
 	padding: 3% 3% 3% 3%;
 	border-radius: 15px;
@@ -190,27 +191,27 @@ a:active {
     color: black;
 	text-decoration: none;
 }
-@media screen and (max-width: 480px) {
-	div.body {
-		padding-left: 1%;
-		padding-right: 1%;
+@media screen and (min-width: 1px) and (max-width: 480px) {
+	div.diaryEntry {
+		margin-left: 1%;
+		margin-right: 1%;
 	}
 }
-@media screen and (max-width: 768px) {
-	div.body {
-		padding-left: 3%;
-		padding-right: 3%;
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	div.diaryEntry {
+		margin-left: 3%;
+		margin-right: 3%;
 	}
 }
-@media screen and (max-width: 1024px) {
-	div.body {
-		padding-left: 5.5%;
-		padding-right: 5.5%;
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	div.diaryEntry {
+		margin-left: 5.5%;
+		margin-right: 5.5%;
 	}
 }
-@media screen and (max-width: 1200px) {
-	div.body {
-		padding-left: 8%;
-		padding-right: 8%;
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+	div.diaryEntry {
+		margin-left: 8%;
+		margin-right: 8%;
 	}
 }
