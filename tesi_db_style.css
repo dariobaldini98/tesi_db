@@ -12,7 +12,7 @@ html {
 body {
     font-family: EasyReading;
     color: black;
-    background-color: #d7dee4;
+    background-color: #d2d9db;
 }
 h1, h2, h3 {
     text-align: center;	
@@ -80,7 +80,7 @@ div.cookie {
 .tooltip_container {
     position: relative;
     display: inline-block;
-	border-bottom: thick dotted #ffb900;
+	border-bottom: thick dotted #ffff0d;
 }
 div.licence .tooltip_container {
 	background-color: #transparent;
@@ -93,7 +93,7 @@ div.cookie .tooltip_container {
 /* Tooltip text */
 .tooltip_container .tooltip_text {
     visibility: hidden;
-    background-color: #ffb900;
+    background-color: #ffff0d;
     text-align: center;
 	padding: 3% 3% 3% 3%;
 	border-radius: 15px;
@@ -109,7 +109,7 @@ div.cookie .tooltip_container {
 }
 .tooltip_container .tooltip_text_licence {
     visibility: hidden;
-    background-color: #ffb900;
+    background-color: #ffff0d;
     text-align: center;
 	padding: 3% 3% 3% 3%;
 	border-radius: 15px;
@@ -125,7 +125,7 @@ div.cookie .tooltip_container {
 }
 .tooltip_container .tooltip_text_cookie {
     visibility: hidden;
-    background-color: #ffb900;
+    background-color: #ffff0d;
     text-align: center;
 	padding: 3% 3% 3% 3%;
 	border-radius: 15px;
@@ -141,7 +141,7 @@ div.cookie .tooltip_container {
 }
 .tooltip_container .tooltip_text_presentation {
     visibility: hidden;
-    background-color: #ffb900;
+    background-color: #ffff0d;
     text-align: center;
 	padding: 3% 3% 3% 3%;
 	border-radius: 15px;
