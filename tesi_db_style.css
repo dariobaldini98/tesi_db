@@ -27,6 +27,12 @@ div.diaryEntry {
 	border-radius: 15px;
 	font-size: 1.4rem;
 }
+.opener {
+	margin-top: 3%;
+}
+.closer {
+	margin-bottom: 3%;
+}
 div.opener > p {
 	text-align: right;
 }
