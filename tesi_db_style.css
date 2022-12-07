@@ -36,7 +36,7 @@ div.presentation {
     background-color: #f2ebcf;
 	padding: 3% 3% 3% 3%;
 	border-radius: 15px;
-	font-size: 2rem;
+	font-size: 1.6rem;
 }
 .opener {
 	margin-top: 3%;
@@ -145,15 +145,16 @@ div.cookie .tooltip_container {
     text-align: center;
 	padding: 3% 3% 3% 3%;
 	border-radius: 15px;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	font-family: EasyReading;
 /* Position the tooltip text - see examples below! */
     position: absolute;
     z-index: 1;
-    width: 200px;
+	width: 300px;
     bottom: 100%;
-    right: 50%;
-    margin-left: -100px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    left: 50%;
+    margin-left: -150px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
 }
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip_container:hover .tooltip_text {
