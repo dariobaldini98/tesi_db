@@ -158,7 +158,7 @@ div.cookie .tooltip_container {
 }
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip_container:hover .tooltip_text {
-    visibility: visible;
+    visibility: hidden;
 }
 .tooltip_container:hover .tooltip_text_licence {
     visibility: visible;
