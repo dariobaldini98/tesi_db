@@ -12,7 +12,7 @@ html {
 body {
     font-family: EasyReading;
     color: black;
-    background-color: #d2e1db;
+    background-color: #d7dee4;
 }
 h1, h2, h3 {
     text-align: center;	
@@ -30,6 +30,13 @@ div.diaryEntry {
 	padding: 3% 3% 3% 3%;
 	border-radius: 15px;
 	font-size: 1.4rem;
+}
+div.presentation {
+	margin-bottom: 5%;
+    background-color: #f2ebcf;
+	padding: 3% 3% 3% 3%;
+	border-radius: 15px;
+	font-size: 2rem;
 }
 .opener {
 	margin-top: 3%;
