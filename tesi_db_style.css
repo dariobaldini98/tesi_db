@@ -139,6 +139,22 @@ div.cookie .tooltip_container {
     right: 50%;
     margin-left: -100px; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
+.tooltip_container .tooltip_text_presentation {
+    visibility: hidden;
+    background-color: #ffb900;
+    text-align: center;
+	padding: 3% 3% 3% 3%;
+	border-radius: 15px;
+	font-size: 1.4rem;
+	font-family: EasyReading;
+/* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    bottom: 100%;
+    right: 50%;
+    margin-left: -100px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip_container:hover .tooltip_text {
     visibility: visible;
@@ -147,6 +163,9 @@ div.cookie .tooltip_container {
     visibility: visible;
 }
 .tooltip_container:hover .tooltip_text_cookie {
+    visibility: visible;
+}
+.tooltip_container:hover .tooltip_text_presentation {
     visibility: visible;
 }
 /* unvisited link */
