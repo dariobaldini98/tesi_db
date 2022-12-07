@@ -56,7 +56,7 @@ div.cookie {
     right: 0;
 	font-size: 1.8rem;
 }
-span.overstrike {
+.overstrike {
 	text-decoration: line-through;
 }
 /* Tooltip container */
