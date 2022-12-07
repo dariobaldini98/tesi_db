@@ -119,7 +119,7 @@ div.cookie .tooltip_container {
     z-index: 1;
     width: 200px;
     bottom: 100%;
-    right: 100%;
+    right: 50%;
     margin-left: -100px; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
 /* Show the tooltip text when you mouse over the tooltip container */
