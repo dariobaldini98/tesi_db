@@ -30,7 +30,7 @@ div.diaryEntry {
     background-color: #f2ebcf;
 	padding: 3% 3% 3% 3%;
 	border-radius: 15px;
-	font-size: 1.4rem;
+	font-size: 1.8rem;
 }
 div.presentation {
 	margin-bottom: 5%;
@@ -195,23 +195,27 @@ a:active {
 	div.diaryEntry {
 		margin-left: 1%;
 		margin-right: 1%;
+		font-size: 1.2rem;
 	}
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
 	div.diaryEntry {
 		margin-left: 3%;
 		margin-right: 3%;
+		font-size: 1.3rem;
 	}
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 	div.diaryEntry {
 		margin-left: 5.5%;
 		margin-right: 5.5%;
+		font-size: 1.5rem;
 	}
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
 	div.diaryEntry {
 		margin-left: 8%;
 		margin-right: 8%;
+		font-size: 1.6rem;
 	}
 }
