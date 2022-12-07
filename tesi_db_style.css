@@ -121,7 +121,7 @@ div.cookie .tooltip_container {
     width: 200px;
     bottom: 100%;
     left: 50%;
-    /* Use half of the width (120/2 = 60), to center the tooltip */
+    margin-left: -30px;
 }
 .tooltip_container .tooltip_text_cookie {
     visibility: hidden;
