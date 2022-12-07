@@ -17,11 +17,15 @@ body {
 h1, h2, h3 {
     text-align: center;	
 }
+div.heading {
+	margin-top: 8%;
+}
 div.body {
     padding: 1% 10% 1%;
+	margin-top: 8%;
 }
 div.diaryEntry {
-    margin: 3% 0%;
+    margin-bottom: 5%;
     background-color: #f2ebcf;
 	padding: 3% 3% 3% 3%;
 	border-radius: 15px;
