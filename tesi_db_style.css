@@ -155,10 +155,9 @@ div.cookie .tooltip_container {
     left: 50%;
     margin-left: -150px; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
-}
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip_container:hover .tooltip_text {
-    visibility: hidden;
+    visibility: visible;
 }
 .tooltip_container:hover .tooltip_text_licence {
     visibility: visible;
