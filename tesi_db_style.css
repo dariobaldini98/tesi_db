@@ -102,10 +102,10 @@ div.cookie .tooltip_container {
 /* Position the tooltip text - see examples below! */
     position: absolute;
     z-index: 1;
-	width: 140px;
+	width: 120px;
     bottom: 100%;
     left: 50%;
-    margin-left: -70px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
 .tooltip_container .tooltip_text_licence {
     visibility: hidden;
