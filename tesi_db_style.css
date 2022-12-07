@@ -1,10 +1,10 @@
 @font-face {
     font-family: EasyReading;
-    src: url(EasyReadingPRO.ttf);
+    src: url(font/EasyReadingPRO.ttf);
   }
  @font-face {
     font-family: CCSymbols;
-    src: url(CCSymbols.ttf);
+    src: url(font/CCSymbols.ttf);
   }
 html {
     font-size: 100%;
