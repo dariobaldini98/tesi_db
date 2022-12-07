@@ -184,3 +184,7 @@ a:hover {
 a:active {
   color: black;
 }
+a::after {
+	content: "&#128279;";
+	vertical-align: super;
+}
