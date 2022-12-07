@@ -83,11 +83,11 @@ div.cookie {
 	border-bottom: thick dotted #ffff0d;
 }
 div.licence .tooltip_container {
-	background-color: #transparent;
+	background-color: transparent;
 	border-bottom: none;
 }
 div.cookie .tooltip_container {
-	background-color: #transparent;
+	background-color: transparent;
 	border-bottom: none;
 }
 /* Tooltip text */
