@@ -177,14 +177,11 @@ a:visited {
   color: black;
 }
 /* mouse over link */
-a:hover {
-  color: #ffff0d;
+a:hover::after {
+    content: "&#128279;";
+    vertical-align: super;
 }
 /* selected link */
 a:active {
   color: black;
-}
-a::after {
-	content: "&#128279;";
-	vertical-align: super;
 }
