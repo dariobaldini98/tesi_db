@@ -142,3 +142,19 @@ div.cookie .tooltip_container {
 .tooltip_container:hover .tooltip_text_cookie {
     visibility: visible;
 }
+/* unvisited link */
+a:link {
+  color: black;
+}
+/* visited link */
+a:visited {
+  color: black;
+}
+/* mouse over link */
+a:hover {
+  color: ffb900;
+}
+/* selected link */
+a:active {
+  color: black;
+}
