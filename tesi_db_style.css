@@ -63,7 +63,7 @@ span.overstrike {
 .tooltip_container {
     position: relative;
     display: inline-block;
-	border-bottom: 0.8pt dotted #cf9fff;
+	border-bottom: thick dotted #ffb900;
 }
 div.licence .tooltip_container {
 	background-color: #transparent;
