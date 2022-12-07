@@ -92,11 +92,9 @@
     </span>
   </xsl:template>
   <xsl:template match="tei:secl">
-	<span class="overstrike">
-	  <span class="tooltip_container">
-	    <xsl:value-of select="."/>
-	    <span class="tooltip_text">Originale probabilmente interpolato</span>
-	  </span>
+	<span class="tooltip_container">
+	  <xsl:value-of select="."/>
+	  <span class="tooltip_text">Originale probabilmente interpolato</span>
 	</span>
   </xsl:template>
   <xsl:template match="tei:roleName">
