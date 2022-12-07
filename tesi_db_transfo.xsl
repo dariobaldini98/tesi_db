@@ -7,6 +7,7 @@
         <title>WIP - Riccioni's Legacy - WIP</title>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link rel="icon" href="https://iiif.archivelab.org/iiif/tesi_db_20r/474,959,122,137/full/0/default.jpg"/>
+		<link rel="stylesheet" href="tesi_db_style.css"/>
       </head>
 	  <body>
 	    <div class="heading">
