@@ -56,6 +56,9 @@
 	  <xsl:apply-templates/>
 	</div>
   </xsl:template>
+  <xsl:template match="tei:quote">
+	<xsl:apply-templates/>
+  </xsl:template>
   <xsl:template match="tei:salute">
     <p><xsl:value-of select="."/></p>
   </xsl:template>
