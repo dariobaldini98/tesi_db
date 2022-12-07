@@ -19,7 +19,7 @@
 	 	  <div class="licence">
 	        <span class="tooltip_container">&#127341;&#127343;&#127247;&#8860;
 	          <span class="tooltip_text_licence">Pubblicato su licenza<br/> 
-		        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">CC BY-NC-ND 4.0</a>
+		        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode" target="_blank">CC BY-NC-ND 4.0</a>
 		      </span>
             </span>
 	      </div>
