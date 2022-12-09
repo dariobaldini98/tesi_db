@@ -18,15 +18,15 @@
 		},
 		{
 			"label": { "it": [ "Lingua" ], "en": [ "Language" ] },
-			"value": { "it": [ "Italiano" ], "en": [ "Italian" ] }
+			"value": { "it": [ "Italiano regionale primonovecentesco di area laziale" ], "en": [ "Early twentieth-century regional Italian from the Lazio area" ] }
 		},
 		{
 			"label": { "it": [ "Copertura spaziale" ], "en": [ "Spatial coverage" ] },
-			"value": { "none": [ "<span><a href='https://goo.gl/maps/3r2dASMH5jiRZWDp8'>Civitavecchia</a> (RM), <a href='https://goo.gl/maps/aaAEFm1cHmj4spqB9'>Viterbo</a> (VT)</span>" ] }
+			"value": { "it": [ "Alto Lazio" ], "en": [ "Northern Lazio" ] }
 		},
 		{
 			"label": { "it": [ "Copertura temporale" ], "en": [ "Temporal Coverage" ] },
-			"value": { "none": [ "31/03/1901-26/07/1903" ] }
+			"value": { "none": [ "1901-1903" ] }
 		}
 	],
 	"summary": { "it": [ "Diario scritto dalla guardia carceraria Pasquale Riccioni tra il 1901 e il 1903; alcune pagine presentano aggiunte del figlio Orombello." ], "en": [ "Diary written by the prison guard Pasquale Riccioni between 1901 and 1903; some pages exhibit additions by his son Orombello." ] },
