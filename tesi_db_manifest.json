@@ -82,7 +82,7 @@
 	    {
 			"id": "https://dariobaldini98.github.io/tesi_db/tesi_db_homepage.html",
 			"type": "Text",
-			"label": { "it": [ "Homepage informativa sulla pubblicazione elettronica del diario" ] },
+			"label": { "it": [ "Homepage del sito web 'Riccioni's Legacy'" ], "en": [ "Homepage of the website 'Riccioni's Legacy'" ] },
 			"format": "text/html",
 			"language": [ "it" ]
 		}
@@ -91,13 +91,13 @@
 	    {
 			"id": "https://drive.google.com/file/d/1nTF13nuC9G-qCnpiHWOFSsh170aYMkyP/view?usp=sharing",
 			"type": "Text",
-			"label": { "it": [ "Scannerizzazioni in formato PDF" ], "en": [ "Scans in PDF format" ] },
+			"label": { "it": [ "Scannerizzazioni in PDF" ], "en": [ "Scans in PDF" ] },
 			"format": "application/pdf"
 		},
 		{
 			"id": "https://dariobaldini98.github.io/tesi_db/tesi_db_text.xml",
 			"type": "Text",
-			"label": { "it": [ "<span>Trascrizione TEI (<a href='https://raw.githubusercontent.com/dariobaldini98/tesi_db/main/tesi_db_text.xml'>codice</a>)</span>" ], "en": [ "<span>TEI transcription (<a href='https://raw.githubusercontent.com/dariobaldini98/tesi_db/main/tesi_db_text.xml'>code</a>)</span>" ] },
+			"label": { "it": [ "Trascrizione TEI" ], "en": [ "TEI transcription" ] },
 			"format": "application/tei+xml"
 		}
 	],
