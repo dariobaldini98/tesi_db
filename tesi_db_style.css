@@ -185,13 +185,15 @@ a:hover {
 a:active {
     color: black;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 1px) and (max-width: 480px) {
 	div.diaryEntry {
 		margin-left: 1%;
 		margin-right: 1%;
 		font-size: 21px;
 	}
 	div.presentation {
+		margin-left: 1%;
+		margin-right: 1%;
 	    font-size: 23px;
     }
 	div.licence {
@@ -206,7 +208,7 @@ a:active {
         margin-left: -22px; /* Use half of the width (120/2 = 60), to center the tooltip */
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
 	div.diaryEntry {
 		margin-left: 3%;
 		margin-right: 3%;
@@ -214,6 +216,8 @@ a:active {
 	}
 	div.presentation {
 	    font-size: 26px;
+		margin-left: 3%;
+		margin-right: 3%;
     }
 	div.licence {
 		font-size: 28px;
@@ -227,7 +231,7 @@ a:active {
         margin-left: -35px; /* Use half of the width (120/2 = 60), to center the tooltip */
     }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 	div.diaryEntry {
 		margin-left: 5.5%;
 		margin-right: 5.5%;
@@ -235,6 +239,8 @@ a:active {
 	}
 	div.presentation {
 	    font-size: 29px;
+		margin-left: 5.5%;
+		margin-right: 5.5%;
     }
 	div.licence {
 		font-size: 31px;
@@ -248,7 +254,7 @@ a:active {
         margin-left: -48px; /* Use half of the width (120/2 = 60), to center the tooltip */
     }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
 	div.diaryEntry {
 		margin-left: 8%;
 		margin-right: 8%;
@@ -256,6 +262,8 @@ a:active {
 	}
 	div.presentation {
 	    font-size: 32px;
+		margin-left: 8%;
+		margin-right: 8%;
     }
 	div.licence {
 		font-size: 34px;
