@@ -60,13 +60,13 @@
 	<xsl:apply-templates/>
   </xsl:template>
   <xsl:template match="tei:salute">
-    <p><xsl:value-of select="."/></p>
+    <p><xsl:apply-templates/></p>
   </xsl:template>
   <xsl:template match="tei:dateline">
-    <p><xsl:value-of select="."/></p>
+    <p><xsl:apply-templates/></p>
   </xsl:template>
   <xsl:template match="tei:signed">
-    <p><xsl:value-of select="."/></p>
+    <p><xsl:apply-templates/></p>
   </xsl:template>
   <xsl:template match="tei:head">
     <h4><xsl:value-of select="."/></h4>
