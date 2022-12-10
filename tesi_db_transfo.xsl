@@ -115,11 +115,7 @@
   <xsl:template match="tei:expan"/>
   
   <xsl:template match="tei:corr"/>
-  
-  <xsl:template match="tei:p[@rend='inline']">
-    <span class="inline_p"><xsl:apply-templates/></span><br/>
-  </xsl:template>
-  
+
   <xsl:template match="tei:item">
 	<il><xsl:value-of select="."/></il><br/>
   </xsl:template>

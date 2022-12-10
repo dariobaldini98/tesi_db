@@ -52,9 +52,6 @@ p {
     margin: auto;
     text-align: left;
 }
-span.inline_p {
-	display: inline;
-}
 h4 {
 	font-weight: normal; 
 	margin: 0% 0%;
