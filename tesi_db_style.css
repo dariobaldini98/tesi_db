@@ -52,7 +52,7 @@ p {
     margin: auto;
     text-align: left;
 }
-p.inline {
+span.inline_p {
 	display: inline;
 }
 h4 {

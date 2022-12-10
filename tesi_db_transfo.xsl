@@ -66,6 +66,10 @@
 	<xsl:apply-templates/>
   </xsl:template>
   
+  <xsl:template match="tei:postscript">
+	<xsl:apply-templates/>
+  </xsl:template>
+  
   <xsl:template match="tei:salute">
     <p><xsl:apply-templates/></p>
   </xsl:template>
@@ -113,7 +117,7 @@
   <xsl:template match="tei:corr"/>
   
   <xsl:template match="tei:p[@rend='inline']">
-    <p class="inline"><xsl:apply-templates/></p><br/>
+    <span class="inline_p"><xsl:apply-templates/></span><br/>
   </xsl:template>
   
   <xsl:template match="tei:item">
