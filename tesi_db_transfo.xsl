@@ -112,8 +112,12 @@
   
   <xsl:template match="tei:corr"/>
   
+  <xsl:template match="tei:p[@rend='inline']">
+    <p class="inline"><xsl:apply-templates/></p><br/>
+  </xsl:template>
+  
   <xsl:template match="tei:item">
-	<il><xsl:value-of select="."/><br/></il>
+	<il><xsl:value-of select="."/></il><br/>
   </xsl:template>
 
   <xsl:template match="tei:del">

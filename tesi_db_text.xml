@@ -228,7 +228,7 @@
 		<postscript>
 		  <p>Rimettendo alla Direzione anco la ricevuta del <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Milano</surname> <forename>Giovanni</forename></persName>; che era così concipita,</p> 
 		  <quote>
-		    <p>Io sottoscritto dichiaro di aver ricevuto dalla <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname></persName>, per favorire il <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Perugi</surname></persName>, che ristituisco appena liquidati i conti della mensa alla fine del Mese.</p>
+		    <p rend="inline">Io sottoscritto dichiaro di aver ricevuto dalla <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname></persName>, per favorire il <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Perugi</surname></persName>, che ristituisco appena liquidati i conti della mensa alla fine del Mese.</p>
 		    <closer>
               <dateline><placeName><settlement type="city">Viterbo</settlement></placeName> <date when="1894-12-22">22 Dicembre 1894</date>,</dateline>
 		      <signed><persName><roleName type="honorific">Signor</roleName> <forename full="init">G.</forename> <surname>Milano</surname></persName></signed>
