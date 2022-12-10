@@ -35,79 +35,91 @@
 	  </body>
 	</html>
   </xsl:template>
+  
   <xsl:template match="tei:TEI/tei:text/tei:body/tei:div">
     <div class="diaryEntry">
 	  <xsl:apply-templates/>
 	</div>
   </xsl:template>
+  
   <xsl:template match="tei:p">
     <p><xsl:apply-templates/></p>
   </xsl:template>
+  
   <xsl:template match="tei:ab">
     <p><xsl:apply-templates/></p>
   </xsl:template>
+  
   <xsl:template match="tei:opener">
     <div class="opener">
 	  <xsl:apply-templates/>
 	</div>
   </xsl:template>
+  
   <xsl:template match="tei:closer">
     <div class="closer">
 	  <xsl:apply-templates/>
 	</div>
   </xsl:template>
+  
   <xsl:template match="tei:quote">
 	<xsl:apply-templates/>
   </xsl:template>
+  
   <xsl:template match="tei:salute">
     <p><xsl:apply-templates/></p>
   </xsl:template>
+  
   <xsl:template match="tei:dateline">
     <p><xsl:apply-templates/></p>
   </xsl:template>
+  
   <xsl:template match="tei:signed">
     <p><xsl:apply-templates/></p>
   </xsl:template>
+  
   <xsl:template match="tei:head">
     <h4><xsl:value-of select="."/></h4>
   </xsl:template>
+  
   <xsl:template match="tei:list">
 	<ol>
 	  <xsl:apply-templates/>
 	</ol>
   </xsl:template>
-  <xsl:template match="tei:item">
-	<il><xsl:value-of select="."/><br/></il>
-  </xsl:template>
+  
   <xsl:template match="tei:add">
 	<xsl:apply-templates/>
   </xsl:template>
+  
   <xsl:template match="tei:subst">
 	<xsl:apply-templates/>
   </xsl:template>
-  <xsl:template match="tei:del">
-	<span class="overstrike"><xsl:value-of select="."/></span>
-  </xsl:template>
-  <xsl:template match="tei:surplus">
-    <span class="tooltip_container overstrike">
-	    <xsl:value-of select="."/>
-	    <span class="tooltip_text">Originale probabilmente superfluo</span>
-    </span>
-  </xsl:template>
-  <xsl:template match="tei:secl">
-	<span class="tooltip_container">
-	  <xsl:value-of select="."/>
-	  <span class="tooltip_text">Originale probabilmente interpolato</span>
-	</span>
-  </xsl:template>
+  
   <xsl:template match="tei:roleName">
 	<xsl:apply-templates/>
   </xsl:template>
+
   <xsl:template match="tei:choice">
 	<xsl:apply-templates/>
   </xsl:template>
+  
+  <xsl:template match="tei:damage">
+	<xsl:apply-templates/>
+  </xsl:template>
+  
   <xsl:template match="tei:expan"/>
+  
   <xsl:template match="tei:corr"/>
+  
+  <xsl:template match="tei:item">
+	<il><xsl:value-of select="."/><br/></il>
+  </xsl:template>
+
+  <xsl:template match="tei:del">
+	<span class="overstrike"><xsl:value-of select="."/></span>
+  </xsl:template>
+
   <xsl:template match="tei:abbr">
 	<span class="tooltip_container">
 	  <xsl:value-of select="."/>
@@ -116,6 +128,7 @@
 	  </span>
 	</span>
   </xsl:template>
+  
   <xsl:template match="tei:sic">
 	<span class="tooltip_container">
 	  <xsl:value-of select="."/>
@@ -124,19 +137,33 @@
 	  </span>
 	</span>
   </xsl:template>
-  <xsl:template match="tei:damage">
-	<xsl:apply-templates/>
+
+  <xsl:template match="tei:surplus">
+    <span class="tooltip_container overstrike">
+	    <xsl:value-of select="."/>
+	    <span class="tooltip_text">Originale probabilmente superfluo</span>
+    </span>
   </xsl:template>
+  
+  <xsl:template match="tei:secl">
+	<span class="tooltip_container">
+	  <xsl:value-of select="."/>
+	  <span class="tooltip_text">Originale probabilmente interpolato</span>
+	</span>
+  </xsl:template>
+
   <xsl:template match="tei:unclear">
 	<span class="tooltip_container">
 	  <xsl:value-of select="."/>
 	  <span class="tooltip_text">Originale poco comprensibile</span>
 	</span>
   </xsl:template>
+  
   <xsl:template match="tei:supplied">
 	<span class="tooltip_container">
 	  <xsl:value-of select="."/>
 	  <span class="tooltip_text">Originale illeggibile</span>
 	</span>
   </xsl:template>
+  
 </xsl:stylesheet>
