@@ -6,9 +6,6 @@
     font-family: CCSymbols;
     src: url(font/CCSymbols.ttf);
 }
-html {
-    font-size: 100%;
-}
 body {
     font-family: EasyReading;
     color: black;
@@ -30,14 +27,14 @@ div.diaryEntry {
     background-color: #f2ebcf;
 	padding: 3% 3% 3% 3%;
 	border-radius: 15px;
-	font-size: 1.8rem;
+	font-size: 33px;
 }
 div.presentation {
 	margin-bottom: 5%;
     background-color: #f2ebcf;
 	padding: 3% 3% 3% 3%;
 	border-radius: 15px;
-	font-size: 1.6rem;
+	font-size: 35px;
 }
 .opener {
 	margin-top: 2%;
@@ -66,13 +63,13 @@ div.licence {
 	position: fixed;
     bottom: 0;
     left: 0;
-	font-size: 2.3rem;
+	font-size: 37px;
 }
 div.cookie {
 	position: fixed;
     bottom: 0;
     right: 0;
-	font-size: 1.8rem;
+	font-size: 37px;
 }
 .overstrike {
 	text-decoration: line-through;
@@ -82,14 +79,17 @@ div.cookie {
     position: relative;
     display: inline-block;
 	border-bottom: medium dotted #ffff0d;
+	cursor: help;
 }
 div.licence .tooltip_container {
 	background-color: transparent;
 	border-bottom: none;
+	cursor: help;
 }
 div.cookie .tooltip_container {
 	background-color: transparent;
 	border-bottom: none;
+	cursor: help;
 }
 /* Tooltip text */
 .tooltip_container .tooltip_text {
@@ -98,7 +98,7 @@ div.cookie .tooltip_container {
     text-align: center;
 	padding: 3% 3% 3% 3%;
 	border-radius: 15px;
-	font-size: 1rem;
+	font-size: 16px;
 	font-family: EasyReading;
 /* Position the tooltip text - see examples below! */
     position: absolute;
@@ -114,7 +114,7 @@ div.cookie .tooltip_container {
     text-align: center;
 	padding: 3% 3% 3% 3%;
 	border-radius: 15px;
-	font-size: 1rem;
+	font-size: 16px;
 	font-family: EasyReading;
 /* Position the tooltip text - see examples below! */
     position: absolute;
@@ -130,7 +130,7 @@ div.cookie .tooltip_container {
     text-align: center;
 	padding: 3% 3% 3% 3%;
 	border-radius: 15px;
-	font-size: 1rem;
+	font-size: 16px;
 	font-family: EasyReading;
 /* Position the tooltip text - see examples below! */
     position: absolute;
@@ -146,7 +146,7 @@ div.cookie .tooltip_container {
     text-align: center;
 	padding: 3% 3% 3% 3%;
 	border-radius: 15px;
-	font-size: 1.2rem;
+	font-size: 20px;
 	font-family: EasyReading;
 /* Position the tooltip text - see examples below! */
     position: absolute;
@@ -172,50 +172,100 @@ div.cookie .tooltip_container {
 /* unvisited link */
 a:link {
     color: black;
-	text-decoration: none;
 }
 /* visited link */
 a:visited {
     color: black;
-	text-decoration: none;
 }
 /* mouse over link */
-a:hover::before {
-    content: "🔗";
-    vertical-align: super;
-	font-size: 1rem;
-	text-decoration: none;
+a:hover {
+    color: black;
 }
 /* selected link */
 a:active {
     color: black;
-	text-decoration: none;
 }
-@media screen and (min-width: 1px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 	div.diaryEntry {
 		margin-left: 1%;
 		margin-right: 1%;
-		font-size: 1.2rem;
+		font-size: 21px;
 	}
+	div.presentation {
+	    font-size: 23px;
+    }
+	div.licence {
+		font-size: 25px;
+    }
+    div.cookie {
+		font-size: 25px;
+    }
+	.tooltip_container .tooltip_text {
+	    font-size: 8px;
+	    width: 44px;
+        margin-left: -22px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    }
 }
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	div.diaryEntry {
 		margin-left: 3%;
 		margin-right: 3%;
-		font-size: 1.3rem;
+		font-size: 24px;
 	}
+	div.presentation {
+	    font-size: 26px;
+    }
+	div.licence {
+		font-size: 28px;
+    }
+    div.cookie {
+		font-size: 28px;
+    }
+	.tooltip_container .tooltip_text {
+	    font-size: 10px;
+	    width: 70px;
+        margin-left: -35px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    }
 }
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 	div.diaryEntry {
 		margin-left: 5.5%;
 		margin-right: 5.5%;
-		font-size: 1.5rem;
+		font-size: 27px;
 	}
+	div.presentation {
+	    font-size: 29px;
+    }
+	div.licence {
+		font-size: 31px;
+    }
+    div.cookie {
+		font-size: 31px;
+    }
+	.tooltip_container .tooltip_text {
+	    font-size: 12px;
+	    width: 96px;
+        margin-left: -48px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    }
 }
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
 	div.diaryEntry {
 		margin-left: 8%;
 		margin-right: 8%;
-		font-size: 1.6rem;
+		font-size: 30px;
 	}
+	div.presentation {
+	    font-size: 32px;
+    }
+	div.licence {
+		font-size: 34px;
+    }
+    div.cookie {
+		font-size: 34px;
+    }
+	.tooltip_container .tooltip_text {
+	    font-size: 14px;
+	    width: 110px;
+        margin-left: -55px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    }
 }
