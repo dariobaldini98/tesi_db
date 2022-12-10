@@ -84,7 +84,7 @@ div.cookie {
 .tooltip_container {
     position: relative;
     display: inline-block;
-	border-bottom: thick dotted #ffff0d;
+	border-bottom: medium dotted #ffff0d;
 }
 div.licence .tooltip_container {
 	background-color: transparent;
