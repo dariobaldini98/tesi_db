@@ -204,6 +204,9 @@ a:hover {
 a:active {
     color: black;
 }
+img.EasyReading {
+	border: 3px ridge black;
+}
 @media screen and (min-width: 1px) and (max-width: 480px) {
 	div.diaryEntry {
 		margin-left: 1%;
