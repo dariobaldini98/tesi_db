@@ -215,6 +215,11 @@ a:active {
 		margin-right: 1%;
 	    font-size: 20px;
     }
+	div.presentation_v2 {
+		margin-left: 1%;
+		margin-right: 1%;
+	    font-size: 20px;
+    }
 	div.licence {
 		font-size: 25px;
     }
@@ -234,6 +239,11 @@ a:active {
 		font-size: 21px;
 	}
 	div.presentation {
+	    font-size: 23px;
+		margin-left: 3%;
+		margin-right: 3%;
+    }
+	div.presentation_v2 {
 	    font-size: 23px;
 		margin-left: 3%;
 		margin-right: 3%;
@@ -261,6 +271,11 @@ a:active {
 		margin-left: 5.5%;
 		margin-right: 5.5%;
     }
+	div.presentation_v2 {
+	    font-size: 26px;
+		margin-left: 5.5%;
+		margin-right: 5.5%;
+    }
 	div.licence {
 		font-size: 31px;
     }
@@ -280,6 +295,11 @@ a:active {
 		font-size: 27px;
 	}
 	div.presentation {
+	    font-size: 29px;
+		margin-left: 8%;
+		margin-right: 8%;
+    }
+	div.presentation_v2 {
 	    font-size: 29px;
 		margin-left: 8%;
 		margin-right: 8%;
