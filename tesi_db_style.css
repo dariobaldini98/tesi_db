@@ -49,18 +49,21 @@ div.presentation_v2 {
 div.flex_box {
 	text-align: center;
 }
+p.center {
+	text-align: center;
+}
 .opener {
 	margin-top: 2%;
 }
 .closer {
 	margin-bottom: 2%;
 }
-div.opener > p {
-	text-align: right;
-}
 p {
     margin: auto;
     text-align: left;
+}
+div.opener > p {
+	text-align: right;
 }
 h4 {
 	font-weight: normal; 
