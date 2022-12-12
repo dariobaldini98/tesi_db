@@ -47,7 +47,9 @@ div.presentation_v2 {
 	font-size: 32px;
 }
 div.flex_box {
-	text-align: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
 	margin-top: 2%;
 }
 p.center {
@@ -95,7 +97,7 @@ div.cookie {
 .tooltip_container {
     position: relative;
     display: inline-block;
-	text-decoration: underline dashed #ffff0d 3px;
+	text-decoration: underline dashed #ffff0d 4px;
 	cursor: help;
 }
 div.licence .tooltip_container {
