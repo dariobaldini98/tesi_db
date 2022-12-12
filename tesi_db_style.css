@@ -38,6 +38,14 @@ div.presentation {
 	border-radius: 15px;
 	font-size: 35px;
 }
+div.presentation_v2 {
+	margin-bottom: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 3% 3% 3% 3%;
+	border-radius: 15px;
+	font-size: 35px;
+}
 .opener {
 	margin-top: 2%;
 }
