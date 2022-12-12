@@ -15,13 +15,13 @@ h1, h2, h3 {
     text-align: center;	
 }
 div.heading {
-	margin-top: 4%;
+	margin-top: 3%;
 }
 div.body {
-	margin-top: 4%;
+	margin-top: 3%;
 }
 div.diaryEntry {
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 	margin-left: 10%;
 	margin-right: 10%;
     background-color: #f2ebcf;
@@ -30,7 +30,7 @@ div.diaryEntry {
 	font-size: 30px;
 }
 div.presentation {
-	margin-bottom: 5%;
+	margin-top: 2%;
 	margin-left: 10%;
 	margin-right: 10%;
     background-color: #f2ebcf;
@@ -39,7 +39,7 @@ div.presentation {
 	font-size: 32px;
 }
 div.presentation_v2 {
-	margin-bottom: 5%;
+	margin-top: 2%;
 	margin-left: 10%;
 	margin-right: 10%;
 	padding: 3% 3% 3% 3%;
@@ -48,6 +48,7 @@ div.presentation_v2 {
 }
 div.flex_box {
 	text-align: center;
+	margin-top: 2%;
 }
 p.center {
 	text-align: center;
