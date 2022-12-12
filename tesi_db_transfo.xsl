@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0">
   <xsl:template match="/">
-    <html>
+    <html lang="it">
 	  <head>
-        <meta charset="utf-8"/>
         <title>WIP - Riccioni's Legacy - WIP</title>
+        <link rel="stylesheet" href="tesi_db_style.css"/>
+        <link rel="icon" href="https://iiif.archivelab.org/iiif/tesi_db_20r/474,959,122,137/full/0/default.jpg"/>
+        <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<link rel="icon" href="https://iiif.archivelab.org/iiif/tesi_db_20r/474,959,122,137/full/0/default.jpg"/>
-		<link rel="stylesheet" href="tesi_db_style.css"/>
+	    <meta name="author" content="Dario Baldini"/>
+	    <meta name="keywords" content="Digital Humanities, Electronic Publishing, Semantic Web, Linked Data, HTML, CSS, XML, XHTML, XSL, XSLT, XPath, JSON, JSON-LD, International Image Interoperability Framework, IIIF, Text Encoding Initiative, TEI"/>
+	    <meta name="description" content="Digitalizzazione di un diario manoscritto di inizio Novecento"/>
       </head>
 	  <body>
 	    <div class="heading">
