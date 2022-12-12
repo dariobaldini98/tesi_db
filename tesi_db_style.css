@@ -91,7 +91,7 @@ div.cookie {
 .tooltip_container {
     position: relative;
     display: inline-block;
-	text-decoration: underline dashed #ffff0d 5px;
+	text-decoration: underline dashed #ffff0d 3px;
 	cursor: help;
 }
 div.licence .tooltip_container {
