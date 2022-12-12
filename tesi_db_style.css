@@ -46,6 +46,9 @@ div.presentation_v2 {
 	border-radius: 15px;
 	font-size: 35px;
 }
+div.flex_box {
+	text-align: center;
+}
 .opener {
 	margin-top: 2%;
 }
