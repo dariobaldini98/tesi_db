@@ -26,8 +26,7 @@ div.homepage {
 	margin-top: 3%;
 	margin-left: 10%;
 	margin-right: 10%;
-	padding: 3% 3% 3% 3%;
-	font-size: 29px;
+	font-size: 26px;
 }
 p.center {
 	text-align: center;
@@ -109,9 +108,9 @@ div.diaryEntry {
 	margin-left: 10%;
 	margin-right: 10%;
     background-color: #f2ebcf;
-	padding: 3% 3% 3% 3%;
+	padding: 3%;
 	border-radius: 15px;
-	font-size: 28px;
+	font-size: 26px;
 }
 .opener {
 	margin-top: 2%;
@@ -174,9 +173,9 @@ div.cookie .tooltip_container {
     visibility: hidden;
     background-color: #ffff0d;
     text-align: center;
-	padding: 3% 3% 3% 3%;
+	padding: 3%;
 	border-radius: 15px;
-	font-size: 16px;
+	font-size: 22px;
 	font-family: EasyReading;
     position: absolute;
     z-index: 1;
@@ -189,9 +188,9 @@ div.cookie .tooltip_container {
     visibility: hidden;
     background-color: #ffff0d;
     text-align: center;
-	padding: 3% 3% 3% 3%;
+	padding: 3%;
 	border-radius: 15px;
-	font-size: 16px;
+	font-size: 22px;
 	font-family: EasyReading;
     position: absolute;
     z-index: 1;
@@ -204,8 +203,8 @@ div.cookie .tooltip_container {
     visibility: hidden;
     background-color: #ffff0d;
     text-align: center;
-	padding: 3% 3% 3% 3%;
-	border-radius: 15px;
+	padding: 3%;
+	border-radius: 22px;
 	font-size: 16px;
 	font-family: EasyReading;
     position: absolute;
@@ -251,7 +250,7 @@ img.EasyReading {
 	div.homepage {
 		margin-left: 1%;
 		margin-right: 1%;
-	    font-size: 23px;
+	    font-size: 22px;
     }
 	div.licence {
 		font-size: 25px;
@@ -260,7 +259,7 @@ img.EasyReading {
 		font-size: 25px;
     }
 	.tooltip_container .tooltip_text {
-	    font-size: 12px;
+	    font-size: 18px;
 	    width: 80px;
         margin-left: -40px;
     }
@@ -272,7 +271,7 @@ img.EasyReading {
 		font-size: 23px;
 	}
 	div.homepage {
-	    font-size: 24px;
+	    font-size: 23px;
 		margin-left: 3%;
 		margin-right: 3%;
     }
@@ -283,7 +282,7 @@ img.EasyReading {
 		font-size: 28px;
     }
 	.tooltip_container .tooltip_text {
-	    font-size: 13px;
+	    font-size: 19px;
 	    width: 90px;
         margin-left: -45px;
     }
@@ -292,10 +291,10 @@ img.EasyReading {
 	div.diaryEntry {
 		margin-left: 5.5%;
 		margin-right: 5.5%;
-		font-size: 25px;
+		font-size: 24px;
 	}
 	div.homepage {
-	    font-size: 27px;
+	    font-size: 24px;
 		margin-left: 5.5%;
 		margin-right: 5.5%;
     }
@@ -306,7 +305,7 @@ img.EasyReading {
 		font-size: 31px;
     }
 	.tooltip_container .tooltip_text {
-	    font-size: 14px;
+	    font-size: 20px;
 	    width: 110px;
         margin-left: -55px;
     }
@@ -315,10 +314,10 @@ img.EasyReading {
 	div.diaryEntry {
 		margin-left: 8%;
 		margin-right: 8%;
-		font-size: 27px;
+		font-size: 25px;
 	}
 	div.homepage {
-	    font-size: 28px;
+	    font-size: 25px;
 		margin-left: 8%;
 		margin-right: 8%;
     }
@@ -329,7 +328,7 @@ img.EasyReading {
 		font-size: 34px;
     }
 	.tooltip_container .tooltip_text {
-	    font-size: 15px;
+	    font-size: 21px;
 	    width: 130px;
         margin-left: -65px;
     }
