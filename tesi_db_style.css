@@ -64,8 +64,7 @@ button.button_mira:hover  {
 	color: white;
 }
 button.button_tei:hover  {
-	background-color: #ccb72d
-;
+	background-color: #ccb72d;
 	color: white;
 }
 div.flex_box {
@@ -220,6 +219,9 @@ a:visited {
 /* mouse over link */
 a:hover {
     color: black;
+}
+button > a:hover {
+    color: white;
 }
 /* selected link */
 a:active {
