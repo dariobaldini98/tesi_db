@@ -89,12 +89,13 @@ div.flex {
 div.flex  > a {
 	margin-top: 2%;
 }
+/* Client */
 div.iframe_container {
 	height: 100vh;
     width: 100vw;
 }
 div.iframe_container > iframe {
-	position:fixed; 
+	position: fixed; 
 	top:0; 
 	left:0; 
 	bottom:0; 
