@@ -1,3 +1,4 @@
+/* Font */
 @font-face {
     font-family: EasyReading;
     src: url(font/EasyReadingPRO.ttf);
@@ -6,6 +7,7 @@
     font-family: CCSymbols;
     src: url(font/CCSymbols.ttf);
 }
+/* Homepage */
 body {
     font-family: EasyReading;
     color: black;
@@ -20,31 +22,15 @@ div.heading {
 div.body {
 	margin-top: 3%;
 }
-div.diaryEntry {
-    margin-bottom: 3%;
+div.homepage {
+	margin-top: 3%;
 	margin-left: 10%;
 	margin-right: 10%;
-    background-color: #f2ebcf;
 	padding: 3% 3% 3% 3%;
-	border-radius: 15px;
-	font-size: 28px;
-}
-div.presentation {
-	margin-top: 2%;
-	margin-left: 10%;
-	margin-right: 10%;
-    background-color: #f2ebcf;
-	padding: 3% 3% 3% 3%;
-	border-radius: 15px;
 	font-size: 29px;
 }
-div.presentation_nobg {
-	margin-top: 2%;
-	margin-left: 10%;
-	margin-right: 10%;
-	padding: 3% 3% 3% 3%;
-	border-radius: 15px;
-	font-size: 29px;
+p.center {
+	text-align: center;
 }
 a.button_uv {
 	padding: 3%;
@@ -94,10 +80,13 @@ a.button_tei:hover  {
 	color: white;
 	text-decoration: none;
 }
-div.flex_box {
+div.flex {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
+	margin-top: 2%;
+}
+div.flex  > a {
 	margin-top: 2%;
 }
 div.iframe_container {
@@ -113,8 +102,15 @@ div.iframe_container > iframe {
 	height: 100vh;
     width: 100vw;
 }
-p.center {
-	text-align: center;
+/* Trascrizione */
+div.diaryEntry {
+    margin-bottom: 3%;
+	margin-left: 10%;
+	margin-right: 10%;
+    background-color: #f2ebcf;
+	padding: 3% 3% 3% 3%;
+	border-radius: 15px;
+	font-size: 28px;
 }
 .opener {
 	margin-top: 2%;
@@ -156,7 +152,7 @@ div.cookie {
 .overstrike {
 	text-decoration: line-through;
 }
-/* Tooltip container */
+/* Tooltip */
 .tooltip_container {
     position: relative;
     display: inline-block;
@@ -173,7 +169,6 @@ div.cookie .tooltip_container {
 	text-decoration: none;
 	cursor: help;
 }
-/* Tooltip text */
 .tooltip_container .tooltip_text {
     visibility: hidden;
     background-color: #ffff0d;
@@ -182,13 +177,12 @@ div.cookie .tooltip_container {
 	border-radius: 15px;
 	font-size: 16px;
 	font-family: EasyReading;
-/* Position the tooltip text - see examples below! */
     position: absolute;
     z-index: 1;
 	width: 140px;
     bottom: 100%;
     left: 50%;
-    margin-left: -70px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    margin-left: -70px;
 }
 .tooltip_container .tooltip_text_licence {
     visibility: hidden;
@@ -198,7 +192,6 @@ div.cookie .tooltip_container {
 	border-radius: 15px;
 	font-size: 16px;
 	font-family: EasyReading;
-/* Position the tooltip text - see examples below! */
     position: absolute;
     z-index: 1;
     width: 200px;
@@ -214,15 +207,13 @@ div.cookie .tooltip_container {
 	border-radius: 15px;
 	font-size: 16px;
 	font-family: EasyReading;
-/* Position the tooltip text - see examples below! */
     position: absolute;
     z-index: 1;
     width: 200px;
     bottom: 100%;
     right: 50%;
-    margin-left: -100px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    margin-left: -100px;
 }
-/* Show the tooltip text when you mouse over the tooltip container */
 .tooltip_container:hover .tooltip_text {
     visibility: visible;
 }
@@ -232,46 +223,31 @@ div.cookie .tooltip_container {
 .tooltip_container:hover .tooltip_text_cookie {
     visibility: visible;
 }
-.tooltip_container:hover .tooltip_text_presentation {
-    visibility: visible;
-}
-/* unvisited link */
+/* Link */
 a:link {
     color: black;
 }
-/* visited link */
 a:visited {
     color: black;
 }
-/* mouse over link */
 a:hover {
     color: black;
 }
-button > a:hover {
-    color: white;
-}
-/* selected link */
 a:active {
     color: black;
 }
-div class > a {
-	margin-top: 2%;
-}
+/* Immagini */
 img.EasyReading {
 	border: 3px solid black;
 }
+/* Media Query */
 @media screen and (min-width: 1px) and (max-width: 480px) {
 	div.diaryEntry {
 		margin-left: 1%;
 		margin-right: 1%;
 		font-size: 22px;
 	}
-	div.presentation {
-		margin-left: 1%;
-		margin-right: 1%;
-	    font-size: 23px;
-    }
-	div.presentation_nobg {
+	div.homepage {
 		margin-left: 1%;
 		margin-right: 1%;
 	    font-size: 23px;
@@ -285,7 +261,7 @@ img.EasyReading {
 	.tooltip_container .tooltip_text {
 	    font-size: 12px;
 	    width: 80px;
-        margin-left: -40px; /* Use half of the width (120/2 = 60), to center the tooltip */
+        margin-left: -40px;
     }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -294,12 +270,7 @@ img.EasyReading {
 		margin-right: 3%;
 		font-size: 23px;
 	}
-	div.presentation {
-	    font-size: 24px;
-		margin-left: 3%;
-		margin-right: 3%;
-    }
-	div.presentation_nobg {
+	div.homepage {
 	    font-size: 24px;
 		margin-left: 3%;
 		margin-right: 3%;
@@ -313,7 +284,7 @@ img.EasyReading {
 	.tooltip_container .tooltip_text {
 	    font-size: 13px;
 	    width: 90px;
-        margin-left: -45px; /* Use half of the width (120/2 = 60), to center the tooltip */
+        margin-left: -45px;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -322,12 +293,7 @@ img.EasyReading {
 		margin-right: 5.5%;
 		font-size: 25px;
 	}
-	div.presentation {
-	    font-size: 27px;
-		margin-left: 5.5%;
-		margin-right: 5.5%;
-    }
-	div.presentation_nobg {
+	div.homepage {
 	    font-size: 27px;
 		margin-left: 5.5%;
 		margin-right: 5.5%;
@@ -341,7 +307,7 @@ img.EasyReading {
 	.tooltip_container .tooltip_text {
 	    font-size: 14px;
 	    width: 110px;
-        margin-left: -55px; /* Use half of the width (120/2 = 60), to center the tooltip */
+        margin-left: -55px;
     }
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
@@ -350,12 +316,7 @@ img.EasyReading {
 		margin-right: 8%;
 		font-size: 27px;
 	}
-	div.presentation {
-	    font-size: 28px;
-		margin-left: 8%;
-		margin-right: 8%;
-    }
-	div.presentation_nobg {
+	div.homepage {
 	    font-size: 28px;
 		margin-left: 8%;
 		margin-right: 8%;
@@ -369,6 +330,6 @@ img.EasyReading {
 	.tooltip_container .tooltip_text {
 	    font-size: 15px;
 	    width: 130px;
-        margin-left: -65px; /* Use half of the width (120/2 = 60), to center the tooltip */
+        margin-left: -65px;
     }
 }
