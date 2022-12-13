@@ -180,7 +180,13 @@
   </xsl:template>
   
   <xsl:template match="tei:graphic">
+    <span class="tooltip_container_img">
       <img src="{@url}" alt="{following-sibling::tei:figDesc}" width="{@width}" height="{@height}"/>
+	  <span class="tooltip_text">
+	    <xsl:value-of select="following-sibling::tei:figDesc"/>
+	  </span>
+	</span>
   </xsl:template>
   
 </xsl:stylesheet>
+	

@@ -159,6 +159,12 @@ ol {
 	text-decoration: underline dashed #ffff0d 4px;
 	cursor: help;
 }
+.tooltip_container_img {
+    position: relative;
+    display: inline-block;
+	text-decoration: none;
+	cursor: help;
+}
 div.licence .tooltip_container {
 	background-color: transparent;
 	text-decoration: none;
@@ -187,6 +193,21 @@ div.cookie .tooltip_container {
 div.homepage .tooltip_text {
 	width: 180px;
     margin-left: -90px;
+}
+.tooltip_container_img .tooltip_text {
+    visibility: hidden;
+    background-color: #ffff0d;
+    text-align: center;
+	padding: 3%;
+	border-radius: 15px;
+	font-size: 22px;
+	font-family: EasyReading;
+    position: absolute;
+    z-index: 1;
+	width: 140px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -70px;
 }
 .tooltip_container .tooltip_text_licence {
     visibility: hidden;
@@ -225,6 +246,9 @@ div.homepage .tooltip_text {
     visibility: visible;
 }
 .tooltip_container:hover .tooltip_text_cookie {
+    visibility: visible;
+}
+.tooltip_container_img:hover .tooltip_text_cookie {
     visibility: visible;
 }
 /* Link */
