@@ -254,6 +254,9 @@ button > a:hover {
 a:active {
     color: black;
 }
+div class > a {
+	margin-top: 2%;
+}
 img.EasyReading {
 	border: 3px ridge black;
 }
