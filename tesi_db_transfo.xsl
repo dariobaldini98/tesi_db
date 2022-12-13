@@ -122,6 +122,8 @@
   <xsl:template match="tei:expan"/>
   
   <xsl:template match="tei:corr"/>
+  
+  <xsl:template match="tei:figDesc"/>
 
   <xsl:template match="tei:item">
 	<il><xsl:value-of select="."/></il><br/>
