@@ -40,7 +40,7 @@ a.button_uv {
 	border-radius: 15px;
 	background-color: transparent;
 	text-decoration: none;
-	border-style: outset;
+	border: 3px outset #b1b4b5;
 }
 a.button_mira {
 	padding: 3%;
@@ -51,7 +51,7 @@ a.button_mira {
 	border-radius: 15px;
 	background-color: transparent;
 	text-decoration: none;
-	border-style: outset;
+	border: 3px outset #b1b4b5;
 }
 a.button_tei {
 	padding: 3%;
@@ -62,7 +62,7 @@ a.button_tei {
 	border-radius: 15px;
 	background-color: transparent;
 	text-decoration: none;
-	border-style: outset;
+	border: 3px outset #b1b4b5;
 }
 a.button_uv:hover  {
 	background-color: #3e114e;
@@ -238,7 +238,7 @@ a:active {
 }
 /* Immagini */
 img.EasyReading {
-	border: 3px solid black;
+	border: 3px solid #b1b4b5;
 }
 /* Media Query */
 @media screen and (min-width: 1px) and (max-width: 480px) {
