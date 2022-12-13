@@ -96,12 +96,14 @@ div.licence {
     bottom: 0;
     left: 0;
 	font-size: 37px;
+	z-index: 1;
 }
 div.cookie {
 	position: fixed;
     bottom: 0;
     right: 0;
 	font-size: 37px;
+	z-index: 1;
 }
 .overstrike {
 	text-decoration: line-through;
