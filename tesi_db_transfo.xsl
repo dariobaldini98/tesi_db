@@ -115,6 +115,10 @@
 	<xsl:apply-templates/>
   </xsl:template>
   
+  <xsl:template match="tei:figure">
+	<xsl:apply-templates/>
+  </xsl:template>
+  
   <xsl:template match="tei:expan"/>
   
   <xsl:template match="tei:corr"/>
@@ -171,6 +175,10 @@
 	  <xsl:value-of select="."/>
 	  <span class="tooltip_text">Originale illeggibile</span>
 	</span>
+  </xsl:template>
+  
+  <xsl:template match="tei:graphic">
+      <img src="{@tei:url}" alt="following-sibling::tei:figDesc" width="{@tei:width}" height="{@tei:height}"/>
   </xsl:template>
   
 </xsl:stylesheet>
