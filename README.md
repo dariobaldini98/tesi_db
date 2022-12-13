@@ -2,7 +2,7 @@
 
 This repo hosts a project for my Masters Dissertation on Electronic Publishing which consists in the digitisation of a diary written between 1901 and 1903 by the prison guard Pasquale Riccioni.  
 
-####[Link to the website](https://dariobaldini98.github.io/tesi_db/tesi_db_homepage.html)    
+#### [Link to the website](https://dariobaldini98.github.io/tesi_db/tesi_db_homepage.html)    
 
 The project comprises the following files:  
 
