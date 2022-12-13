@@ -178,7 +178,7 @@
   </xsl:template>
   
   <xsl:template match="tei:graphic">
-      <img src="{@tei:url}" alt="following-sibling::tei:figDesc" width="{@tei:width}" height="{@tei:height}"/>
+      <img src="{@url}" alt="{following-sibling::tei:figDesc}" width="{@width}" height="{@height}"/>
   </xsl:template>
   
 </xsl:stylesheet>
