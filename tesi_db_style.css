@@ -46,6 +46,28 @@ div.presentation_nobg {
 	border-radius: 15px;
 	font-size: 29px;
 }
+button {
+	padding: 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 15px;
+	background-color: transparent;
+}
+button.button_uv:hover  {
+	background-color: #3e114e;
+	color: white;
+}
+button.button_mira:hover  {
+	background-color: #483c43;
+	color: white;
+}
+button.button_tei:hover  {
+	background-color: #ccb72d
+;
+	color: white;
+}
 div.flex_box {
 	display: flex;
 	flex-flow: row wrap;
