@@ -205,7 +205,7 @@ div.homepage .tooltip_text {
     position: absolute;
     z-index: 1;
 	width: 140px;
-    bottom: 100%;
+    top: 100%;
     left: 50%;
     margin-left: -70px;
 }
