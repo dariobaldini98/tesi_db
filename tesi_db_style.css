@@ -104,9 +104,6 @@ div.flex {
 div.flex  > a {
 	margin-top: 2%;
 }
-div.flex > img:hover {
-  opacity: 0.5;
-}
 /* Client */
 div.iframe_container {
 	height: 100vh;
@@ -271,6 +268,10 @@ a:active {
 /* Immagini */
 img.EasyReading {
 	border: 3px solid #b1b4b5;
+}
+
+div.homepage > img:hover {
+  opacity: 0.5;
 }
 /* Media Query */
 @media screen and (min-width: 1px) and (max-width: 480px) {
