@@ -98,6 +98,7 @@ div.flex {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
+	align-items: center;
 	margin-top: 2%;
 }
 div.flex  > a {
