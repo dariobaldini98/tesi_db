@@ -249,7 +249,7 @@ div.homepage .tooltip_text {
 .tooltip_container:hover .tooltip_text_cookie {
     visibility: visible;
 }
-.tooltip_container_img:hover .tooltip_text_cookie {
+.tooltip_container_img:hover .tooltip_text {
     visibility: visible;
 }
 /* Link */
