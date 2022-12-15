@@ -1,4 +1,4 @@
-# WIP - tesi_db - WIP
+# tesi_db
 
 This repo hosts a project for my MA Dissertation on Electronic Publishing which consists in the digitisation of a diary written between 1901 and 1903 by the prison guard Pasquale Riccioni.  
 
