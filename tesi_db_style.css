@@ -255,15 +255,20 @@ div.homepage .tooltip_text {
 /* Link */
 a:link {
     color: black;
+	text-decoration: none;
 }
 a:visited {
     color: black;
+	text-decoration: none;
 }
 a:hover {
     color: black;
+	text-decoration: none;
+    opacity: 0.5;
 }
 a:active {
     color: black;
+	text-decoration: none;
 }
 /* Immagini */
 img.EasyReading {
