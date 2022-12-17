@@ -266,6 +266,15 @@ a:hover {
 	text-decoration: none;
     opacity: 0.5;
 }
+a.button_uv:hover {
+    opacity: 1;
+}
+a.button_mira:hover {
+    opacity: 1;
+}
+a.button_tei:hover {
+    opacity: 1;
+}
 a:active {
     color: black;
 	text-decoration: none;
