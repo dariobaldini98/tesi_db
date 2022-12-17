@@ -13,24 +13,24 @@
 	    <meta name="description" content="Digitalizzazione di un diario manoscritto di inizio Novecento"/>
       </head>
 	  <body>
-	    <div class="heading">
+	    <div class="licence">
+	      <span class="tooltip_container">&#127341;&#127343;&#127247;&#8860;
+	        <span class="tooltip_text_licence">Pubblicato su licenza<br/> 
+		      <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode" target="_blank">CC BY-NC-ND 4.0</a>
+		    </span>
+          </span>
+	    </div>
+	    <div class="cookie">
+	      <span class="tooltip_container">&#127850;
+	        <span class="tooltip_text_cookie">Questo sito non utilizza<br/> cookie di terze parti</span>
+	      </span>
+	    </div>
+	    <div class="titles">
 	      <h1><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
 		  <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt">
 		    <h3><xsl:value-of select="tei:resp"/></h3>
 		    <h2><xsl:value-of select="tei:persName"/></h2>
 		  </xsl:for-each>
-	 	  <div class="licence">
-	        <span class="tooltip_container">&#127341;&#127343;&#127247;&#8860;
-	          <span class="tooltip_text_licence">Pubblicato su licenza<br/> 
-		        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode" target="_blank">CC BY-NC-ND 4.0</a>
-		      </span>
-            </span>
-	      </div>
-	      <div class="cookie">
-	        <span class="tooltip_container">&#127850;
-	          <span class="tooltip_text_cookie">Questo sito non utilizza<br/> cookie di terze parti</span>
-	        </span>
-	      </div>
 		</div>
 		<div class="body">
 		  <xsl:apply-templates select="tei:TEI/tei:text/tei:body/tei:div"/>
