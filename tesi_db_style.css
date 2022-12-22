@@ -46,7 +46,7 @@ div.cookie {
 	font-size: 37px;
 	z-index: 1;
 }
-a.button_uv {
+a.button {
 	padding: 3%;
     text-align: center;
     text-decoration: none;
@@ -57,42 +57,18 @@ a.button_uv {
 	text-decoration: none;
 	border: 3px outset #b1b4b5;
 }
-a.button_mira {
-	padding: 3%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-	border-radius: 15px;
-	background-color: transparent;
+a.button:hover  {
+	color: white;
 	text-decoration: none;
-	border: 3px outset #b1b4b5;
 }
-a.button_tei {
-	padding: 3%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-	border-radius: 15px;
-	background-color: transparent;
-	text-decoration: none;
-	border: 3px outset #b1b4b5;
-}
-a.button_uv:hover  {
+#uv:hover  {
 	background-color: #3e114e;
-	color: white;
-	text-decoration: none;
 }
-a.button_mira:hover  {
+#mira:hover  {
 	background-color: #483c43;
-	color: white;
-	text-decoration: none;
 }
-a.button_tei:hover  {
+#tei:hover  {
 	background-color: #ccb72d;
-	color: white;
-	text-decoration: none;
 }
 div.flex {
 	display: flex;
