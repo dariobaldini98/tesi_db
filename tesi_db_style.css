@@ -100,18 +100,10 @@ div.flex  > a {
 	margin-top: 2%;
 }
 /* Client */
-div.iframe_container {
+iframe {
 	height: 100vh;
     width: 100vw;
-}
-div.iframe_container > iframe {
-	position: fixed; 
-	top:0; 
-	left:0; 
-	bottom:0; 
-	right:0;
-	height: 100vh;
-    width: 100vw;
+	border: none;
 }
 /* Trascrizione */
 div.diaryEntry {
