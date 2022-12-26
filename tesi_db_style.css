@@ -146,7 +146,6 @@ ol {
 /* Tooltip */
 .tooltip_container {
     position: relative;
-    display: inline-block;
 	text-decoration: underline dashed #ffff0d 4px;
 	cursor: help;
 }
@@ -163,17 +162,10 @@ ol {
 	padding: 3%;
 	border-radius: 15px;
 	font-size: 22px;
-	font-family: EasyReading;
     position: absolute;
     z-index: 1;
-	width: 140px;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -70px;
-}
-div.homepage_section .tooltip_text {
-	width: 180px;
-    margin-left: -90px;
+    top: -150%;
+    right: -10%;
 }
 .tooltip_container_img .tooltip_text {
     visibility: hidden;
@@ -182,13 +174,10 @@ div.homepage_section .tooltip_text {
 	padding: 3%;
 	border-radius: 15px;
 	font-size: 22px;
-	font-family: EasyReading;
     position: absolute;
     z-index: 1;
-	width: 140px;
     top: 100%;
-    left: 50%;
-    margin-left: -70px;
+    right: -10%;
 }
 .tooltip_container:hover .tooltip_text {
     visibility: visible;
@@ -205,8 +194,6 @@ div.homepage_section .tooltip_text {
 	}
 	.tooltip_container .tooltip_text {
 	    font-size: 18px;
-	    width: 80px;
-        margin-left: -40px;
     }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -217,8 +204,6 @@ div.homepage_section .tooltip_text {
 	}
 	.tooltip_container .tooltip_text {
 	    font-size: 19px;
-	    width: 90px;
-        margin-left: -45px;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -229,8 +214,6 @@ div.homepage_section .tooltip_text {
 	}
 	.tooltip_container .tooltip_text {
 	    font-size: 20px;
-	    width: 110px;
-        margin-left: -55px;
     }
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
@@ -241,7 +224,5 @@ div.homepage_section .tooltip_text {
 	}
 	.tooltip_container .tooltip_text {
 	    font-size: 21px;
-	    width: 130px;
-        margin-left: -65px;
     }
 }
