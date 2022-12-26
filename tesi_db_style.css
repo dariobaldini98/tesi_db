@@ -163,6 +163,7 @@ ol {
 	border-radius: 15px;
 	font-size: 22px;
     position: absolute;
+    display: inline-block;
     z-index: 1;
     top: 100%;
     right: -10%;
@@ -175,6 +176,7 @@ ol {
 	border-radius: 15px;
 	font-size: 22px;
     position: absolute;
+    display: inline-block;
     z-index: 1;
     top: 100%;
     right: -10%;
