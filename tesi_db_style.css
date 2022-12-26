@@ -3,10 +3,6 @@
     font-family: EasyReading;
     src: url(font/EasyReadingPRO.ttf);
 }
-@font-face {
-    font-family: CCSymbols;
-    src: url(font/CCSymbols.ttf);
-}
 /* Homepage */
 body {
     font-family: EasyReading;
@@ -32,11 +28,9 @@ div.homepage {
 	text-align: center;
 }
 div.licence {
-	font-family: CCSymbols;
 	position: fixed;
     bottom: 0;
     left: 0;
-	font-size: 37px;
 	z-index: 1;
 }
 /* Link */
@@ -151,11 +145,6 @@ ol {
 	text-decoration: none;
 	cursor: help;
 }
-div.licence .tooltip_container {
-	background-color: transparent;
-	text-decoration: none;
-	cursor: help;
-}
 .tooltip_container .tooltip_text {
     visibility: hidden;
     background-color: #ffff0d;
@@ -190,25 +179,7 @@ div.homepage .tooltip_text {
     left: 50%;
     margin-left: -70px;
 }
-.tooltip_container .tooltip_text_licence {
-    visibility: hidden;
-    background-color: #ffff0d;
-    text-align: center;
-	padding: 3%;
-	border-radius: 15px;
-	font-size: 18px;
-	font-family: EasyReading;
-    position: absolute;
-    z-index: 1;
-    width: 200px;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -30px;
-}
 .tooltip_container:hover .tooltip_text {
-    visibility: visible;
-}
-.tooltip_container:hover .tooltip_text_licence {
     visibility: visible;
 }
 .tooltip_container_img:hover .tooltip_text {
@@ -234,9 +205,6 @@ div.homepage img:hover {
 		margin-right: 1%;
 	    font-size: 22px;
     }
-	div.licence {
-		font-size: 25px;
-    }
 	.tooltip_container .tooltip_text {
 	    font-size: 18px;
 	    width: 80px;
@@ -253,9 +221,6 @@ div.homepage img:hover {
 	    font-size: 23px;
 		margin-left: 3%;
 		margin-right: 3%;
-    }
-	div.licence {
-		font-size: 28px;
     }
 	.tooltip_container .tooltip_text {
 	    font-size: 19px;
@@ -274,9 +239,6 @@ div.homepage img:hover {
 		margin-left: 5.5%;
 		margin-right: 5.5%;
     }
-	div.licence {
-		font-size: 31px;
-    }
 	.tooltip_container .tooltip_text {
 	    font-size: 20px;
 	    width: 110px;
@@ -293,9 +255,6 @@ div.homepage img:hover {
 	    font-size: 25px;
 		margin-left: 8%;
 		margin-right: 8%;
-    }
-	div.licence {
-		font-size: 34px;
     }
 	.tooltip_container .tooltip_text {
 	    font-size: 21px;
