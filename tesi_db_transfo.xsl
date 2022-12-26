@@ -20,11 +20,6 @@
 		    </span>
           </span>
 	    </div>
-	    <div class="cookie">
-	      <span class="tooltip_container">&#127850;
-	        <span class="tooltip_text_cookie">Questo sito non utilizza<br/> cookie di terze parti</span>
-	      </span>
-	    </div>
 	    <div class="titles">
 	      <h1><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
 		  <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt">

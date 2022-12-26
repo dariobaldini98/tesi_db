@@ -39,13 +39,6 @@ div.licence {
 	font-size: 37px;
 	z-index: 1;
 }
-div.cookie {
-	position: fixed;
-    bottom: 0;
-    right: 0;
-	font-size: 37px;
-	z-index: 1;
-}
 /* Link */
 a:link {
     color: black;
@@ -163,11 +156,6 @@ div.licence .tooltip_container {
 	text-decoration: none;
 	cursor: help;
 }
-div.cookie .tooltip_container {
-	background-color: transparent;
-	text-decoration: none;
-	cursor: help;
-}
 .tooltip_container .tooltip_text {
     visibility: hidden;
     background-color: #ffff0d;
@@ -217,28 +205,10 @@ div.homepage .tooltip_text {
     left: 50%;
     margin-left: -30px;
 }
-.tooltip_container .tooltip_text_cookie {
-    visibility: hidden;
-    background-color: #ffff0d;
-    text-align: center;
-	padding: 3%;
-	border-radius: 22px;
-	font-size: 18px;
-	font-family: EasyReading;
-    position: absolute;
-    z-index: 1;
-    width: 200px;
-    bottom: 100%;
-    right: 50%;
-    margin-left: -100px;
-}
 .tooltip_container:hover .tooltip_text {
     visibility: visible;
 }
 .tooltip_container:hover .tooltip_text_licence {
-    visibility: visible;
-}
-.tooltip_container:hover .tooltip_text_cookie {
     visibility: visible;
 }
 .tooltip_container_img:hover .tooltip_text {
@@ -267,9 +237,6 @@ div.homepage img:hover {
 	div.licence {
 		font-size: 25px;
     }
-    div.cookie {
-		font-size: 25px;
-    }
 	.tooltip_container .tooltip_text {
 	    font-size: 18px;
 	    width: 80px;
@@ -288,9 +255,6 @@ div.homepage img:hover {
 		margin-right: 3%;
     }
 	div.licence {
-		font-size: 28px;
-    }
-    div.cookie {
 		font-size: 28px;
     }
 	.tooltip_container .tooltip_text {
@@ -313,9 +277,6 @@ div.homepage img:hover {
 	div.licence {
 		font-size: 31px;
     }
-    div.cookie {
-		font-size: 31px;
-    }
 	.tooltip_container .tooltip_text {
 	    font-size: 20px;
 	    width: 110px;
@@ -334,9 +295,6 @@ div.homepage img:hover {
 		margin-right: 8%;
     }
 	div.licence {
-		font-size: 34px;
-    }
-    div.cookie {
 		font-size: 34px;
     }
 	.tooltip_container .tooltip_text {
