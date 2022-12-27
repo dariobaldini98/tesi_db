@@ -161,14 +161,14 @@ ol {
     top: 100%;
     right: -10%;
 }
+.tooltip_container:hover .tooltip_text {
+    visibility: visible;
+}
 .tooltip_container_img {
     position: relative;
     display: inline-block;
 	text-decoration: none;
 	cursor: help;
-}
-.tooltip_container:hover .tooltip_text {
-    visibility: visible;
 }
 .tooltip_container_img .tooltip_text {
     visibility: hidden;
