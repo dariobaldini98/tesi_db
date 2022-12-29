@@ -30,6 +30,8 @@
 	</html>
   </xsl:template>
   
+  <!-- Contenitori con formattazione -->
+  
   <xsl:template match="tei:TEI/tei:text/tei:body/tei:div">
     <div class="diary_entry">
 	  <xsl:apply-templates/>
@@ -56,14 +58,6 @@
 	</div>
   </xsl:template>
   
-  <xsl:template match="tei:quote">
-	<xsl:apply-templates/>
-  </xsl:template>
-  
-  <xsl:template match="tei:postscript">
-	<xsl:apply-templates/>
-  </xsl:template>
-  
   <xsl:template match="tei:salute">
     <p><xsl:apply-templates/></p>
   </xsl:template>
@@ -76,14 +70,20 @@
     <p><xsl:apply-templates/></p>
   </xsl:template>
   
-  <xsl:template match="tei:head">
-    <h4><xsl:value-of select="."/></h4>
-  </xsl:template>
-  
   <xsl:template match="tei:list">
 	<ol>
 	  <xsl:apply-templates/>
 	</ol>
+  </xsl:template>
+  
+  <!-- Contenitori senza formattazione -->
+  
+  <xsl:template match="tei:quote">
+	<xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="tei:postscript">
+	<xsl:apply-templates/>
   </xsl:template>
   
   <xsl:template match="tei:add">
@@ -110,12 +110,12 @@
 	<xsl:apply-templates/>
   </xsl:template>
   
-  <xsl:template match="tei:expan"/>
+  <!-- Solo valori -->
   
-  <xsl:template match="tei:corr"/>
+  <xsl:template match="tei:head">
+    <h4><xsl:value-of select="."/></h4>
+  </xsl:template>
   
-  <xsl:template match="tei:figDesc"/>
-
   <xsl:template match="tei:item">
 	<il><xsl:value-of select="."/></il><br/>
   </xsl:template>
@@ -123,6 +123,16 @@
   <xsl:template match="tei:del">
 	<span class="overstrike"><xsl:value-of select="."/></span>
   </xsl:template>
+  
+  <!-- Elementi rimossi -->
+  
+  <xsl:template match="tei:expan"/>
+  
+  <xsl:template match="tei:corr"/>
+  
+  <xsl:template match="tei:figDesc"/>
+  
+  <!-- Tooltip -->
 
   <xsl:template match="tei:abbr">
 	<span class="tooltip_container">
@@ -169,6 +179,8 @@
 	  <span class="tooltip_text">Originale <br/>illeggibile</span>
 	</span>
   </xsl:template>
+  
+  <!-- Immagini -->
   
   <xsl:template match="tei:graphic">
     <span class="tooltip_container_img">
