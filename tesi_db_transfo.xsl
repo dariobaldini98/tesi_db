@@ -109,6 +109,14 @@
   <xsl:template match="tei:figure">
 	<xsl:apply-templates/>
   </xsl:template>
+    
+  <!-- Elementi rimossi -->
+  
+  <xsl:template match="tei:expan"/>
+  
+  <xsl:template match="tei:corr"/>
+  
+  <xsl:template match="tei:figDesc"/>
   
   <!-- Solo valori -->
   
@@ -123,14 +131,6 @@
   <xsl:template match="tei:del">
 	<span class="overstrike"><xsl:value-of select="."/></span>
   </xsl:template>
-  
-  <!-- Elementi rimossi -->
-  
-  <xsl:template match="tei:expan"/>
-  
-  <xsl:template match="tei:corr"/>
-  
-  <xsl:template match="tei:figDesc"/>
   
   <!-- Tooltip -->
 
