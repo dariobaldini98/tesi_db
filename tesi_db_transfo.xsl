@@ -176,7 +176,7 @@
   <xsl:template match="tei:supplied">
 	<span class="tooltip_container">
 	  <xsl:value-of select="."/>
-	  <span class="tooltip_text">Originale <br/>illeggibile</span>
+	  <span class="tooltip_text">Originale <br/>incomprensibile</span>
 	</span>
   </xsl:template>
   
