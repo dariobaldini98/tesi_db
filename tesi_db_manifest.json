@@ -367,7 +367,7 @@
 							"id": "https://dariobaldini98.github.io/tesi_db/tesi_db_manifest/ann/1r_text",
 							"type": "Annotation",
 							"textGranularity": "block",
-							"motivation": "supplementing",
+							"motivation": ["supplementing"],
 							"target": {
 								"type": "SpecificResource",
 								"source": "https://dariobaldini98.github.io/tesi_db/tesi_db_manifest/canv/1r",
@@ -381,7 +381,7 @@
                                 "source": "https://dariobaldini98.github.io/tesi_db/tesi_db_text.xml",
                                 "selector": {
 									"type": "XPathSelector",
-									"value": "TEI/text/body/div[2]/ab[1]"
+									"value": "/TEI/text/body/div[2]/ab[1]"
 								}
 							}
 						}
