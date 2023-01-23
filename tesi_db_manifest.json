@@ -354,6 +354,36 @@
 						}
 					]
 				}
+			],
+			"annotations": [
+			    {
+					"id": "https://dariobaldini98.github.io/tesi_db/tesi_db_manifest/annpg/1r_text"
+					"type": "AnnotationPage",
+					"items": [
+					    {
+							"id": "https://dariobaldini98.github.io/tesi_db/tesi_db_manifest/ann/1r_text",
+							"type": "Annotation",
+							"textGranularity": "line",
+							"motivation": "supplementing",
+							"target": {
+								"type": "SpecificResource",
+								"source": "https://dariobaldini98.github.io/tesi_db/tesi_db_manifest/canv/1r",
+								"selector": {
+									"type": "FragmentSelector",
+									"value": "xywh=73,1018,751,181"
+								}
+							},
+							"body": {
+								"type": "SpecificResource",
+                                "source": "https://dariobaldini98.github.io/tesi_db/tesi_db_text.xml",
+                                "selector": {
+									"type": "XPathSelector",
+									"value": "TEI/text/body/div[2]/ab[1]"
+								}
+							}
+						}
+					]
+				}
 			]
 		},
 		{
