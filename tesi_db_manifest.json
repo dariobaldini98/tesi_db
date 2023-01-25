@@ -1,8 +1,5 @@
 {
-	"@context": [
-	    "http://iiif.io/api/extension/text-granularity/context.json",
-	    "http://iiif.io/api/presentation/3/context.json"
-	],
+	"@context": "http://iiif.io/api/presentation/3/context.json",
 	"id": "https://dariobaldini98.github.io/tesi_db/tesi_db_manifest.json",
 	"type": "Manifest",
 	"label": { "it": [ "Diario di Pasquale Riccioni" ], "en": [ "Pasquale Riccioni's Diary" ] },
@@ -353,40 +350,6 @@
 										"profile": "http://iiif.io/api/image/2/level2.json"
 									}
 								]
-							}
-						}
-					]
-				}
-			],
-			"annotations": [
-			    {
-					"id": "https://dariobaldini98.github.io/tesi_db/tesi_db_manifest/annpg/1r_text",
-					"type": "AnnotationPage",
-					"items": [
-					    {
-							"id": "https://dariobaldini98.github.io/tesi_db/tesi_db_manifest/ann/1r_text",
-							"type": "Annotation",
-							"textGranularity": "block",
-							"motivation": "commenting",
-							"target": {
-								"type": "SpecificResource",
-								"source": "https://dariobaldini98.github.io/tesi_db/tesi_db_manifest/canv/1r",
-								"selector": {
-									"type": "FragmentSelector",
-									"value": "xywh=73,1018,751,181"
-								}
-							},
-							"body": {
-								"type": "SpecificResource",
-                                "source": {
-									"id": "https://dariobaldini98.github.io/tesi_db/tesi_db_text.xml",
-									"type": "Text",
-									"format": "application/tei+xml"
-								},
-                                "selector": {
-									"type": "XPathSelector",
-									"value": "TEI/text/body/div[2]/ab"
-								}
 							}
 						}
 					]
