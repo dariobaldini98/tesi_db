@@ -368,7 +368,14 @@
 							"type": "Annotation",
 							"textGranularity": "block",
 							"motivation": "supplementing",
-							"target": "https://dariobaldini98.github.io/tesi_db/tesi_db_manifest/canv/10r#xywh=73,1018,751,181",
+							"target": {
+								"type": "SpecificResource",
+								"source": "https://dariobaldini98.github.io/tesi_db/tesi_db_manifest/canv/1r",
+								"selector": {
+									"type": "FragmentSelector",
+									"value": "xywh=73,1018,751,181"
+								}
+							},
 							"body": {
 								"type": "SpecificResource",
                                 "source": {
