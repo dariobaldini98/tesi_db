@@ -367,7 +367,7 @@
 							"id": "https://dariobaldini98.github.io/tesi_db/tesi_db_manifest/ann/1r_text",
 							"type": "Annotation",
 							"textGranularity": "block",
-							"motivation": "supplementing",
+							"motivation": "commenting",
 							"target": {
 								"type": "SpecificResource",
 								"source": "https://dariobaldini98.github.io/tesi_db/tesi_db_manifest/canv/1r",
