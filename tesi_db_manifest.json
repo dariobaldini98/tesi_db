@@ -367,21 +367,18 @@
 							"id": "https://dariobaldini98.github.io/tesi_db/tesi_db_manifest/ann/1r_text",
 							"type": "Annotation",
 							"textGranularity": "block",
-							"motivation": ["supplementing"],
-							"target": {
-								"type": "SpecificResource",
-								"source": "https://dariobaldini98.github.io/tesi_db/tesi_db_manifest/canv/1r",
-								"selector": {
-									"type": "FragmentSelector",
-									"value": "xywh=73,1018,751,181"
-								}
-							},
+							"motivation": "supplementing",
+							"target": "https://dariobaldini98.github.io/tesi_db/tesi_db_manifest/canv/10r#xywh=73,1018,751,181",
 							"body": {
 								"type": "SpecificResource",
-                                "source": "https://dariobaldini98.github.io/tesi_db/tesi_db_text.xml",
+                                "source": {
+									"id": "https://dariobaldini98.github.io/tesi_db/tesi_db_text.xml",
+									"type": "Text",
+									"format": "application/tei+xml"
+								},
                                 "selector": {
 									"type": "XPathSelector",
-									"value": "/TEI/text/body/div[2]/ab[1]"
+									"value": "TEI/text/body/div[2]/ab"
 								}
 							}
 						}
