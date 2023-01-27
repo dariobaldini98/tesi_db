@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Test UV</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	  @font-face {
+        font-family: EasyReading;
+        src: url(font/EasyReadingPRO.ttf);
+      }
+      #mira_test {
+	    font-family: EasyReading;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mira_test"/> 
+    <script type="text/javascript">
+      var mirador = Mirador.viewer({
+        "id": "mira_test",
+          "manifests": {
+            "https://dariobaldini98.github.io/tesi_db/tesi_db_manifest.json": {
+              "provider": "UNITUS"
+            }
+          },
+        "windows": [
+          {
+            "loadedManifest": "https://dariobaldini98.github.io/tesi_db/tesi_db_manifest.json",
+            "canvasIndex": 2,
+            "thumbnailNavigationPosition": 'far-bottom'
+          }
+        ]
+      });
+    </script>
+  </body>
+</html>
