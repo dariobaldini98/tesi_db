@@ -31,12 +31,7 @@ div.licence {
 div.licence img:hover {
   opacity: 0.5;
 }
-.viewer {
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
+#id, #mira {
 	width: 100%;
 	height: 100%;
 }
