@@ -31,8 +31,7 @@ div.licence {
 div.licence img:hover {
   opacity: 0.5;
 }
-iframe {
-	border: none;
+.viewer {
 	position: fixed;
 	top: 0;
 	bottom: 0;
