@@ -86,13 +86,13 @@ a.button:hover  {
 	text-decoration: none;
 	opacity: 1;
 }
-#uv:hover  {
+#button_uv:hover  {
 	background-color: #3e114e;
 }
-#mira:hover  {
+#button_mira:hover  {
 	background-color: #1967d2;
 }
-#tei:hover  {
+#button_tei:hover  {
 	background-color: #ccb72d;
 }
 div.flex_container {
