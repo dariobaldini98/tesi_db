@@ -101,6 +101,10 @@
 			"format": "application/tei+xml"
 		}
 	],
+	"start": { 
+	    "id": "https://dariobaldini98.github.io/tesi_db/tesi_db_manifest/canv/1r", 
+		"type": "Canvas" 
+	},
 	"structures": [
 	    {
 			"id": "https://dariobaldini98.github.io/tesi_db/ran/ill",
