@@ -12,13 +12,21 @@ body {
     color: black;
     background-color: #f2ebcf;
 }
+div.titles {
+	margin-top: 3%;
+}
 h1, h2, h3 {
     text-align: center;	
 }
-
+div.titles > h2, h3 {
+	margin-top: 2%;
+}
 p {
     margin: auto;
     text-align: left;
+}
+.center {
+	text-align: center;
 }
 div.licence {
 	position: fixed;
@@ -49,17 +57,12 @@ a:active {
 	text-decoration: none;
 }
 /* Homepage */
-div.titles {
-	margin-top: 3%;
-}
 div.homepage_section {
-	margin-top: 3%;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
 	margin-left: 10%;
 	margin-right: 10%;
 	font-size: 26px;
-}
-.center {
-	text-align: center;
 }
 a.button {
 	padding: 3%;
@@ -104,7 +107,8 @@ img.EasyReading {
 }
 /* Trascrizione */
 div.diary_entry {
-    margin-top: 3%;
+    margin-top: 1.5%;
+	margin-bottom: 1.5%;
 	margin-left: 10%;
 	margin-right: 10%;
     background-color: rgba(139, 134, 128, 0.4);
