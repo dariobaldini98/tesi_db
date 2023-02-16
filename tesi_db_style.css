@@ -19,7 +19,7 @@ h1, h2, h3 {
     text-align: center;	
 }
 div.titles > h2, h3 {
-	margin-top: 2%;
+	margin-top: 1%;
 }
 p {
     margin: auto;
@@ -37,7 +37,7 @@ div.licence {
 	height: 31px;
 }
 div.licence img:hover {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 a:link {
     color: black;
@@ -111,7 +111,7 @@ div.diary_entry {
 	margin-bottom: 1.5%;
 	margin-left: 10%;
 	margin-right: 10%;
-    background-color: rgba(139, 134, 128, 0.4);
+    background-color: rgba(220, 220, 220, 0.4);
 	padding: 3%;
 	border-radius: 15px;
 	font-size: 26px;

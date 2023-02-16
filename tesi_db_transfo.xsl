@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0">
   <xsl:template match="/">
-    <html lang="{@xml:lang}">
+    <html lang="{attribute::xml:lang}">
 	  <head>
         <title lang="en">Riccioni's Legacy</title>
         <link rel="icon" href="https://iiif.archivelab.org/iiif/tesi_db_20r/474,959,122,137/full/0/default.jpg"/>
@@ -192,4 +192,3 @@
   </xsl:template>
   
 </xsl:stylesheet>
-	
