@@ -106,7 +106,7 @@ img.EasyReading {
 	border: 3px solid #b1b4b5;
 }
 /* Trascrizione */
-div.diary_entry {
+div.entry {
     margin-top: 1.5%;
 	margin-bottom: 1.5%;
 	margin-left: 10%;
@@ -183,7 +183,7 @@ ol {
 }
 /* Media Query */
 @media screen and (min-width: 1px) and (max-width: 480px) {
-	div.diary_entry, div.homepage_section {
+	div.entry, div.homepage_section {
 		margin-left: 2%;
 		margin-right: 2%;
 		font-size: 22px;
@@ -193,7 +193,7 @@ ol {
     }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
-	div.diary_entry, div.homepage_section {
+	div.entry, div.homepage_section {
 		margin-left: 4%;
 		margin-right: 4%;
 		font-size: 23px;
@@ -203,7 +203,7 @@ ol {
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-	div.diary_entry, div.homepage_section {
+	div.entry, div.homepage_section {
 		margin-left: 6%;
 		margin-right: 6%;
 		font-size: 24px;
@@ -213,7 +213,7 @@ ol {
     }
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
-	div.diary_entry, div.homepage_section {
+	div.entry, div.homepage_section {
 		margin-left: 8%;
 		margin-right: 8%;
 		font-size: 25px;

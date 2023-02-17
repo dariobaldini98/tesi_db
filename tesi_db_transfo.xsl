@@ -25,15 +25,15 @@
 		    <h2><xsl:value-of select="tei:persName"/></h2>
 		  </xsl:for-each>
 		</div>
-		<xsl:apply-templates select="tei:TEI/tei:text/tei:body/tei:div"/>
+		<xsl:apply-templates select="tei:TEI/tei:text/tei:body/tei:div[@type='entry']"/>
 	  </body>
 	</html>
   </xsl:template>
   
   <!-- Contenitori con formattazione -->
   
-  <xsl:template match="tei:TEI/tei:text/tei:body/tei:div">
-    <div class="diary_entry">
+  <xsl:template match="tei:TEI/tei:text/tei:body/tei:div[@type='entry']">
+    <div class="entry">
 	  <xsl:apply-templates/>
 	</div>
   </xsl:template>
