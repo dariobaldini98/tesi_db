@@ -201,6 +201,8 @@
 		  <p>Non sono state fornite informazioni interpretative.</p>
 		</interpretation>
 	  </editorialDecl>
+	  <schemaRef type="ODD" url="https://tei-c.org/release/xml/tei/custom/odd/tei_ms.odd"/>
+	  <schemaRef type="XSD" url="https://tei-c.org/release/xml/tei/custom/schema/xsd/tei_ms.xsd"/>
 	</encodingDesc>
 	<profileDesc>
 	  <calendarDesc>
