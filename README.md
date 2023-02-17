@@ -7,7 +7,7 @@ This repo hosts a project for my MA Dissertation on Electronic Publishing which 
 The project comprises the following parts:  
 
 - IIIF APIs:
-  - [Image APIs ([Image Requests](https://iiif.archivelab.org/iiif/tesi_db_1r/full/full/0/default.jpg) and  [Image Information Requests](https://iiif.archivelab.org/iiif/tesi_db_1r/info.json) - eg. *r1*) of page scans, obtained with the [Archive Labs IIIF service](https://training.iiif.io/iiif-online-workshop/day-two/image-servers/iiif-hosting-ia.html);  
+  - Image APIs ([Image Requests](https://iiif.archivelab.org/iiif/tesi_db_1r/full/full/0/default.jpg) and  [Image Information Requests](https://iiif.archivelab.org/iiif/tesi_db_1r/info.json) - eg. *r1*) of page scans, obtained with the [Archive Labs IIIF service](https://training.iiif.io/iiif-online-workshop/day-two/image-servers/iiif-hosting-ia.html);  
   - [Presentation API of a manifest](/tesi_db_manifest.json);  
 
 - [TEI encoding of the text](/tesi_db_text.xml) (**till *10r* atm - see below**)  
