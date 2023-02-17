@@ -19,7 +19,7 @@ The project comprises the following parts:
   - [XSL document to turn the TEI encoding into XHTML](/tesi_db_transfo.xsl);  
   - [CSS document to style the website](/tesi_db_style.css);  
 
-##:confetti_ball::tada: Latest News: I graduated! :tada::confetti_ball:  
+## :confetti_ball::tada: Latest News: I graduated! :tada::confetti_ball:  
 The projest is now available for collaborative development: if you wish to complete the transcription (there are still 69 pages left) or suggest any change or improvement, feel free to ask.  
 
 ![CC BY-NC-ND 4.0](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png) All parts of this project are licensed under a [CC BY-NC-ND 4.0 International Licence](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en).
