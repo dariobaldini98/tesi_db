@@ -21,6 +21,6 @@ The project comprises the following parts:
   - [CSS document to style the website](/tesi_db_style.css);  
 
 ## :confetti_ball::tada: Latest News: I graduated! :tada::confetti_ball:  
-The project is now available for collaborative development: if you wanna suggest any change or improvement, just feel free to ask for access to the repository, and don't forget that there are still 69 pages left to complete the transcription...  
+The project is now available for collaborative development: feel free to ask for access if you wanna suggest any change or improvement, and don't forget that there are still 69 pages left to complete the transcription...  
 
 ![CC BY-NC-ND 4.0](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png) This project is licensed under a [CC BY-NC-ND 4.0 International Licence](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en).

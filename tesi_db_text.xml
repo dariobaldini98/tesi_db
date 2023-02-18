@@ -257,7 +257,7 @@
 		  <salute><choice><expan>Illustrissimo Signor</expan><abbr>Ill.mo Sig.</abbr></choice> Direttore delle <orgName type="phrase">Carceri Giudiziarie <placeName><settlement type="city">Lanciano</settlement></placeName></orgName></salute>
 	      <dateline>(<placeName><settlement type="city">Civitavecchia</settlement></placeName> addì <date when="1901-05-23">23 maggio 1901</date>)</dateline>
 		</opener>
-		<p><persName ref="#PR"><surname>Riccioni</surname> <forename>Pasquale</forename></persName> Guardia Carceraria nel <orgName type="phrase">Giudiziario di <placeName><settlement type="city">Civitavecchia</settlement></placeName></orgName>. Chiede umilmente perdono alla <choice><expan>Signoria Vostra Illustrissima</expan><abbr>S. V. Ill.a</abbr></choice> dell'ardire che si prese di indirizzarle la presente. Il caso vole che egli deve avere dal <persName><roleName type="military">Sotto capo <choice><expan>Guardia</expan><abbr>G.a</abbr></choice></roleName> <surname>Zaffarini</surname> <forename>Augusto</forename></persName> una rimanenza di <measure type="currency" unit="ITL" quantity="5"><unit>&#8356;.</unit> <num>5,00</num></measure>. Perché il <date when="1900-05-10">10 Maggio 1900</date> a forza di preghiere, e per levarselo d'intorno fu costretto a fargli un prestito di <damage hand="#hand-PR" agent="tear" degree="high" group="1" extent="2 words"><unclear reason="illegible" resp="#FV" agent="tear" evidence="internal"><measure type="currency" unit="ITL" quantity="60"><unit>&#8356;.</unit> <num>60,00</num></measure> per</unclear></damage><pb n="2r" facs="https://iiif.archivelab.org/iiif/tesi_db_2r/full/full/0/default.jpg"/> non far vedere che era un egoista non volle né meno un <choice><expan>Centesimo</expan><abbr>Cent.mo</abbr></choice> di fruttato, rilasciando regolare ricevuta in carta da bollo.</p>
+		<p><persName ref="#PR"><surname>Riccioni</surname> <forename>Pasquale</forename></persName> Guardia Carceraria nel <orgName type="phrase">Giudiziario di <placeName><settlement type="city">Civitavecchia</settlement></placeName></orgName>. Chiede umilmente perdono alla <choice><expan>Signoria Vostra Illustrissima</expan><abbr>S. V. Ill.a</abbr></choice> dell'ardire che si prese di indirizzarle la presente. Il caso vole che egli deve avere dal <persName><roleName type="military">Sotto capo <choice><expan>Guardia</expan><abbr>G.a</abbr></choice></roleName> <surname>Zaffarini</surname> <forename>Augusto</forename></persName> una rimanenza di <measure type="currency" unit="ITL" quantity="5"><unit>&#8356;.</unit> <num>5,00</num></measure>. Perché il <date when="1900-05-10">10 Maggio 1900</date> a forza di preghiere, e per levarselo d'intorno fu costretto a fargli un prestito di <damage hand="#hand-PR" agent="tear" degree="high" group="1" extent="2 words"><unclear reason="illegible" resp="#FV" agent="tear" evidence="internal"><measure type="currency" unit="ITL" quantity="60"><unit>&#8356;.</unit> <num>60,00</num></measure> per</unclear></damage> <pb n="2r" facs="https://iiif.archivelab.org/iiif/tesi_db_2r/full/full/0/default.jpg"/>non far vedere che era un egoista non volle né meno un <choice><expan>Centesimo</expan><abbr>Cent.mo</abbr></choice> di fruttato, rilasciando regolare ricevuta in carta da bollo.</p>
 		<p>Dopo fu trasferito il <date when="1900-06-09">9 Giugno</date> da queste Carcere. A forza di scrivergli anco un poco male riuscì a ricuperare <measure type="currency" unit="ITL" quantity="55"><unit>&#8356;.</unit> <num>55,00</num></measure> e l'ultima cartolina che gli mandò un poco alterata, perché stanco di aspettare la comodità sua. </p>
 		<p>Risponde che gli impegni a suo tempo si soddisfano. Sono passati altri <num type="cardinal" value="2">due</num> mesi senza ricevere nulla.</p>
 		<p>L'umile scrivente rivolgendosi alla <distinct time="archaic" social="polite">prelodata</distinct> <choice><expan>Vostra Signoria Illustrissima</expan><abbr>V. S. Ill.ma</abbr></choice> onde voglia la sua bontà farle avere il ricupero del della suddetta somma di <measure type="currency" unit="ITL" quantity="5"><unit>&#8356;.</unit> <num>5,00</num></measure>.</p>
@@ -268,9 +268,9 @@
 		<ab>(spedita il <date when="1901-05-24">24 maggio 1901</date>)</ab>
 		<ab>Inviata a questo indirizzo All'<choice><expan>Illustrissimo Signor</expan><abbr>Ill.mo Sig.</abbr></choice> Direttore delle <orgName type="phrase">Carceri Giudiziarie <placeName><settlement type="city">Lanciano</settlement></placeName></orgName></ab>
 	  </div>
-	  <pb n="2v" facs="https://iiif.archivelab.org/iiif/tesi_db_2v/full/full/0/default.jpg"/>
 	  <div type="entry">
-	    <ab>Le <num type="cardinal" value="2">due</num> ricevute rilasciate carta da bollo, dal <persName><roleName type="military">Sotto capo<choice><expan>Guardia</expan><abbr>G.</abbr></choice></roleName> <surname>Zaffarini</surname></persName></ab>
+	    <pb n="2v" facs="https://iiif.archivelab.org/iiif/tesi_db_2v/full/full/0/default.jpg"/>
+		<ab>Le <num type="cardinal" value="2">due</num> ricevute rilasciate carta da bollo, dal <persName><roleName type="military">Sotto capo<choice><expan>Guardia</expan><abbr>G.</abbr></choice></roleName> <surname>Zaffarini</surname></persName></ab>
 		<quote>
 		  <p>Il sottoscritto dichiara aver ricevuto dalla <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname> <forename>Pasquale</forename></persName> <measure type="currency" unit="ITL" quantity="35"><unit>&#8356;.</unit> <num>35</num></measure> in titolo di prestito con obbligo restituirgliele il giorno <date when="1900-05-27">27 Maggio <choice><expan>corrente</expan><abbr>corr</abbr></choice></date></p>
 		  <closer>
@@ -351,9 +351,9 @@
           </closer>
 		</quote>
 	  </div>
-      <pb n="4r" facs="https://iiif.archivelab.org/iiif/tesi_db_4r/full/full/0/default.jpg"/>
-	  <div type="entry">
-	    <quote>
+      <div type="entry">
+	    <pb n="4r" facs="https://iiif.archivelab.org/iiif/tesi_db_4r/full/full/0/default.jpg"/>
+		<quote>
 		  <p>Ricevo dalla <persName ref="#PR"><roleName type="military">guardia</roleName> <surname>Riccioni</surname></persName> per favorire il <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Perugi</surname></persName>, la somma di <measure type="currency" unit="ITL" quantity="50"><unit>&#8356;.</unit> <num>50</num></measure> che ristituisco al <date when="1894-12-30">30 del volgente</date>, appena liquidati i conti della mensa</p>
 		  <closer>
 			<dateline><placeName><settlement type="city">Viterbo</settlement></placeName> lì <date when="1894-12-22">22 Dicembre 1894</date></dateline>
@@ -403,9 +403,9 @@
       <div type="entry">
 	    <p><date when="1901-05-31">Oggi 31 Maggio 1901</date>, senza pensarci mi giunge verso le <time when="12:00:00">ore 12:00</time> una Cartolina Vaglia di <measure type="currency" unit="ITL" quantity="5"><unit>&#8356;.</unit> <num>5,00</num></measure>, mandata da <persName><surname>Milano</surname> <forename>Giovanni</forename></persName> a questo indirizzo: <quote>Al <persName ref="#PR"><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Riccione</surname> <forename>Pasquale</forename></persName>, guardia al <orgName type="phrase">carcere di <placeName><settlement type="city">Civitavecchia</settlement></placeName></orgName></quote></p>
 	  </div>
-	  <pb n="5v" facs="https://iiif.archivelab.org/iiif/tesi_db_5v/full/full/0/default.jpg"/>
 	  <div type="entry">
-	    <ab><orgName type="phrase">Carcere Giudiziario di <placeName><settlement type="city">Civitavecchia</settlement></placeName></orgName></ab>
+	    <pb n="5v" facs="https://iiif.archivelab.org/iiif/tesi_db_5v/full/full/0/default.jpg"/>
+		<ab><orgName type="phrase">Carcere Giudiziario di <placeName><settlement type="city">Civitavecchia</settlement></placeName></orgName></ab>
 		<opener>
 		  <dateline>Lì <date when="1901-06-02">2 Giugno 1901</date></dateline>
 		  <salute>Domanda al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore</salute>
@@ -437,9 +437,9 @@
 		  <dateline><placeName><settlement type="city">Civitavecchia</settlement></placeName> addì <date when="1901-06-08">8 Giugno 1901</date></dateline>
         </closer>
 	  </div>
-	  <pb n="6r" facs="https://iiif.archivelab.org/iiif/tesi_db_6r/full/full/0/default.jpg"/>
       <div type="entry">
-	    <ab>(Annunzio della prossima licenza a <persName><surname>Bernini</surname> <forename>Elisabetta</forename></persName> per mezza di una cartolina)</ab>
+	    <pb n="6r" facs="https://iiif.archivelab.org/iiif/tesi_db_6r/full/full/0/default.jpg"/>
+		<ab>(Annunzio della prossima licenza a <persName><surname>Bernini</surname> <forename>Elisabetta</forename></persName> per mezza di una cartolina)</ab>
 	    <opener>
 		  <salute>Mia carissima <persName><forename>Elisabetta</forename></persName></salute>
 		</opener>
@@ -459,9 +459,9 @@
 		</list>
 		<ab>Esterno</ab>
 	  </div>
-	  <pb n="6v" facs="https://iiif.archivelab.org/iiif/tesi_db_6v/full/full/0/default.jpg"/>
       <div type="entry">
-	    <ab>Risposta del <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore della <orgName type="phrase">Casa Reclusione <placeName><settlement type="city">Viterbo</settlement></placeName></orgName></ab>
+	    <pb n="6v" facs="https://iiif.archivelab.org/iiif/tesi_db_6v/full/full/0/default.jpg"/>
+		<ab>Risposta del <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore della <orgName type="phrase">Casa Reclusione <placeName><settlement type="city">Viterbo</settlement></placeName></orgName></ab>
 		<quote>
 		  <opener>
 		    <dateline><placeName><settlement type="city">Viterbo</settlement></placeName> <date when="1901-06-02">2 Giugno 1901</date>,</dateline>
@@ -478,7 +478,7 @@
 	  <div type="entry">
 	    <ab>Il risultato della Domanda fatta al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore</ab>
 		<p>Il giorno <date when="1901-06-08">8 Giugno corrente</date> appena ricevuta la domanda non diede nessuna risposta al <persName><roleName type="military">capo Guardia</roleName> <surname>Cerrito</surname> <forename>Giovanni</forename></persName>.</p>
-		<p>La mattina del <date when="1901-06-10">10</date> dico al capo. <said aloud="true" direct="true" who="#PR">- Che risposta vi ha dato il <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore.</said> Ecco la risposta, mi fa vedere la mia domanda, con questa deliberazione. <quote>Si ordine al <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <roleName type="office">Segretario</roleName><pb n="7r" facs="https://iiif.archivelab.org/iiif/tesi_db_7r/full/full/0/default.jpg"/> <surname>Finetti</surname> <forename>Francesco</forename></persName> di Osservare <choice><corr resp="#DB" cert="high">sui</corr><sic>siu</sic></choice> registri, Se La <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname></persName> è nel diritto di avere la Licenza.</quote> Il quale avendo osservato e dice al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore che aveva diritto. Il medesimo ordine si accorda <date from="1901-06-12"><offset>dopo</offset> il giorno <date when="1901-06-12">12</date></date>.</p>
+		<p>La mattina del <date when="1901-06-10">10</date> dico al capo. <said aloud="true" direct="true" who="#PR">- Che risposta vi ha dato il <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore.</said> Ecco la risposta, mi fa vedere la mia domanda, con questa deliberazione. <quote>Si ordine al <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <roleName type="office">Segretario</roleName> <pb n="7r" facs="https://iiif.archivelab.org/iiif/tesi_db_7r/full/full/0/default.jpg"/><surname>Finetti</surname> <forename>Francesco</forename></persName> di Osservare <choice><corr resp="#DB" cert="high">sui</corr><sic>siu</sic></choice> registri, Se La <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname></persName> è nel diritto di avere la Licenza.</quote> Il quale avendo osservato e dice al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore che aveva diritto. Il medesimo ordine si accorda <date from="1901-06-12"><offset>dopo</offset> il giorno <date when="1901-06-12">12</date></date>.</p>
 		<p>Viene la mattina del <date when="1901-06-12">12</date>, e di partire non sene discorre. La mattina del <date when="1901-06-13">13</date> quando il capo viene e dà rapporto, gli dico <said aloud="true" direct="true" who="#PR">ebbene <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> capo quando è che mi fai partire. Certamente se non aveva bisogno del permesso non lo avrebbe chiesto. -</said> Il capo risponde <said aloud="true" direct="true" toWhom="#PR">le Carte sono tutte pronte, appena che partono i Detenuti transitanti per la <placeName><region>Sardegna</region></placeName>, Vi fo partire in Licenza.</said></p>
 		<p>Aspetta oggi per domai, i Detenuti invece di partire crescono nello stabilimento. Oggi sono n. <num type="cardinal" value="74">74</num>. <said aloud="true" direct="true" toWhom="#PR">Ho dovuto riaprire la <num type="ordinal" value="2">Seconda</num> sezione. Sono ferme le partenze <add hand="#hand-PR" place="above">per</add> il Battesimo Reale appena che chiudo la <num type="ordinal" value="2">2&#170;</num> Sezione, e che ho una guardia disponibile, vi fo partire.</said></p>
 		<closer>
@@ -492,9 +492,9 @@
 		  <dateline><date when="1901-06-17">17 - 6 - 901</date></dateline>
         </closer>
 	  </div>
-	  <pb n="7v" facs="https://iiif.archivelab.org/iiif/tesi_db_7v/full/full/0/default.jpg"/>
       <div type="entry">
-	    <p>Questa Mattina verso le ore <time when="11:40:00">11.40</time> Il <persName><roleName type="military">capo <choice><expan>Guardia</expan><abbr>G.a</abbr></choice></roleName> <surname><choice><expan>Cerrito</expan><abbr>C.to</abbr></choice></surname> <forename><choice><expan>Giovanni</expan><abbr>G.ni</abbr></choice></forename></persName> Mi dice. <said aloud="true" direct="true" toWhom="#PR">Come vai in Licenza. In Borghese, <choice><corr resp="#DB" cert="high">o</corr><sic>ho</sic></choice> in divisa -</said> Io gli rispondo. <said aloud="true" direct="true" who="#PR">Vado in Borghese.</said> <said aloud="true" direct="true" toWhom="#PR">- parla non dici nulla.</said> <said aloud="true" direct="true" who="#PR">cosa gli debbo dire, se non mi domandono.</said></p>
+	    <pb n="7v" facs="https://iiif.archivelab.org/iiif/tesi_db_7v/full/full/0/default.jpg"/>
+		<p>Questa Mattina verso le ore <time when="11:40:00">11.40</time> Il <persName><roleName type="military">capo <choice><expan>Guardia</expan><abbr>G.a</abbr></choice></roleName> <surname><choice><expan>Cerrito</expan><abbr>C.to</abbr></choice></surname> <forename><choice><expan>Giovanni</expan><abbr>G.ni</abbr></choice></forename></persName> Mi dice. <said aloud="true" direct="true" toWhom="#PR">Come vai in Licenza. In Borghese, <choice><corr resp="#DB" cert="high">o</corr><sic>ho</sic></choice> in divisa -</said> Io gli rispondo. <said aloud="true" direct="true" who="#PR">Vado in Borghese.</said> <said aloud="true" direct="true" toWhom="#PR">- parla non dici nulla.</said> <said aloud="true" direct="true" who="#PR">cosa gli debbo dire, se non mi domandono.</said></p>
 		<p><said aloud="true" direct="true" toWhom="#PR">Quando sorte il <roleName><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> Segretario diteglielo che lo fa mettere sul Foglio di via. Che così domani o dopo domani parti per la Licenza.</said> e nello stesso tempo mi consegnò le carte per il ribasso R Ferroviario già firmate fin dal giorno <date when="1901-06-12">12</date>, che il giorno<date when="1901-06-21">21 corrente</date> doveva partire.</p>
 		<p>Quando fu verso le ore <time when="12:55:00">12.55</time> Ritorna la <persName><roleName type="military">Guardia</roleName> <surname>Martone</surname> <forename>Luigi</forename></persName> dall'Ospedale con una lettera diretta al capo <choice><expan>Guardia</expan><abbr>G.a</abbr></choice> che il <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore aveva già sospesa la mia partenza per <num type="cardinal" atLeast="4" atMost="5">4 o 5</num> Giorni per fine che la <persName><roleName type="military">Guardia</roleName> <surname>Martone</surname></persName> si ristabilisce. (Ma cosa vole che si ristabilisce quell'Impiastro che non gli piace di fare Servizio)</p>
 		<closer>
@@ -529,25 +529,25 @@
 		</closer>
 	  </quote>
 	  </div>
-	  <handShift scriptRef="#script-ro" resp="#DB"/>
 	  <div type="entry">
-	    <head>(Sorpresa innaspettata)</head>
+	    <handShift scriptRef="#script-ro" resp="#DB"/>
+		<head>(Sorpresa innaspettata)</head>
 		<p>La sera del <date when="1901-07-06">6 Luglio 1901</date> mentre per caso mi affacciai nella porta principale di queste Carcere verso le ore <time when="21:30:00">9 &#189; <choice><expan>pomeridiane</expan><abbr>pom.ne</abbr></choice></time> vedo passare <num type="cardinal" atLeast="4" atMost="5">4 o 5</num> giovanotti tra i quali uno mi disse <said aloud="true" direct="true" toWhom="#PR">- <persName ref="#PR"><surname>Riccio'</surname></persName>  mi riconosci, vi porto i saluti della <persName><forename full="abb">Betta</forename></persName></said> avvicinandosi sempre più verso di me. <said aloud="true" direct="true" toWhom="#PR">che non mi riconosci io sono <persName><surname>Colonna</surname> <forename>Giuseppe</forename></persName> vengo da <placeName><settlement type="town">Bagnaia</settlement></placeName></said> <said aloud="true" direct="true" who="#PR">- E bene come sta la <persName><forename full="abb">Betta</forename></persName></said> <said aloud="true" direct="true" toWhom="#PR">- Sta bene</said> <said aloud="true" direct="true" who="#PR">- Ma tu <choice><corr resp="#DB" cert="high">l'hai</corr><sic>lai</sic></choice> veduta</said> <said aloud="true" direct="true" toWhom="#PR">- Sì che <choice><corr resp="#DB" cert="high">l'ho</corr><sic>lo</sic></choice> veduta ci ha servito a tavola</said> <said aloud="true" direct="true" who="#PR">- Dunque mi assicuri che sta bene,</said> <said aloud="true" direct="true" toWhom="#PR">vi dico di sì</said> <said aloud="true" direct="true" who="#PR">Perché mi erano scritto che stava ammalata. Ora che ho saputo bone notizie ne ringrazio Iddio della Sua alta bontà e misericordia che ha verso i miseri che lo invogano.</said> <said aloud="true" direct="true" toWhom="#PR">Anzi mi disse dove andava gli disse che veniva a <placeName><settlement type="city">Civitavecchia</settlement></placeName>.</said> <said aloud="true" direct="true" who="#PR">- E allora fategli tanti Saluti</said> <said aloud="true" direct="true" toWhom="#PR">- Io per parte mia sono proprio contento e vi ringrazio</said></p>
 	  </div>
-	  <pb n="8v" facs="https://iiif.archivelab.org/iiif/tesi_db_8v/full/full/0/default.jpg"/>
-	  <handShift scriptRef="#script-it" resp="#DB"/>
       <div type="entry">
-	    <p>Il giorno <date when="1901-07-13">13 Luglio 1901</date>, il <orgName type="phrase">Carcere Giudiziario di <placeName><settlement type="city"><choice><expan>Civitavecchia</expan><abbr>C.Vecchia</abbr></choice></settlement></placeName></orgName> rimane senza transitanti partono gli ultimi <num type="cardinal" value="17">17</num> detenuti per la <placeName><region>Sardegna</region></placeName>, se in giornata del <date when="1901-07-13">13</date> non arrivano altri. Se non vi sono cose al contrario sarebbe il caso favorevole di partire per la Licenza.</p>
+	    <pb n="8v" facs="https://iiif.archivelab.org/iiif/tesi_db_8v/full/full/0/default.jpg"/>
+		<handShift scriptRef="#script-it" resp="#DB"/>
+		<p>Il giorno <date when="1901-07-13">13 Luglio 1901</date>, il <orgName type="phrase">Carcere Giudiziario di <placeName><settlement type="city"><choice><expan>Civitavecchia</expan><abbr>C.Vecchia</abbr></choice></settlement></placeName></orgName> rimane senza transitanti partono gli ultimi <num type="cardinal" value="17">17</num> detenuti per la <placeName><region>Sardegna</region></placeName>, se in giornata del <date when="1901-07-13">13</date> non arrivano altri. Se non vi sono cose al contrario sarebbe il caso favorevole di partire per la Licenza.</p>
 		<p>La mattina del <date when="1901-07-16">16 Luglio 1901</date> dico al <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Finetti</surname></persName>. <said aloud="true" direct="true" who="#PR">Ma come in Licenza non mi mandano più, ora i transitanti sono tutti partiti</said> <said aloud="true" direct="true" toWhom="#PR">- Sì ora potresti andare dove vai</said> <said aloud="true" direct="true" who="#PR">- vado a <placeName><settlement type="city">Viterbo</settlement></placeName> come Lei già lo sa, quando per <num type="cardinal" atLeast="10" atMost="15">dieci o pure 15</num> giorni.</said> <said aloud="true" direct="true" toWhom="#PR">- Ma che è per <num type="cardinal" value="10">dieci</num> giorni.</said> <said aloud="true" direct="true" who="#PR">Va bene e poi vi è nessuna Guardia all'ospedale</said> <said aloud="true" direct="true" toWhom="#PR">- <choice><corr resp="#DB" cert="high">C'è</corr><sic>Ce</sic></choice> quella <persName><roleName type="military">Guardia</roleName> <surname>Martone</surname></persName></said> <said aloud="true" direct="true" who="#PR">- Ma che quello deve andare all'ospedale Militare, e parlerò al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore.</said></p>
 		<p>La Mattina del <date when="1901-07-16">16</date> stesso un Ordine della Direzione che la <persName><roleName type="military">Guardia</roleName> <surname>Martone</surname></persName> doveva partire in giornata per lo <orgName type="phrase">spedale Militare di <placeName><settlement type="city">Roma</settlement></placeName></orgName></p>
 		<p>Senza sapere niente e nessuno la Mattina del <date when="1901-07-18">18 Luglio 1901</date>, Si presente la <persName><roleName type="military">Guardia</roleName> <surname>Di Pasquale</surname> <forename>Settimio</forename></persName> al Carciretto, gli dico Io <said aloud="true" direct="true" who="#PR">dove vai ,</said> <said aloud="true" direct="true" toWhom="#PR">vengo qui,</said> e nello stesso tempo chiamai il <persName><roleName type="military">capo Guardia</roleName> <surname>Cerrito</surname></persName>, il quale gli disse <said aloud="true" direct="true" toWhom="#PR">chi vi ha mandato</said> <said aloud="true" direct="true" toWhom="#PR">- Mi ha mandato il <persName><roleName type="military">capo Guardia</roleName> <surname>Filippi</surname></persName>, mi ha messo tanta premura che appena fatto giorno fosse venuto qua. -</said> Il <persName><surname>Cerrito</surname></persName> dice, <said aloud="true" direct="true" toWhom="#PR">Se a me non mi ha parlato nessuno né meno il <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Segretario me ne ha fatto parole, forse perché <persName ref="#PR"><surname>Riccioni</surname></persName> deve andare in Licenza</said></p>
 		<p>Il caso vuole che il <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Finetti</surname></persName> in quel giorno era in Licenza, e il foglio di Via l'aveva Lui nel cassetto. La Mattina del <date when="1901-07-19">19 Luglio 1901</date>, essendo ritornato, gli fo di nuovo <said aloud="true" direct="true" who="#PR">domani posso partire tanto è venuta un'altra Guardia -</said> risponde il Segretario <said aloud="true" direct="true" toWhom="#PR">e lo so</said>, quando poi verso le ore <time when="11:55:00">11,55</time> nello uscire dal carcere, mi dice <said aloud="true" direct="true" toWhom="#PR">all'ora dom'attina parti.</said> Verso le ore <time when="14:45:00">14 &#190;</time> il capo <choice><expan>Guardia</expan><abbr>G.a</abbr></choice> mi consegna il Foglio di Via bello che corretto. E così sia finalmente si arriva alla sospirata Licenza.</p>
 	  </div>
-	  <pb n="9r" facs="https://iiif.archivelab.org/iiif/tesi_db_9r/full/full/0/default.jpg"/>
-      <handShift new="#hand-OR" resp="#DB"/>
-      <addSpan n="9r-9v" hand="#hand-OR" spanTo="#end_9v"/>
 	  <div type="entry">	
-        <quote>	  
+        <pb n="9r" facs="https://iiif.archivelab.org/iiif/tesi_db_9r/full/full/0/default.jpg"/>
+		<handShift new="#hand-OR" resp="#DB"/>
+		<addSpan n="9r-9v" hand="#hand-OR" spanTo="#end_9v"/>
+		<quote>	  
 	      <opener>
 		    <dateline><placeName><settlement type="city">Viterbo</settlement></placeName>. <date when="1932-05-16">5. 16. 1932</date></dateline>
 		    <salute>Carissimo <persName ref="#OR"><forename>Orombello</forename></persName></salute>
@@ -560,9 +560,9 @@
 		  <signed><persName ref="#OR"><surname>Riccioni</surname> <forename><choice><corr resp="#DB" cert="high">Orombello</corr><sic>Rombello</sic></choice></forename></persName></signed>
 		</closer>
 	  </div>
-	  <pb n="9v" facs="https://iiif.archivelab.org/iiif/tesi_db_9v/full/full/0/default.jpg"/>
 	  <div type="entry">
-	    <ab>Pensando meglio</ab>
+	    <pb n="9v" facs="https://iiif.archivelab.org/iiif/tesi_db_9v/full/full/0/default.jpg"/>
+		<ab>Pensando meglio</ab>
 	    <opener>
 		  <dateline><placeName><settlement type="town">La Quercia</settlement></placeName> <date when="1932-06">6. 1932</date></dateline>
 		  <salute>Egregia Signorina</salute>
@@ -580,14 +580,14 @@
 		  <salute>Distinti Saluti</salute>
 		  <signed><persName ref="#OR"><forename>Orombello</forename> <surname>Riccioni</surname></persName></signed>
 		</closer>
+		<anchor xml:id="end_9v"/>
 	  </div>
-      <anchor xml:id="end_9v"/>
-	  <pb n="10r" facs="https://iiif.archivelab.org/iiif/tesi_db_10r/full/full/0/default.jpg"/>
-      <handShift new="#hand-PR" resp="#DB"/>
 	  <div type="entry">
-	    <ab>N. <num type="cardinal" value="155">155</num> <figure><graphic url="https://iiif.archivelab.org/iiif/tesi_db_10r/476,52,285,138/full/0/default.jpg" mimeType="image/jpeg" width="285" height="138"/><figDesc>Riproduzione di un timbro della Cassa di Risparmio di Viterbo</figDesc></figure> Ser.</ab>
+	    <pb n="10r" facs="https://iiif.archivelab.org/iiif/tesi_db_10r/full/full/0/default.jpg"/>
+		<handShift new="#hand-PR" resp="#DB"/>
+		<ab><choice><expan>Numero</expan><abbr>N.</abbr></choice> <num type="cardinal" value="155">155</num> <figure><graphic url="https://iiif.archivelab.org/iiif/tesi_db_10r/476,52,285,138/full/0/default.jpg" mimeType="image/jpeg" width="285" height="138"/><figDesc>Riproduzione di un timbro della Cassa di Risparmio di Viterbo</figDesc></figure> Ser.</ab>
 	    <ab><orgName type="phrase">Cassa di Risparmio di <placeName><settlement type="city">Viterbo</settlement></placeName></orgName></ab>
-		<ab>N. <del rend="overstrike"><num type="cardinal" value="155">Centocinquantacinque</num></del></ab>
+		<ab><choice><expan>Numero</expan><abbr>N.</abbr></choice> <del rend="overstrike"><num type="cardinal" value="155">Centocinquantacinque</num></del></ab>
 		<ab>Libretto di credito personale creato il <date when="1897-07-23">23 Luglio 1897</date> a favore del <persName ref="#PR"><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Riccioni</surname> <forename>Pasquale</forename> <roleName type="military">Guardia Carceraria</roleName></persName></ab>
 		<ab>Firma dell'intestato <persName ref="#PR"><surname>Riccioni</surname> <forename>Pasquale</forename></persName></ab>
 		<ab>Il <persName><roleName type="office">Presidente</roleName> <forename full="init">G. B.</forename> <surname>Mazzichelli</surname> </persName></ab>
