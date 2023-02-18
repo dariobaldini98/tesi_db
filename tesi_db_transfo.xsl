@@ -38,7 +38,7 @@
 	</div>
   </xsl:template>
   
-  <xsl:template match="tei:TEI/tei:text/tei:body/tei:div[@type='letter']">
+  <xsl:template match="tei:div[@type='letter']">
     <div class="letter">
 	  <xsl:apply-templates/>
 	</div>
