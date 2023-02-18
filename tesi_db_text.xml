@@ -373,7 +373,7 @@
 	  </div>
 	  <div type="entry">
 	    <p>Della domanda fatta al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore di <placeName><settlement type="city">Civitavecchia</settlement></placeName> la risposta è questa, a carico del <persName><roleName type="honorific"><choice><expan>Signor</expan><abbr>Sig.</abbr></choice></roleName> <surname>Milano</surname> <forename>Giovanni</forename></persName></p>
-		</div>
+		<div type="letter">
 		  <ab>Deliberazione</ab>
 		  <p>Faccia regolare domanda al <choice><expan>Signor</expan><abbr>Sig.</abbr></choice> Direttore di <placeName><settlement type="city">Viterbo</settlement></placeName>.</p>
 		  <closer>
