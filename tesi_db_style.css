@@ -1,4 +1,6 @@
+
 /* Generico */
+
 @font-face {
     font-family: EasyReading;
     src: url(font/EasyReadingPRO.ttf);
@@ -56,7 +58,9 @@ a:active {
     color: black;
 	text-decoration: none;
 }
+
 /* Homepage */
+
 div.homepage_section {
 	margin-top: 1.5%;
 	margin-bottom: 1.5%;
@@ -105,7 +109,9 @@ div.flex_container img:hover {
 img.EasyReading {
 	border: 3px solid #b1b4b5;
 }
+
 /* Trascrizione */
+
 div.entry {
     margin-top: 1.5%;
 	margin-bottom: 1.5%;
@@ -134,7 +140,13 @@ ol {
 .overstrike {
 	text-decoration: line-through;
 }
+div.entry img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Tooltip */
+
 .tooltip_container {
     position: relative;
 	text-decoration: underline dashed #ffff0d 4px;
@@ -178,7 +190,9 @@ ol {
 .tooltip_container_img:hover .tooltip_text {
     visibility: visible;
 }
+
 /* Media Query */
+
 @media screen and (min-width: 1px) and (max-width: 480px) {
 	div.entry, div.homepage_section {
 		margin-left: 2%;
@@ -188,6 +202,9 @@ ol {
 	.tooltip_container .tooltip_text {
 	    font-size: 18px;
     }
+	div.entry img {
+		
+	}
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
 	div.entry, div.homepage_section {
@@ -218,4 +235,7 @@ ol {
 	.tooltip_container .tooltip_text {
 	    font-size: 21px;
     }
+	div.entry img {
+		width: 100%;
+	}
 }
