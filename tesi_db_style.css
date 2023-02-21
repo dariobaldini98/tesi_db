@@ -116,18 +116,15 @@ div.entry {
 	border-radius: 15px;
 	font-size: 26px;
 }
-.opener {
-	margin-top: 2%;
-}
-.closer {
-	margin-bottom: 2%;
+div.letter {
+	margin: 2% 0;
 }
 div.opener > p {
 	text-align: right;
 }
 h4 {
 	font-weight: normal; 
-	margin: 0% 0%;
+	margin: 0%;
 }
 ol {
 	list-style-type: none;
