@@ -19,20 +19,20 @@
 	      </a>
 	    </div>
 	    <div class="titles">
-	      <h1><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
-		  <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt">
+	      <h1><xsl:value-of select="tei:titleStmt//tei:title"/></h1>
+		  <xsl:for-each select="tei:titleStmt//tei:respStmt">
 		    <h3><xsl:value-of select="tei:resp"/></h3>
 		    <h2><xsl:value-of select="tei:persName"/></h2>
 		  </xsl:for-each>
 		</div>
-		<xsl:apply-templates select="tei:TEI/tei:text/tei:body/tei:div[@type='entry']"/>
+		<xsl:apply-templates select="tei:div[@type='entry']"/>
 	  </body>
 	</html>
   </xsl:template>
   
   <!-- Contenitori con formattazione -->
   
-  <xsl:template match="tei:TEI/tei:text/tei:body/tei:div[@type='entry']">
+  <xsl:template match="tei:div[@type='entry']">
     <div class="entry">
 	  <xsl:apply-templates/>
 	</div>
