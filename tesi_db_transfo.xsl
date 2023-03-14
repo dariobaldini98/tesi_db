@@ -86,7 +86,6 @@
     <a href="{@ref}" target="_blank"><xsl:apply-templates/></a>
   </xsl:template>
   
-  
   <!-- Contenitori senza formattazione -->
   
   <xsl:template match="tei:quote">
@@ -188,6 +187,13 @@
 	<span class="tooltip_container">
 	  <xsl:value-of select="."/>
 	  <span class="tooltip_text">Originale <br/>incomprensibile</span>
+	</span>
+  </xsl:template>
+  
+  <xsl:template match="tei:measure[@unit='ITL']">
+	<span class="tooltip_container">
+	  <xsl:apply-templates/>
+	  <span class="tooltip_text"><xsl:value-of select="@quantity div 0.223503643"/> EUR</span>
 	</span>
   </xsl:template>
   
