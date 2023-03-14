@@ -193,7 +193,7 @@
   <xsl:template match="tei:measure[@unit='ITL']">
 	<span class="tooltip_container">
 	  <xsl:apply-templates/>
-	  <span class="tooltip_text"><xsl:value-of select="@quantity div 0.223503643"/> EUR</span>
+	  <span class="tooltip_text"><xsl:value-of select="@quantity div 0.22"/> EUR</span>
 	</span>
   </xsl:template>
   
