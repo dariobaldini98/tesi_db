@@ -82,7 +82,7 @@
 	</ol>
   </xsl:template>
     
-  <xsl:template match="//tei:placeName[@ref]">
+  <xsl:template match="tei:placeName[@ref]">
     <a href="{@ref}" target="_blank"><xsl:apply-templates/></a>
   </xsl:template>
   
