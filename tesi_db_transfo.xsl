@@ -193,7 +193,7 @@
   <xsl:template match="tei:measure[@unit='ITL']">
 	<span class="tooltip_container">
 	  <xsl:apply-templates/>
-	  <span class="tooltip_text"><xsl:value-of select="@quantity div 0.22"/> EUR</span>
+	  <span class="tooltip_text"><a href="https://www.infodata.ilsole24ore.com/2018/03/14/calcola-il-potere-dacquisto-in-lire-ed-euro-dal-1860-al-2015/" target="_blank"><xsl:value-of select="round(((@quantity div 0.218474176) * 100) div 100)"/> EUR</a></span>
 	</span>
   </xsl:template>
   
