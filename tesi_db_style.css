@@ -117,7 +117,9 @@ div.reader {
 	left: 50%;
     transform: translateX(-50%);
 	width: 80%;
+	bottom: 2%;
     margin: auto;
+	overflow-y: scroll;
     background-color: rgba(139, 134, 128, 0.4);
 	padding: 3%;
 	border-radius: 15px;
