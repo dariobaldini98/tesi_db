@@ -18,17 +18,14 @@
 	        <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
 	      </a>
 	    </div>
-		<div class="reader">
-		  <div class="titles">
-	        <h1><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
-		    <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt">
-		      <h3><xsl:value-of select="tei:resp"/></h3>
-		      <h2><xsl:value-of select="tei:persName"/></h2>
-		    </xsl:for-each>
-		  </div>
-		  <hr/>
-		  <xsl:apply-templates select="tei:TEI/tei:text/tei:body/tei:div[@type='entry']"/>
+		<div class="titles">
+	      <h1><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
+		  <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt">
+		    <h3><xsl:value-of select="tei:resp"/></h3>
+		    <h2><xsl:value-of select="tei:persName"/></h2>
+		  </xsl:for-each>
 		</div>
+		<xsl:apply-templates select="tei:TEI/tei:text/tei:body/tei:div[@type='entry']"/>
 	  </body>
 	</html>
   </xsl:template>

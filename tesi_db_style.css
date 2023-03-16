@@ -112,25 +112,12 @@ img.EasyReading {
 
 /* Trascrizione */
 
-div.reader {
-	position: fixed;
-	left: 50%;
-    transform: translateX(-50%);
-	top: 2%;
-	bottom: 2%;
-	width: auto;
-	margin-left: 10%;
-	margin-right: 10%;
-	overflow-y: scroll;
-    background-color: rgba(139, 134, 128, 0.4);
-	padding: 3%;
-	border-radius: 15px;
-}
-div.reader > div.titles {
-	margin-top: 0%;
-}
 div.entry {
 	font-size: 26px;
+	margin: 1.5% 10%;
+	padding: 3%;
+	border: 2px inset black;
+	border-radius: 15px;
 }
 div.letter {
 	margin: 2% 0;
@@ -202,12 +189,9 @@ div.entry img {
 /* Media Query */
 
 @media screen and (min-width: 1px) and (max-width: 480px) {
-	div.homepage_section, div.reader {
+	div.homepage_section, div.entry {
 		margin-left: 2%;
 		margin-right: 2%;
-		font-size: 22px;
-	}
-	div.entry {
 		font-size: 22px;
 	}
 	.tooltip_container .tooltip_text {
@@ -215,11 +199,9 @@ div.entry img {
     }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
-	div.homepage_section, div.reader {
+	div.homepage_section, div.entry {
 		margin-left: 4%;
 		margin-right: 4%;
-	}
-	div.homepage_section, div.entry {
 		font-size: 23px;
 	}
 	.tooltip_container .tooltip_text {
@@ -227,11 +209,9 @@ div.entry img {
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-	div.homepage_section, div.reader {
+	div.homepage_section, div.entry {
 		margin-left: 6%;
 		margin-right: 6%;
-	}
-	div.homepage_section, div.entry {
 		font-size: 24px;
 	}
 	.tooltip_container .tooltip_text {
@@ -239,11 +219,9 @@ div.entry img {
     }
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
-	div.homepage_section, div.reader {
+	div.homepage_section, div.entry {
 		margin-left: 8%;
 		margin-right: 8%;
-	}
-	div.homepage_section, div.entry {
 		font-size: 25px;
 	}
 	.tooltip_container .tooltip_text {
@@ -255,10 +233,6 @@ div.entry img {
 
     div.entry img {
          transform: scale(X);
-    }
-	
-	div.reader {
-	    width: X%;
     }
 	
 */
