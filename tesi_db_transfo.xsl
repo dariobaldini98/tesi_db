@@ -26,6 +26,7 @@
 		      <h2><xsl:value-of select="tei:persName"/></h2>
 		    </xsl:for-each>
 		  </div>
+		  </hr>
 		  <xsl:apply-templates select="tei:TEI/tei:text/tei:body/tei:div[@type='entry']"/>
 		</div>
 	  </body>
