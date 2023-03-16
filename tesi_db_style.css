@@ -170,7 +170,7 @@ div.entry img {
     position: absolute;
     display: inline-block;
     z-index: 1;
-    transform: translate(-50%, 100%);
+    transform: translate(-100%, -50%);
 }
 .tooltip_container:hover .tooltip_text {
     visibility: visible;
@@ -191,7 +191,7 @@ div.entry img {
     position: absolute;
     display: inline-block;
     z-index: 1;
-    transform: translate(-50%, 100%);
+    transform: translate(-100%, -50%);
 }
 .tooltip_container_img:hover .tooltip_text {
     visibility: visible;
@@ -246,6 +246,14 @@ div.entry img {
 	}
 }
 
-div.reader {
-	width: 80%;
-}
+/* RICORDATI DI FARE PROVE CON @media:
+
+    div.entry img {
+         transform: scale(X);
+    }
+	
+	div.reader {
+	    width: X%;
+    }
+	
+*/
