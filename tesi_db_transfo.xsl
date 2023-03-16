@@ -167,21 +167,21 @@
   <xsl:template match="tei:surplus">
     <span class="tooltip_container overstrike">
 	    <xsl:value-of select="."/>
-	    <span class="tooltip_text">Originale <br/>probabilmente&nbsp;superfluo</span>
+	    <span class="tooltip_text">Originale <br/>probabilmente&#160;superfluo</span>
     </span>
   </xsl:template>
   
   <xsl:template match="tei:secl">
 	<span class="tooltip_container">
 	  <xsl:value-of select="."/>
-	  <span class="tooltip_text">Originale <br/>probabilmente&nbsp;interpolato</span>
+	  <span class="tooltip_text">Originale <br/>probabilmente&#160;interpolato</span>
 	</span>
   </xsl:template>
 
   <xsl:template match="tei:unclear">
 	<span class="tooltip_container">
 	  <xsl:value-of select="."/>
-	  <span class="tooltip_text">Originale <br/>poco&nbsp;comprensibile</span>
+	  <span class="tooltip_text">Originale <br/>poco&#160;comprensibile</span>
 	</span>
   </xsl:template>
   
@@ -195,7 +195,7 @@
   <xsl:template match="tei:measure[@unit='ITL']">
 	<span class="tooltip_container">
 	  <xsl:apply-templates/>
-	  <span class="tooltip_text"><a href="https://www.infodata.ilsole24ore.com/2018/03/14/calcola-il-potere-dacquisto-in-lire-ed-euro-dal-1860-al-2015/" target="_blank"><xsl:value-of select="round((@quantity div 0.218474176) * 100) div 100"/>&nbsp;EUR</a></span>
+	  <span class="tooltip_text"><a href="https://www.infodata.ilsole24ore.com/2018/03/14/calcola-il-potere-dacquisto-in-lire-ed-euro-dal-1860-al-2015/" target="_blank"><xsl:value-of select="round((@quantity div 0.218474176) * 100) div 100"/>&#160;EUR</a></span>
 	</span>
   </xsl:template>
   
