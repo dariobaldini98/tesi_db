@@ -113,7 +113,7 @@ img.EasyReading {
 /* Trascrizione */
 
 div.reader {
-	position: fixed;
+	position: relative;
 	left: 50%;
     transform: translateX(-50%);
 	width: 80%;
