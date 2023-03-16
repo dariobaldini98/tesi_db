@@ -18,12 +18,14 @@
 	        <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
 	      </a>
 	    </div>
-	    <div class="titles">
-	      <h1><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
-		  <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt">
-		    <h3><xsl:value-of select="tei:resp"/></h3>
-		    <h2><xsl:value-of select="tei:persName"/></h2>
-		  </xsl:for-each>
+		<div id="meta_sidebar">
+	      <div class="titleStmt">
+	        <h1><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
+		    <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt">
+		      <h3><xsl:value-of select="tei:resp"/></h3>
+		      <h2><xsl:value-of select="tei:persName"/></h2>
+		    </xsl:for-each>
+		  </div>
 		</div>
 		<div class="reader">
 		  <xsl:apply-templates select="tei:TEI/tei:text/tei:body/tei:div[@type='entry']"/>
@@ -167,21 +169,21 @@
   <xsl:template match="tei:surplus">
     <span class="tooltip_container overstrike">
 	    <xsl:value-of select="."/>
-	    <span class="tooltip_text">Originale <br/>probabilmente superfluo</span>
+	    <span class="tooltip_text">Originale <br/>probabilmente&nbsp;superfluo</span>
     </span>
   </xsl:template>
   
   <xsl:template match="tei:secl">
 	<span class="tooltip_container">
 	  <xsl:value-of select="."/>
-	  <span class="tooltip_text">Originale <br/>probabilmente interpolato</span>
+	  <span class="tooltip_text">Originale <br/>probabilmente&nbsp;interpolato</span>
 	</span>
   </xsl:template>
 
   <xsl:template match="tei:unclear">
 	<span class="tooltip_container">
 	  <xsl:value-of select="."/>
-	  <span class="tooltip_text">Originale <br/>poco comprensibile</span>
+	  <span class="tooltip_text">Originale <br/>poco&nbsp;comprensibile</span>
 	</span>
   </xsl:template>
   
@@ -195,7 +197,7 @@
   <xsl:template match="tei:measure[@unit='ITL']">
 	<span class="tooltip_container">
 	  <xsl:apply-templates/>
-	  <span class="tooltip_text"><a href="https://www.infodata.ilsole24ore.com/2018/03/14/calcola-il-potere-dacquisto-in-lire-ed-euro-dal-1860-al-2015/" target="_blank"><xsl:value-of select="round((@quantity div 0.218474176) * 100) div 100"/> EUR</a></span>
+	  <span class="tooltip_text"><a href="https://www.infodata.ilsole24ore.com/2018/03/14/calcola-il-potere-dacquisto-in-lire-ed-euro-dal-1860-al-2015/" target="_blank"><xsl:value-of select="round((@quantity div 0.218474176) * 100) div 100"/>&nbsp;EUR</a></span>
 	</span>
   </xsl:template>
   

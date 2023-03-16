@@ -125,6 +125,18 @@ div.reader {
 	border-radius: 15px;
 	font-size: 26px;
 }
+#meta_sidebar {
+	float: left;
+	position: fixed;
+	width: 3%;
+	top: 10%;
+	bottom: 2%;
+	overflow-y: scroll;
+    background-color: rgba(139, 134, 128, 0.4);
+	padding: 3%;
+	border-radius: 15px;
+	font-size: 10px;
+}
 div.letter {
 	margin: 2% 0;
 }
