@@ -170,8 +170,7 @@ div.entry img {
     position: absolute;
     display: inline-block;
     z-index: 1;
-    left: 50%;
-    transform: translate(0, 100%);
+    transform: translate(-50%, 100%);
 }
 .tooltip_container:hover .tooltip_text {
     visibility: visible;
@@ -192,8 +191,7 @@ div.entry img {
     position: absolute;
     display: inline-block;
     z-index: 1;
-    left: 50%;
-    transform: translate(0, 100%);
+    transform: translate(-50%, 100%);
 }
 .tooltip_container_img:hover .tooltip_text {
     visibility: visible;
