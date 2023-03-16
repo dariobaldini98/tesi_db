@@ -123,10 +123,12 @@ div.reader {
     background-color: rgba(139, 134, 128, 0.4);
 	padding: 3%;
 	border-radius: 15px;
-	font-size: 26px;
 }
 div.reader > div.titles {
 	margin-top: 0%;
+}
+div.entry {
+	font-size: 26px;
 }
 div.letter {
 	margin: 2% 0;
