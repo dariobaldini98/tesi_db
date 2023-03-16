@@ -155,7 +155,8 @@ ol {
     position: absolute;
     display: inline-block;
     z-index: 1;
-    transform: translate(-50%, 84%);
+    top: 100%;
+    right: -10%;
 }
 .tooltip_container:hover .tooltip_text {
     visibility: visible;
@@ -176,7 +177,8 @@ ol {
     position: absolute;
     display: inline-block;
     z-index: 1;
-    transform: translate(-50%, 84%);
+    top: 100%;
+    right: -10%;
 }
 .tooltip_container_img:hover .tooltip_text {
     visibility: visible;
