@@ -125,6 +125,9 @@ div.reader {
 	border-radius: 15px;
 	font-size: 26px;
 }
+div.reader > div.titles {
+	margin-top: 0%;
+}
 div.letter {
 	margin: 2% 0;
 }
