@@ -114,6 +114,8 @@ img.EasyReading {
 
 div.reader {
 	position: fixed;
+	left: 50%;
+    transform: translateX(-50%);
 	width: 80%;
     margin: auto;
     background-color: rgba(139, 134, 128, 0.4);
@@ -237,4 +239,8 @@ div.entry img {
 	div.entry img {
 		width: 100%;
 	}
+}
+
+div.reader {
+	width: 80%;
 }
