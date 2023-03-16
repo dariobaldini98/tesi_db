@@ -113,11 +113,11 @@ img.EasyReading {
 /* Trascrizione */
 
 div.reader {
-	position: fixed;
+	position: sticky;
 	left: 50%;
     transform: translateX(-50%);
 	width: 80%;
-	top: 2%;
+	top: 10%;
 	bottom: 2%;
 	overflow-y: scroll;
     background-color: rgba(139, 134, 128, 0.4);
