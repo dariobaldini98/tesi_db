@@ -147,25 +147,28 @@
   <xsl:template match="tei:abbr">
 	<span class="tooltip_container">
 	  <xsl:value-of select="."/>
-	  <span class="tooltip_text">
-	    "<xsl:value-of select="preceding-sibling::tei:expan"/>"
-	  </span>
+	  <span class="tooltip_text">"<xsl:value-of select="preceding-sibling::tei:expan"/>"</span>
+	</span>
+  </xsl:template>
+  
+  <xsl:template match="tei:abbr[ancestor::tei:placeName]">
+	<span class="tooltip_container">
+	  <xsl:apply-templates/>
+	  <span class="tooltip_text">"<xsl:value-of select="preceding-sibling::tei:expan"/>"</span>
 	</span>
   </xsl:template>
   
   <xsl:template match="tei:sic">
 	<span class="tooltip_container">
 	  <xsl:value-of select="."/>
-	  <span class="tooltip_text">
-	    *<xsl:value-of select="preceding-sibling::tei:corr"/>
-	  </span>
+	  <span class="tooltip_text">*<xsl:value-of select="preceding-sibling::tei:corr"/></span>
 	</span>
   </xsl:template>
 
   <xsl:template match="tei:surplus">
     <span class="tooltip_container overstrike">
 	    <xsl:value-of select="."/>
-	    <span class="tooltip_text">Originale <br/>probabilmente&#160;superfluo</span>
+		<span class="tooltip_text">Originale <br/>probabilmente&#160;superfluo</span>
     </span>
   </xsl:template>
   
@@ -202,9 +205,7 @@
   <xsl:template match="tei:graphic">
     <span class="tooltip_container_img">
       <img src="{@url}" alt="{following-sibling::tei:figDesc}" width="{@width}" height="{@height}"/>
-	  <span class="tooltip_text">
-	    <xsl:value-of select="following-sibling::tei:figDesc"/>
-	  </span>
+	  <span class="tooltip_text"><xsl:value-of select="following-sibling::tei:figDesc"/></span>
 	</span>
   </xsl:template>
   
