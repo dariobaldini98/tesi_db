@@ -112,11 +112,10 @@ img.EasyReading {
 
 /* Trascrizione */
 
-div.entry {
-    margin-top: 1.5%;
-	margin-bottom: 1.5%;
-	margin-left: 10%;
-	margin-right: 10%;
+div.reader {
+	position: fixed;
+	width: 80%;
+    margin: auto;
     background-color: rgba(139, 134, 128, 0.4);
 	padding: 3%;
 	border-radius: 15px;
