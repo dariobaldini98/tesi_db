@@ -31,6 +31,7 @@
 		  </xsl:for-each>
 		</div>
 		<xsl:apply-templates select="tei:TEI/tei:text/tei:body/tei:div[@type='entry']"/>
+		<script src="tesi_db_sidebar.js"></script>
 	  </body>
 	</html>
   </xsl:template>
