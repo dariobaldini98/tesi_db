@@ -18,7 +18,9 @@
 	        <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
 	      </a>
 	    </div>
-		<button class="sidebar_button" onclick="toggle_sidebar()">&#x24D8;</button>
+		<a class="sidebar_button" onclick="toggle_sidebar()">
+		  <img alt="Descriptive metadata" src="https://icon-library.com/images/info-icon-png-transparent/info-icon-png-transparent-25.jpg"/>
+		</a>
 		<div id="meta_sidebar" class="sidebar">
 		  <p>PROVA_PROVA_PROVA</p>
 		</div>

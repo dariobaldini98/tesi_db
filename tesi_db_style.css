@@ -35,7 +35,7 @@ div.licence {
     bottom: 1%;
     right: 1%;
 	z-index: 1;
-	width: 88px; 
+	width: 88px;
 	height: 31px;
 }
 div.licence img:hover {
@@ -255,15 +255,15 @@ ol {
 /* The button used to open the sidebar */
 
 .sidebar_button {
-    font-size: 32px;
     cursor: pointer;
     position: fixed;
     top: 1%;
     left: 1%;
 	z-index: 1;
+	width: 45px; 
 }
 
-.sidebar_button:hover {
+.sidebar_button > img:hover {
     opacity: 0.5;
 }
 
