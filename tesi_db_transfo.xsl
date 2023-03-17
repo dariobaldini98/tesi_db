@@ -19,11 +19,10 @@
 	      </a>
 	    </div>
 		<div id="meta_sidebar" class="sidebar">
-		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">PROVA</a>
 		  <p>PROVA_PROVA_PROVA</p>
 		</div>
 		<div id="content">
-		  <button class="openbtn" onclick="openNav()">PROVA</button>
+		  <button class="sidebar_button" onclick="toggle_sidebar()">&#128712;</button>
 		  <div class="titles">
 	        <h1><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
 		    <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt">
@@ -33,7 +32,7 @@
 		  </div>
 		  <xsl:apply-templates select="tei:TEI/tei:text/tei:body/tei:div[@type='entry']"/>
 		</div>
-		<script src="tesi_db_sidebar.js"></script>
+		<script src="tesi_db_script.js"></script>
 	  </body>
 	</html>
   </xsl:template>
