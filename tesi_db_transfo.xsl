@@ -83,7 +83,7 @@
   </xsl:template>
     
   <xsl:template match="tei:placeName[@ref]">
-    <a href="{@ref}" target="_blank"><xsl:apply-templates/></a>
+    <a href="{@ref}" target="_blank"><xsl:value-of select="tei:settlement | tei:region"/></a>
   </xsl:template>
   
   <!-- Contenitori senza formattazione -->
@@ -147,13 +147,6 @@
   <xsl:template match="tei:abbr">
 	<span class="tooltip_container">
 	  <xsl:value-of select="."/>
-	  <span class="tooltip_text">"<xsl:value-of select="preceding-sibling::tei:expan"/>"</span>
-	</span>
-  </xsl:template>
-  
-  <xsl:template match="tei:abbr[ancestor::tei:placeName]">
-	<span class="tooltip_container">
-	  <xsl:apply-templates/>
 	  <span class="tooltip_text">"<xsl:value-of select="preceding-sibling::tei:expan"/>"</span>
 	</span>
   </xsl:template>
