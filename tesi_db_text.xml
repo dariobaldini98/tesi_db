@@ -291,7 +291,7 @@
 	  </div>
 	  <div type="entry">
 	    <pb n="2v" facs="https://iiif.archivelab.org/iiif/tesi_db_2v/full/full/0/default.jpg"/>
-		<ab>Le <num type="cardinal" value="2">due</num> ricevute rilasciate carta da bollo, dal <persName><roleName type="military">Sotto capo<choice><expan>Guardia</expan><abbr>G.</abbr></choice></roleName> <surname>Zaffarini</surname></persName></ab>
+		<ab>Le <num type="cardinal" value="2">due</num> ricevute rilasciate carta da bollo, dal <persName><roleName type="military">Sotto capo <choice><expan>Guardia</expan><abbr>G.</abbr></choice></roleName> <surname>Zaffarini</surname></persName></ab>
 		<div type="letter">
 		  <p>Il sottoscritto dichiara aver ricevuto dalla <persName ref="#PR"><roleName type="military">Guardia</roleName> <surname>Riccioni</surname> <forename>Pasquale</forename></persName> <measure type="currency" unit="ITL" quantity="35"><unit>&#8356;.</unit> <num>35</num></measure> in titolo di prestito con obbligo restituirgliele il giorno <date when="1900-05-27">27 Maggio <choice><expan>corrente</expan><abbr>corr</abbr></choice></date></p>
 		  <closer>
@@ -554,7 +554,7 @@
 	  <ab>(1&#170; Rata di <measure type="currency" unit="ITL" quantity="5"><unit>&#8356;.</unit> <num>5,00</num></measure> con la parola <quote>Tanti Saluti</quote>)</ab>
 	  </div>
 	  <div type="entry">
-	  <ab>(Oggi <date when="1901-07-05">5 Luglio 1901</date> ho avuto risposta della Cartolina Mandata al <persName><roleName type="military">Sotto capo<choice><expan>Guardia</expan><abbr>G.</abbr></choice></roleName> <surname>Zaffarini</surname></persName> il <date when="1901-06-21">21 Giugno scorso</date> con queste righe</ab> <quote><ab><persName ref="#PR"><surname>Riccioni</surname></persName>: Ti spedisco <measure type="currency" unit="ITL" quantity="1"><unit>&#8356;.</unit> <num>1,00</num></measure>, tanto per farte comprendere che non dimentico i debiti, Insequito la rimanenza in <measure type="currency" unit="ITL" quantity="4"><unit>lire</unit> <num>quattro</num></measure>. Ti saluto.)</ab></quote>
+	  <ab>(Oggi <date when="1901-07-05">5 Luglio 1901</date> ho avuto risposta della Cartolina Mandata al <persName><roleName type="military">Sotto capo <choice><expan>Guardia</expan><abbr>G.</abbr></choice></roleName> <surname>Zaffarini</surname></persName> il <date when="1901-06-21">21 Giugno scorso</date> con queste righe</ab> <quote><ab><persName ref="#PR"><surname>Riccioni</surname></persName>: Ti spedisco <measure type="currency" unit="ITL" quantity="1"><unit>&#8356;.</unit> <num>1,00</num></measure>, tanto per farte comprendere che non dimentico i debiti, Insequito la rimanenza in <measure type="currency" unit="ITL" quantity="4"><unit>lire</unit> <num>quattro</num></measure>. Ti saluto.)</ab></quote>
 	  <closer>
 		<signed><persName><surname>Zaffarini</surname></persName></signed>
 		<dateline>(<placeName ref="https://goo.gl/maps/KrNs3xUg2PxS788bA"><settlement type="city">Lanciano</settlement></placeName> <date when="1901-07-02">2 Luglio 1901</date>)</dateline>
