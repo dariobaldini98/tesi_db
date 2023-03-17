@@ -1,6 +1,6 @@
 # Riccioni's Legacy
 
-This repo hosts a project for my MA Dissertation on Electronic Publishing which consists in the digitisation of a diary written between 1901 and 1903 by the prison guard Pasquale Riccioni.  
+This repo hosts a project[^1] for my MA Dissertation on Electronic Publishing which consists in the digitisation of a diary written between 1901 and 1903 by the prison guard Pasquale Riccioni.  
 
 The project comprises the following parts:  
 
@@ -23,4 +23,4 @@ The project comprises the following parts:
 ## :confetti_ball::tada: Latest News: I graduated! :tada::confetti_ball:  
 The project is now available for collaborative development: feel free to ask for access if you wanna suggest any change or improvement, and don't forget that there are still 69 pages left to complete the transcription...  
 
-![CC BY-NC-ND 4.0](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png) This project is licensed under a [CC BY-NC-ND 4.0 International Licence](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en).
+[^1]: It is licensed under a [CC BY-NC-ND 4.0 International Licence](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en) ![CC BY-NC-ND 4.0](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png).
