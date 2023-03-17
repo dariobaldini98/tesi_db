@@ -169,8 +169,8 @@
   </xsl:template>
 
   <xsl:template match="tei:surplus">
-    <span class="tooltip_container overstrike">
-	    <xsl:value-of select="."/>
+    <span class="tooltip_container">
+	    <span class="overstrike"><xsl:value-of select="."/></span>
 		<span class="tooltip_text">Originale <br/>probabilmente&#160;superfluo</span>
     </span>
   </xsl:template>
