@@ -18,11 +18,11 @@
 	        <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
 	      </a>
 	    </div>
+		<button class="sidebar_button" onclick="toggle_sidebar()">&#9432;</button>
 		<div id="meta_sidebar" class="sidebar">
 		  <p>PROVA_PROVA_PROVA</p>
 		</div>
 		<div id="content">
-		  <button class="sidebar_button" onclick="toggle_sidebar()">&#128712;</button>
 		  <div class="titles">
 	        <h1><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
 		    <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt">
