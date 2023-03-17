@@ -83,7 +83,17 @@
   </xsl:template>
     
   <xsl:template match="tei:placeName[@ref]">
-    <a href="{@ref}" target="_blank"><xsl:value-of select="tei:settlement | tei:region"/></a>
+    <xsl:choose>
+      <xsl:when test="./descendant::tei:choice">
+        <span class="tooltip_container">
+		  <a href="{@ref}" target="_blank"><xsl:value-of select="tei:abbr"/></a>
+		  <span class="tooltip_text">"<xsl:value-of select="tei:expan"/>"</span>
+	    </span>
+      </xsl:when>
+      <xsl:otherwise>
+        <a href="{@ref}" target="_blank"><xsl:apply-templates/></a>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <!-- Contenitori senza formattazione -->
