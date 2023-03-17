@@ -171,28 +171,28 @@
   <xsl:template match="tei:surplus">
     <span class="tooltip_container">
 	    <span class="overstrike"><xsl:value-of select="."/></span>
-		<span class="tooltip_text">Originale <br/>probabilmente&#160;superfluo</span>
+		<span class="tooltip_text">Originale<br/> probabilmente&#160;superfluo</span>
     </span>
   </xsl:template>
   
   <xsl:template match="tei:secl">
 	<span class="tooltip_container">
 	  <xsl:value-of select="."/>
-	  <span class="tooltip_text">Originale <br/>probabilmente&#160;interpolato</span>
+	  <span class="tooltip_text">Originale<br/> probabilmente&#160;interpolato</span>
 	</span>
   </xsl:template>
 
   <xsl:template match="tei:unclear">
 	<span class="tooltip_container">
 	  <xsl:value-of select="."/>
-	  <span class="tooltip_text">Originale <br/>poco&#160;comprensibile</span>
+	  <span class="tooltip_text">Originale<br/> poco&#160;comprensibile</span>
 	</span>
   </xsl:template>
   
   <xsl:template match="tei:supplied">
 	<span class="tooltip_container">
 	  <xsl:value-of select="."/>
-	  <span class="tooltip_text">Originale <br/>incomprensibile</span>
+	  <span class="tooltip_text">Originale<br/> incomprensibile</span>
 	</span>
   </xsl:template>
   
