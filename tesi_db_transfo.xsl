@@ -19,10 +19,10 @@
 	      </a>
 	    </div>
 		<div id="meta_sidebar" class="sidebar">
-		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">PROVA</a>
 		  <p>PROVA_PROVA_PROVA</p>
 		</div>
-		<button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
+		<button class="openbtn" onclick="openNav()">PROVA</button>
 		<div class="titles">
 	      <h1><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
 		  <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt">
