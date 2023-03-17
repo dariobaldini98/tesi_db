@@ -22,29 +22,18 @@
 		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">PROVA</a>
 		  <p>PROVA_PROVA_PROVA</p>
 		</div>
-		<button class="openbtn" onclick="openNav()">PROVA</button>
-		<div class="titles">
-	      <h1><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
-		  <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt">
-		    <h3><xsl:value-of select="tei:resp"/></h3>
-		    <h2><xsl:value-of select="tei:persName"/></h2>
-		  </xsl:for-each>
+		<div id="content">
+		  <button class="openbtn" onclick="openNav()">PROVA</button>
+		  <div class="titles">
+	        <h1><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
+		    <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt">
+		      <h3><xsl:value-of select="tei:resp"/></h3>
+		      <h2><xsl:value-of select="tei:persName"/></h2>
+		    </xsl:for-each>
+		  </div>
+		  <xsl:apply-templates select="tei:TEI/tei:text/tei:body/tei:div[@type='entry']"/>
 		</div>
-		<xsl:apply-templates select="tei:TEI/tei:text/tei:body/tei:div[@type='entry']"/>
-		<script type="text/javascript">//<![CDATA[
-		
-		  /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
-		  function openNav() {
-		    document.getElementById("meta_sidebar").style.width = "250px";
-		    document.getElementsByClassName("titles entry").style.marginLeft = "250px";
-		  }
-
-		  /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
-		  function closeNav() {
-		    document.getElementById("meta_sidebar").style.width = "0";
-		    document.getElementsByClassName("titles entry").style.marginLeft = "0";
-		  }
-		//]]></script>
+		<script src="tesi_db_sidebar.js"></script>
 	  </body>
 	</html>
   </xsl:template>
