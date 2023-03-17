@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+  <rdf:Description rdf:about="https://dariobaldini98.github.io/tesi_db/tesi_db_manifest.json">
+    <dcterms:title xml:lang="it">Diario di Pasquale Riccioni</dcterms:title>
+	<dcterms:creator rdf:resource="https://dariobaldini98.github.io/tesi_db/tesi_db_text.xml#PR"/>
+	<dcterms:medium xml:lang="it">Quadernino a quadretti di carta</dcterms:medium>
+	<dcterms:extent xml:lang="it">88 pagine</dcterms:extent>
+	<dcterms:language>it</dcterms:language>
+	<dcterms:created>1901-03-31</dcterms:created>
+	<dcterms:provenance xml:lang="it">Conservato nella casa di famiglia, situata nella frazione di La Quercia (VT), in cui Pasquale si è trasferito dopo il pensionamento; trovato e recuperato negli anni Ottanta dai nipoti Luigi e Pasquale</dcterms:provenance>
+	<dcterms:spatial xml:lang="it">Alto Lazio</dcterms:spatial>
+	<dcterms:temporal xml:lang="it">1901-1903</dcterms:temporal>
+  </rdf:Description>
+</rdf:RDF>

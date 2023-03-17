@@ -209,9 +209,24 @@
 	    <calendar xml:id="Gregorian"><p>Calendario gregoriano</p></calendar>
 	  </calendarDesc>
 	</profileDesc>
+	<xenoData>
+	  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+	    <rdf:Description rdf:about="">
+		  <dcterms:title xml:lang="it">Diario di Pasquale Riccioni</dcterms:title>
+		  <dcterms:creator rdf:resource="#PR"/>
+		  <dcterms:medium xml:lang="it">Quadernino a quadretti di carta</dcterms:medium>
+		  <dcterms:extent xml:lang="it">88 pagine</dcterms:extent>
+		  <dcterms:language>it</dcterms:language>
+		  <dcterms:created>1901-03-31</dcterms:created>
+		  <dcterms:provenance xml:lang="it">Conservato nella casa di famiglia, situata nella frazione di La Quercia (VT), in cui Pasquale si è trasferito dopo il pensionamento; trovato e recuperato negli anni Ottanta dai nipoti Luigi e Pasquale</dcterms:provenance>
+		  <dcterms:spatial xml:lang="it">Alto Lazio</dcterms:spatial>
+		  <dcterms:temporal xml:lang="it">1901-1903</dcterms:temporal>
+		</rdf:Description>
+	  </rdf:RDF>
+	</xenoData>
 	<revisionDesc>
 	  <!--TENERE AGGIORNATO-->
-      <!--RICONTROLLA HEADER-->
+	  <change who="#DB" when="2023-03-17" status="published">Aggiunto <gi>xenoData</gi></change>
 	  <change who="#DB" when="2023-02-18" status="published">Aggiunti <gi>schemaRef</gi>; terminata la revisione di <gi>text</gi></change>
 	  <change who="#DB" when="2022-11-03" status="draft">Terminata la revisione di <gi>teiHeader</gi></change>
       <change who="#DB" when="2022-10-04" status="draft">Completata la trascrizione fino a 10r</change>

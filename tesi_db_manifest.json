@@ -105,6 +105,15 @@
 	    "id": "https://dariobaldini98.github.io/tesi_db/tesi_db_manifest/canv/1r", 
 		"type": "Canvas" 
 	},
+	"seeAlso": [
+	    {
+			"id": "https://dariobaldini98.github.io/tesi_db/tesi_db_meta.xml",
+			"type": "Dataset",
+			"label": { "it": [ "Metadati semantici (DCMI in RDF/XML)" ], "en": [ "Semantic metadata (DCMI in RDF/XML)" ] },
+			"format": "text/xml",
+			"profile": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		}
+	],
 	"structures": [
 	    {
 			"id": "https://dariobaldini98.github.io/tesi_db/ran/ill",
