@@ -86,8 +86,8 @@
     <xsl:choose>
       <xsl:when test="./descendant::tei:choice">
         <span class="tooltip_container">
-		  <a href="{@ref}" target="_blank"><xsl:value-of select="tei:abbr"/></a>
-		  <span class="tooltip_text">"<xsl:value-of select="tei:expan"/>"</span>
+		  <a href="{@ref}" target="_blank"><xsl:value-of select="./descendant::tei:abbr"/></a>
+		  <span class="tooltip_text">"<xsl:value-of select="./descendant::tei:expan"/>"</span>
 	    </span>
       </xsl:when>
       <xsl:otherwise>
