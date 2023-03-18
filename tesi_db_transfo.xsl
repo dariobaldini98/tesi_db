@@ -22,7 +22,9 @@
 		  <img alt="Descriptive metadata" src="img/info_icon.png" width="45" height="45"/>
 		</a>
 		<div id="meta_sidebar" class="sidebar">
-		  <p>WIP - WIP - WIP</p>
+		  <div class="meta_container">
+		    <p>WIP - WIP - WIP</p>
+		  </div>
 		</div>
 		<div id="content">
 		  <div class="titles">

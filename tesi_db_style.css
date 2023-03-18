@@ -271,3 +271,8 @@ ol {
 div.content {
     transition: margin-left .5s; /* If you want a transition effect */
 }
+
+div.meta_container {
+	margin-top: 50px;
+	font-size: 22px;
+}
