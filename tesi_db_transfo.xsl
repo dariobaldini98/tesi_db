@@ -19,7 +19,7 @@
 	      </a>
 	    </div>
 		<a class="sidebar_button" onclick="toggle_sidebar()">
-		  <img alt="Descriptive metadata" src="https://png.pngtree.com/element_our/sm/20180314/sm_5aa8fceea1b8e.jpg" width="45" height="45"/>
+		  <img alt="Descriptive metadata" src="img/info_icon.png" width="45" height="45"/>
 		</a>
 		<div id="meta_sidebar" class="sidebar">
 		  <p>WIP - WIP - WIP</p>
