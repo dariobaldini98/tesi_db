@@ -19,10 +19,10 @@
 	      </a>
 	    </div>
 		<a class="sidebar_button" onclick="toggle_sidebar()">
-		  <img alt="Descriptive metadata" src="https://icon-library.com/images/info-icon-png-transparent/info-icon-png-transparent-25.jpg"/>
+		  <img alt="Descriptive metadata" src="https://banner2.cleanpng.com/20180713/jxx/kisspng-computer-icons-icon-design-info-grafic-5b487ab5e64076.4560075715314766619431.jpg" width="45" height="45"/>
 		</a>
 		<div id="meta_sidebar" class="sidebar">
-		  <p>PROVA_PROVA_PROVA</p>
+		  <p>WIP - WIP - WIP</p>
 		</div>
 		<div id="content">
 		  <div class="titles">
