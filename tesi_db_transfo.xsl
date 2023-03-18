@@ -23,7 +23,20 @@
 		</a>
 		<div id="meta_sidebar" class="sidebar">
 		  <div class="meta_container">
-		    <p>WIP - WIP - WIP</p>
+		    <h4>WIP - WIP - WIP</h4>
+		    <p>Autore: <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:author/tei:persName"/></p>
+			<h4>Manoscritto</h4>
+			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc">
+			  <xsl:for-each select="tei:objectDesc">
+			    <xsl:for-each select="tei:supportDesc">
+			      <p>Supporto: <xsl:value-of select="tei:support"/></p>
+			      <p>Lunghezza: <xsl:value-of select="tei:extent"/></p>
+			      <p>Disposizione dei fogli: <xsl:value-of select="tei:collation"/></p>
+			      <p>Numerazione delle pagine: <xsl:value-of select="tei:foliation"/></p>
+			      <p>Condizioni: <xsl:value-of select="tei:condition"/></p>
+			    </xsl:for-each>
+			  </xsl:for-each>
+			</xsl:for-each>
 		  </div>
 		</div>
 		<div id="content">
