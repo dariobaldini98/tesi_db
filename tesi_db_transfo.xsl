@@ -25,16 +25,52 @@
 		  <div class="meta_container">
 		    <h4>WIP - WIP - WIP</h4>
 		    <p>Autore: <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:author/tei:persName"/></p>
-			<h4>Manoscritto</h4>
 			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc">
 			  <xsl:for-each select="tei:objectDesc">
-			    <xsl:for-each select="tei:supportDesc">
-			      <p>Supporto: <xsl:value-of select="tei:support"/></p>
-			      <p>Lunghezza: <xsl:value-of select="tei:extent"/></p>
-			      <p>Disposizione dei fogli: <xsl:value-of select="tei:collation"/></p>
-			      <p>Numerazione delle pagine: <xsl:value-of select="tei:foliation"/></p>
-			      <p>Condizioni: <xsl:value-of select="tei:condition"/></p>
+			    <h4>Caratteristiche del supporto:</h4>
+				<xsl:for-each select="tei:supportDesc">
+			      <xsl:apply-templates/>
 			    </xsl:for-each>
+				<h4>Impaginazione:</h4>
+				<xsl:for-each select="tei:layoutDesc/tei:layout">
+				  <p><xsl:apply-templates/></p>
+			    </xsl:for-each>
+			  </xsl:for-each>
+			  <h4>Mani:</h4>
+			  <xsl:for-each select="tei:handDesc/tei:handNote">
+			    <xsl:apply-templates/>
+			  </xsl:for-each>
+			  <h4>Stili di scrittura:</h4>
+			  <xsl:for-each select="tei:scriptDesc/tei:scriptNote">
+			    <xsl:apply-templates/>
+			  </xsl:for-each>
+			  <h4>Elementi decorativi:</h4>
+			  <xsl:for-each select="tei:decoDesc/tei:decoNote">
+			    <xsl:apply-templates/>
+			  </xsl:for-each>
+			  <h4>Aggiunte successive:</h4>
+			  <xsl:for-each select="tei:additions">
+			    <xsl:apply-templates/>
+			  </xsl:for-each>
+			  <h4>Materiale allegato:</h4>
+			  <xsl:for-each select="tei:accMat">
+			    <xsl:apply-templates/>
+			  </xsl:for-each>
+			</xsl:for-each>
+			<h4>Storia:</h4>
+			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history">
+			    <xsl:apply-templates/>
+			</xsl:for-each>
+			<h4>Informazioni amministrative:</h4>
+			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:additional/tei:adminInfo">
+			  <xsl:for-each select="tei:recordHist/tei:source">
+			    <xsl:apply-templates/>
+			  </xsl:for-each>
+			  <xsl:for-each select="tei:availability">
+			    <xsl:apply-templates/>
+			  </xsl:for-each>
+			  <xsl:for-each select="tei:custodialHist/tei:custEvent">
+			    <xsl:apply-templates/>
 			  </xsl:for-each>
 			</xsl:for-each>
 		  </div>
@@ -52,6 +88,12 @@
 		<script src="tesi_db_script.js"></script>
 	  </body>
 	</html>
+  </xsl:template>
+  
+  <!-- Elementi Header -->
+  
+  <xsl:template match="tei:extent">
+    <p><xsl:apply-templates/></p>
   </xsl:template>
   
   <!-- Contenitori con formattazione -->
@@ -122,38 +164,10 @@
   
   <!-- Contenitori senza formattazione -->
   
-  <xsl:template match="tei:quote">
+  <xsl:template match="tei:quote | tei:postscript | tei:add | tei:subst | tei:roleName | tei:choice | tei:damage | tei:figure | tei:origin | tei:provenance | tei:acquisition ">
 	<xsl:apply-templates/>
   </xsl:template>
   
-  <xsl:template match="tei:postscript">
-	<xsl:apply-templates/>
-  </xsl:template>
-  
-  <xsl:template match="tei:add">
-	<xsl:apply-templates/>
-  </xsl:template>
-  
-  <xsl:template match="tei:subst">
-	<xsl:apply-templates/>
-  </xsl:template>
-  
-  <xsl:template match="tei:roleName">
-	<xsl:apply-templates/>
-  </xsl:template>
-
-  <xsl:template match="tei:choice">
-	<xsl:apply-templates/>
-  </xsl:template>
-  
-  <xsl:template match="tei:damage">
-	<xsl:apply-templates/>
-  </xsl:template>
-  
-  <xsl:template match="tei:figure">
-	<xsl:apply-templates/>
-  </xsl:template>
-    
   <!-- Elementi rimossi -->
   
   <xsl:template match="tei:expan"/>

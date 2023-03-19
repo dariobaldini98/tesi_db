@@ -60,11 +60,24 @@
 		  <physDesc>
 		    <objectDesc form="notebook">
 			  <supportDesc>
-			    <support><objectType>Quadernino</objectType> a quadretti di <material function="support">carta</material></support>
-				<extent>88 pagine <dimensions unit="cm"><height>20</height> <width>15</width></dimensions></extent>
-				<collation>Composto da un solo fascicolo</collation>
-				<foliation resp="#DB">I numeri di carta sono stati definiti da <persName ref="#DB"><forename>Dario</forename> <surname>Baldini</surname></persName>; non sono scritti sulle pagine del diario</foliation>
-				<condition>La prima e l'ultima carta sono staccate e abbastanza consumate, soprattutto negli angoli; il resto è in buone condizioni</condition>
+			    <support>
+				  <p><objectType>Quadernino</objectType> a quadretti di <material function="support">carta</material></p>
+				</support>
+				<extent>88 pagine
+				  <dimensions unit="cm">
+				    <height>20</height>
+				    <width>15</width>
+				  </dimensions>
+				</extent>
+				<collation>
+				  <p>Composto da un solo fascicolo.</p>
+				</collation>
+				<foliation resp="#DB">
+				  <p>I numeri di carta sono stati definiti da <persName ref="#DB"><forename>Dario</forename> <surname>Baldini</surname></persName>; non sono scritti sulle pagine del diario.</p>
+				</foliation>
+				<condition>
+				  <p>La prima e l'ultima carta sono staccate e abbastanza consumate, soprattutto negli angoli; il resto è in buone condizioni.</p>
+				</condition>
 			  </supportDesc>
 			  <layoutDesc>
 			    <layout columns="1" ruledLines="10 24">Tra 10 e 24 linee su una colonna
@@ -131,7 +144,7 @@
 		  </physDesc>
 		  <history>
 		    <origin notBefore="1901-03-31" notAfter="1903-07-26" evidence="internal" resp="#DB">
-		      <p>Scritto a <origPlace>Civitavecchia</origPlace>, probabilmente <origDate notBefore="1901-03-31" notAfter="1903-07-26">tra il 31 marzo 1901 e il 26 luglio 1903</origDate>.</p>
+		      <p>Scritto a <origPlace ref="https://goo.gl/maps/JcCWKqqVYcZrPAJh9">Civitavecchia</origPlace>, probabilmente <origDate notBefore="1901-03-31" notAfter="1903-07-26">tra il 31 marzo 1901 e il 26 luglio 1903</origDate>.</p>
 			</origin>
 			<provenance>
 			  <p>Conservato nella casa di famiglia, situata nella frazione di <placeName ref="https://goo.gl/maps/dCLTHw4R2txnSxbz7"><settlement type="town">La Quercia</settlement></placeName> (VT), in cui <persName ref="#PR"><forename>Pasquale</forename></persName> si è trasferito dopo il pensionamento.</p>
