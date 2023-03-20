@@ -27,41 +27,41 @@
 		    <p>Autore: <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:author/tei:persName"/></p>
 			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc">
 			  <xsl:for-each select="tei:objectDesc">
-			    <h4>Caratteristiche del supporto:</h4>
+			    <h3>Caratteristiche del supporto:</h3>
 				<xsl:for-each select="tei:supportDesc">
 			      <xsl:apply-templates/>
 			    </xsl:for-each>
-				<h4>Impaginazione:</h4>
+				<h3>Impaginazione:</h3>
 				<xsl:for-each select="tei:layoutDesc/tei:layout">
 				  <p><xsl:apply-templates/></p>
 			    </xsl:for-each>
 			  </xsl:for-each>
-			  <h4>Mani:</h4>
+			  <h3>Mani:</h3>
 			  <xsl:for-each select="tei:handDesc/tei:handNote">
 			    <xsl:apply-templates/>
 			  </xsl:for-each>
-			  <h4>Stili di scrittura:</h4>
+			  <h3>Stili di scrittura:</h3>
 			  <xsl:for-each select="tei:scriptDesc/tei:scriptNote">
 			    <xsl:apply-templates/>
 			  </xsl:for-each>
-			  <h4>Elementi decorativi:</h4>
+			  <h3>Elementi decorativi:</h3>
 			  <xsl:for-each select="tei:decoDesc/tei:decoNote">
 			    <xsl:apply-templates/>
 			  </xsl:for-each>
-			  <h4>Aggiunte successive:</h4>
+			  <h3>Aggiunte successive:</h3>
 			  <xsl:for-each select="tei:additions">
 			    <xsl:apply-templates/>
 			  </xsl:for-each>
-			  <h4>Materiale allegato:</h4>
+			  <h3>Materiale allegato:</h3>
 			  <xsl:for-each select="tei:accMat">
 			    <xsl:apply-templates/>
 			  </xsl:for-each>
 			</xsl:for-each>
-			<h4>Storia:</h4>
+			<h3>Storia:</h3>
 			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history">
 			    <xsl:apply-templates/>
 			</xsl:for-each>
-			<h4>Informazioni amministrative:</h4>
+			<h3>Informazioni amministrative:</h3>
 			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:additional/tei:adminInfo">
 			  <xsl:for-each select="tei:recordHist/tei:source">
 			    <xsl:apply-templates/>
@@ -70,6 +70,27 @@
 			    <xsl:apply-templates/>
 			  </xsl:for-each>
 			  <xsl:for-each select="tei:custodialHist/tei:custEvent">
+			    <xsl:apply-templates/>
+			  </xsl:for-each>
+			</xsl:for-each>
+			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:editorialDecl">
+			  <h3>Pratiche editoriali:</h3>
+			  <xsl:for-each select="tei:correction">
+			    <xsl:apply-templates/>
+			  </xsl:for-each>
+			  <xsl:for-each select="tei:normalization">
+			    <xsl:apply-templates/>
+			  </xsl:for-each>
+			  <xsl:for-each select="tei:punctuation">
+			    <xsl:apply-templates/>
+			  </xsl:for-each>
+			  <xsl:for-each select="tei:quotation">
+			    <xsl:apply-templates/>
+			  </xsl:for-each>
+			  <xsl:for-each select="tei:hyphenation">
+			    <xsl:apply-templates/>
+			  </xsl:for-each>
+			  <xsl:for-each select="tei:interpretation">
 			    <xsl:apply-templates/>
 			  </xsl:for-each>
 			</xsl:for-each>
@@ -88,12 +109,6 @@
 		<script src="tesi_db_script.js"></script>
 	  </body>
 	</html>
-  </xsl:template>
-  
-  <!-- Elementi Header -->
-  
-  <xsl:template match="tei:extent">
-    <p><xsl:apply-templates/></p>
   </xsl:template>
   
   <!-- Contenitori con formattazione -->
@@ -222,6 +237,12 @@
       <img src="{@url}" alt="{following-sibling::tei:figDesc}" width="{@width}" height="{@height}"/>
 	  <span class="tooltip_text"><xsl:value-of select="following-sibling::tei:figDesc"/></span>
 	</span>
+  </xsl:template>
+    
+  <!-- Elementi Header -->
+  
+  <xsl:template match="tei:extent">
+    <p><xsl:apply-templates/></p>
   </xsl:template>
   
 </xsl:stylesheet>
