@@ -245,6 +245,8 @@
     <p><xsl:apply-templates/></p>
   </xsl:template>
   
+  <xsl:template match="tei:dimensions">di <xsl:value-of select="tei:height"/><xsl:value-of select="{@unit}"/> x <xsl:value-of select="tei:width"/><xsl:value-of select="{@unit}"/>.</xsl:template>
+  
   <xsl:template match="tei:locusGrp/tei:locus"><xsl:value-of select="."/>, </xsl:template>
   
   <xsl:template match="tei:locusGrp/tei:locus[last()-1]"><xsl:value-of select="."/> e </xsl:template>
