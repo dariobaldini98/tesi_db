@@ -110,11 +110,7 @@
 	</div>
   </xsl:template>
   
-  <xsl:template match="tei:p">
-    <p><xsl:apply-templates/></p>
-  </xsl:template>
-  
-  <xsl:template match="tei:ab">
+  <xsl:template match="tei:p | tei:ab | tei:salute | tei:dateline | tei:signed">
     <p><xsl:apply-templates/></p>
   </xsl:template>
   
@@ -124,31 +120,13 @@
 	</div>
   </xsl:template>
   
-  <xsl:template match="tei:closer">
-    <div class="closer">
-	  <xsl:apply-templates/>
-	</div>
-  </xsl:template>
-  
-  <xsl:template match="tei:salute">
-    <p><xsl:apply-templates/></p>
-  </xsl:template>
-  
-  <xsl:template match="tei:dateline">
-    <p><xsl:apply-templates/></p>
-  </xsl:template>
-  
-  <xsl:template match="tei:signed">
-    <p><xsl:apply-templates/></p>
-  </xsl:template>
-  
   <xsl:template match="tei:list">
 	<ol>
 	  <xsl:apply-templates/>
 	</ol>
   </xsl:template>
     
-  <xsl:template match="tei:placeName[@ref]">
+  <xsl:template match="*[@ref]">
     <xsl:choose>
       <xsl:when test="./descendant::tei:choice">
         <span class="tooltip_container">
@@ -170,11 +148,7 @@
   
   <!-- Elementi rimossi -->
   
-  <xsl:template match="tei:expan"/>
-  
-  <xsl:template match="tei:corr"/>
-  
-  <xsl:template match="tei:figDesc"/>
+  <xsl:template match="tei:expan | tei:corr | tei:figDesc"/>
   
   <!-- Solo valori -->
   
