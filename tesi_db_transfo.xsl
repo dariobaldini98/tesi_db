@@ -245,4 +245,10 @@
     <p><xsl:apply-templates/></p>
   </xsl:template>
   
+  <xsl:template match="tei:locusGrp/tei:locus"><xsl:value-of select="."/>, </xsl:template>
+  
+  <xsl:template match="tei:locusGrp/tei:locus[last()-1]"><xsl:value-of select="."/> e </xsl:template>
+  
+  <xsl:template match="tei:locusGrp/tei:locus[last()]"><xsl:value-of select="."/>.</xsl:template>
+  
 </xsl:stylesheet>
