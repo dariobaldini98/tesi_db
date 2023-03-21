@@ -157,7 +157,7 @@
   
   <!-- Contenitori senza formattazione -->
   
-  <xsl:template match="tei:quote | tei:postscript | tei:add | tei:subst | tei:roleName | tei:choice | tei:damage | tei:figure | tei:origin | tei:provenance | tei:acquisition ">
+  <xsl:template match="tei:quote | tei:postscript | tei:add | tei:subst | tei:roleName | tei:choice | tei:damage | tei:figure | tei:origin | tei:provenance | tei:acquisition">
 	<xsl:apply-templates/>
   </xsl:template>
   
@@ -247,10 +247,12 @@
   
   <xsl:template match="tei:dimensions">di <xsl:value-of select="tei:height"/><xsl:value-of select="{@unit}"/> x <xsl:value-of select="tei:width"/><xsl:value-of select="{@unit}"/>.</xsl:template>
   
-  <xsl:template match="tei:locusGrp/tei:locus"><xsl:value-of select="."/>, </xsl:template>
-  
-  <xsl:template match="tei:locusGrp/tei:locus[last()-1]"><xsl:value-of select="."/> e </xsl:template>
-  
-  <xsl:template match="tei:locusGrp/tei:locus[last()]"><xsl:value-of select="."/>.</xsl:template>
+  <xsl:template match="tei:locusGrp/tei:locus">
+    <xsl:choose>
+	  <xsl:when test=".[last()-1]"><xsl:value-of select="."/> e </xsl:when>
+	  <xsl:when test=".[last()]"><xsl:value-of select="."/>.</xsl:when>
+	  <xsl:otherwise><xsl:value-of select="."/>, </xsl:otherwise>
+	</xsl:choose>
+  </xsl:template>
   
 </xsl:stylesheet>
