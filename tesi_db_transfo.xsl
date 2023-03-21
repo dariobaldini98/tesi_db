@@ -36,8 +36,8 @@
 			  <div class="meta_item">
 		   		<h3>Impaginazione:</h3>
 				<xsl:for-each select="tei:layoutDesc/tei:layout">
-				  <p><xsl:apply-templates/></p>
-			    </xsl:for-each>
+				  <xsl:apply-templates/>
+				</xsl:for-each>
 			  </div>
 			</xsl:for-each>
 			<div class="meta_item">
@@ -144,7 +144,7 @@
 	</div>
   </xsl:template>
   
-  <xsl:template match="tei:p | tei:ab | tei:salute | tei:dateline | tei:signed">
+  <xsl:template match="tei:p | tei:ab | tei:salute | tei:dateline | tei:signed | tei:extent">
     <p><xsl:apply-templates/></p>
   </xsl:template>
   
@@ -174,9 +174,11 @@
     </xsl:choose>
   </xsl:template>
   
+  <xsl:template match="tei:dimensions">di <xsl:value-of select="tei:height"/><xsl:value-of select="{@unit}"/> x <xsl:value-of select="tei:width"/><xsl:value-of select="{@unit}"/>.</xsl:template>
+  
   <!-- Contenitori senza formattazione -->
   
-  <xsl:template match="tei:quote | tei:postscript | tei:add | tei:subst | tei:roleName | tei:choice | tei:damage | tei:figure | tei:origin | tei:provenance | tei:acquisition">
+  <xsl:template match="tei:quote | tei:postscript | tei:add | tei:subst | tei:roleName | tei:choice | tei:damage | tei:figure | tei:origin | tei:provenance | tei:acquisition | tei:measure">
 	<xsl:apply-templates/>
   </xsl:template>
   
@@ -256,22 +258,6 @@
       <img src="{@url}" alt="{following-sibling::tei:figDesc}" width="{@width}" height="{@height}"/>
 	  <span class="tooltip_text"><xsl:value-of select="following-sibling::tei:figDesc"/></span>
 	</span>
-  </xsl:template>
-    
-  <!-- Elementi Header -->
-  
-  <xsl:template match="tei:extent">
-    <p><xsl:apply-templates/></p>
-  </xsl:template>
-  
-  <xsl:template match="tei:dimensions">di <xsl:value-of select="tei:height"/><xsl:value-of select="{@unit}"/> x <xsl:value-of select="tei:width"/><xsl:value-of select="{@unit}"/>.</xsl:template>
-  
-  <xsl:template match="tei:locus[ancestor::tei:locusGrp]">
-    <xsl:choose>
-	  <xsl:when test=".[last()-1]"><xsl:value-of select="."/> e </xsl:when>
-	  <xsl:when test=".[last()]"><xsl:value-of select="."/>.</xsl:when>
-	  <xsl:otherwise><xsl:value-of select="."/>, </xsl:otherwise>
-	</xsl:choose>
   </xsl:template>
   
 </xsl:stylesheet>

@@ -63,7 +63,8 @@
 			    <support>
 				  <p><objectType>Quadernino</objectType> a quadretti di <material function="support">carta</material></p>
 				</support>
-				<extent>88 pagine
+				<extent>
+				  <measure unit="pages" quantity="88">88 pagine</measure>
 				  <dimensions unit="cm">
 				    <height>20</height>
 				    <width>15</width>
@@ -80,31 +81,17 @@
 				</condition>
 			  </supportDesc>
 			  <layoutDesc>
-			    <layout columns="1" ruledLines="10 24">Tra 10 e 24 linee su una colonna
-				  <locusGrp>
-				    <locus from="1r" to="8v">da 1r a 8v</locus>
-					<locus>in 10r</locus>
-					<locus from="13v" to="19r">da 13v a 19r</locus>
-				  </locusGrp>
+			    <layout columns="1" ruledLines="10 24">
+				  <p>Tra 10 e 24 linee su una colonna <locusGrp><locus from="1r" to="8v">da 1r a 8v</locus>, <locus>in 10r</locus> e <locus from="13v" to="19r">da 13v a 19r</locus></locusGrp>.</p>
 				</layout>
-				<layout columns="1" ruledLines="36 50">Tra 36 e 50 linee su una colonna 
-				  <locus from="10v" to="11r">in 10v e 11r</locus>
+				<layout columns="1" ruledLines="36 50">
+				  <p>Tra 36 e 50 linee su una colonna <locus from="10v" to="11r">in 10v e 11r</locus>.</p>
 				</layout>
-				<layout columns="2" ruledLines="36 50">Tra 36 e 50 linee su due colonne 
-				  <locusGrp>
-				    <locus from="11v" to="13r">da 11v a 13r</locus>
-					<locus from="14v" to="15r">in 14v e 15r</locus>
-					<locus>in 19r</locus>
-					<locus from="21r" to="24v">da 21r a 24v</locus>
-					<locus from="26v" to="35v">da 26v a 35v</locus>
-					<locus from="37r" to="39v">da 37r a 39v</locus>
-				  </locusGrp>	
+				<layout columns="2" ruledLines="36 50">
+				  <p>Tra 36 e 50 linee su due colonne <locusGrp><locus from="11v" to="13r">da 11v a 13r</locus>, <locus from="14v" to="15r">in 14v e 15r</locus>, <locus>in 19r</locus>, <locus from="21r" to="24v">da 21r a 24v</locus>, <locus from="26v" to="35v">da 26v a 35v</locus> e <locus from="37r" to="39v">da 37r a 39v</locus></locusGrp>.</p>
 				</layout>
-				<layout columns="1" writtenLines="11 23">Tra 11 e 23 linee su una colonna in pagine senza quadretti
-				  <locusGrp>
-				    <locus from="9r" to="9v">in 9r e 9v</locus>
-				    <locus from="40v" to="44v">da 40v a 44v</locus>
-				  </locusGrp>
+				<layout columns="1" writtenLines="11 23">
+				  <p>Tra 11 e 23 linee su una colonna in pagine senza quadretti <locusGrp><locus from="9r" to="9v">in 9r e 9v</locus> e <locus from="40v" to="44v">da 40v a 44v</locus></locusGrp>.</p>
 				</layout>
 			  </layoutDesc>
 			</objectDesc>
