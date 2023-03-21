@@ -248,6 +248,9 @@ ol {
     top: 0;
     left: 0;
     background-color: rgba(139, 134, 128, 0.6);
+	padding: 3%;
+	margin-top: 50px;
+	font-size: 22px;
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
 }
@@ -272,7 +275,6 @@ div.content {
     transition: margin-left .5s; /* If you want a transition effect */
 }
 
-div.meta_container {
-	margin-top: 50px;
-	font-size: 22px;
+div.meta_item {
+	margin-top: 1.5%;
 }

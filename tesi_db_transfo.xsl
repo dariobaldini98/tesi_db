@@ -22,46 +22,63 @@
 		  <img alt="Descriptive metadata" src="img/info_icon.png" width="45" height="45"/>
 		</a>
 		<div id="meta_sidebar" class="sidebar">
-		  <div class="meta_container">
-		    <h4>WIP - WIP - WIP</h4>
-		    <p>Autore: <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:author/tei:persName"/></p>
-			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc">
-			  <xsl:for-each select="tei:objectDesc">
+		  <div class="meta_item">
+		      <p>Autore: <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:author/tei:persName"/></p>
+		  </div>
+		  <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc">
+			<xsl:for-each select="tei:objectDesc">
+			  <div class="meta_item">
 			    <h3>Caratteristiche del supporto:</h3>
 				<xsl:for-each select="tei:supportDesc/*">
 			      <xsl:apply-templates/>
 			    </xsl:for-each>
-				<h3>Impaginazione:</h3>
+		      </div>
+			  <div class="meta_item">
+		   		<h3>Impaginazione:</h3>
 				<xsl:for-each select="tei:layoutDesc/tei:layout">
 				  <p><xsl:apply-templates/></p>
 			    </xsl:for-each>
-			  </xsl:for-each>
+			  </div>
+			</xsl:for-each>
+			<div class="meta_item">
 			  <h3>Mani:</h3>
 			  <xsl:for-each select="tei:handDesc/tei:handNote">
 			    <xsl:apply-templates/>
 			  </xsl:for-each>
+			</div>
+			<div class="meta_item">
 			  <h3>Stili di scrittura:</h3>
 			  <xsl:for-each select="tei:scriptDesc/tei:scriptNote">
 			    <xsl:apply-templates/>
 			  </xsl:for-each>
+			</div>
+			<div class="meta_item">
 			  <h3>Elementi decorativi:</h3>
 			  <xsl:for-each select="tei:decoDesc/tei:decoNote">
 			    <xsl:apply-templates/>
 			  </xsl:for-each>
+			</div>
+			<div class="meta_item">
 			  <h3>Aggiunte successive:</h3>
 			  <xsl:for-each select="tei:additions">
 			    <xsl:apply-templates/>
 			  </xsl:for-each>
+			</div>
+			<div class="meta_item">
 			  <h3>Materiale allegato:</h3>
 			  <xsl:for-each select="tei:accMat">
 			    <xsl:apply-templates/>
 			  </xsl:for-each>
-			</xsl:for-each>
-			<h3>Storia:</h3>
+			</div>
+		  </xsl:for-each>
+	      <div class="meta_item">
+		    <h3>Storia:</h3>
 			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history">
-			    <xsl:apply-templates/>
+			  <xsl:apply-templates/>
 			</xsl:for-each>
-			<h3>Informazioni amministrative:</h3>
+		  </div>
+	      <div class="meta_item">
+		    <h3>Informazioni amministrative:</h3>
 			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:additional/tei:adminInfo">
 			  <xsl:for-each select="tei:recordHist/tei:source">
 			    <xsl:apply-templates/>
@@ -73,6 +90,8 @@
 			    <xsl:apply-templates/>
 			  </xsl:for-each>
 			</xsl:for-each>
+		  </div>
+	      <div class="meta_item">
 			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:editorialDecl">
 			  <h3>Pratiche editoriali:</h3>
 			  <xsl:for-each select="tei:correction">
@@ -94,7 +113,7 @@
 			    <xsl:apply-templates/>
 			  </xsl:for-each>
 			</xsl:for-each>
-		  </div>
+	      </div>
 		</div>
 		<div id="content">
 		  <div class="titles">
