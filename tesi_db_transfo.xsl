@@ -28,7 +28,7 @@
 			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc">
 			  <xsl:for-each select="tei:objectDesc">
 			    <h3>Caratteristiche del supporto:</h3>
-				<xsl:for-each select="tei:supportDesc">
+				<xsl:for-each select="tei:supportDesc/*">
 			      <xsl:apply-templates/>
 			    </xsl:for-each>
 				<h3>Impaginazione:</h3>
