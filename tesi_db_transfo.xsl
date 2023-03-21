@@ -29,7 +29,7 @@
 			<xsl:for-each select="tei:objectDesc">
 			  <div class="meta_item">
 			    <h3>Caratteristiche del supporto:</h3>
-				<xsl:for-each select="tei:supportDesc/*">
+				<xsl:for-each select="tei:supportDesc">
 			      <xsl:apply-templates/>
 			    </xsl:for-each>
 		      </div>
