@@ -266,7 +266,7 @@
   
   <xsl:template match="tei:dimensions">di <xsl:value-of select="tei:height"/><xsl:value-of select="{@unit}"/> x <xsl:value-of select="tei:width"/><xsl:value-of select="{@unit}"/>.</xsl:template>
   
-  <xsl:template match="tei:locusGrp/tei:locus">
+  <xsl:template match="tei:locus[ancestor::tei:locusGrp]">
     <xsl:choose>
 	  <xsl:when test=".[last()-1]"><xsl:value-of select="."/> e </xsl:when>
 	  <xsl:when test=".[last()]"><xsl:value-of select="."/>.</xsl:when>
