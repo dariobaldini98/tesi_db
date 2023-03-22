@@ -203,6 +203,12 @@
 	<span class="overstrike"><xsl:value-of select="."/></span>
   </xsl:template>
   
+  <xsl:template match="tei:dimensions">
+    <xsl:for-each select="tei:height">di <xsl:value-of select="."/><xsl:value-of select="{parent::dimensions/@unit}"/></xsl:for-each>
+	<xsl:text>&#160;x&#160;</xsl:text>
+	<xsl:for-each select="tei:width"><xsl:value-of select="."/><xsl:value-of select="{parent::dimensions/@unit}"/>.</xsl:for-each>
+  </xsl:template>
+
   <xsl:template match="tei:placeName[@ref]">
     <xsl:choose>
       <xsl:when test="./descendant::tei:choice">
