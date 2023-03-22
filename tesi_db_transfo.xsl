@@ -204,9 +204,9 @@
   </xsl:template>
   
   <xsl:template match="tei:dimensions">
-    <xsl:for-each select="tei:height"><xsl:text>di </xsl:text><xsl:value-of select="."/><xsl:value-of select="{parent::dimensions/@unit}"/></xsl:for-each>
+    <xsl:for-each select="./tei:height"><xsl:text>di </xsl:text><xsl:value-of select="."/><xsl:value-of select="{parent::dimensions/@unit}"/></xsl:for-each>
 	<xsl:text>&#160;x&#160;</xsl:text>
-	<xsl:for-each select="tei:width"><xsl:value-of select="."/><xsl:value-of select="{parent::dimensions/@unit}"/><xsl:text>.</xsl:text></xsl:for-each>
+	<xsl:for-each select="./tei:width"><xsl:value-of select="."/><xsl:value-of select="{parent::dimensions/@unit}"/><xsl:text>.</xsl:text></xsl:for-each>
   </xsl:template>
 
   <xsl:template match="tei:placeName[@ref]">
