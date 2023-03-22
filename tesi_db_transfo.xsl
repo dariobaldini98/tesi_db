@@ -130,7 +130,7 @@
 	</html>
   </xsl:template>
   
-  <!-- Contenitori con formattazione -->
+  <!-- div -->
   
   <xsl:template match="tei:TEI/tei:text/tei:body/tei:div[@type='entry']">
     <div class="entry">
@@ -144,20 +144,63 @@
 	</div>
   </xsl:template>
   
-  <xsl:template match="tei:p | tei:ab | tei:salute | tei:dateline | tei:signed | tei:extent">
-    <p><xsl:apply-templates/></p>
-  </xsl:template>
-  
   <xsl:template match="tei:opener">
     <div class="opener">
 	  <xsl:apply-templates/>
 	</div>
   </xsl:template>
   
+  <xsl:template match="tei:closer">
+    <div class="closer">
+	  <xsl:apply-templates/>
+	</div>
+  </xsl:template>
+  
+  <!-- p -->
+  
+  <xsl:template match="tei:p">
+    <p><xsl:apply-templates/></p>
+  </xsl:template>
+  
+  <xsl:template match="tei:ab">
+    <p><xsl:apply-templates/></p>
+  </xsl:template>
+  
+  <xsl:template match="tei:salute">
+    <p><xsl:apply-templates/></p>
+  </xsl:template>
+  
+  <xsl:template match="tei:dateline">
+    <p><xsl:apply-templates/></p>
+  </xsl:template>
+  
+  <xsl:template match="tei:signed">
+    <p><xsl:apply-templates/></p>
+  </xsl:template>
+  
+  <xsl:template match="tei:extent">
+    <p><xsl:apply-templates/></p>
+  </xsl:template>
+  
+  <!-- vari -->
+  
   <xsl:template match="tei:list">
 	<ol>
 	  <xsl:apply-templates/>
 	</ol>
+  </xsl:template>
+  
+  <xsl:template match="tei:item">
+	<il><xsl:value-of select="."/></il><br/>
+  </xsl:template>
+
+  
+  <xsl:template match="tei:head">
+    <h4><xsl:value-of select="."/></h4>
+  </xsl:template>
+  
+  <xsl:template match="tei:del">
+	<span class="overstrike"><xsl:value-of select="."/></span>
   </xsl:template>
     
   <xsl:template match="*[@ref]">
@@ -176,29 +219,63 @@
   
   <xsl:template match="tei:dimensions">di <xsl:value-of select="tei:height"/><xsl:value-of select="{@unit}"/> x <xsl:value-of select="tei:width"/><xsl:value-of select="{@unit}"/>.</xsl:template>
   
-  <!-- Contenitori senza formattazione -->
+  <!-- senza formattazione -->
   
-  <xsl:template match="tei:quote | tei:postscript | tei:add | tei:subst | tei:roleName | tei:choice | tei:damage | tei:figure | tei:origin | tei:provenance | tei:acquisition | tei:measure">
+  <xsl:template match="tei:quote">
 	<xsl:apply-templates/>
   </xsl:template>
   
-  <!-- Elementi rimossi -->
-  
-  <xsl:template match="tei:expan | tei:corr | tei:figDesc"/>
-  
-  <!-- Solo valori -->
-  
-  <xsl:template match="tei:head">
-    <h4><xsl:value-of select="."/></h4>
+  <xsl:template match="tei:postscript">
+	<xsl:apply-templates/>
   </xsl:template>
   
-  <xsl:template match="tei:item">
-	<il><xsl:value-of select="."/></il><br/>
+  <xsl:template match="tei:add">
+	<xsl:apply-templates/>
   </xsl:template>
-
-  <xsl:template match="tei:del">
-	<span class="overstrike"><xsl:value-of select="."/></span>
+  
+  <xsl:template match="tei:subst">
+	<xsl:apply-templates/>
   </xsl:template>
+  
+  <xsl:template match="tei:roleName">
+	<xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="tei:choice">
+	<xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="tei:damage">
+	<xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="tei:figure">
+	<xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="tei:origin">
+	<xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="tei:provenance">
+	<xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="tei:acquisition">
+	<xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="tei:measure">
+	<xsl:apply-templates/>
+  </xsl:template>
+  
+  <!-- rimossi -->
+  
+  <xsl:template match="tei:expan"/>
+  
+  <xsl:template match="tei:corr"/>
+  
+  <xsl:template match="tei:figDesc"/>
 
   <!-- Tooltip -->
 
