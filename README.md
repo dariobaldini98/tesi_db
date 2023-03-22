@@ -24,4 +24,4 @@ The project comprises the following parts:
 The project is now available for collaborative development: feel free to ask for access if you wanna suggest any change or improvement, and don't forget that there are still 69 pages left to complete the transcription...  
 
 
-This project is licensed under a [CC BY-NC-ND 4.0 International Licence](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en) ![CC BY-NC-ND 4.0](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)
+![CC BY-NC-ND 4.0](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png) This project is licensed under a [CC BY-NC-ND 4.0 International Licence](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en)
