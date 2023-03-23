@@ -209,7 +209,7 @@
   
   <xsl:template match="tei:width"><xsl:value-of select="."/><xsl:value-of select="parent::tei:dimensions/@unit"/>.</xsl:template>
 
-  <xsl:template match="tei:placeName[@ref]">
+  <xsl:template match="*[@ref]">
     <xsl:choose>
       <xsl:when test="./descendant::tei:choice">
         <span class="tooltip_container">
@@ -275,11 +275,7 @@
   
   <!-- rimossi -->
   
-  <xsl:template match="tei:expan"/>
-  
-  <xsl:template match="tei:corr"/>
-  
-  <xsl:template match="tei:figDesc"/>
+  <xsl:template match="tei:expan | tei:corr | tei:figDesc"/>
 
   <!-- Tooltip -->
 
