@@ -207,13 +207,9 @@
     <xsl:text>di&#160;</xsl:text><xsl:apply-templates/>
   </xsl:template>
   
-  <xsl:template match="tei:height">
-    <xsl:value-of select="."/><xsl:value-of select="parent::tei:dimensions/@unit"/><xsl:text>&#160;x&#160;</xsl:text>
-  </xsl:template>
+  <xsl:template match="tei:height"><xsl:value-of select="."/><xsl:value-of select="parent::tei:dimensions/@unit"/><xsl:text>&#160;x&#160;</xsl:text></xsl:template>
   
-  <xsl:template match="tei:width">
-    <xsl:value-of select="."/><xsl:value-of select="parent::tei:dimensions/@unit"/><xsl:text>.</xsl:text>
-  </xsl:template>
+  <xsl:template match="tei:width"><xsl:value-of select="."/><xsl:value-of select="parent::tei:dimensions/@unit"/><xsl:text>.</xsl:text></xsl:template>
 
   <xsl:template match="tei:placeName[@ref]">
     <xsl:choose>
