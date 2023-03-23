@@ -204,9 +204,15 @@
   </xsl:template>
   
   <xsl:template match="tei:dimensions">
-    <xsl:for-each select="./tei:height"><xsl:text>di </xsl:text><xsl:value-of select="."/><xsl:value-of select="{parent::tei:dimensions/@unit}"/></xsl:for-each>
-	<xsl:text>&#160;x&#160;</xsl:text>
-	<xsl:for-each select="./tei:width"><xsl:value-of select="."/><xsl:value-of select="{parent::tei:dimensions/@unit}"/><xsl:text>.</xsl:text></xsl:for-each>
+    <xsl:text>di&#160;</xsl:text><xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="tei:height">
+    <xsl:value-of select="."/><xsl:value-of select="parent::tei:dimensions/@unit"/><xsl:text>&#160;x&#160;</xsl:text>
+  </xsl:template>
+  
+  <xsl:template match="tei:width">
+    <xsl:value-of select="."/><xsl:value-of select="parent::tei:dimensions/@unit"/><xsl:text>.</xsl:text>
   </xsl:template>
 
   <xsl:template match="tei:placeName[@ref]">

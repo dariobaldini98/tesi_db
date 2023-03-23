@@ -63,9 +63,8 @@
 			    <support>
 				  <p><objectType>Quadernino</objectType> a quadretti di <material function="support">carta</material></p>
 				</support>
-				<extent>
-				  <measure unit="pages" quantity="88">88 pagine</measure>
-				  <dimensions unit="cm">
+				<extent>88 pagine
+				  <dimensions type="leaves" unit="cm" scope="all">
 				    <height>20</height>
 				    <width>15</width>
 				  </dimensions>
