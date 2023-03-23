@@ -28,57 +28,57 @@
 		  <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc">
 			<xsl:for-each select="tei:objectDesc">
 			  <div class="meta_item">
-			    <h3>Caratteristiche del supporto:</h3>
+			    <h4>Caratteristiche del supporto:</h4>
 				<xsl:for-each select="tei:supportDesc">
 			      <xsl:apply-templates/>
 			    </xsl:for-each>
 		      </div>
 			  <div class="meta_item">
-		   		<h3>Impaginazione:</h3>
+		   		<h4>Impaginazione:</h4>
 				<xsl:for-each select="tei:layoutDesc/tei:layout">
 				  <xsl:apply-templates/>
 				</xsl:for-each>
 			  </div>
 			</xsl:for-each>
 			<div class="meta_item">
-			  <h3>Mani:</h3>
+			  <h4>Mani:</h4>
 			  <xsl:for-each select="tei:handDesc/tei:handNote">
 			    <xsl:apply-templates/>
 			  </xsl:for-each>
 			</div>
 			<div class="meta_item">
-			  <h3>Stili di scrittura:</h3>
+			  <h4>Stili di scrittura:</h4>
 			  <xsl:for-each select="tei:scriptDesc/tei:scriptNote">
 			    <xsl:apply-templates/>
 			  </xsl:for-each>
 			</div>
 			<div class="meta_item">
-			  <h3>Elementi decorativi:</h3>
+			  <h4>Elementi decorativi:</h4>
 			  <xsl:for-each select="tei:decoDesc/tei:decoNote">
 			    <xsl:apply-templates/>
 			  </xsl:for-each>
 			</div>
 			<div class="meta_item">
-			  <h3>Aggiunte successive:</h3>
+			  <h4>Aggiunte successive:</h4>
 			  <xsl:for-each select="tei:additions">
 			    <xsl:apply-templates/>
 			  </xsl:for-each>
 			</div>
 			<div class="meta_item">
-			  <h3>Materiale allegato:</h3>
+			  <h4>Materiale allegato:</h4>
 			  <xsl:for-each select="tei:accMat">
 			    <xsl:apply-templates/>
 			  </xsl:for-each>
 			</div>
 		  </xsl:for-each>
 	      <div class="meta_item">
-		    <h3>Storia:</h3>
+		    <h4>Storia:</h4>
 			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history">
 			  <xsl:apply-templates/>
 			</xsl:for-each>
 		  </div>
 	      <div class="meta_item">
-		    <h3>Informazioni amministrative:</h3>
+		    <h4>Informazioni amministrative:</h4>
 			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:additional/tei:adminInfo">
 			  <xsl:for-each select="tei:recordHist/tei:source">
 			    <xsl:apply-templates/>
@@ -93,7 +93,7 @@
 		  </div>
 	      <div class="meta_item">
 			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:editorialDecl">
-			  <h3>Pratiche editoriali:</h3>
+			  <h4>Pratiche editoriali:</h4>
 			  <xsl:for-each select="tei:correction">
 			    <xsl:apply-templates/>
 			  </xsl:for-each>

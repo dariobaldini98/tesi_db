@@ -126,8 +126,10 @@ div.opener > p {
 	text-align: right;
 }
 h4 {
-	font-weight: normal; 
 	margin: 0%;
+}
+div.entry h4 {
+	font-weight: normal;
 }
 ol {
 	list-style-type: none;
@@ -248,14 +250,10 @@ ol {
     top: 0;
     left: 0;
     background-color: rgba(139, 134, 128, 0.6);
-	margin-top: 50px;
 	font-size: 22px;
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
 }
-
-/* The button used to open the sidebar */
-
 .sidebar_button {
     cursor: pointer;
     position: fixed;
@@ -263,18 +261,16 @@ ol {
     left: 1%;
 	z-index: 1;
 }
-
 .sidebar_button > img:hover {
     opacity: 0.5;
 }
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-
 div.content {
     transition: margin-left .5s; /* If you want a transition effect */
 }
-
 div.meta_item {
-	margin-top: 1.5%;
+	margin: 1.5% 0;
 	padding: 3%;
+}
+div.meta_item:first-of-type {
+	margin-top: 50px;
 }
