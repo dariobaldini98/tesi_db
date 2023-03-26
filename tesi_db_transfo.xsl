@@ -31,7 +31,9 @@
 			    <h4>Caratteristiche del supporto:</h4>
 				<xsl:for-each select="tei:supportDesc">
 				  <ul>
-				    <il><xsl:value-of select="./*"/></il>
+				    <xsl:for-each select="./*">
+				      <il><xsl:value-of select="."/></il>
+				    </xsl:for-each>
 				  </ul>
 			    </xsl:for-each>
 		      </div>
