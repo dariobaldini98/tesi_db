@@ -158,30 +158,10 @@
   
   <!-- p -->
   
-  <xsl:template match="tei:p">
+  <xsl:template match="tei:p | tei:ab | tei:salute | tei:dateline | tei:signed | tei:extent">
     <p><xsl:apply-templates/></p>
   </xsl:template>
-  
-  <xsl:template match="tei:ab">
-    <p><xsl:apply-templates/></p>
-  </xsl:template>
-  
-  <xsl:template match="tei:salute">
-    <p><xsl:apply-templates/></p>
-  </xsl:template>
-  
-  <xsl:template match="tei:dateline">
-    <p><xsl:apply-templates/></p>
-  </xsl:template>
-  
-  <xsl:template match="tei:signed">
-    <p><xsl:apply-templates/></p>
-  </xsl:template>
-  
-  <xsl:template match="tei:extent">
-    <p><xsl:apply-templates/></p>
-  </xsl:template>
-  
+
   <!-- vari -->
   
   <xsl:template match="tei:list">
@@ -193,7 +173,6 @@
   <xsl:template match="tei:item">
 	<il><xsl:value-of select="."/></il><br/>
   </xsl:template>
-
   
   <xsl:template match="tei:head">
     <h4><xsl:value-of select="."/></h4>
@@ -209,7 +188,7 @@
   
   <xsl:template match="tei:width"><xsl:value-of select="."/><xsl:value-of select="parent::tei:dimensions/@unit"/>.</xsl:template>
 
-  <xsl:template match="*[@ref]">
+  <xsl:template match="tei:placeName[@ref]">
     <xsl:choose>
       <xsl:when test="./descendant::tei:choice">
         <span class="tooltip_container">
