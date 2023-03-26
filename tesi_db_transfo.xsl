@@ -32,7 +32,7 @@
 				<xsl:for-each select="tei:supportDesc">
 				  <ol>
 				    <xsl:for-each select="./*">
-				      <il><xsl:value-of select="."/></il>
+				      <il><xsl:apply-templates/></il>
 				    </xsl:for-each>
 				  </ol>
 			    </xsl:for-each>
