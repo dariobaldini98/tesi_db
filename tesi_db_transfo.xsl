@@ -208,7 +208,7 @@
   
   <!-- senza formattazione -->
   
-  <xsl:template match="tei:quote | tei:postscript | tei:add | tei:subst | tei:roleName | tei:choice | tei:damage | tei:figure | tei:origin | tei:provenance | tei:acquisition | tei:measure">
+  <xsl:template match="tei:quote | tei:postscript | tei:add | tei:subst | tei:roleName | tei:choice | tei:damage | tei:figure | tei:origin | tei:provenance | tei:acquisition | tei:measure | tei:availability">
 	<xsl:apply-templates/>
   </xsl:template>
   

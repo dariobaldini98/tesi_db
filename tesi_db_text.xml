@@ -60,99 +60,55 @@
 		  <physDesc>
 		    <objectDesc form="notebook">
 			  <supportDesc>
-			    <support>
-				  <p><objectType>Quadernino</objectType> a quadretti di <material function="support">carta</material></p>
-				</support>
-				<extent>88 pagine
+			    <support><objectType>Quadernino</objectType> a quadretti di <material function="support">carta</material></support>
+				<extent>88 pagine 
 				  <dimensions type="leaves" unit="cm" scope="all">
 				    <height>20</height>
 				    <width>15</width>
 				  </dimensions>
 				</extent>
-				<collation>
-				  <p>Composto da un solo fascicolo.</p>
-				</collation>
-				<foliation resp="#DB">
-				  <p>I numeri di carta sono stati definiti da <persName ref="#DB"><forename>Dario</forename> <surname>Baldini</surname></persName>; non sono scritti sulle pagine del diario.</p>
-				</foliation>
-				<condition>
-				  <p>La prima e l'ultima carta sono staccate e abbastanza consumate, soprattutto negli angoli; il resto è in buone condizioni.</p>
-				</condition>
+				<collation>Composto da un solo fascicolo</collation>
+				<foliation resp="#DB">I numeri di carta sono stati definiti da <persName ref="#DB"><forename>Dario</forename> <surname>Baldini</surname></persName>; non sono scritti sulle pagine del diario</foliation>
+				<condition>La prima e l'ultima carta sono staccate e abbastanza consumate, soprattutto negli angoli; il resto è in buone condizioni</condition>
 			  </supportDesc>
 			  <layoutDesc>
-			    <layout columns="1" ruledLines="10 24">
-				  <p>Tra 10 e 24 linee su una colonna <locusGrp><locus from="1r" to="8v">da 1r a 8v</locus>, <locus>in 10r</locus> e <locus from="13v" to="19r">da 13v a 19r</locus></locusGrp>.</p>
-				</layout>
-				<layout columns="1" ruledLines="36 50">
-				  <p>Tra 36 e 50 linee su una colonna <locus from="10v" to="11r">in 10v e 11r</locus>.</p>
-				</layout>
-				<layout columns="2" ruledLines="36 50">
-				  <p>Tra 36 e 50 linee su due colonne <locusGrp><locus from="11v" to="13r">da 11v a 13r</locus>, <locus from="14v" to="15r">in 14v e 15r</locus>, <locus>in 19r</locus>, <locus from="21r" to="24v">da 21r a 24v</locus>, <locus from="26v" to="35v">da 26v a 35v</locus> e <locus from="37r" to="39v">da 37r a 39v</locus></locusGrp>.</p>
-				</layout>
-				<layout columns="1" writtenLines="11 23">
-				  <p>Tra 11 e 23 linee su una colonna in pagine senza quadretti <locusGrp><locus from="9r" to="9v">in 9r e 9v</locus> e <locus from="40v" to="44v">da 40v a 44v</locus></locusGrp>.</p>
-				</layout>
+			    <layout columns="1" ruledLines="10 24">Tra 10 e 24 linee su una colonna <locusGrp><locus from="1r" to="8v">da 1r a 8v</locus>, <locus>in 10r</locus> e <locus from="13v" to="19r">da 13v a 19r</locus></locusGrp></layout>
+				<layout columns="1" ruledLines="36 50">Tra 36 e 50 linee su una colonna <locus from="10v" to="11r">in 10v e 11r</locus></layout>
+				<layout columns="2" ruledLines="36 50">Tra 36 e 50 linee su due colonne <locusGrp><locus from="11v" to="13r">da 11v a 13r</locus>, <locus from="14v" to="15r">in 14v e 15r</locus>, <locus>in 19r</locus>, <locus from="21r" to="24v">da 21r a 24v</locus>, <locus from="26v" to="35v">da 26v a 35v</locus> e <locus from="37r" to="39v">da 37r a 39v</locus></locusGrp></layout>
+				<layout columns="1" writtenLines="11 23">Tra 11 e 23 linee su una colonna in pagine senza quadretti <locusGrp><locus from="9r" to="9v">in 9r e 9v</locus> e <locus from="40v" to="44v">da 40v a 44v</locus></locusGrp></layout>
 			  </layoutDesc>
 			</objectDesc>
 			<handDesc hands="2">
-	          <handNote xml:id="hand-PR" scribeRef="#PR" scriptRef="#script-it #script-ro" scope="major">
-			    <p>Le scritte originali di <persName ref="#PR"><forename>Pasquale</forename></persName> hanno forma corsiva <locusGrp><locus from="1r" to="8v">da 1r a 8v</locus>, <locus>in 10r</locus>, <locus from="13v" to="14r">da 13v a 14r</locus>, <locus from="15v" to="16r">da 15v a 16r</locus>, <locus from="16v" to="19r">da 16v a 19r</locus></locusGrp> e tonda <locusGrp><locus>in 19v</locus>, <locus from="21r" to="24v">da 21r a 24v</locus>, <locus from="25v" to="35v">da 25v a 35v</locus>, <locus from="16v" to="19r">da 37r a 40r</locus></locusGrp>.</p>
-			  </handNote>
-		      <handNote xml:id="hand-OR" scribeRef="#OR" scriptRef="#script-it" scope="minor">
-			    <p>Le scritte di <persName ref="#OR"><forename>Orombello</forename></persName> sono un'imitazione del corsivo del padre; presentano un tratto decisamente più impreciso.</p>
-			  </handNote>
+	          <handNote xml:id="hand-PR" scribeRef="#PR" scriptRef="#script-it #script-ro" scope="major">Le scritte originali di <persName ref="#PR"><forename>Pasquale</forename></persName> hanno forma corsiva <locusGrp><locus from="1r" to="8v">da 1r a 8v</locus>, <locus>in 10r</locus>, <locus from="13v" to="14r">da 13v a 14r</locus>, <locus from="15v" to="16r">da 15v a 16r</locus>, <locus from="16v" to="19r">da 16v a 19r</locus></locusGrp> e tonda <locusGrp><locus>in 19v</locus>, <locus from="21r" to="24v">da 21r a 24v</locus>, <locus from="25v" to="35v">da 25v a 35v</locus>, <locus from="16v" to="19r">da 37r a 40r</locus></locusGrp></handNote>
+		      <handNote xml:id="hand-OR" scribeRef="#OR" scriptRef="#script-it" scope="minor">Le scritte di <persName ref="#OR"><forename>Orombello</forename></persName> sono un'imitazione del corsivo del padre; presentano un tratto decisamente più impreciso</handNote>
 	        </handDesc>
 			<scriptDesc>
-			  <scriptNote xml:id="script-it" script="italic" medium="black-ink">
-			    <p>Corsivo in inchiostro nero.</p>
-			  </scriptNote>
-			  <scriptNote xml:id="script-ro" script="roman" medium="black-ink">
-			    <p>Tondo in inchiostro nero.</p>
-			  </scriptNote>
+			  <scriptNote xml:id="script-it" script="italic" medium="black-ink">Corsivo in inchiostro nero </scriptNote>
+			  <scriptNote xml:id="script-ro" script="roman" medium="black-ink">Tondo in inchiostro nero</scriptNote>
 			</scriptDesc>
 			<decoDesc>
-              <decoNote type="picture">
-                <p>Cinque disegni a tutta pagina in <locusGrp><locus from="20r" to="20v">20r, 20v</locus>, <locus>25r</locus>, <locus from="36r" to="36v">36r e 36v</locus></locusGrp>.</p>
-              </decoNote>
-			  <decoNote type="symbol">
-                <p>Due simboli che ricordano l'operatore matematico della somma diretta in <locus from="15v" to="16r">15v e 16r</locus>.</p>
-              </decoNote>
-			  <decoNote type="stamp">
-                <p>Riproduzione del timbro della <orgName type="phrase">Cassa di Risparmio di <placeName ref="https://goo.gl/maps/1HfqsgMUViANMPrM6"><settlement type="city">Viterbo</settlement></placeName></orgName> in <locus>10r</locus>; riproduzione della probabile etichetta identificativa di un documento giudiziario in <locus>39v</locus>.</p>
-              </decoNote>
+              <decoNote type="picture">Cinque disegni a tutta pagina in <locusGrp><locus from="20r" to="20v">20r, 20v</locus>, <locus>25r</locus>, <locus from="36r" to="36v">36r e 36v</locus></locusGrp></decoNote>
+			  <decoNote type="symbol">Due simboli che ricordano l'operatore matematico della somma diretta in <locus from="15v" to="16r">15v e 16r</locus></decoNote>
+			  <decoNote type="stamp">Riproduzione del timbro della <orgName type="phrase">Cassa di Risparmio di <placeName ref="https://goo.gl/maps/1HfqsgMUViANMPrM6"><settlement type="city">Viterbo</settlement></placeName></orgName> in <locus>10r</locus>; riproduzione della probabile etichetta identificativa di un documento giudiziario in <locus>39v</locus></decoNote>
 			</decoDesc>
-			<additions>
-			  <p>In <locusGrp><locus from="9r" to="9v">9r, 9v</locus> e <locus from="40r" to="44v">da 40r a 44v</locus></locusGrp> sono presenti scritte apportate successivamente da <persName xml:id="OR"><forename>Orombello</forename> <surname>Riccioni</surname></persName>, figlio di <persName ref="#PR"><forename>Pasquale</forename></persName>.</p>
-			</additions>
-			<accMat facs="https://iiif.archivelab.org/iiif/tesi_db_42r_geo_202205/full/full/0/default.jpg">
-			  <p><locus from="41v" to="42r">Tra 41v e 42r</locus> è stata trovata la copertina del libro <title type="short" level="m">Geografia Moderna Universale</title> di <author><persName><forename>Giuseppe R.</forename> <surname>Pagnozzi</surname></persName></author>.</p>
-			</accMat>
+			<additions>In <locusGrp><locus from="9r" to="9v">9r, 9v</locus> e <locus from="40r" to="44v">da 40r a 44v</locus></locusGrp> sono presenti scritte apportate successivamente da <persName xml:id="OR"><forename>Orombello</forename> <surname>Riccioni</surname></persName>, figlio di <persName ref="#PR"><forename>Pasquale</forename></persName></additions>
+			<accMat facs="https://iiif.archivelab.org/iiif/tesi_db_42r_geo_202205/full/full/0/default.jpg"><locus from="41v" to="42r">Tra 41v e 42r</locus> è stata trovata la copertina del libro <title type="short" level="m">Geografia Moderna Universale</title> di <author><persName><forename>Giuseppe R.</forename> <surname>Pagnozzi</surname></persName></author></accMat>
 		  </physDesc>
 		  <history>
-		    <origin notBefore="1901-03-31" notAfter="1903-07-26" evidence="internal" resp="#DB">
-		      <p>Scritto a <origPlace ref="https://goo.gl/maps/JcCWKqqVYcZrPAJh9">Civitavecchia</origPlace>, probabilmente <origDate notBefore="1901-03-31" notAfter="1903-07-26">tra il 31 marzo 1901 e il 26 luglio 1903</origDate>.</p>
-			</origin>
-			<provenance>
-			  <p>Conservato nella casa di famiglia, situata nella frazione di <placeName ref="https://goo.gl/maps/dCLTHw4R2txnSxbz7"><settlement type="town">La Quercia</settlement></placeName> (VT), in cui <persName ref="#PR"><forename>Pasquale</forename></persName> si è trasferito dopo il pensionamento.</p>
-			</provenance>
-			<acquisition notBefore="1980" notAfter="1989">
-			  <p>Trovato e recuperato negli <date notBefore="1980" notAfter="1989">anni Ottanta</date> dai nipoti <persName><forename>Luigi</forename></persName> e <persName><forename>Pasquale</forename></persName>.</p>
-			</acquisition>
+		    <origin notBefore="1901-03-31" notAfter="1903-07-26" evidence="internal" resp="#DB">Scritto a <origPlace ref="https://goo.gl/maps/JcCWKqqVYcZrPAJh9">Civitavecchia</origPlace>, probabilmente <origDate notBefore="1901-03-31" notAfter="1903-07-26">tra il 31 marzo 1901 e il 26 luglio 1903</origDate></origin>
+			<provenance>Conservato nella casa di famiglia, situata nella frazione di <placeName ref="https://goo.gl/maps/dCLTHw4R2txnSxbz7"><settlement type="town">La Quercia</settlement></placeName> (VT), in cui <persName ref="#PR"><forename>Pasquale</forename></persName> si è trasferito dopo il pensionamento</provenance>
+			<acquisition notBefore="1980" notAfter="1989">Trovato e recuperato negli <date notBefore="1980" notAfter="1989">anni Ottanta</date> dai nipoti <persName><forename>Luigi</forename></persName> e <persName><forename>Pasquale</forename></persName></acquisition>
 		  </history>
 		  <additional>
 		    <adminInfo>
 			  <recordHist>
-			    <source>
-				  <p>Catalogato direttamente dall'originale e con informazioni fornite dalla famiglia.</p>
-				</source>
+			    <source>Catalogato direttamente dall'originale e con informazioni fornite dalla famiglia</source>
 			  </recordHist>
 		      <availability status="restricted">
 			    <p>Conservato a casa del nipote <persName><forename>Luigi</forename></persName> nel paese di <placeName ref="https://goo.gl/maps/ZWPKuD1PkahzC5ar7"><settlement type="town">Bagnaia</settlement></placeName> (VT); per ora non è prevista la possibilità di consultarlo.</p>
 			  </availability>
 			  <custodialHist>
-			    <custEvent type="scan" when="2022-01-12">
-				  <p>Scannerizzato il <date when="2022-01-12">12 gennaio 2022</date>.</p>
-				</custEvent>
+			    <custEvent type="scan" when="2022-01-12">Scannerizzato il <date when="2022-01-12">12 gennaio 2022</date></custEvent>
 			  </custodialHist>
 			</adminInfo>
 		  </additional>
