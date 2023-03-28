@@ -215,7 +215,7 @@
   
   <!-- rimossi -->
   
-  <xsl:template match="tei:expan | tei:corr | tei:figDesc"/>
+  <xsl:template match="tei:expan | tei:corr | tei:figDesc | tei:segmentation"/>
 
   <!-- Tooltip -->
 
