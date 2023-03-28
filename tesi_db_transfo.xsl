@@ -31,91 +31,107 @@
 			    <h4>Caratteristiche del supporto:</h4>
 				<xsl:for-each select="tei:supportDesc">
 				  <ol>
-				    <xsl:for-each select="./*">
-				      <il><xsl:apply-templates/></il>
-				    </xsl:for-each>
+				    <xsl:for-each select="./*"><xsl:apply-templates/></xsl:for-each>
 				  </ol>
 			    </xsl:for-each>
 		      </div>
 			  <div class="meta_item">
 		   		<h4>Impaginazione:</h4>
-				<xsl:for-each select="tei:layoutDesc/tei:layout">
-				  <xsl:apply-templates/>
-				</xsl:for-each>
+				<ol>
+				  <xsl:for-each select="tei:layoutDesc/tei:layout">
+				    <xsl:apply-templates/>
+				  </xsl:for-each>
+				</ol>
 			  </div>
 			</xsl:for-each>
 			<div class="meta_item">
 			  <h4>Mani:</h4>
-			  <xsl:for-each select="tei:handDesc/tei:handNote">
-			    <xsl:apply-templates/>
-			  </xsl:for-each>
+			  <ol>
+			    <xsl:for-each select="tei:handDesc/tei:handNote">
+			      <xsl:apply-templates/>
+			    </xsl:for-each>
+			  </ol>
 			</div>
 			<div class="meta_item">
 			  <h4>Stili di scrittura:</h4>
-			  <xsl:for-each select="tei:scriptDesc/tei:scriptNote">
-			    <xsl:apply-templates/>
-			  </xsl:for-each>
+			  <ol>
+			    <xsl:for-each select="tei:scriptDesc/tei:scriptNote">
+			      <xsl:apply-templates/>
+			    </xsl:for-each>
+			  </ol>
 			</div>
 			<div class="meta_item">
 			  <h4>Elementi decorativi:</h4>
-			  <xsl:for-each select="tei:decoDesc/tei:decoNote">
-			    <xsl:apply-templates/>
-			  </xsl:for-each>
+			  <ol>
+			    <xsl:for-each select="tei:decoDesc/tei:decoNote">
+			      <xsl:apply-templates/>
+			    </xsl:for-each>
+			  </ol>
 			</div>
 			<div class="meta_item">
 			  <h4>Aggiunte successive:</h4>
-			  <xsl:for-each select="tei:additions">
-			    <xsl:apply-templates/>
-			  </xsl:for-each>
+			  <ol>
+			    <xsl:for-each select="tei:additions">
+			      <xsl:apply-templates/>
+			    </xsl:for-each>
+			  </ol>
 			</div>
 			<div class="meta_item">
 			  <h4>Materiale allegato:</h4>
-			  <xsl:for-each select="tei:accMat">
-			    <xsl:apply-templates/>
-			  </xsl:for-each>
+			  <ol>
+			    <xsl:for-each select="tei:accMat">
+			      <xsl:apply-templates/>
+			    </xsl:for-each>
+			  </ol>
 			</div>
 		  </xsl:for-each>
 	      <div class="meta_item">
 		    <h4>Storia:</h4>
-			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history">
-			  <xsl:apply-templates/>
-			</xsl:for-each>
+			<ol>
+			  <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history">
+			    <xsl:for-each select="./*"><xsl:apply-templates/></xsl:for-each>
+			  </xsl:for-each>
+			</ol>
 		  </div>
 	      <div class="meta_item">
 		    <h4>Informazioni amministrative:</h4>
-			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:additional/tei:adminInfo">
-			  <xsl:for-each select="tei:recordHist/tei:source">
-			    <xsl:apply-templates/>
+			<ol>
+			  <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:additional/tei:adminInfo">
+			    <xsl:for-each select="tei:recordHist/tei:source">
+			      <xsl:apply-templates/>
+			    </xsl:for-each>
+			    <xsl:for-each select="tei:availability">
+			      <xsl:apply-templates/>
+			    </xsl:for-each>
+			    <xsl:for-each select="tei:custodialHist/tei:custEvent">
+			      <xsl:apply-templates/>
+			    </xsl:for-each>
 			  </xsl:for-each>
-			  <xsl:for-each select="tei:availability">
-			    <xsl:apply-templates/>
-			  </xsl:for-each>
-			  <xsl:for-each select="tei:custodialHist/tei:custEvent">
-			    <xsl:apply-templates/>
-			  </xsl:for-each>
-			</xsl:for-each>
+			</ol>
 		  </div>
 	      <div class="meta_item">
 			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:editorialDecl">
 			  <h4>Pratiche editoriali:</h4>
-			  <xsl:for-each select="tei:correction">
-			    <xsl:apply-templates/>
-			  </xsl:for-each>
-			  <xsl:for-each select="tei:normalization">
-			    <xsl:apply-templates/>
-			  </xsl:for-each>
-			  <xsl:for-each select="tei:punctuation">
-			    <xsl:apply-templates/>
-			  </xsl:for-each>
-			  <xsl:for-each select="tei:quotation">
-			    <xsl:apply-templates/>
-			  </xsl:for-each>
-			  <xsl:for-each select="tei:hyphenation">
-			    <xsl:apply-templates/>
-			  </xsl:for-each>
-			  <xsl:for-each select="tei:interpretation">
-			    <xsl:apply-templates/>
-			  </xsl:for-each>
+			  <ol>
+			    <xsl:for-each select="tei:correction">
+			      <xsl:apply-templates/>
+			    </xsl:for-each>
+			    <xsl:for-each select="tei:normalization">
+			      <xsl:apply-templates/>
+			    </xsl:for-each>
+			    <xsl:for-each select="tei:punctuation">
+			      <xsl:apply-templates/>
+			    </xsl:for-each>
+			    <xsl:for-each select="tei:quotation">
+			      <xsl:apply-templates/>
+			    </xsl:for-each>
+			    <xsl:for-each select="tei:hyphenation">
+			      <xsl:apply-templates/>
+			    </xsl:for-each>
+			    <xsl:for-each select="tei:interpretation">
+			      <xsl:apply-templates/>
+			    </xsl:for-each>
+			  </ol>
 			</xsl:for-each>
 	      </div>
 		</div>
@@ -175,7 +191,11 @@
   </xsl:template>
   
   <xsl:template match="tei:item">
-	<il><xsl:value-of select="."/></il><br/>
+	<il><xsl:apply-templates/></il><br/>
+  </xsl:template>
+  
+  <xsl:template match="tei:support | tei:extent | tei:collation | tei:foliation | tei:condition | tei:layout | tei:handNote | tei:scriptNote | tei:decoNote | tei:additions | tei:accMat | tei:origin | tei:provenance | tei:acquisition tei:source | tei:custEvent">
+    <il><xsl:apply-templates/></il>.<br/>
   </xsl:template>
   
   <xsl:template match="tei:head">
@@ -208,7 +228,7 @@
   
   <!-- senza formattazione -->
   
-  <xsl:template match="tei:quote | tei:postscript | tei:add | tei:subst | tei:roleName | tei:choice | tei:damage | tei:figure | tei:origin | tei:provenance | tei:acquisition | tei:measure | tei:availability">
+  <xsl:template match="tei:quote | tei:postscript | tei:add | tei:subst | tei:roleName | tei:choice | tei:damage | tei:figure | tei:measure | tei:availability">
 	<xsl:apply-templates/>
   </xsl:template>
   
