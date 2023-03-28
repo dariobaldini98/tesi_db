@@ -72,7 +72,7 @@
 			  <h4>Aggiunte successive:</h4>
 			  <xsl:for-each select="tei:additions">
 			    <ol>
-			      <xsl:apply-templates/>
+			      <il><xsl:apply-templates/>.</il><br/>
 			    </ol>
 			  </xsl:for-each>
 			</div>
@@ -80,7 +80,7 @@
 			  <h4>Materiale allegato:</h4>
 			  <xsl:for-each select="tei:accMat">
 			    <ol>
-			      <xsl:apply-templates/>
+			      <il><xsl:apply-templates/>.</il><br/>
 			    </ol>
 			  </xsl:for-each>
 			</div>
@@ -169,8 +169,8 @@
 	<il><xsl:apply-templates/></il><br/>
   </xsl:template>
   
-  <xsl:template match="tei:support | tei:extent | tei:collation | tei:foliation | tei:condition | tei:layout | tei:handNote | tei:scriptNote | tei:decoNote | tei:additions | tei:accMat | tei:origin | tei:provenance | tei:acquisition | tei:source | tei:custEvent">
-    <il><xsl:apply-templates/></il>.<br/>
+  <xsl:template match="tei:support | tei:extent | tei:collation | tei:foliation | tei:condition | tei:layout | tei:handNote | tei:scriptNote | tei:decoNote | tei:origin | tei:provenance | tei:acquisition | tei:source | tei:custEvent">
+    <il><xsl:apply-templates/>.</il><br/>
   </xsl:template>
   
   <xsl:template match="tei:correction | tei:normalization | tei:punctuation | tei:quotation | tei:hyphenation | tei:interpretation">

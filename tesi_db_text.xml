@@ -83,7 +83,7 @@
 		      <handNote xml:id="hand-OR" scribeRef="#OR" scriptRef="#script-it" scope="minor">Le scritte di <persName ref="#OR"><forename>Orombello</forename></persName> sono un'imitazione del corsivo del padre; presentano un tratto decisamente più impreciso</handNote>
 	        </handDesc>
 			<scriptDesc>
-			  <scriptNote xml:id="script-it" script="italic" medium="black-ink">Corsivo in inchiostro nero </scriptNote>
+			  <scriptNote xml:id="script-it" script="italic" medium="black-ink">Corsivo in inchiostro nero</scriptNote>
 			  <scriptNote xml:id="script-ro" script="roman" medium="black-ink">Tondo in inchiostro nero</scriptNote>
 			</scriptDesc>
 			<decoDesc>
