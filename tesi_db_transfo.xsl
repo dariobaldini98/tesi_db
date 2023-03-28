@@ -208,51 +208,7 @@
   
   <!-- senza formattazione -->
   
-  <xsl:template match="tei:quote">
-	<xsl:apply-templates/>
-  </xsl:template>
-  
-  <xsl:template match="tei:postscript">
-	<xsl:apply-templates/>
-  </xsl:template>
-  
-  <xsl:template match="tei:add">
-	<xsl:apply-templates/>
-  </xsl:template>
-  
-  <xsl:template match="tei:subst">
-	<xsl:apply-templates/>
-  </xsl:template>
-  
-  <xsl:template match="tei:roleName">
-	<xsl:apply-templates/>
-  </xsl:template>
-  
-  <xsl:template match="tei:choice">
-	<xsl:apply-templates/>
-  </xsl:template>
-  
-  <xsl:template match="tei:damage">
-	<xsl:apply-templates/>
-  </xsl:template>
-  
-  <xsl:template match="tei:figure">
-	<xsl:apply-templates/>
-  </xsl:template>
-  
-  <xsl:template match="tei:origin">
-	<xsl:apply-templates/>
-  </xsl:template>
-  
-  <xsl:template match="tei:provenance">
-	<xsl:apply-templates/>
-  </xsl:template>
-  
-  <xsl:template match="tei:acquisition">
-	<xsl:apply-templates/>
-  </xsl:template>
-  
-  <xsl:template match="tei:measure">
+  <xsl:template match="tei:quote | tei:postscript | tei:add | tei:subst | tei:roleName | tei:choice | tei:damage | tei:figure | tei:origin | tei:provenance | tei:acquisition | tei:measure">
 	<xsl:apply-templates/>
   </xsl:template>
   
