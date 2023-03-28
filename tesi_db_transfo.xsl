@@ -31,106 +31,81 @@
 			    <h4>Caratteristiche del supporto:</h4>
 				<xsl:for-each select="tei:supportDesc">
 				  <ol>
-				    <xsl:for-each select="./*"><xsl:apply-templates/></xsl:for-each>
+				    <xsl:apply-templates/>
 				  </ol>
 			    </xsl:for-each>
 		      </div>
 			  <div class="meta_item">
 		   		<h4>Impaginazione:</h4>
-				<ol>
-				  <xsl:for-each select="tei:layoutDesc/tei:layout">
+				<xsl:for-each select="tei:layoutDesc">
+				  <ol>
 				    <xsl:apply-templates/>
-				  </xsl:for-each>
-				</ol>
+				  </ol>
+				</xsl:for-each>
 			  </div>
 			</xsl:for-each>
 			<div class="meta_item">
 			  <h4>Mani:</h4>
-			  <ol>
-			    <xsl:for-each select="tei:handDesc/tei:handNote">
+			  <xsl:for-each select="tei:handDesc">
+			    <ol>
 			      <xsl:apply-templates/>
-			    </xsl:for-each>
-			  </ol>
+			    </ol>
+			  </xsl:for-each>
 			</div>
 			<div class="meta_item">
 			  <h4>Stili di scrittura:</h4>
-			  <ol>
-			    <xsl:for-each select="tei:scriptDesc/tei:scriptNote">
+			  <xsl:for-each select="tei:scriptDesc">
+			    <ol>
 			      <xsl:apply-templates/>
-			    </xsl:for-each>
-			  </ol>
+			    </ol>
+			  </xsl:for-each>
 			</div>
 			<div class="meta_item">
 			  <h4>Elementi decorativi:</h4>
-			  <ol>
-			    <xsl:for-each select="tei:decoDesc/tei:decoNote">
+			  <xsl:for-each select="tei:decoDesc">
+			    <ol>
 			      <xsl:apply-templates/>
-			    </xsl:for-each>
-			  </ol>
+			    </ol>
+			  </xsl:for-each>
 			</div>
 			<div class="meta_item">
 			  <h4>Aggiunte successive:</h4>
-			  <ol>
-			    <xsl:for-each select="tei:additions">
+			  <xsl:for-each select="tei:additions">
+			    <ol>
 			      <xsl:apply-templates/>
-			    </xsl:for-each>
-			  </ol>
+			    </ol>
+			  </xsl:for-each>
 			</div>
 			<div class="meta_item">
 			  <h4>Materiale allegato:</h4>
-			  <ol>
-			    <xsl:for-each select="tei:accMat">
+			  <xsl:for-each select="tei:accMat">
+			    <ol>
 			      <xsl:apply-templates/>
-			    </xsl:for-each>
-			  </ol>
+			    </ol>
+			  </xsl:for-each>
 			</div>
 		  </xsl:for-each>
 	      <div class="meta_item">
 		    <h4>Storia:</h4>
-			<ol>
-			  <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history">
-			    <xsl:for-each select="./*"><xsl:apply-templates/></xsl:for-each>
-			  </xsl:for-each>
-			</ol>
+			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history">
+			  <ol>
+			    <xsl:apply-templates/>
+			  </ol>
+			</xsl:for-each>
 		  </div>
 	      <div class="meta_item">
 		    <h4>Informazioni amministrative:</h4>
-			<ol>
-			  <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:additional/tei:adminInfo">
-			    <xsl:for-each select="tei:recordHist/tei:source">
-			      <xsl:apply-templates/>
-			    </xsl:for-each>
-			    <xsl:for-each select="tei:availability">
-			      <xsl:apply-templates/>
-			    </xsl:for-each>
-			    <xsl:for-each select="tei:custodialHist/tei:custEvent">
-			      <xsl:apply-templates/>
-			    </xsl:for-each>
-			  </xsl:for-each>
-			</ol>
+			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:additional/tei:adminInfo">
+			  <ol>
+			    <xsl:apply-templates/>
+			  </ol>
+			</xsl:for-each>
 		  </div>
 	      <div class="meta_item">
+		    <h4>Pratiche editoriali:</h4>
 			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:editorialDecl">
-			  <h4>Pratiche editoriali:</h4>
 			  <ol>
-			    <xsl:for-each select="tei:correction">
-			      <xsl:apply-templates/>
-			    </xsl:for-each>
-			    <xsl:for-each select="tei:normalization">
-			      <xsl:apply-templates/>
-			    </xsl:for-each>
-			    <xsl:for-each select="tei:punctuation">
-			      <xsl:apply-templates/>
-			    </xsl:for-each>
-			    <xsl:for-each select="tei:quotation">
-			      <xsl:apply-templates/>
-			    </xsl:for-each>
-			    <xsl:for-each select="tei:hyphenation">
-			      <xsl:apply-templates/>
-			    </xsl:for-each>
-			    <xsl:for-each select="tei:interpretation">
-			      <xsl:apply-templates/>
-			    </xsl:for-each>
+			    <xsl:apply-templates/>
 			  </ol>
 			</xsl:for-each>
 	      </div>
@@ -182,7 +157,7 @@
     <p><xsl:apply-templates/></p>
   </xsl:template>
 
-  <!-- vari -->
+  <!-- liste -->
   
   <xsl:template match="tei:list">
 	<ol>
@@ -194,9 +169,15 @@
 	<il><xsl:apply-templates/></il><br/>
   </xsl:template>
   
-  <xsl:template match="tei:support | tei:extent | tei:collation | tei:foliation | tei:condition | tei:layout | tei:handNote | tei:scriptNote | tei:decoNote | tei:additions | tei:accMat | tei:origin | tei:provenance | tei:acquisition tei:source | tei:custEvent">
+  <xsl:template match="tei:support | tei:extent | tei:collation | tei:foliation | tei:condition | tei:layout | tei:handNote | tei:scriptNote | tei:decoNote | tei:additions | tei:accMat | tei:origin | tei:provenance | tei:acquisition | tei:source | tei:custEvent">
     <il><xsl:apply-templates/></il>.<br/>
   </xsl:template>
+  
+  <xsl:template match="tei:correction | tei:normalization | tei:punctuation | tei:quotation | tei:hyphenation | tei:interpretation">
+    <il><xsl:value-of select="."/></il><br/>
+  </xsl:template>
+  
+  <!-- vari -->
   
   <xsl:template match="tei:head">
     <h4><xsl:value-of select="."/></h4>
@@ -226,7 +207,7 @@
     </xsl:choose>
   </xsl:template>
   
-  <!-- senza formattazione -->
+  <!-- solo contenitori -->
   
   <xsl:template match="tei:quote | tei:postscript | tei:add | tei:subst | tei:roleName | tei:choice | tei:damage | tei:figure | tei:measure | tei:availability">
 	<xsl:apply-templates/>
