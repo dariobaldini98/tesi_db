@@ -5,7 +5,6 @@ var nav = false;
 
 function open_sidebar() {
   document.getElementById("meta_sidebar").style.width = "40%";
-  document.getElementById("content").style.marginLeft = "40%";
   nav = true;
 }
 
@@ -13,7 +12,6 @@ function open_sidebar() {
 
 function close_sidebar() {
   document.getElementById("meta_sidebar").style.width = "0";
-  document.getElementById("content").style.marginLeft = "0";
   nav = false;
 }
 
