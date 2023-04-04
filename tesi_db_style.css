@@ -30,6 +30,9 @@ p {
 .center {
 	text-align: center;
 }
+.right {
+	text-align: right;
+}
 div.licence {
 	position: fixed;
     bottom: 1%;
@@ -106,8 +109,11 @@ div.flex_container > a {
 div.flex_container img:hover {
     opacity: 0.5;
 }
-img.EasyReading {
-	border: 3px solid #b1b4b5;
+#EasyReading_banner {
+	position: relative;
+	right: 0;	
+	margin-left: 30%;
+	background-color: #fcfeff;
 }
 
 /* Trascrizione */
