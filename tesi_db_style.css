@@ -114,6 +114,7 @@ div.flex_container img:hover {
 	right: 0;	
 	margin-left: 30%;
 	background-color: #fcfeff;
+	border-radius: 90px 0px 0px 90px;
 }
 
 /* Trascrizione */
