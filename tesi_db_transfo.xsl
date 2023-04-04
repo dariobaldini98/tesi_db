@@ -23,7 +23,7 @@
 		</a>
 		<div id="meta_sidebar" class="sidebar">
 		  <div class="meta_item">
-		      <p><b>Autore</b>: <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:author/tei:persName"/></p>
+		    <p><b>Autore</b>: <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:author/tei:persName"/></p>
 		  </div>
 		  <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc">
 			<xsl:for-each select="tei:objectDesc">
