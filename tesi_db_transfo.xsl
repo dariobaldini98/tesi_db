@@ -110,16 +110,14 @@
 			</xsl:for-each>
 	      </div>
 		</div>
-		<div id="content">
-		  <div class="titles">
-	        <h1><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
-		    <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt">
-		      <h3><xsl:value-of select="tei:resp"/></h3>
-		      <h2><xsl:value-of select="tei:persName"/></h2>
-		    </xsl:for-each>
-		  </div>
-		  <xsl:apply-templates select="tei:TEI/tei:text/tei:body/tei:div[@type='entry']"/>
+		<div class="titles">
+	      <h1><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
+		  <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt">
+		    <h3><xsl:value-of select="tei:resp"/></h3>
+		    <h2><xsl:value-of select="tei:persName"/></h2>
+		  </xsl:for-each>
 		</div>
+		<xsl:apply-templates select="tei:TEI/tei:text/tei:body/tei:div[@type='entry']"/>
 		<script src="tesi_db_script.js"></script>
 	  </body>
 	</html>

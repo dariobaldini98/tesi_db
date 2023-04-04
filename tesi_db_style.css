@@ -267,9 +267,6 @@ div.entry ol {
 .sidebar_button > img:hover {
     opacity: 0.5;
 }
-div.content {
-    transition: margin-left .5s; /* If you want a transition effect */
-}
 div.meta_item {
 	margin: 1.5% 0;
 	padding: 3%;
