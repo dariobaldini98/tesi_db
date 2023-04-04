@@ -115,6 +115,11 @@ div.flex_container img:hover {
 	margin-left: 30%;
 	background-color: #fcfeff;
 	border-radius: 90px 0px 0px 90px;
+	font-size: 26px;
+	border: 2px inset black;
+}
+#EasyReading_banner > img {
+	float: right;
 }
 
 /* Trascrizione */
