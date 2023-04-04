@@ -257,9 +257,9 @@ div.entry ol {
 /* Sidebar */
 
 .sidebar {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
+    height: 100%;
+    width: 0;
+    position: fixed;
     top: 0;
     left: 0;
 	z-index: 1;
@@ -267,8 +267,21 @@ div.entry ol {
     background-color: #100c08;
 	color: white;
 	font-size: 22px;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.sidebar a:link {
+    color: white;
+}
+.sidebar a:visited {
+    color: white;
+}
+.sidebar a:hover {
+    color: white;
+    opacity: 0.5;
+}
+.sidebar a:active {
+    color: white;
 }
 .sidebar_button {
     cursor: pointer;
@@ -281,7 +294,7 @@ div.entry ol {
     opacity: 0.5;
 }
 div.meta_item {
-	margin: 1.5% 0;
+	margin: 1% 0;
 	padding: 3%;
 }
 div.meta_item:first-of-type {
