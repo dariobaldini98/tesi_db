@@ -105,6 +105,7 @@ div.flex_container img:hover {
 	position: relative;
 	left: 0;
 	height: auto;
+	overflow: auto;
 	margin: 1.5% 33% 0% 0%;
 	background-color: #fcfeff;
 	border-radius: 0px 90px 90px 0px;
