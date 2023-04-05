@@ -1,8 +1,8 @@
 
 var nav = false;
 
-function open_sidebar(x) {
-  if (x.matches) {
+function open_sidebar() {
+  if (window.matchMedia("(max-width: 480px)")) {
     document.getElementById("meta_sidebar").style.width = "95%";
   } else {
     document.getElementById("meta_sidebar").style.width = "40%";
@@ -16,8 +16,5 @@ function close_sidebar() {
 }
 
 function toggle_sidebar() {
-  nav ? close_sidebar() : open_sidebar(x);
+  nav ? close_sidebar() : open_sidebar();
 }
-
-var x = window.matchMedia("(max-width: 480px)")
-open_sidebar(x);
