@@ -1,5 +1,5 @@
 
-var nav = true;
+var nav = false;
 
 function open_sidebar(x) {
   if (x.matches) {
@@ -20,5 +20,4 @@ function toggle_sidebar() {
 }
 
 var x = window.matchMedia("(max-width: 480px)")
-open_sidebar(x)
-x.addListener(open_sidebar)
+open_sidebar(x);
