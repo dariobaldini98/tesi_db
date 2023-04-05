@@ -1,8 +1,10 @@
 
 var nav = false;
 
-function open_sidebar() {
-  if (window.matchMedia("(max-width: 480px)")) {
+const small_screen = window.matchMedia("(max-width: 480px)")
+
+function open_sidebar(small_screen) {
+  if (small_screen.matches) {
     document.getElementById("meta_sidebar").style.width = "95%";
   } else {
     document.getElementById("meta_sidebar").style.width = "40%";
