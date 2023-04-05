@@ -1,5 +1,5 @@
 
-var nav = false;
+var nav = true;
 
 function open_sidebar(x) {
   if (x.matches) {
