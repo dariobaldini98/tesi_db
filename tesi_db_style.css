@@ -205,7 +205,7 @@ div.entry ol {
 	.tooltip_container .tooltip_text {
 	    font-size: 18px;
     }
-	div.entry img {
+	div.entry img, #EasyReading_banner img {
         transform: scale(-65%);
     }
 }
@@ -218,7 +218,7 @@ div.entry ol {
 	.tooltip_container .tooltip_text {
 	    font-size: 19px;
     }
-	div.entry img {
+	div.entry img, #EasyReading_banner img {
         transform: scale(-44%);
     }
 }
@@ -231,7 +231,7 @@ div.entry ol {
 	.tooltip_container .tooltip_text {
 	    font-size: 20px;
     }
-	div.entry img {
+	div.entry img, #EasyReading_banner img {
         transform: scale(-25%);
     }
 }
@@ -244,7 +244,7 @@ div.entry ol {
 	.tooltip_container .tooltip_text {
 	    font-size: 21px;
     }
-	div.entry img {
+	div.entry img, #EasyReading_banner img {
         transform: scale(-22%);
     }
 }
