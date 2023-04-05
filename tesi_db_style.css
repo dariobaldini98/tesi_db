@@ -104,6 +104,8 @@ div.flex_container img:hover {
 #EasyReading_banner {
 	position: relative;
 	left: 0;
+	height: auto;
+	width: auto;
 	overflow: auto;
 	margin-top: 1.5%;
 	background-color: #fcfeff;
