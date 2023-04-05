@@ -131,7 +131,7 @@
   
   <!-- p -->
   
-  <xsl:template match="tei:p | tei:ab | tei:salute | tei:dateline | tei:signed | tei:extent">
+  <xsl:template match="tei:p | tei:ab | tei:salute | tei:dateline | tei:signed">
     <p><xsl:apply-templates/></p>
   </xsl:template>
   
@@ -169,7 +169,7 @@
   
   <xsl:template match="tei:height"><xsl:value-of select="."/><xsl:value-of select="parent::tei:dimensions/@unit"/> x </xsl:template>
   
-  <xsl:template match="tei:width"><xsl:value-of select="."/><xsl:value-of select="parent::tei:dimensions/@unit"/>.</xsl:template>
+  <xsl:template match="tei:width"><xsl:value-of select="."/><xsl:value-of select="parent::tei:dimensions/@unit"/></xsl:template>
 
   <xsl:template match="tei:placeName[@ref]">
     <xsl:choose>
