@@ -287,10 +287,11 @@ div.entry ol {
     left: 1%;
 }
 .sidebar_button_close {
-    position: fixed;
+    position: absolute;
     top: 1%;
     right: 1%;
     font-size: 36px;
+	color: black;
 }
 .sidebar_button_open > img:hover {
     opacity: 0.5;
