@@ -280,14 +280,19 @@ div.entry ol {
 .sidebar a:active {
     color: white;
 }
-.sidebar_button {
+.sidebar_button_open {
     cursor: pointer;
     position: fixed;
     top: 1%;
     left: 1%;
-	z-index: 2;
 }
-.sidebar_button > img:hover {
+.sidebar_button_close {
+    position: fixed;
+    top: 1%;
+    right: 1%;
+    font-size: 36px;
+}
+.sidebar_button_open > img:hover {
     opacity: 0.5;
 }
 div.meta_item {

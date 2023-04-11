@@ -18,11 +18,12 @@
 	        <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
 	      </a>
 	    </div>
-		<a class="sidebar_button" onclick="toggle_sidebar()">
+		<a class="sidebar_button_open" onclick="open_sidebar(small_screen)">
 		  <img alt="Descriptive metadata" src="img/info_icon.png" width="45" height="45"/>
 		</a>
 		<div id="meta_sidebar" class="sidebar">
 		  <div class="meta_item">
+		    <a href="javascript:void(0)" class="sidebar_button_close" onclick="close_sidebar()">&#128473;</a>
 		    <p><b>Autore</b>: <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:author/tei:persName"/></p>
 		  </div>
 		  <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc">
