@@ -18,7 +18,7 @@
 	        <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
 	      </a>
 	    </div>
-		<a class="sidebar_button_open" onclick="open_sidebar(small_screen)">
+		<a class="sidebar_button_open" onclick="open_sidebar()">
 		  <img alt="Descriptive metadata" src="img/info_icon.png" width="45" height="45"/>
 		</a>
 		<div id="meta_sidebar" class="sidebar">
