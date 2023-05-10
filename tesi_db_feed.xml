@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Riccioni's Legacy</title>
+    <link>https://dariobaldini98.github.io/tesi_db/tesi_db_homepage.html</link>
+    <description>Digitalizzazione di un diario manoscritto di inizio Novecento</description>
+	<category>Digital Humanities</category>
+	<copyright>Pubblicato su licenza CC BY-NC-ND 4.0</copyright>
+	<language>it</language>
+	<pubDate>Wed, 10 May 2023 19:00:00 GMT</pubDate>
+	<lastBuildDate>Wed, 10 May 2023 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Pubblicato il feed di Riccioni's Legacy</title>
+      <link>https://dariobaldini98.github.io/tesi_db/tesi_db_feed.xml</link>
+      <description>Puoi finalmente ricevere tutti gli aggiornamenti del progetto direttamente sul tuo aggregatore di feed preferito!</description>
+	  <author>baldini.dario98@gmail.com</author>
+	  <pubDate>Wed, 10 May 2023 19:00:00 GMT</pubDate>
+	  <source url="https://dariobaldini98.github.io/tesi_db/tesi_db_homepage.html">Riccioni's Legacy</source>
+    </item>
+  </channel>
+</rss>
