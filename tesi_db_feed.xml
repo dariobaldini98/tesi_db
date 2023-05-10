@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Riccioni's Legacy</title>
     <link>https://dariobaldini98.github.io/tesi_db/tesi_db_homepage.html</link>
@@ -13,9 +13,11 @@
       <title>Pubblicato il feed di Riccioni's Legacy</title>
       <link>https://dariobaldini98.github.io/tesi_db/tesi_db_feed.xml</link>
       <description>Puoi finalmente ricevere tutti gli aggiornamenti del progetto direttamente sul tuo aggregatore di feed preferito!</description>
-	  <author>baldini.dario98@gmail.com</author>
+	  <guid>https://dariobaldini98.github.io/tesi_db/tesi_db_feed/news_1</guid>
+	  <author>baldini.dario98@gmail.com (Dario Baldini)</author>
 	  <pubDate>Wed, 10 May 2023 19:00:00 GMT</pubDate>
 	  <source url="https://dariobaldini98.github.io/tesi_db/tesi_db_homepage.html">Riccioni's Legacy</source>
     </item>
+	<atom:link href="https://dariobaldini98.github.io/tesi_db/tesi_db_feed.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
