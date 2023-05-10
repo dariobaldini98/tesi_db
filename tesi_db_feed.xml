@@ -9,6 +9,7 @@
 	<language>it</language>
 	<pubDate>Wed, 10 May 2023 19:00:00 GMT</pubDate>
 	<lastBuildDate>Wed, 10 May 2023 19:00:00 GMT</lastBuildDate>
+	<atom:link href="https://dariobaldini98.github.io/tesi_db/tesi_db_feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pubblicato il feed di Riccioni's Legacy</title>
       <link>https://dariobaldini98.github.io/tesi_db/tesi_db_feed.xml</link>
@@ -18,6 +19,5 @@
 	  <pubDate>Wed, 10 May 2023 19:00:00 GMT</pubDate>
 	  <source url="https://dariobaldini98.github.io/tesi_db/tesi_db_homepage.html">Riccioni's Legacy</source>
     </item>
-	<atom:link href="https://dariobaldini98.github.io/tesi_db/tesi_db_feed.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
