@@ -24,11 +24,11 @@ The project comprises the following parts:
 I'll keep working at this project partly as a pastime and partly to hone my coding skills. However, it is now open for cooperation, so feel free to suggest any improvement, or even ask for access to the documents.  
 
 Below there are some feature I'd like to implement:  
-- [ ] https://github.com/dariobaldini98/tesi_db/issues/1;  
-- [ ] https://github.com/dariobaldini98/tesi_db/issues/2;  
-- [x] https://github.com/dariobaldini98/tesi_db/issues/3;  
-- [x] https://github.com/dariobaldini98/tesi_db/issues/4;  
-- [x] https://github.com/dariobaldini98/tesi_db/issues/5;  
-- [x] https://github.com/dariobaldini98/tesi_db/issues/6;  
+- [ ] [Complete transcription and encoding of the text](https://github.com/dariobaldini98/tesi_db/issues/1);  
+- [ ] [Annotate peculiar textual features in the manifest](https://github.com/dariobaldini98/tesi_db/issues/2);  
+- [x] [Add semantic metadata](https://github.com/dariobaldini98/tesi_db/issues/3);  
+- [x] [Add sidebar to show header metadata in the transcription page](https://github.com/dariobaldini98/tesi_db/issues/4);  
+- [x] [Add sitemap](https://github.com/dariobaldini98/tesi_db/issues/5);  
+- [x] [Add RSS feed](https://github.com/dariobaldini98/tesi_db/issues/6);  
 
 ![CC BY-NC-ND 4.0](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png) This project is licensed under a [CC BY-NC-ND 4.0 International Licence](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en)
