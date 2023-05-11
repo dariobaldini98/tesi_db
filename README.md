@@ -21,7 +21,14 @@ The project comprises the following parts:
 ### The website is online at the following [link](https://dariobaldini98.github.io/tesi_db/tesi_db_homepage.html)!  
 
 ## :confetti_ball::tada: Latest News: I graduated! :tada::confetti_ball:  
-The project is now available for collaborative development: feel free to ask for access if you wanna suggest any change or improvement, and don't forget that there are still 69 pages left to complete the transcription...  
+I'll keep working at this project partly as a pastime and partly to hone my coding skills. However, it is now open for cooperation, so feel free to suggest any improvement, or even ask for access to the documents.  
 
+Below there are some feature I'd like to implement:  
+- [ ] #1  
+- [ ] #2  
+- [x] #3  
+- [x] #4  
+- [x] #5  
+- [x] #6  
 
 ![CC BY-NC-ND 4.0](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png) This project is licensed under a [CC BY-NC-ND 4.0 International Licence](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en)
