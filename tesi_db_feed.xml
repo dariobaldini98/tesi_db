@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Riccioni's Legacy</title>
-    <link>https://dariobaldini98.github.io/tesi_db/tesi_db_homepage.html</link>
+    <link>https://dariobaldini98.github.io/tesi_db/tesi_db_feed.xml</link>
     <description>Digitalizzazione di un diario manoscritto di inizio Novecento</description>
 	<category>Digital Humanities</category>
 	<copyright>Pubblicato su licenza CC BY-NC-ND 4.0</copyright>
