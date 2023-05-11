@@ -24,11 +24,11 @@ The project comprises the following parts:
 I'll keep working at this project partly as a pastime and partly to hone my coding skills. However, it is now open for cooperation, so feel free to suggest any improvement, or even ask for access to the documents.  
 
 Below there are some feature I'd like to implement:  
-- [ ] #1  
-- [ ] #2  
-- [x] #3  
-- [x] #4  
-- [x] #5  
-- [x] #6  
+- [ ] https://github.com/dariobaldini98/tesi_db/issues/1;  
+- [ ] #2;  
+- [x] #3;  
+- [x] #4;  
+- [x] #5;  
+- [x] #6;  
 
 ![CC BY-NC-ND 4.0](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png) This project is licensed under a [CC BY-NC-ND 4.0 International Licence](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en)
