@@ -14,6 +14,8 @@
       <url>https://iiif.archivelab.org/iiif/tesi_db_20r/474,959,122,137/full/0/default.jpg</url>
       <title>Riccioni's Legacy</title>
       <link>https://dariobaldini98.github.io/tesi_db/tesi_db_feed.xml</link>
+	  <width>122</width>
+	  <height>137</height>
     </image>
 	<item>
       <title>Aggiunta icona al feed di Riccioni's Legacy</title>
