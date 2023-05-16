@@ -140,12 +140,12 @@ h4 {
 div.entry h4 {
 	font-weight: normal;
 }
-div.entry ol {
+div.entry ul {
 	list-style-type: none;
 	padding-left: 0;
 	margin: 0.8% 0%;
 }
-div.meta_item ol {
+div.meta_item ul {
 	padding-left: 3%;
 }
 .overstrike {
