@@ -3,7 +3,7 @@
   <xsl:template match="/">
     <html lang="it">
 	  <head>
-        <title lang="en">Riccioni's Legacy</title>
+        <title lang="en">Trascrizione TEI - Riccioni's Legacy</title>
         <link rel="icon" href="https://iiif.archivelab.org/iiif/tesi_db_20r/474,959,122,137/full/0/default.jpg"/>
         <link rel="stylesheet" href="tesi_db_style.css"/>
         <meta charset="utf-8"/>
