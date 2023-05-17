@@ -102,21 +102,16 @@ div.flex_container img:hover {
     opacity: 0.5;
 }
 #EasyReading_banner {
-	position: relative;
-	left: 0;
-	height: auto;
-	width: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
 	overflow: auto;
-	margin-top: 1.5%;
+	margin-top: 2%;
 	background-color: #fcfeff;
-	border-radius: 0px 90px 90px 0px;
-	font-size: 24px;
-	border-width: 1px;
-	border-style: solid solid solid none;
-	border-color: black;
-}
-#EasyReading_banner img {
-	float: left;
+	border-radius: 15px;
+	padding: 3%;
+	border: 2px inset black;
 }
 
 /* Trascrizione */
@@ -209,8 +204,12 @@ div.meta_item ul {
 	.tooltip_container .tooltip_text {
 	    font-size: 18px;
     }
-	div.entry img, #EasyReading_banner img {
+	div.entry img {
         transform: scale(-65%);
+		transform: rotateX(180deg);
+    }
+	#EasyReading_banner img {
+        transform: rotateX(180deg);
     }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -222,8 +221,12 @@ div.meta_item ul {
 	.tooltip_container .tooltip_text {
 	    font-size: 19px;
     }
-	div.entry img, #EasyReading_banner img {
+	div.entry img {
         transform: scale(-44%);
+		transform: rotateX(180deg);
+    }
+	#EasyReading_banner img {
+        transform: rotateX(180deg);
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -235,8 +238,12 @@ div.meta_item ul {
 	.tooltip_container .tooltip_text {
 	    font-size: 20px;
     }
-	div.entry img, #EasyReading_banner img {
+	div.entry img {
         transform: scale(-25%);
+		transform: rotateX(180deg);
+    }
+	#EasyReading_banner img {
+        transform: rotateX(180deg);
     }
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
@@ -248,8 +255,12 @@ div.meta_item ul {
 	.tooltip_container .tooltip_text {
 	    font-size: 21px;
     }
-	div.entry img, #EasyReading_banner img {
+	div.entry img {
         transform: scale(-22%);
+		transform: rotateX(180deg);
+    }
+	#EasyReading_banner img {
+        transform: rotateX(180deg);
     }
 }
 
