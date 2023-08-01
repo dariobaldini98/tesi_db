@@ -13,5 +13,5 @@ function open_sidebar() {
 }
 
 function close_sidebar() {
-  document.getElementById("sidebar").style.width = "0";
+  sidebar.style.width = "0";
 }
