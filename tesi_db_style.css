@@ -271,7 +271,6 @@ div.meta_item ul {
     width: 0;
     position: fixed;
     top: 0;
-    left: 0;
 	z-index: 1;
 	border-radius: 0px 15px 15px 0px;
     background-color: #100c08;
@@ -279,6 +278,12 @@ div.meta_item ul {
 	font-size: 22px;
     overflow-x: hidden;
     transition: 0.5s;
+}
+#meta_sidebar {
+	left: 0;
+}
+#settings_sidebar  {
+	right: 0;
 }
 .sidebar a:link {
     color: white;
