@@ -1,8 +1,10 @@
 
 const sidebar = document.querySelectorAll(".sidebar");
 
-document.getElementById("sidebar_button_open").addEventListener("click", open_sidebar);
-document.getElementById("sidebar_button_close").addEventListener("click", close_sidebar);
+window.onload = () =>  {
+  document.getElementById("sidebar_button_open").addEventListener("click", open_sidebar);
+  document.getElementById("sidebar_button_close").addEventListener("click", close_sidebar);
+}
 
 function open_sidebar() {
   if (window.matchMedia("(max-width: 480px)").matches) {
