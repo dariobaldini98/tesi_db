@@ -266,8 +266,8 @@ div.meta_item ul {
 
 /* Sidebar */
 
-.sidebar {
-    height: 100%;
+#meta_sidebar {
+	height: 100%;
     width: 0;
     position: fixed;
     top: 0;
@@ -278,8 +278,6 @@ div.meta_item ul {
 	font-size: 22px;
     overflow-x: hidden;
     transition: 0.5s;
-}
-#meta_sidebar {
 	left: 0;
 }
 #settings_sidebar  {

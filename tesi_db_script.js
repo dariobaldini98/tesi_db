@@ -1,5 +1,5 @@
 
-let sidebar = document.querySelectorAll(".sidebar");
+const meta_sidebar = document.getElementById("meta_sidebar");
 const sidebar_button_open = document.getElementById("sidebar_button_open");
 const sidebar_button_close = document.getElementById("sidebar_button_close");
 
@@ -10,12 +10,12 @@ window.onload = () => {
 
 function open_sidebar() {
   if (window.matchMedia("(max-width: 480px)").matches) {
-    sidebar.style.width = "95%";
+    meta_sidebar.style.width = "95%";
   } else {
-    sidebar.style.width = "40%";
+    meta_sidebar.style.width = "40%";
   };
 }
 
 function close_sidebar() {
-  sidebar.style.width = "0";
+  meta_sidebar.style.width = "0";
 }
