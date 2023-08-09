@@ -140,7 +140,7 @@ div.entry ul {
 	padding-left: 0;
 	margin: 0.8% 0%;
 }
-div.meta_item ul {
+div.sidebar_item ul {
 	padding-left: 3%;
 }
 .overstrike {
@@ -266,7 +266,7 @@ div.meta_item ul {
 
 /* Sidebar */
 
-#meta_sidebar {
+.sidebar {
 	height: 100%;
     width: 0;
     position: fixed;
@@ -278,6 +278,8 @@ div.meta_item ul {
 	font-size: 22px;
     overflow-x: hidden;
     transition: 0.5s;
+}
+#meta_sidebar {
 	left: 0;
 }
 #settings_sidebar  {
@@ -296,26 +298,27 @@ div.meta_item ul {
 .sidebar a:active {
     color: white;
 }
-#sidebar_button_open {
+#open_meta_sidebar {
     cursor: pointer;
     position: fixed;
     top: 1%;
     left: 1%;
 }
-#sidebar_button_close {
+#close_meta_sidebar {
+	cursor: pointer;
     position: absolute;
     top: 1%;
     right: 1%;
     font-size: 36px;
-	color: black;
+	color: white;
 }
-.sidebar_button_open > img:hover {
+.sidebar_button {
     opacity: 0.5;
 }
-div.meta_item {
+div.sidebar_item {
 	margin: 1% 0;
 	padding: 3%;
 }
-div.meta_item:first-of-type {
+div.sidebar_item:first-of-type {
 	margin-top: 50px;
 }

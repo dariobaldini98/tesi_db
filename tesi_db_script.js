@@ -1,14 +1,14 @@
 
 const meta_sidebar = document.getElementById("meta_sidebar");
-const sidebar_button_open = document.getElementById("sidebar_button_open");
-const sidebar_button_close = document.getElementById("sidebar_button_close");
+const open_meta_sidebar = document.getElementById("open_meta_sidebar");
+const close_meta_sidebar = document.getElementById("close_meta_sidebar");
 
 window.onload = () => {
-  sidebar_button_open.addEventListener("click", open_sidebar);
-  sidebar_button_close.addEventListener("click", close_sidebar);
+  open_meta_sidebar.addEventListener("click", expand_meta_sidebar);
+  close_meta_sidebar.addEventListener("click", collapse_meta_sidebar);
 }
 
-function open_sidebar() {
+function expand_meta_sidebar() {
   if (window.matchMedia("(max-width: 480px)").matches) {
     meta_sidebar.style.width = "95%";
   } else {
@@ -16,6 +16,6 @@ function open_sidebar() {
   };
 }
 
-function close_sidebar() {
+function collapse_meta_sidebar() {
   meta_sidebar.style.width = "0";
 }

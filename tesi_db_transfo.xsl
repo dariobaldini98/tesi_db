@@ -13,22 +13,24 @@
 	    <meta name="description" content="Digitalizzazione di un diario manoscritto di inizio Novecento"/>
       </head>
 	  <body>
+	  
 	    <div class="licence">
 	      <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it">
 	        <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
 	      </a>
 	    </div>
-		<a id="sidebar_button_open">
-		  <img alt="Descriptive metadata" src="img/info_icon.png" width="45" height="45"/>
+		
+		<a id="open_meta_sidebar" class="sidebar_button">
+		  <img alt="Settings" src="img/info_icon.png" width="45" height="45"/>
 		</a>
-		<div id="meta_sidebar">
-		  <a href="javascript:void(0)" id="sidebar_button_close">X</a>
-		  <div class="meta_item">
+		<div id="meta_sidebar" class="sidebar">
+		  <a href="javascript:void(0)" id="close_meta_sidebar" class="sidebar_button">X</a>
+		  <div class="sidebar_item">
 		    <p><b>Autore</b>: <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:author/tei:persName"/></p>
 		  </div>
 		  <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc">
 			<xsl:for-each select="tei:objectDesc">
-			  <div class="meta_item">
+			  <div class="sidebar_item">
 			    <h4>Caratteristiche del supporto:</h4>
 				<xsl:for-each select="tei:supportDesc">
 				  <ul>
@@ -36,7 +38,7 @@
 				  </ul>
 				</xsl:for-each>
 		      </div>
-			  <div class="meta_item">
+			  <div class="sidebar_item">
 		   		<h4>Impaginazione:</h4>
 				<xsl:for-each select="tei:layoutDesc">
 				  <ul>
@@ -45,7 +47,7 @@
 				</xsl:for-each>
 			  </div>
 			</xsl:for-each>
-			<div class="meta_item">
+			<div class="sidebar_item">
 			  <h4>Mani:</h4>
 			  <xsl:for-each select="tei:handDesc">
 			    <ul>
@@ -53,7 +55,7 @@
 				</ul>
 			  </xsl:for-each>
 			</div>
-			<div class="meta_item">
+			<div class="sidebar_item">
 			  <h4>Stili di scrittura:</h4>
 			  <xsl:for-each select="tei:scriptDesc">
 			    <ul>
@@ -61,7 +63,7 @@
 				</ul>
 			  </xsl:for-each>
 			</div>
-			<div class="meta_item">
+			<div class="sidebar_item">
 			  <h4>Elementi decorativi:</h4>
 			  <xsl:for-each select="tei:decoDesc">
 			    <ul>
@@ -69,7 +71,7 @@
 				</ul>
 			  </xsl:for-each>
 			</div>
-			<div class="meta_item">
+			<div class="sidebar_item">
 			  <h4>Aggiunte successive:</h4>
 			  <xsl:for-each select="tei:additions">
 			    <ul>
@@ -77,7 +79,7 @@
 				</ul>
 			  </xsl:for-each>
 			</div>
-			<div class="meta_item">
+			<div class="sidebar_item">
 			  <h4>Materiale allegato:</h4>
 			  <xsl:for-each select="tei:accMat">
 			    <ul>
@@ -86,7 +88,7 @@
 			  </xsl:for-each>
 			</div>
 		  </xsl:for-each>
-	      <div class="meta_item">
+	      <div class="sidebar_item">
 		    <h4>Storia:</h4>
 			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history">
 			  <ul>
@@ -94,7 +96,7 @@
 			  </ul>
 			</xsl:for-each>
 		  </div>
-	      <div class="meta_item">
+	      <div class="sidebar_item">
 		    <h4>Informazioni amministrative:</h4>
 			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:additional/tei:adminInfo">
 			  <ul>
@@ -102,7 +104,7 @@
 			  </ul>
 			</xsl:for-each>
 		  </div>
-	      <div class="meta_item">
+	      <div class="sidebar_item">
 		    <h4>Pratiche editoriali:</h4>
 			<xsl:for-each select="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:editorialDecl">
 			  <ul>
@@ -111,6 +113,17 @@
 			</xsl:for-each>
 	      </div>
 		</div>
+		
+		<a id="open_settings_sidebar" class="sidebar_button">
+		  <img alt="Descriptive metadata" src="img/info_icon.png" width="45" height="45"/>
+		</a>
+		<div id="settings_sidebar" class="sidebar">
+		  <a href="javascript:void(0)" id="close_settings_sidebar" class="sidebar_button">X</a>
+		  <div class="sidebar_item">
+		    <p></p>
+		  </div>
+		</div>
+		
 		<div class="titles">
 	      <h1><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
 		  <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt">
