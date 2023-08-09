@@ -22,7 +22,7 @@
 		  <img alt="Descriptive metadata" src="img/info_icon.png" width="45" height="45"/>
 		</a>
 		<div id="meta_sidebar">
-		  <a href="javascript:void(0)" id="sidebar_button_close">&#128473;</a>
+		  <a href="javascript:void(0)" id="sidebar_button_close">X</a>
 		  <div class="meta_item">
 		    <p><b>Autore</b>: <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:author/tei:persName"/></p>
 		  </div>
