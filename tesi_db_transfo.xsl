@@ -115,7 +115,7 @@
 		</div>
 		
 		<a id="open_settings_sidebar" class="sidebar_opening_button">
-		  <img alt="Settings" src="img/info_icon.png" width="45" height="45"/>
+		  <img alt="Settings" src="img/settings_icon.png" width="45" height="45"/>
 		</a>
 		<div id="settings_sidebar" class="sidebar">
 		  <a href="javascript:void(0)" id="close_settings_sidebar" class="sidebar_closing_button">&#8658;</a>
