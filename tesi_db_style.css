@@ -298,22 +298,35 @@ div.sidebar_item ul {
 .sidebar a:active {
     color: white;
 }
-#open_meta_sidebar {
+.sidebar_opening_button {
     cursor: pointer;
     position: fixed;
     top: 1%;
-    left: 1%;
 }
-#close_meta_sidebar {
+.sidebar_opening_button:hover {
+    opacity: 0.5;
+}
+.sidebar_closing_button:hover {
+    opacity: 0.5;
+}
+.sidebar_closing_button {
 	cursor: pointer;
     position: absolute;
     top: 1%;
-    right: 1%;
     font-size: 36px;
 	color: white;
 }
-.sidebar_button {
-    opacity: 0.5;
+#open_meta_sidebar {
+    left: 1%;
+}
+#close_meta_sidebar {
+    right: 1%;
+}
+#open_settings_sidebar{
+	right: 1%;
+}
+#close_settings_sidebar{
+	left: 1%;
 }
 div.sidebar_item {
 	margin: 1% 0;

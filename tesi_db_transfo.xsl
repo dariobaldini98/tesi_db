@@ -20,11 +20,11 @@
 	      </a>
 	    </div>
 		
-		<a id="open_meta_sidebar" class="sidebar_button">
-		  <img alt="Settings" src="img/info_icon.png" width="45" height="45"/>
+		<a id="open_meta_sidebar" class="sidebar_opening_button">
+		  <img alt="Descriptive metadata" src="img/info_icon.png" width="45" height="45"/>
 		</a>
 		<div id="meta_sidebar" class="sidebar">
-		  <a href="javascript:void(0)" id="close_meta_sidebar" class="sidebar_button">X</a>
+		  <a href="javascript:void(0)" id="close_meta_sidebar" class="sidebar_closing_button">X</a>
 		  <div class="sidebar_item">
 		    <p><b>Autore</b>: <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:author/tei:persName"/></p>
 		  </div>
@@ -114,11 +114,11 @@
 	      </div>
 		</div>
 		
-		<a id="open_settings_sidebar" class="sidebar_button">
-		  <img alt="Descriptive metadata" src="img/info_icon.png" width="45" height="45"/>
+		<a id="open_settings_sidebar" class="sidebar_opening_button">
+		  <img alt="Settings" src="img/info_icon.png" width="45" height="45"/>
 		</a>
 		<div id="settings_sidebar" class="sidebar">
-		  <a href="javascript:void(0)" id="close_settings_sidebar" class="sidebar_button">X</a>
+		  <a href="javascript:void(0)" id="close_settings_sidebar" class="sidebar_closing_button">X</a>
 		  <div class="sidebar_item">
 		    <p></p>
 		  </div>
