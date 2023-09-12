@@ -124,6 +124,9 @@ div.entry {
 }
 div.letter {
 	margin: 2% 0;
+	border-style: solid none;
+	border-color: #3b2f2f;
+	border-width: 2px;
 }
 div.opener > p {
 	text-align: right;
