@@ -120,8 +120,7 @@ div.entry {
 	font-size: 26px;
 	margin: 1.5% 10%;
 	padding: 3%;
-	border: 2px inset black;
-	border-radius: 15px;
+	border-style: none solid;
 }
 div.letter {
 	margin: 2% 0;
