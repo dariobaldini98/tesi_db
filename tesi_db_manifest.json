@@ -30,7 +30,7 @@
 		}
 	],
 	"summary": { "it": [ "Diario scritto dalla guardia carceraria Pasquale Riccioni tra il 1901 e il 1903; alcune pagine presentano aggiunte del figlio Orombello." ], "en": [ "Diary written by the prison guard Pasquale Riccioni between 1901 and 1903; some pages exhibit additions by his son Orombello." ] },
-	"rights": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+	"rights": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
 	"requiredStatement": {
 		"label": { "it": [ "Licenza" ], "en": [ "Licence" ] },
 		"value": { "it": [ "<span>Il <i>manifest</i> è pubblicato su licenza <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it'>CC BY-NC-ND 4.0</a></span>" ], "en": [ "<span>The manifest is published under a <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en'>CC BY-NC-ND 4.0</a> licence</span>" ] }
