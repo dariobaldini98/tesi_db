@@ -107,11 +107,11 @@
 	},
 	"seeAlso": [
 	    {
-			"id": "https://dariobaldini98.github.io/tesi_db/tesi_db_meta.xml",
+			"id": "https://dariobaldini98.github.io/tesi_db/tesi_db_dcmi.xml",
 			"type": "Dataset",
 			"label": { "it": [ "Metadati semantici (DCMI in RDF/XML)" ], "en": [ "Semantic metadata (DCMI in RDF/XML)" ] },
 			"format": "text/xml",
-			"profile": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			"profile": "http://purl.org/dc/terms/"
 		}
 	],
 	"structures": [
