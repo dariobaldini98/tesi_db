@@ -107,9 +107,9 @@
 	},
 	"seeAlso": [
 	    {
-			"id": "https://dariobaldini98.github.io/tesi_db/tesi_db_dcmi.xml",
+			"id": "https://dariobaldini98.github.io/tesi_db/tesi_db_text.xml#tesi_db_dcmi",
 			"type": "Dataset",
-			"label": { "it": [ "Metadati semantici (DCMI in RDF/XML)" ], "en": [ "Semantic metadata (DCMI in RDF/XML)" ] },
+			"label": { "it": [ "Metadati DCMI" ], "en": [ "DCMI metadata" ] },
 			"format": "text/xml",
 			"profile": "http://purl.org/dc/terms/"
 		}

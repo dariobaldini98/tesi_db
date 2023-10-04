@@ -152,7 +152,7 @@
 	</profileDesc>
 	<xenoData>
 	  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
-	    <rdf:Description rdf:about="">
+	    <rdf:Description rdf:about="#tesi_db_dcmi">
 		  <dcterms:title xml:lang="it">Diario di Pasquale Riccioni</dcterms:title>
 		  <dcterms:creator rdf:resource="#PR"/>
 		  <dcterms:medium xml:lang="it">Quadernino a quadretti di carta</dcterms:medium>
