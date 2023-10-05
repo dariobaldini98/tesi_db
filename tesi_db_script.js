@@ -1,7 +1,7 @@
 
-let meta_sidebar
-let open_meta_sidebar
-let close_meta_sidebar
+let meta_sidebar;
+let open_meta_sidebar;
+let close_meta_sidebar;
 
 const settings_sidebar = document.getElementById("settings_sidebar");
 const open_settings_sidebar = document.getElementById("open_settings_sidebar");
