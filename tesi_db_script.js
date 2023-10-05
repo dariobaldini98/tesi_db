@@ -1,7 +1,7 @@
 
 let meta_sidebar
-const open_meta_sidebar = document.getElementById("open_meta_sidebar");
-const close_meta_sidebar = document.getElementById("close_meta_sidebar");
+let open_meta_sidebar
+let close_meta_sidebar
 
 const settings_sidebar = document.getElementById("settings_sidebar");
 const open_settings_sidebar = document.getElementById("open_settings_sidebar");
@@ -17,10 +17,22 @@ window.onload = () => {
 }
 
 function add_meta_sidebar() {
+	open_meta_sidebar = document.createElement("a");
+	document.getElementsByTagName("body")[0].appendChild(open_meta_sidebar);
+	open_meta_sidebar.setAttribute("class", "sidebar_opening_button");
+	open_meta_sidebar.setAttribute("id", "open_meta_sidebar");
+	
 	meta_sidebar = document.createElement("div");
 	document.getElementsByTagName("body")[0].appendChild(meta_sidebar);
 	meta_sidebar.setAttribute("class", "sidebar");
 	meta_sidebar.setAttribute("id", "meta_sidebar");
+	
+	close_meta_sidebar = document.createElement("a");
+	document.getElementById("meta_sidebar").appendChild(open_meta_sidebar);
+	close_meta_sidebar.setAttribute("class", "sidebar_closing_button");
+	close_meta_sidebar.setAttribute("id", "close_meta_sidebar");
+	close_meta_sidebar.setAttribute("href", "javascript:void(0)");
+	close_meta_sidebar.textContent = "\u{21D0}";
 }
 
 function expand_meta_sidebar() {
