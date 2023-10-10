@@ -9,6 +9,8 @@ const close_settings_sidebar = document.getElementById("close_settings_sidebar")
 
 
 window.onload = () => {
+	open_meta_sidebar.addEventListener("click", expand_meta_sidebar);
+	close_meta_sidebar.addEventListener("click", collapse_meta_sidebar);
 	open_settings_sidebar.addEventListener("click", expand_settings_sidebar);
 	close_settings_sidebar.addEventListener("click", collapse_settings_sidebar);
 }
