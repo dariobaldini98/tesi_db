@@ -20,6 +20,7 @@
 	      </a>
 	    </div>
 		
+		<div class="sidebar_box">
 		<a id="open_meta_sidebar" class="sidebar_opening_button">
 		  <img alt="Descriptive metadata" src="img/info_icon.png" width="45" height="45"/>
 		</a>
@@ -122,6 +123,7 @@
 		  <div class="sidebar_item">
 		    <p></p>
 		  </div>
+		</div>
 		</div>
 		
 		<div class="titles" id="transcr_titles">
