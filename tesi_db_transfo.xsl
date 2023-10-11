@@ -20,10 +20,15 @@
 	      </a>
 	    </div>
 		
-		<div class="sidebar_box">
-		<a id="open_meta_sidebar" class="sidebar_opening_button">
-		  <img alt="Descriptive metadata" src="img/info_icon.png" width="45" height="45"/>
-		</a>
+		<div class="buttons_box">
+			<a id="open_meta_sidebar" class="sidebar_opening_button">
+				<img alt="Descriptive metadata" src="img/info_icon.png" width="45" height="45"/>
+			</a><br/>
+			<a id="open_settings_sidebar" class="sidebar_opening_button">
+				<img alt="Settings" src="img/settings_icon.png" width="45" height="45"/>
+			</a>
+		</div>
+		
 		<div id="meta_sidebar" class="sidebar">
 		  <a href="javascript:void(0)" id="close_meta_sidebar" class="sidebar_closing_button">&#8656;</a>
 		  <div class="sidebar_item">
@@ -114,16 +119,12 @@
 			</xsl:for-each>
 	      </div>
 		</div>
-		
-		<a id="open_settings_sidebar" class="sidebar_opening_button">
-		  <img alt="Settings" src="img/settings_icon.png" width="45" height="45"/>
-		</a>
+	
 		<div id="settings_sidebar" class="sidebar">
-		  <a href="javascript:void(0)" id="close_settings_sidebar" class="sidebar_closing_button">&#8658;</a>
+		  <a href="javascript:void(0)" id="close_settings_sidebar" class="sidebar_closing_button">&#8656;</a>
 		  <div class="sidebar_item">
 		    <p></p>
 		  </div>
-		</div>
 		</div>
 		
 		<div class="titles" id="transcr_titles">
