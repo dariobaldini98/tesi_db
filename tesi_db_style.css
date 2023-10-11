@@ -15,10 +15,13 @@ body {
     background-color: #f2ebcf;
 	padding: 3% 0%;
 }
-h1, h2, h3 {
-    text-align: center;	
+#homepage_titles {
+	text-align: center;
 }
-div.titles > h2, h3 {
+#transcr_titles {
+	margin-left: 4%;
+}
+div.titles > h3 {
 	margin-top: 1%;
 }
 p {

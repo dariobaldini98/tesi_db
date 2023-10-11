@@ -124,7 +124,7 @@
 		  </div>
 		</div>
 		
-		<div class="titles">
+		<div class="titles" id="transcr_titles">
 	      <h1><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
 		  <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt">
 		    <h3><xsl:value-of select="tei:resp"/></h3>
