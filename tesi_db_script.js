@@ -43,8 +43,14 @@ function collapse_settings_sidebar() {
 
 function highlight() {
 	if (highlight_box.checked) {
-		document.querySelectorAll(".tooltip_container_inactive").classList.replace("tooltip_container_inactive", "tooltip_container");
+		var tooltip_containers = document.querySelectorAll(".tooltip_container_inactive");
+		tooltip_containers.forEach(function(tooltip_container) {
+			tooltip_container.classList.replace("tooltip_container_inactive", "tooltip_container");
+		}
 	} else {
-		document.querySelectorAll(".tooltip_container").classList.replace("tooltip_container", "tooltip_container_inactive");
+		var tooltip_containers = document.querySelectorAll(".tooltip_container");
+		tooltip_containers.forEach(function(tooltip_container) {
+			tooltip_container.classList.replace("tooltip_container", "tooltip_container_inactive");
+		}
 	}
 }
