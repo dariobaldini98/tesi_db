@@ -42,8 +42,12 @@ function collapse_settings_sidebar() {
 }
 
 function highlight() {
-	if (highlight_box.checked == true) {
-		var get_tooltip_container = document.querySelectorAll(".tooltip_container_inactive");
-		get_tooltip_container.setAttribute("class", "tooltip_container");
+	var get_tooltip_container = document.querySelectorAll(".tooltip_container_inactive");
+	if (highlight_box.checked) {
+		get_tooltip_container.classList.remove("tooltip_container_inactive");
+		get_tooltip_container.classList.add("tooltip_container");
+	} else {
+		get_tooltip_container.classList.remove("tooltip_container");
+		get_tooltip_container.classList.add("tooltip_container_inactive");
 	}
 }
