@@ -43,6 +43,7 @@ function collapse_settings_sidebar() {
 
 function highlight() {
 	if (highlight_box.checked == true) {
-		document.querySelectorAll(".tooltip_container_inactive").setAttribute("class", "tooltip_container");
+		var get_tooltip_container = document.querySelectorAll(".tooltip_container_inactive");
+		get_tooltip_container.setAttribute("class", "tooltip_container");
 	}
 }
