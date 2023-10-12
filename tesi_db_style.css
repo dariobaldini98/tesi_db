@@ -183,6 +183,9 @@ div.sidebar_item ul {
 	position: relative;
 	cursor: help;
 }
+.homepage_section .tooltip_container {
+	text-decoration: underline solid #ffff0d 2px;
+}
 .tooltip_container:hover .tooltip_text {
     visibility: visible;
 }
