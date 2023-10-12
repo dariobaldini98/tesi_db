@@ -123,7 +123,8 @@
 		<div id="settings_sidebar" class="sidebar">
 		  <a href="javascript:void(0)" id="close_settings_sidebar" class="sidebar_closing_button">&#8656;</a>
 		  <div class="sidebar_item">
-		    <p></p>
+			<input type="checkbox" id="highlight_box"/>
+			<label for="highlight_box">Evidenzia fenomeni testuali</label>
 		  </div>
 		</div>
 		

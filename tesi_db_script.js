@@ -7,12 +7,14 @@ const settings_sidebar = document.getElementById("settings_sidebar");
 const open_settings_sidebar = document.getElementById("open_settings_sidebar");
 const close_settings_sidebar = document.getElementById("close_settings_sidebar");
 
+const highlight_box = document.getElementById("highlight_box");
 
 window.onload = () => {
 	open_meta_sidebar.addEventListener("click", expand_meta_sidebar);
 	close_meta_sidebar.addEventListener("click", collapse_meta_sidebar);
 	open_settings_sidebar.addEventListener("click", expand_settings_sidebar);
 	close_settings_sidebar.addEventListener("click", collapse_settings_sidebar);
+	highlight_box.addEventListener("change", highlight);
 }
 
 function expand_meta_sidebar() {
@@ -37,4 +39,10 @@ function expand_settings_sidebar() {
 
 function collapse_settings_sidebar() {
 	settings_sidebar.style.width = "0";
+}
+
+function highlight() {
+	if (highlight_box.checked == true) {
+		document.getElementsByClassName("tooltip_container_inactive").setAttribute(class, tooltip_container);
+	}
 }
