@@ -76,15 +76,21 @@ function activate_tooltip() {
 }
 
 function switch_abbr_expan() {
-	if (switch_abbr_box.checked) {
-		var abbrs = document.querySelectorAll(".abbr_text");
+	var abbrs = document.querySelectorAll(".abbr_text");
+	var expans = document.querySelectorAll(".expan_text");
+	if (switch_abbr_box.checked) {		
 		abbrs.forEach(function(abbr) {
-			abbr.style.cssText = "display: none;";
+			abbr.style.cssText = "display: inline;";
+		});
+		expans.forEach(function(expan) {
+			expan.style.cssText = "display: none;";
 		});
 	} else if (switch_expan_box.checked) {
-		var expans = document.querySelectorAll(".expan_text");
 		expans.forEach(function(expan) {
 			expan.style.cssText = "display: inline;";
+		});
+		abbrs.forEach(function(abbr) {
+			abbr.style.cssText = "display: none;";
 		});
 	}
 }
