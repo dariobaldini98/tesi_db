@@ -213,7 +213,7 @@
   <xsl:template match="tei:placeName[@ref]">
     <xsl:choose>
       <xsl:when test="./descendant::tei:choice">
-        <span class="tooltip_container">
+        <span class="tooltip_container_inactive">
 		  <a href="{@ref}" target="_blank"><xsl:value-of select="./descendant::tei:abbr"/></a>
 		  <span class="tooltip_text">"<xsl:value-of select="./descendant::tei:expan"/>"</span>
 	    </span>
@@ -231,49 +231,49 @@
   <!-- Tooltip -->
 
   <xsl:template match="tei:abbr">
-	<span class="tooltip_container">
+	<span class="tooltip_container_inactive">
 	  <xsl:value-of select="."/>
 	  <span class="tooltip_text">"<xsl:value-of select="preceding-sibling::tei:expan"/>"</span>
 	</span>
   </xsl:template>
   
   <xsl:template match="tei:sic">
-	<span class="tooltip_container">
+	<span class="tooltip_container_inactive">
 	  <xsl:value-of select="."/>
 	  <span class="tooltip_text">*<xsl:value-of select="preceding-sibling::tei:corr"/></span>
 	</span>
   </xsl:template>
 
   <xsl:template match="tei:surplus">
-    <span class="tooltip_container">
+    <span class="tooltip_container_inactive">
 	    <span class="overstrike"><xsl:value-of select="."/></span>
 		<span class="tooltip_text">Originale<br/> probabilmente&#160;superfluo</span>
     </span>
   </xsl:template>
   
   <xsl:template match="tei:secl">
-	<span class="tooltip_container">
+	<span class="tooltip_container_inactive">
 	  <xsl:value-of select="."/>
 	  <span class="tooltip_text">Originale<br/> probabilmente&#160;interpolato</span>
 	</span>
   </xsl:template>
 
   <xsl:template match="tei:unclear">
-	<span class="tooltip_container">
+	<span class="tooltip_container_inactive">
 	  <xsl:value-of select="."/>
 	  <span class="tooltip_text">Originale<br/> poco&#160;comprensibile</span>
 	</span>
   </xsl:template>
   
   <xsl:template match="tei:supplied">
-	<span class="tooltip_container">
+	<span class="tooltip_container_inactive">
 	  <xsl:value-of select="."/>
 	  <span class="tooltip_text">Originale<br/> incomprensibile</span>
 	</span>
   </xsl:template>
   
   <xsl:template match="tei:measure[@unit='ITL']">
-	<span class="tooltip_container">
+	<span class="tooltip_container_inactive">
 	  <xsl:apply-templates/>
 	  <span class="tooltip_text"><a href="https://www.infodata.ilsole24ore.com/2018/03/14/calcola-il-potere-dacquisto-in-lire-ed-euro-dal-1860-al-2015/" target="_blank"><xsl:value-of select="round((@quantity div 0.218474176) * 100) div 100"/>&#160;EUR</a></span>
 	</span>

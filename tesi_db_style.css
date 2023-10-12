@@ -168,9 +168,10 @@ div.sidebar_item ul {
 }
 .tooltip_container .tooltip_text {
     visibility: hidden;
-    background-color: #ffff0d;
+    background-color: #f2ebcf;
     text-align: center;
 	padding: 3%;
+	border-style: solid;
 	border-radius: 15px;
 	font-size: 22px;
     position: absolute;
@@ -178,6 +179,7 @@ div.sidebar_item ul {
     z-index: 1;
     top: 100%;
     right: -10%;
+	transition: 0.5s;
 }
 .tooltip_container:hover .tooltip_text {
     visibility: visible;
@@ -190,7 +192,7 @@ div.sidebar_item ul {
 }
 .tooltip_container_img .tooltip_text {
     visibility: hidden;
-    background-color: #ffff0d;
+    background-color: #f2ebcf;
     text-align: center;
 	padding: 3%;
 	border-radius: 15px;
@@ -200,6 +202,7 @@ div.sidebar_item ul {
     z-index: 1;
     top: 100%;
     right: -10%;
+	transition: 0.5s;
 }
 .tooltip_container_img:hover .tooltip_text {
     visibility: visible;
