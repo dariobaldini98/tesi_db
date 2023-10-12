@@ -126,6 +126,10 @@
 			<input type="checkbox" id="highlight_box"/>
 			<label for="highlight_box"> Evidenzia fenomeni testuali</label>
 		  </div>
+		  <div class="sidebar_item">
+			<input type="checkbox" id="activate_tooltip"/>
+			<label for="activate_tooltip"> Attiva tooltip</label>
+		  </div>
 		</div>
 		
 		<div class="titles" id="transcr_titles">
@@ -232,35 +236,35 @@
   <!-- Tooltip -->
 
   <xsl:template match="tei:surplus">
-    <span class="tooltip_container_inactive">
+    <span class="tooltip_container_inactive to_highlight">
 	    <span class="overstrike"><xsl:value-of select="."/></span>
 		<span class="tooltip_text">Originale<br/> probabilmente&#160;superfluo</span>
     </span>
   </xsl:template>
   
   <xsl:template match="tei:secl">
-	<span class="tooltip_container_inactive">
+	<span class="tooltip_container_inactive to_highlight">
 	  <xsl:value-of select="."/>
 	  <span class="tooltip_text">Originale<br/> probabilmente&#160;interpolato</span>
 	</span>
   </xsl:template>
 
   <xsl:template match="tei:unclear">
-	<span class="tooltip_container_inactive">
+	<span class="tooltip_container_inactive to_highlight">
 	  <xsl:value-of select="."/>
 	  <span class="tooltip_text">Originale<br/> poco&#160;comprensibile</span>
 	</span>
   </xsl:template>
   
   <xsl:template match="tei:supplied">
-	<span class="tooltip_container_inactive">
+	<span class="tooltip_container_inactive to_highlight">
 	  <xsl:value-of select="."/>
 	  <span class="tooltip_text">Originale<br/> incomprensibile</span>
 	</span>
   </xsl:template>
   
   <xsl:template match="tei:measure[@unit='ITL']">
-	<span class="tooltip_container_inactive">
+	<span class="tooltip_container_inactive to_highlight">
 	  <xsl:apply-templates/>
 	  <span class="tooltip_text"><a href="https://www.infodata.ilsole24ore.com/2018/03/14/calcola-il-potere-dacquisto-in-lire-ed-euro-dal-1860-al-2015/" target="_blank"><xsl:value-of select="round((@quantity div 0.218474176) * 100) div 100"/>&#160;EUR</a></span>
 	</span>
@@ -275,10 +279,19 @@
 	</span>
   </xsl:template>
   
+	<!-- Testo da switchare -->
+  
 	<xsl:template match="tei:abbr">
-		<span class="abbr_text">
+		<span class="to_switch_text to_highlight">
 			<xsl:value-of select="."/>
-			<span class="expan_text"><xsl:value-of select="preceding-sibling::tei:expan"/></span>
+			<span class="switched_text"><xsl:value-of select="preceding-sibling::tei:expan"/></span>
+		</span>
+	</xsl:template>
+	
+	<xsl:template match="tei:sic">
+		<span class="to_switch_text to_highlight">
+			<xsl:value-of select="."/>
+			<span class="switched_text"><xsl:value-of select="preceding-sibling::tei:corr"/></span>
 		</span>
 	</xsl:template>
   
