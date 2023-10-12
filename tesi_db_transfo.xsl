@@ -289,16 +289,16 @@
 	<!-- Testo da switchare -->
   
 	<xsl:template match="tei:abbr">
-		<span class="switch_abbr_expan">
-			<span class="abbr_text to_highlight"><xsl:value-of select="."/></span>
-			<span class="expan_text to_highlight"><xsl:value-of select="preceding-sibling::tei:expan"/></span>
+		<span class="switch_abbr_expan to_highlight">
+			<span class="abbr_text"><xsl:value-of select="."/></span>
+			<span class="expan_text"><xsl:value-of select="preceding-sibling::tei:expan"/></span>
 		</span>
 	</xsl:template>
 	
 	<xsl:template match="tei:sic">
-		<span class="switch_sic_corr">
-			<span class="sic_text to_highlight"><xsl:value-of select="."/></span>
-			<span class="corr_text to_highlight"><xsl:value-of select="preceding-sibling::tei:corr"/></span>
+		<span class="switch_sic_corr to_highlight">
+			<span class="sic_text"><xsl:value-of select="."/></span>
+			<span class="corr_text"><xsl:value-of select="preceding-sibling::tei:corr"/></span>
 		</span>
 	</xsl:template>
   
