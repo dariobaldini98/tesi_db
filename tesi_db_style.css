@@ -164,10 +164,28 @@ div.sidebar_item ul {
 .tooltip_container_inactive {
     position: relative;
 }
+.tooltip_container_inactive .tooltip_text {
+    visibility: hidden;
+    background-color: #f2ebcf;
+    text-align: center;
+	padding: 3%;
+	border-style: solid;
+	border-radius: 15px;
+	font-size: 22px;
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    top: 100%;
+    right: -10%;
+	transition: 0.5s;
+}
 .tooltip_container {
 	position: relative;
 	text-decoration: underline solid #ffff0d 2px;
 	cursor: help;
+}
+.tooltip_container:hover .tooltip_text {
+    visibility: visible;
 }
 .tooltip_container .tooltip_text {
     visibility: hidden;
@@ -184,14 +202,14 @@ div.sidebar_item ul {
     right: -10%;
 	transition: 0.5s;
 }
-.tooltip_container:hover .tooltip_text {
-    visibility: visible;
-}
 .tooltip_container_img {
     position: relative;
     display: inline-block;
 	text-decoration: none;
 	cursor: help;
+}
+.tooltip_container_img:hover .tooltip_text {
+    visibility: visible;
 }
 .tooltip_container_img .tooltip_text {
     visibility: hidden;
@@ -206,9 +224,6 @@ div.sidebar_item ul {
     top: 100%;
     right: -10%;
 	transition: 0.5s;
-}
-.tooltip_container_img:hover .tooltip_text {
-    visibility: visible;
 }
 
 /* Media Query */
