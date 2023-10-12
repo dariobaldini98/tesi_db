@@ -132,7 +132,7 @@
 		  </div>
 		  <div class="sidebar_item">
 			<p>Mostra:</p><br/>
-			<input type="radio" id="switch_abbr" name="switch_abbr_expan" value="abbr" checked />
+			<input type="radio" id="switch_abbr" name="switch_abbr_expan" value="abbr" checked="true" />
 			<label for="switch_abbr"> Forme abbreviate</label><br/>
 			<input type="radio" id="switch_expan" name="switch_abbr_expan" value="expan"/>
 			<label for="switch_expan"> Forme estese</label><br/>
