@@ -161,8 +161,11 @@ div.sidebar_item ul {
 
 /* Tooltip */
 
-.tooltip_container {
+.tooltip_container_inactive {
     position: relative;
+}
+.tooltip_container {
+	position: relative;
 	text-decoration: underline solid #ffff0d 2px;
 	cursor: help;
 }
