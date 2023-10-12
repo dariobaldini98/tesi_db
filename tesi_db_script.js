@@ -47,12 +47,12 @@ function highlight() {
 	if (highlight_box.checked) {
 		var highlight_things = document.querySelectorAll(".to_highlight");
 		highlight_things.forEach(function(highlight_thing) {
-			highlight_things.style.cssText = "text-decoration: underline solid #ffff0d 2px;";
+			highlight_thing.style.cssText = "text-decoration: underline solid #ffff0d 2px;";
 		});
 	} else {
 		var highlight_things = document.querySelectorAll(".to_highlight");
 		highlight_things.forEach(function(highlight_thing) {
-			highlight_things.style.cssText = "text-decoration: none;";
+			highlight_thing.style.cssText = "text-decoration: none;";
 		});
 	}
 }
