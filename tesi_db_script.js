@@ -42,12 +42,11 @@ function collapse_settings_sidebar() {
 }
 
 function highlight() {
-	var get_tooltip_container = document.querySelectorAll(".tooltip_container_inactive");
 	if (highlight_box.checked) {
-		get_tooltip_container.classList.remove("tooltip_container_inactive");
-		get_tooltip_container.classList.add("tooltip_container");
+		document.querySelectorAll(".tooltip_container_inactive").classList.add("tooltip_container");
+		document.querySelectorAll(".tooltip_container_inactive").classList.remove("tooltip_container_inactive");
 	} else {
-		get_tooltip_container.classList.remove("tooltip_container");
-		get_tooltip_container.classList.add("tooltip_container_inactive");
+		document.querySelectorAll(".tooltip_container").classList.add("tooltip_container_inactive");
+		document.querySelectorAll(".tooltip_container").classList.remove("tooltip_container");
 	}
 }
