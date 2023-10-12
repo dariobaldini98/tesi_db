@@ -227,7 +227,7 @@ div.sidebar_item ul {
 
 /* Testo da switchare */
 
-.switched_text {
+.expan_text, .corr_text {
 	display: none;
 }
 

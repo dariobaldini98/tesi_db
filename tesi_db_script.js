@@ -9,6 +9,8 @@ const close_settings_sidebar = document.getElementById("close_settings_sidebar")
 
 const highlight_box = document.getElementById("highlight_box");
 const activate_tooltip_box = document.getElementById("activate_tooltip");
+const switch_abbr_box = document.getElementById("switch_abbr");
+const switch_expan_box = document.getElementById("switch_expan");
 
 window.onload = () => {
 	open_meta_sidebar.addEventListener("click", expand_meta_sidebar);
@@ -17,6 +19,8 @@ window.onload = () => {
 	close_settings_sidebar.addEventListener("click", collapse_settings_sidebar);
 	highlight_box.addEventListener("change", highlight);
 	activate_tooltip_box.addEventListener("change", activate_tooltip);
+	switch_abbr_box.addEventListener("change", switch_abbr_expan);
+	switch_expan_box.addEventListener("change", switch_abbr_expan);
 }
 
 function expand_meta_sidebar() {
@@ -67,6 +71,20 @@ function activate_tooltip() {
 		var tooltip_containers = document.querySelectorAll(".tooltip_container");
 		tooltip_containers.forEach(function(tooltip_container) {
 			tooltip_container.classList.replace("tooltip_container", "tooltip_container_inactive");
+		});
+	}
+}
+
+function switch_abbr_expan() {
+	if (switch_abbr_box.checked) {
+		var abbrs = document.querySelectorAll(".abbr_text");
+		abbrs.forEach(function(abbr) {
+			abbr.style.cssText = "display: none;";
+		});
+	} else if (switch_expan_box.checked) {
+		var expans = document.querySelectorAll(".expan_text");
+		expans.forEach(function(expan) {
+			expan.style.cssText = "display: inline;";
 		});
 	}
 }

@@ -130,6 +130,13 @@
 			<input type="checkbox" id="activate_tooltip"/>
 			<label for="activate_tooltip"> Attiva tooltip</label>
 		  </div>
+		  <div class="sidebar_item">
+			<p>Mostra:</p>
+			<input type="radio" id="switch_abbr" name="switch_abbr_expan" value="abbr" checked>
+			<label for="switch_abbr"> Forme abbreviate</label><br>
+			<input type="radio" id="switch_expan" name="switch_abbr_expan" value="expan">
+			<label for="switch_expan"> Forme estese</label><br>
+		  </div>
 		</div>
 		
 		<div class="titles" id="transcr_titles">
@@ -282,16 +289,16 @@
 	<!-- Testo da switchare -->
   
 	<xsl:template match="tei:abbr">
-		<span class="to_switch_text to_highlight">
+		<span class="abbr_text to_highlight">
 			<xsl:value-of select="."/>
-			<span class="switched_text to_highlight"><xsl:value-of select="preceding-sibling::tei:expan"/></span>
+			<span class="expan_text to_highlight"><xsl:value-of select="preceding-sibling::tei:expan"/></span>
 		</span>
 	</xsl:template>
 	
 	<xsl:template match="tei:sic">
-		<span class="to_switch_text to_highlight">
+		<span class="sic_text to_highlight">
 			<xsl:value-of select="."/>
-			<span class="switched_text to_highlight"><xsl:value-of select="preceding-sibling::tei:corr"/></span>
+			<span class="corr_text to_highlight"><xsl:value-of select="preceding-sibling::tei:corr"/></span>
 		</span>
 	</xsl:template>
   
