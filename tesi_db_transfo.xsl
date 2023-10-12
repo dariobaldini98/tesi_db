@@ -284,14 +284,14 @@
 	<xsl:template match="tei:abbr">
 		<span class="to_switch_text to_highlight">
 			<xsl:value-of select="."/>
-			<span class="switched_text"><xsl:value-of select="preceding-sibling::tei:expan"/></span>
+			<span class="switched_text to_highlight"><xsl:value-of select="preceding-sibling::tei:expan"/></span>
 		</span>
 	</xsl:template>
 	
 	<xsl:template match="tei:sic">
 		<span class="to_switch_text to_highlight">
 			<xsl:value-of select="."/>
-			<span class="switched_text"><xsl:value-of select="preceding-sibling::tei:corr"/></span>
+			<span class="switched_text to_highlight"><xsl:value-of select="preceding-sibling::tei:corr"/></span>
 		</span>
 	</xsl:template>
   

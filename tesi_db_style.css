@@ -225,6 +225,12 @@ div.sidebar_item ul {
 	transition: 0.5s;
 }
 
+/* Testo da switchare */
+
+.switched_text {
+	display: none;
+}
+
 /* Media Query */
 
 @media screen and (min-width: 1px) and (max-width: 480px) {
