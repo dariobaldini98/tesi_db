@@ -46,11 +46,11 @@ function highlight() {
 		var tooltip_containers = document.querySelectorAll(".tooltip_container_inactive");
 		tooltip_containers.forEach(function(tooltip_container) {
 			tooltip_container.classList.replace("tooltip_container_inactive", "tooltip_container");
-		}
+		});
 	} else {
 		var tooltip_containers = document.querySelectorAll(".tooltip_container");
 		tooltip_containers.forEach(function(tooltip_container) {
 			tooltip_container.classList.replace("tooltip_container", "tooltip_container_inactive");
-		}
+		});
 	}
 }
