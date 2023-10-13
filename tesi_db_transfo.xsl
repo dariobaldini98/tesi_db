@@ -131,7 +131,9 @@
 			<input type="checkbox" id="activate_tooltip"/>
 			<label for="activate_tooltip"> Attiva tooltip</label>
 		  </div>
-		  <p>Mostra:</p><br/>
+		  <div class="sidebar_item">
+			<p>Mostra:</p>
+		  </div>
 		  <div class="sidebar_item">
 			<input type="radio" id="switch_abbr" name="switch_abbr_expan" value="abbr" checked="true" />
 			<label for="switch_abbr"> Forme abbreviate</label><br/>
