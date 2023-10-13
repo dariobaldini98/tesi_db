@@ -146,6 +146,12 @@
 			<input type="radio" id="switch_corr" name="switch_sic_corr" value="expan"/>
 			<label for="switch_corr"> Correzioni</label><br/>
 		  </div>
+		  <div class="sidebar_item">
+			<input type="checkbox" id="overstrike_box" checked="true" />
+			<label for="overstrike_box"> Barra testo cancellato</label><br/>
+			<input type="checkbox" id="hide_del_box"/>
+			<label for="hide_del_box"> Nascondi testo cancellato</label>
+		  </div>
 		</div>
 		
 		<div class="titles">
