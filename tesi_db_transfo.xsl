@@ -228,7 +228,7 @@
   </xsl:template>
   
   <xsl:template match="tei:del">
-	<span class="overstrike"><xsl:value-of select="."/></span>
+	<span class="overstrike"><xsl:apply-templates/></span>
   </xsl:template>
   
   <xsl:template match="tei:dimensions">di <xsl:apply-templates/></xsl:template>
