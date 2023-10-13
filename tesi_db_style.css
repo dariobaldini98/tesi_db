@@ -273,7 +273,7 @@ div.sidebar_item ul {
 
 .sidebar {
 	height: 100%;
-    width: 0px;
+    width: 0%;
     position: fixed;
     top: 0;
 	right: 0;
