@@ -13,6 +13,8 @@ const switch_abbr_box = document.getElementById("switch_abbr");
 const switch_expan_box = document.getElementById("switch_expan");
 const switch_sic_box = document.getElementById("switch_sic");
 const switch_corr_box = document.getElementById("switch_corr");
+const overstrike_box = document.getElementById("overstrike_box");
+const hide_del_box = document.getElementById("hide_del_box");
 
 window.onload = () => {
 	open_meta_sidebar.addEventListener("click", expand_meta_sidebar);
@@ -25,6 +27,8 @@ window.onload = () => {
 	switch_expan_box.addEventListener("change", switch_abbr_expan);
 	switch_sic_box.addEventListener("change", switch_sic_corr);
 	switch_corr_box.addEventListener("change", switch_sic_corr);
+	overstrike_box.addEventListener("change", overstrike);
+	hide_del_box.addEventListener("change", hide_del);
 }
 
 function expand_meta_sidebar() {
@@ -52,13 +56,12 @@ function collapse_settings_sidebar() {
 }
 
 function highlight() {
+	var highlight_things = document.querySelectorAll(".to_highlight");
 	if (highlight_box.checked) {
-		var highlight_things = document.querySelectorAll(".to_highlight");
 		highlight_things.forEach(function(highlight_thing) {
 			highlight_thing.style.cssText = "text-decoration: underline solid #ffff0d 2px;";
 		});
 	} else {
-		var highlight_things = document.querySelectorAll(".to_highlight");
 		highlight_things.forEach(function(highlight_thing) {
 			highlight_thing.style.cssText = "text-decoration: none;";
 		});
@@ -118,3 +121,30 @@ function switch_sic_corr() {
 		});
 	}
 }
+
+function overstrike() {
+	var overstrike_things = document.querySelectorAll(".overstrike");
+	if (overstrike_box.checked) {
+		overstrike_things.forEach(function(overstrike_thing) {
+			overstrike_thing.style.cssText = "text-decoration: line-through;";
+		});
+	} else {
+		overstrike_things.forEach(function(overstrike_thing) {
+			overstrike_thing.style.cssText = "text-decoration: none";
+		});
+	}
+}
+
+function hide_del() {
+	var hide_del_things = document.querySelectorAll(".overstrike");
+	if (hide_del_box.checked) {
+		hide_del_things.forEach(function(hide_del_thing) {
+			hide_del_thing.style.cssText = "display: none;";
+		});
+	} else {
+		hide_del_things.forEach(function(hide_del_thing) {
+			hide_del_thing.style.cssText = "display: inline;";
+		});
+	}
+}
+
