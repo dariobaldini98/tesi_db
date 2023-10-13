@@ -6,7 +6,7 @@
         <title lang="en">Trascrizione TEI - Riccioni's Legacy</title>
         <link rel="icon" href="https://iiif.archivelab.org/iiif/tesi_db_20r/474,959,122,137/full/0/default.jpg"/>
         <link rel="stylesheet" href="tesi_db_style.css"/>
-		<link rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+		<link rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
 	    <meta name="author" content="Dario Baldini"/>
