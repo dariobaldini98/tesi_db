@@ -31,7 +31,7 @@
 		</div>
 		
 		<div id="meta_sidebar" class="sidebar">
-		  <a href="javascript:void(0)" id="close_meta_sidebar" class="sidebar_closing_button">&#8656;</a>
+		  <a href="javascript:void(0)" id="close_meta_sidebar" class="sidebar_closing_button">&#8658;</a>
 		  <div class="sidebar_item">
 		    <p><b>Autore</b>: <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:author/tei:persName"/></p>
 		  </div>
@@ -122,7 +122,7 @@
 		</div>
 	
 		<div id="settings_sidebar" class="sidebar">
-		  <a href="javascript:void(0)" id="close_settings_sidebar" class="sidebar_closing_button">&#8656;</a>
+		  <a href="javascript:void(0)" id="close_settings_sidebar" class="sidebar_closing_button">&#8658;</a>
 		  <div class="sidebar_item">
 			<input type="checkbox" id="highlight_box"/>
 			<label for="highlight_box"> Evidenzia fenomeni testuali</label>
@@ -146,7 +146,7 @@
 		  </div>
 		</div>
 		
-		<div class="titles" id="transcr_titles">
+		<div class="titles">
 	      <h1><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
 		  <xsl:for-each select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt">
 		    <h3><xsl:value-of select="tei:resp"/></h3>

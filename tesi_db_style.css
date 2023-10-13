@@ -8,11 +8,6 @@
 * {
     margin: 0;
     padding: 0;
-	-ms-overflow-style: none;
-	scrollbar-width: none;
-}
-*::-webkit-scrollbar {
-	display: none;
 }
 body {
     font-family: EasyReading;
@@ -20,10 +15,7 @@ body {
     background-color: #f2ebcf;
 	padding: 3% 0%;
 }
-#homepage_titles {
-	text-align: center;
-}
-#transcr_titles {
+.titles {
 	margin-left: 6%;
 }
 div.titles > h3 {
@@ -312,7 +304,7 @@ div.sidebar_item ul {
     width: 0;
     position: fixed;
     top: 0;
-	left: 0;
+	right: 0;
 	z-index: 2;
 	border-radius: 0px 15px 15px 0px;
     background-color: #100c08;
@@ -337,7 +329,7 @@ div.sidebar_item ul {
 .buttons_box {
 	position: fixed;
     top: 1%;
-	left: 1%;
+	right: 1%;
 }
 .sidebar_opening_button {
     cursor: pointer;
@@ -352,7 +344,7 @@ div.sidebar_item ul {
 	cursor: pointer;
     position: absolute;
     top: 1%;
-	right: 1%;
+	left: 1%;
     font-size: 36px;
 	color: white;
 }
