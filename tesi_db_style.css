@@ -320,9 +320,9 @@ div.sidebar_item ul {
 	color: white;
 }
 div.sidebar_item {
-	font-size: 0.846rem;
 	margin: 1% 0;
 	padding: 3%;
+	font-size: 0.846rem;
 }
 div.sidebar_item:first-of-type {
 	margin-top: 50px;
