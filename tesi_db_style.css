@@ -1,6 +1,8 @@
 
 /* Generico */
-
+html {
+	font-size: 162.5%;
+}
 @font-face {
     font-family: EasyReading;
     src: url(font/EasyReadingPRO.ttf);
@@ -61,14 +63,13 @@ a:active {
 
 div.homepage_section {
 	margin: 1.5% 10%;
-	font-size: 26px;
 }
 a.button {
 	padding: 3%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 0.615rem;
 	border-radius: 15px;
 	background-color: transparent;
 	text-decoration: none;
@@ -117,7 +118,6 @@ div.flex_container img:hover {
 /* Trascrizione */
 
 div.entry {
-	font-size: 26px;
 	margin: 3% 10%;
 	padding: 0% 3%;
 	border-style: none solid;
@@ -163,7 +163,7 @@ div.sidebar_item ul {
 	padding: 3%;
 	border-style: solid;
 	border-radius: 15px;
-	font-size: 22px;
+	font-size: 0.846rem;
     position: absolute;
     display: inline-block;
     z-index: 1;
@@ -188,7 +188,7 @@ div.sidebar_item ul {
 	padding: 3%;
 	border-style: solid;
 	border-radius: 15px;
-	font-size: 22px;
+	font-size: 0.846rem;
     position: absolute;
     display: inline-block;
     z-index: 1;
@@ -211,7 +211,7 @@ div.sidebar_item ul {
     text-align: center;
 	padding: 3%;
 	border-radius: 15px;
-	font-size: 22px;
+	font-size: 0.846rem;
     position: absolute;
     display: inline-block;
     z-index: 1;
@@ -232,10 +232,10 @@ div.sidebar_item ul {
 	div.homepage_section, div.entry {
 		margin-left: 2%;
 		margin-right: 2%;
-		font-size: 22px;
+		font-size: 0.846rem;
 	}
 	.tooltip_container .tooltip_text {
-	    font-size: 18px;
+	    font-size: 0.692rem;
     }
 	div.entry img {
         transform: scale(-65%);
@@ -249,10 +249,10 @@ div.sidebar_item ul {
 	div.homepage_section, div.entry {
 		margin-left: 4%;
 		margin-right: 4%;
-		font-size: 23px;
+		font-size: 0.885rem;
 	}
 	.tooltip_container .tooltip_text {
-	    font-size: 19px;
+	    font-size: 0.731rem;
     }
 	div.entry img {
         transform: scale(-44%);
@@ -266,10 +266,10 @@ div.sidebar_item ul {
 	div.homepage_section, div.entry {
 		margin-left: 6%;
 		margin-right: 6%;
-		font-size: 24px;
+		font-size: 0.923rem;
 	}
 	.tooltip_container .tooltip_text {
-	    font-size: 20px;
+	    font-size: 0.769rem;
     }
 	div.entry img {
         transform: scale(-25%);
@@ -283,10 +283,10 @@ div.sidebar_item ul {
 	div.homepage_section, div.entry {
 		margin-left: 8%;
 		margin-right: 8%;
-		font-size: 25px;
+		font-size: 0.962rem;
 	}
 	.tooltip_container .tooltip_text {
-	    font-size: 21px;
+	    font-size: 0.808rem;
     }
 	div.entry img {
         transform: scale(-22%);
@@ -309,7 +309,7 @@ div.sidebar_item ul {
 	border-radius: 15px 0px 0px 15px;
     background-color: #100c08;
 	color: white;
-	font-size: 22px;
+	font-size: 0.846rem;
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -345,7 +345,7 @@ div.sidebar_item ul {
     position: absolute;
     top: 1%;
 	left: 1%;
-    font-size: 36px;
+    font-size: 1.385rem;
 	color: white;
 }
 div.sidebar_item {
