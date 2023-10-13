@@ -30,35 +30,11 @@
 		}
 	],
 	"summary": { "it": [ "Diario scritto dalla guardia carceraria Pasquale Riccioni tra il 1901 e il 1903; alcune pagine presentano aggiunte del figlio Orombello." ], "en": [ "Diary written by the prison guard Pasquale Riccioni between 1901 and 1903; some pages exhibit additions by his son Orombello." ] },
-	"rights": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+	"rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
 	"requiredStatement": {
 		"label": { "it": [ "Licenza" ], "en": [ "Licence" ] },
-		"value": { "it": [ "<span>Il <i>manifest</i> è pubblicato su licenza <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it'>CC BY-NC-ND 4.0</a></span>" ], "en": [ "<span>The manifest is published under a <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en'>CC BY-NC-ND 4.0</a> licence</span>" ] }
+		"value": { "it": [ "<span>Il <i>manifest</i> è pubblicato su licenza <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it'>CC BY-NC-ND 4.0</a> <img src='https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png'></span>" ], "en": [ "<span>The manifest is published under a <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en'>CC BY-NC-ND 4.0</a> licence <img src='https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png'></span>" ] }
 	},
-	"provider": [
-	    {
-			"id": "http://www.unitus.it/it/unitus",
-			"type": "Agent",
-			"label": { "none": [ "UNITUS" ] },
-			"homepage": [
-			    {
-					"id": "http://www.unitus.it/",
-					"type": "Text",
-					"label": { "it": [ "Homepage del sito di Ateneo" ], "en": [ "University website homepage" ]},
-					"format": "text/html"
-				}
-			],
-			"logo": [
-			    {
-					"id": "http://www.unitus.it/web/images/headerLogo.jpg",
-					"type": "Image",
-					"format": "image/jpeg",
-					"height": 102,
-					"width": 232
-				}
-			]
-		}
-	],
 	"thumbnail":[
 	    {
 			"id": "https://iiif.archivelab.org/iiif/tesi_db_38v/66,31,758,162/400,/0/default.jpg",

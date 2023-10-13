@@ -25,11 +25,11 @@
 		<measure unit="pages" quantity="19">19 pagine del diario</measure>
 	  </extent>
       <publicationStmt>
-	    <authority><orgName type="phrase">Università degli Studi della <placeName><region>Tuscia</region></placeName></orgName></authority>
+		<authority><persName ref="#DB"><forename>Dario</forename> <surname>Baldini</surname></persName></authority>
 		<pubPlace><placeName ref="https://goo.gl/maps/1HfqsgMUViANMPrM6"><settlement type="city">Viterbo</settlement></placeName></pubPlace>
 		<date when="2023-02-14">14 febbraio 2023</date>
 		<availability status="restricted">
-		  <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">Pubblicato su licenza CC BY-NC-ND 4.0</licence>
+			<licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Pubblicato su licenza CC BY-NC-ND 4.0</licence>
 		</availability>
 	  </publicationStmt>
       <sourceDesc>
