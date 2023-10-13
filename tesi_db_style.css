@@ -306,7 +306,7 @@ div.sidebar_item ul {
     top: 0;
 	right: 0;
 	z-index: 2;
-	border-radius: 0px 15px 15px 0px;
+	border-radius: 15px 0px 0px 15px;
     background-color: #100c08;
 	color: white;
 	font-size: 22px;
