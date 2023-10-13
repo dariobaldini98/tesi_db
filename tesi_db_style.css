@@ -281,7 +281,6 @@ div.sidebar_item ul {
 	border-radius: 15px 0px 0px 15px;
     background-color: #100c08;
 	color: white;
-	font-size: 0.846rem;
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -321,6 +320,7 @@ div.sidebar_item ul {
 	color: white;
 }
 div.sidebar_item {
+	font-size: 0.846rem;
 	margin: 1% 0;
 	padding: 3%;
 }
