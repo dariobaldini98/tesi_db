@@ -131,12 +131,18 @@
 			<input type="checkbox" id="activate_tooltip"/>
 			<label for="activate_tooltip"> Attiva tooltip</label>
 		  </div>
+		  <p>Mostra:</p><br/>
 		  <div class="sidebar_item">
-			<p>Mostra:</p><br/>
 			<input type="radio" id="switch_abbr" name="switch_abbr_expan" value="abbr" checked="true" />
 			<label for="switch_abbr"> Forme abbreviate</label><br/>
 			<input type="radio" id="switch_expan" name="switch_abbr_expan" value="expan"/>
 			<label for="switch_expan"> Forme estese</label><br/>
+		  </div>
+		  <div class="sidebar_item">
+			<input type="radio" id="switch_sic" name="switch_sic_corr" value="sic" checked="true" />
+			<label for="switch_sic"> Forme erronee</label><br/>
+			<input type="radio" id="switch_corr" name="switch_sic_corr" value="expan"/>
+			<label for="switch_corr"> Correzioni</label><br/>
 		  </div>
 		</div>
 		

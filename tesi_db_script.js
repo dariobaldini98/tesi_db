@@ -11,6 +11,8 @@ const highlight_box = document.getElementById("highlight_box");
 const activate_tooltip_box = document.getElementById("activate_tooltip");
 const switch_abbr_box = document.getElementById("switch_abbr");
 const switch_expan_box = document.getElementById("switch_expan");
+const switch_sic_box = document.getElementById("switch_sic");
+const switch_corr_box = document.getElementById("switch_corr");
 
 window.onload = () => {
 	open_meta_sidebar.addEventListener("click", expand_meta_sidebar);
@@ -21,6 +23,8 @@ window.onload = () => {
 	activate_tooltip_box.addEventListener("change", activate_tooltip);
 	switch_abbr_box.addEventListener("change", switch_abbr_expan);
 	switch_expan_box.addEventListener("change", switch_abbr_expan);
+	switch_sic_box.addEventListener("change", switch_sic_corr);
+	switch_corr_box.addEventListener("change", switch_sic_corr);
 }
 
 function expand_meta_sidebar() {
@@ -91,6 +95,26 @@ function switch_abbr_expan() {
 		});
 		abbrs.forEach(function(abbr) {
 			abbr.style.cssText = "display: none;";
+		});
+	}
+}
+
+function switch_sic_corr() {
+	var sics = document.querySelectorAll(".sic_text");
+	var corrs = document.querySelectorAll(".corr_text");
+	if (switch_sic_box.checked) {		
+		sics.forEach(function(sic) {
+			sic.style.cssText = "display: inline;";
+		});
+		corrs.forEach(function(corr) {
+			corr.style.cssText = "display: none;";
+		});
+	} else if (switch_corr_box.checked) {
+		corrs.forEach(function(corr) {
+			corr.style.cssText = "display: inline;";
+		});
+		sics.forEach(function(sic) {
+			sic.style.cssText = "display: none;";
 		});
 	}
 }
