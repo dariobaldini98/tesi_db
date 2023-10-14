@@ -1,6 +1,10 @@
 
 /* Generico */
 
+html {
+	font-size: 162.5%;
+}
+
 @font-face {
     font-family: EasyReading;
     src: url(font/EasyReadingPRO.ttf);
@@ -300,6 +304,7 @@ div.sidebar_item ul {
 	position: fixed;
     top: 1%;
 	right: 1%;
+	width: auto;
 }
 .sidebar_opening_button {
     cursor: pointer;
