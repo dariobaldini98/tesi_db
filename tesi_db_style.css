@@ -1,8 +1,6 @@
 
 /* Generico */
-html {
-	font-size: 162.5%;
-}
+
 @font-face {
     font-family: EasyReading;
     src: url(font/EasyReadingPRO.ttf);
