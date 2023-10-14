@@ -110,6 +110,7 @@ div.flex_container img:hover {
 	justify-content: space-around;
 	align-items: center;
 	overflow: auto;
+	width: auto;
 	margin-top: 2%;
 	background-color: #fcfeff;
 	border-radius: 15px;
