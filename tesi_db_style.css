@@ -113,7 +113,7 @@ div.flex_container img:hover {
 	margin-top: 2%;
 	background-color: #fcfeff;
 	border-radius: 15px;
-	padding: 3%;
+	padding: 1%;
 	border: 2px inset black;
 }
 
@@ -155,29 +155,9 @@ div.sidebar_item ul {
 
 /* Tooltip */
 
-.tooltip_container_inactive {
-    position: relative;
-}
-.tooltip_container_inactive .tooltip_text {
-    visibility: hidden;
-    background-color: #f2ebcf;
-    text-align: center;
-	padding: 3%;
-	border-style: solid;
-	border-radius: 15px;
-	font-size: 0.846rem;
-    position: absolute;
-    display: inline-block;
-    z-index: 1;
-    top: 100%;
-    right: -10%;
-	transition: 0.5s;
-}
 .tooltip_container {
 	position: relative;
 	cursor: help;
-}
-.homepage_section .tooltip_container {
 	text-decoration: underline solid #ffff0d 2px;
 }
 .tooltip_container:hover .tooltip_text {
@@ -223,12 +203,6 @@ div.sidebar_item ul {
 	transition: 0.5s;
 }
 
-/* Testo da switchare */
-
-.expan_text, .corr_text {
-	display: none;
-}
-
 /* Media Query */
 
 @media screen and (min-width: 1px) and (max-width: 480px) {
@@ -270,62 +244,3 @@ div.sidebar_item ul {
 	.tooltip_container .tooltip_text {
 	    font-size: 0.808rem;
     }
-
-/* Sidebar */
-
-.sidebar {
-	height: 100%;
-    position: fixed;
-    top: 0;
-	right: 0;
-	z-index: 2;
-	border-radius: 15px 0px 0px 15px;
-    background-color: #100c08;
-	font-size: 0.846rem;
-	color: white;
-    overflow-x: hidden;
-    transition: 0.5s;
-}
-.sidebar a:link {
-    color: white;
-}
-.sidebar a:visited {
-    color: white;
-}
-.sidebar a:hover {
-    color: white;
-    opacity: 0.5;
-}
-.sidebar a:active {
-    color: white;
-}
-.buttons_box {
-	position: fixed;
-    top: 1%;
-	right: 1%;
-	width: auto;
-}
-.sidebar_opening_button {
-    cursor: pointer;
-}
-.sidebar_opening_button:hover {
-    opacity: 0.5;
-}
-.sidebar_closing_button:hover {
-    opacity: 0.5;
-}
-.sidebar_closing_button {
-	cursor: pointer;
-    position: absolute;
-    top: 1%;
-	left: 1%;
-    font-size: 1.385rem;
-	color: white;
-}
-div.sidebar_item {
-	margin: 1% 0;
-	padding: 3%;
-}
-div.sidebar_item:first-of-type {
-	margin-top: 50px;
-}
